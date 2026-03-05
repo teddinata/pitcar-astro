@@ -1,0 +1,66 @@
+---
+const franchiseBenefits = [
+  'Sistem siap pakai dengan SOP teruji',
+  'Dukungan penuh dari tim ahli',
+  'Promosi bersama dengan kekuatan merek',
+  'Risiko bisnis lebih rendah',
+  'Modal investasi lebih efisien',
+];
+
+const independentBenefits = [
+  'Memulai dari nol',
+  'Belajar sistem operasional',
+  'Membangun merek sendiri',
+  'Risiko bisnis lebih tinggi',
+  'Modal investasi lebih besar',
+];
+---
+
+<section class="py-16 bg-white dark:bg-slate-900 transition-colors duration-300">
+  <div class="container mx-auto px-4 max-w-6xl">
+    <div class="text-center mb-12">
+      <h2 class="text-3xl md:text-4xl font-bold text-gray-800 dark:text-white mb-4">Franchise vs Usaha Sendiri</h2>
+      <p class="text-gray-600 dark:text-gray-300 max-w-3xl mx-auto">
+        Mengapa memilih franchise PITCAR lebih menguntungkan dibanding membangun bengkel sendiri?
+      </p>
+    </div>
+    <div class="grid grid-cols-1 md:grid-cols-2 gap-8 max-w-4xl mx-auto">
+      <div class="bg-green-50 dark:bg-green-900/20 border border-green-400 dark:border-green-800 rounded-xl p-8">
+        <div class="flex items-center mb-6">
+          <div class="bg-primary p-3 rounded-lg mr-4 text-white">
+            <i class="fas fa-store text-xl"></i>
+          </div>
+          <h3 class="text-2xl font-bold text-gray-800 dark:text-white">Franchise PITCAR</h3>
+        </div>
+        <ul class="space-y-4 dark:text-gray-300">
+          {
+            franchiseBenefits.map((benefit) => (
+              <li class="flex items-start">
+                <i class="fas fa-check text-green-600 dark:text-green-500 mt-1 mr-3" />
+                <span>{benefit}</span>
+              </li>
+            ))
+          }
+        </ul>
+      </div>
+      <div class="bg-red-50 dark:bg-red-900/20 border border-red-400 dark:border-red-800 rounded-xl p-8">
+        <div class="flex items-center mb-6">
+          <div class="bg-gray-800 dark:bg-slate-700 p-3 rounded-lg mr-4 text-white">
+            <i class="fas fa-store text-xl"></i>
+          </div>
+          <h3 class="text-2xl font-bold text-gray-800 dark:text-white">Usaha Sendiri</h3>
+        </div>
+        <ul class="space-y-4 dark:text-gray-300">
+          {
+            independentBenefits.map((benefit) => (
+              <li class="flex items-start">
+                <i class="fas fa-times text-red-600 dark:text-red-500 mt-1 mr-3" />
+                <span>{benefit}</span>
+              </li>
+            ))
+          }
+        </ul>
+      </div>
+    </div>
+  </div>
+</section>

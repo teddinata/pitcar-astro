@@ -1,0 +1,53 @@
+---
+const benefits = [
+  {
+    title: 'Merek Terkenal',
+    description: 'Manfaatkan reputasi PITCAR yang sudah dikenal masyarakat',
+  },
+  {
+    title: 'SOP Jelas',
+    description: 'Standar operasional yang teruji untuk memastikan kualitas layanan',
+  },
+  {
+    title: 'Bisnis Autopilot',
+    description: 'Tim ahli siap menghandle semua proses operasional, Anda cukup menikmati hasil',
+  },
+];
+
+import { Image } from 'astro:assets';
+import FranchisePitcarImage from '~/assets/images/kemitraan/franchise-pitcar-image.webp';
+---
+
+<section id="about" class="py-16 bg-gray-50 dark:bg-slate-800">
+  <div class="container mx-auto px-4 max-w-6xl">
+    <div class="flex flex-col md:flex-row items-center gap-12">
+      <div class="md:w-1/2">
+        <Image src={FranchisePitcarImage} alt="Bengkel PITCAR" class="rounded-xl shadow-lg w-full" />
+      </div>
+      <div class="md:w-1/2">
+        <h2 class="text-3xl md:text-4xl font-bold text-gray-800 dark:text-white mb-6">
+          Apa Itu Franchise <span class="text-primary">PITCAR Service</span>?
+        </h2>
+        <p class="text-gray-600 dark:text-gray-300 mb-6">
+          Franchise PITCAR Service adalah model bisnis dengan sistem yang sudah terbukti sukses di Purwokerto. Anda
+          mendapatkan hak untuk menggunakan merek, sistem operasi, and dukungan penuh dari kami.
+        </p>
+        <div class="space-y-4">
+          {
+            benefits.map((benefit) => (
+              <div class="flex items-start">
+                <div class="bg-primary p-2 rounded-full mr-4 shrink-0">
+                  <i class="fas fa-check text-white" />
+                </div>
+                <div>
+                  <h4 class="font-semibold text-gray-800 dark:text-white">{benefit.title}</h4>
+                  <p class="text-gray-600 dark:text-gray-300">{benefit.description}</p>
+                </div>
+              </div>
+            ))
+          }
+        </div>
+      </div>
+    </div>
+  </div>
+</section>

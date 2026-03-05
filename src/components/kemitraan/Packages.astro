@@ -1,0 +1,109 @@
+---
+import { Image } from 'astro:assets';
+import basicPackageImage from '~/assets/images/kemitraan/basic-package-image.jpg';
+import advancePackageImage from '~/assets/images/kemitraan/advance-package-image.jpg';
+import completePackageImage from '~/assets/images/kemitraan/complete-package-image.jpg';
+
+const packages = [
+  {
+    id: 'basic',
+    title: 'Basic',
+    price: 'Rp 600jt',
+    features: [
+      '4 stall Bengkel',
+      'Luas 200 m2',
+      'Tenaga Kerja 8 orang',
+      'Peralatan basic',
+      'Fasilitas basic',
+      'Layanan basic',
+      'Media Promosi',
+      'Sistem POS Kasir',
+    ],
+    isPopular: false,
+    image: basicPackageImage,
+  },
+  {
+    id: 'advance',
+    title: 'Advance',
+    price: 'Rp 1,1M',
+    features: [
+      '8 stall bengkel',
+      'Luas 578 m2',
+      '18 tenaga kerja',
+      'Peralatan lengkap',
+      'Fasilitas lengkap',
+      'Layanan lengkap',
+      'Media Promosi',
+      'Sistem POS Kasir',
+    ],
+    isPopular: true,
+    image: advancePackageImage,
+  },
+  {
+    id: 'complete',
+    title: 'Complete',
+    price: 'Rp 2,1M',
+    features: [
+      '12 stall bengkel',
+      'Luas 935 m2',
+      '25 tenaga kerja',
+      'Peralatan terlengkap',
+      'Fasilitas terlengkap',
+      'Layanan terlengkap',
+      'Media Promosi',
+      'Sistem POS Kasir',
+    ],
+    isPopular: false,
+    image: completePackageImage,
+  },
+];
+---
+
+<section id="packages" class="py-16 bg-gray-50 dark:bg-slate-900 transition-colors duration-300">
+  <div class="container mx-auto px-4 max-w-6xl">
+    <div class="text-center mb-12">
+      <h2 class="text-3xl md:text-4xl font-bold text-gray-800 dark:text-white mb-4">
+        Paket Franchise <span class="text-primary">PITCAR Service</span>
+      </h2>
+      <p class="text-gray-600 dark:text-gray-300 max-w-3xl mx-auto">
+        Pilih paket yang sesuai dengan kebutuhan dan kemampuan investasi Anda
+      </p>
+    </div>
+    <div class="grid grid-cols-1 md:grid-cols-3 gap-8 max-w-5xl mx-auto">
+      {
+        packages.map((pkg) => (
+          <div
+            class={`package-card bg-white dark:bg-slate-800 rounded-xl shadow-lg overflow-hidden flex flex-col justify-start relative transition-colors duration-300 ${
+              pkg.isPopular ? 'popular' : ''
+            }`}
+          >
+            {pkg.isPopular && (
+              <span class="absolute z-10 top-0 right-0 bg-primary text-white text-xs font-bold px-3 py-1 rounded-bl-lg">
+                POPULAR
+              </span>
+            )}
+            <Image src={pkg.image} alt={`${pkg.title} Package`} class="w-full h-48 object-cover mb-6" />
+            <div class="p-6 flex flex-col">
+              <h3 class="text-2xl font-bold text-gray-800 dark:text-white mb-2">{pkg.title}</h3>
+              <div class="text-4xl font-bold text-primary dark:text-red-500 mb-4">{pkg.price}</div>
+              <ul class="space-y-2 text-gray-600 dark:text-gray-300">
+                {pkg.features.map((feature) => (
+                  <li class="flex items-start">
+                    <i class="fas fa-check text-primary dark:text-red-500 mt-1 mr-2" />
+                    {feature}
+                  </li>
+                ))}
+              </ul>
+              <a
+                href="#contact"
+                class="mt-12 block w-full bg-primary hover:bg-primary/80 text-white text-center font-bold py-3 rounded-lg transition duration-300"
+              >
+                Pilih Paket
+              </a>
+            </div>
+          </div>
+        ))
+      }
+    </div>
+  </div>
+</section>

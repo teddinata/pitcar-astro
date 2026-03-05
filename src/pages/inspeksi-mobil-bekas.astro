@@ -1,0 +1,121 @@
+---
+import Layout from '~/layouts/PageLayout.astro';
+import Hero from '~/components/widgets/Hero.astro';
+import Features2 from '~/components/widgets/Features2.astro';
+import Steps from '~/components/widgets/Steps.astro';
+import CallToAction from '~/components/widgets/CallToAction.astro';
+
+import mobilBekasImg from '~/assets/images/inspeksi-mobil-bekas/mobil-bekas-honda-removebg-preview.png';
+import mekanikImg from '~/assets/images/inspeksi-mobil-bekas/mekanik-removebg-preview.png';
+
+const metadata = {
+  title: 'Inspeksi Mobil Bekas Purwokerto',
+  description:
+    'Jasa full inspeksi mobil bekas dari PITCAR Service. Kami membantu Anda memeriksa 6 kategori pengecekan agar tidak was-was saat membeli mobil bekas.',
+  robots: { index: true, follow: true },
+  canonical: 'https://pitcar.co.id/inspeksi-mobil-bekas',
+  keywords: 'inspeksi mobil bekas, inspeksi mobil bekas purwokerto',
+};
+---
+
+<Layout metadata={metadata}>
+  <!-- Hero Widget ******************* -->
+  <Hero
+    tagline="Jasa Inspeksi Mobil Bekas Pitcar"
+    title="was-was mau beli mobil bekas karena gak yakin sama kondisinya?"
+    subtitle="Tenang saja! jasa full inspeksi mobil dari pitcar service akan membantu melakukan inspeksi sehingga Anda tidak perlu ragu terhadap kualitas mobil yang diinginkan."
+    actions={[
+      {
+        variant: 'primary',
+        text: 'KONSULTASI SEKARANG',
+        href: '#booking',
+        icon: 'tabler:brand-whatsapp',
+      },
+    ]}
+    image={{
+      src: mobilBekasImg,
+      alt: 'Inspeksi Mobil Bekas Purwokerto',
+    }}
+  />
+
+  <!-- Features2 Widget ************** -->
+  <Features2
+    title="meliputi 6 kategori pengecekan"
+    subtitle="Kami melakukan pengecekan menyeluruh untuk memastikan kondisi mobil bekas yang akan Anda beli."
+    columns={3}
+    items={[
+      {
+        title: 'Scanning',
+        description: 'Untuk mengetahui ada permasalahan mobil atau kelistrikan.',
+        icon: 'tabler:device-desktop-analytics',
+      },
+      {
+        title: 'Cek Body',
+        description: 'Untuk mengetahui ada bekas repair atau laka.',
+        icon: 'tabler:car-crash',
+      },
+      {
+        title: 'Cek Mesin',
+        description: 'Pengecekan pada mesin bagian dalam.',
+        icon: 'tabler:engine',
+      },
+      {
+        title: 'Cek Interior',
+        description: 'Untuk mengetahui bekas terendam banjir atau tidak.',
+        icon: 'tabler:steering-wheel',
+      },
+      {
+        title: 'Cek Keabsahan',
+        description: 'Pengecekan terhadap surat-surat (BPKB & STNK).',
+        icon: 'tabler:file-certificate',
+      },
+      {
+        title: 'Cek Understeel',
+        description: 'Pengecekan terhadap bagian understeel atau kaki-kaki.',
+        icon: 'tabler:settings',
+      },
+    ]}
+  />
+
+  <!-- Steps Widget ****************** -->
+  <Steps
+    title="tahapan inspeksi"
+    subtitle="Proses inspeksi mobil bekas yang mudah dan transparan."
+    items={[
+      {
+        title: 'Langkah 1: <span class="font-medium">Menghubungi Admin Pitcar</span>',
+        description: 'Customer menghubungi admin untuk konsultasi dan pemesanan inspeksi.',
+        icon: 'tabler:messages',
+      },
+      {
+        title: 'Langkah 2: <span class="font-medium">Tim Inspeksi Menuju Lokasi</span>',
+        description: 'Tim akan mendatangi lokasi berdasarkan waktu yang telah ditentukan untuk melakukan inspeksi.',
+        icon: 'tabler:map-pin',
+      },
+      {
+        title: 'Langkah 3: <span class="font-medium">Hasil Inspeksi & Rekomendasi</span>',
+        description: 'Hasil inspeksi dan rekomendasi akan diserahkan kepada customer.',
+        icon: 'tabler:checklist',
+      },
+    ]}
+    image={{
+      src: mekanikImg,
+      alt: 'Tahapan Inspeksi Pitcar',
+    }}
+  />
+
+  <!-- CallToAction Widget *********** -->
+  <CallToAction
+    id="booking"
+    title="Konsultasi Segera & Dapatkan promo menarik lainnya.."
+    subtitle="Hilangkan rasa ragu Anda ketika ingin membeli mobil dengan menggunakan paket full inspeksi dari pitcar. Isi Nama dan No WhatsApp kamu untuk langsung terhubung dengan admin sekarang.."
+    actions={[
+      {
+        variant: 'primary',
+        text: 'Chat via WhatsApp',
+        href: 'https://wa.me/6285866224051/?text=Permisi%20admin%2C%20mau%20tanya%20untuk%20jasa%20inspeksi%20mobil%20bekas%20masih%20bisa%3F',
+        icon: 'tabler:brand-whatsapp',
+      },
+    ]}
+  />
+</Layout>

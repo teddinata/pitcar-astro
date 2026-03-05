@@ -1,0 +1,81 @@
+---
+import Layout from '~/layouts/PageLayout.astro';
+import Hero from '~/components/kemitraan/Hero.astro';
+import AboutFranchise from '~/components/kemitraan/AboutFranchise.astro';
+import MarketPotential from '~/components/kemitraan/MarketPotential.astro';
+import AboutCompany from '~/components/kemitraan/AboutCompany.astro';
+import WhyJoin from '~/components/kemitraan/WhyJoin.astro';
+import Comparison from '~/components/kemitraan/Comparison.astro';
+import Packages from '~/components/kemitraan/Packages.astro';
+import Gallery from '~/components/kemitraan/Gallery.astro';
+import FiveYearProjections from '~/components/kemitraan/FiveYearProjections.astro';
+import Process from '~/components/kemitraan/Process.astro';
+import FAQ from '~/components/kemitraan/FAQ.astro';
+import Contact from '~/components/kemitraan/Contact.astro';
+import FloatingButton from '~/components/kemitraan/FloatingButton.astro';
+
+const metadata = {
+  title: 'Kemitraan Pitcar Service - Peluang Franchise Bengkel Mobil',
+  description:
+    'Bergabunglah dengan franchise PITCAR Service. Raih peluang bisnis di industri otomotif yang terus berkembang dengan sistem franchise yang sudah terbukti.',
+  canonical: 'https://pitcar.co.id/kemitraan',
+};
+---
+
+<Layout metadata={metadata}>
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.7.2/css/all.min.css" />
+  <Hero />
+  <AboutFranchise />
+  <MarketPotential />
+  <AboutCompany />
+  <WhyJoin />
+  <Comparison />
+  <Packages />
+  <Gallery />
+  <FiveYearProjections />
+  <Process />
+  <FAQ />
+  <Contact />
+  <FloatingButton />
+
+  <style is:global>
+    .hero {
+      background:
+        linear-gradient(rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.7)),
+        url('https://res.cloudinary.com/gustimaulan/image/upload/v1744427205/garasi-complete_1_smi0bh.jpg');
+      background-size: cover;
+      background-position: center;
+    }
+    .benefit-card:hover {
+      transform: translateY(-10px);
+      box-shadow:
+        0 20px 25px -5px rgba(0, 0, 0, 0.1),
+        0 10px 10px -5px rgba(0, 0, 0, 0.04);
+    }
+    .package-card {
+      transition: all 0.3s ease;
+    }
+    .package-card:hover {
+      transform: scale(1.05);
+    }
+    .package-card.popular {
+      border: 3px solid var(--aw-color-primary);
+    }
+    .timeline-step {
+      position: relative;
+    }
+    .gallery-item {
+      overflow: hidden;
+    }
+    .gallery-item img {
+      transition: transform 0.5s ease;
+    }
+    .gallery-item:hover img {
+      transform: scale(1.1);
+    }
+    .gallery-overlay {
+      background: linear-gradient(to top, rgba(0, 0, 0, 0.7), transparent);
+      transition: opacity 0.3s ease;
+    }
+  </style>
+</Layout>

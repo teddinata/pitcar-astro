@@ -1,0 +1,43 @@
+---
+
+---
+
+<header class="bg-white dark:bg-slate-900 shadow-md sticky top-0 z-50">
+  <div class="container mx-auto px-4 py-3 flex justify-between items-center max-w-6xl">
+    <div class="flex items-center">
+      <h1 class="text-2xl font-bold text-gray-800 dark:text-white">PITCAR <span class="text-primary">Service</span></h1>
+    </div>
+    <nav class="hidden md:flex space-x-8">
+      <a href="#about" class="text-gray-700 dark:text-gray-200 hover:text-primary font-medium">Tentang Kami</a>
+      <a href="#why" class="text-gray-700 dark:text-gray-200 hover:text-primary font-medium">Keunggulan</a>
+      <a href="#packages" class="text-gray-700 dark:text-gray-200 hover:text-primary font-medium">Paket Franchise</a>
+      <a href="#process" class="text-gray-700 dark:text-gray-200 hover:text-primary font-medium">Alur Kerjasama</a>
+      <a href="#contact" class="text-gray-700 dark:text-gray-200 hover:text-primary font-medium">Kontak</a>
+    </nav>
+    <button id="mobile-menu-button" class="md:hidden text-gray-700 dark:text-gray-200">
+      <i class="fas fa-bars text-2xl"></i>
+    </button>
+  </div>
+  <!-- Mobile menu -->
+  <div id="mobile-menu" class="hidden md:hidden bg-white dark:bg-slate-900 border-t dark:border-slate-800">
+    <nav class="space-y-4 px-4 py-2">
+      <a href="#about" class="block text-gray-700 dark:text-gray-200 hover:text-primary font-medium">Tentang Kami</a>
+      <a href="#why" class="block text-gray-700 dark:text-gray-200 hover:text-primary font-medium">Keunggulan</a>
+      <a href="#packages" class="block text-gray-700 dark:text-gray-200 hover:text-primary font-medium"
+        >Paket Franchise</a
+      >
+      <a href="#process" class="block text-gray-700 dark:text-gray-200 hover:text-primary font-medium">Alur Kerjasama</a
+      >
+      <a href="#contact" class="block text-gray-700 dark:text-gray-200 hover:text-primary font-medium">Kontak</a>
+    </nav>
+  </div>
+</header>
+
+<script>
+  const button = document.getElementById('mobile-menu-button');
+  const menu = document.getElementById('mobile-menu');
+
+  button?.addEventListener('click', () => {
+    menu?.classList.toggle('hidden');
+  });
+</script>

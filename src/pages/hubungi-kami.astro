@@ -1,0 +1,53 @@
+---
+import Layout from '~/layouts/PageLayout.astro';
+
+const metadata = {
+  title: 'Hubungi Kami',
+  description: 'Hubungi Pitcar Service - Bengkel Mobil Purwokerto. Konsultasi gratis dan booking layanan.',
+  canonical: 'https://pitcar.co.id/hubungi-kami',
+  robots: { index: true, follow: true },
+  openGraph: {
+    type: 'website',
+  },
+};
+---
+
+<Layout metadata={metadata}>
+  <section class="px-4 py-16 mx-auto max-w-4xl">
+    <div class="text-center mb-12">
+      <h1 class="text-4xl font-bold mb-4 dark:text-white">Hubungi Kami</h1>
+      <p class="text-lg text-gray-600 dark:text-gray-300">
+        Konsultasi gratis terkait perawatan dan perbaikan mobil Anda.
+      </p>
+    </div>
+
+    <div class="grid md:grid-cols-2 gap-8">
+      <div class="p-6 rounded-lg border border-gray-200 dark:border-gray-700 bg-white dark:bg-slate-800">
+        <h2 class="text-xl font-semibold mb-4 dark:text-white">WhatsApp</h2>
+        <p class="text-gray-600 dark:text-gray-300 mb-4">
+          Hubungi admin kami langsung via WhatsApp untuk konsultasi dan booking layanan.
+        </p>
+        <a
+          href="https://wa.me/6285866224051/?text=Halo%20Admin%2C%20Saya%20mau%20konsultasi..."
+          target="_blank"
+          rel="noopener noreferrer"
+          class="inline-block px-6 py-3 bg-primary text-white rounded-lg font-semibold hover:bg-primary/90 transition-colors"
+        >
+          Chat via WhatsApp
+        </a>
+      </div>
+
+      <div class="p-6 rounded-lg border border-gray-200 dark:border-gray-700 bg-white dark:bg-slate-800">
+        <h2 class="text-xl font-semibold mb-4 dark:text-white">Alamat Workshop</h2>
+        <p class="text-gray-600 dark:text-gray-300">
+          Jl. Pancurawis no. 14<br />
+          Purwokerto Selatan<br />
+          Banyumas, Jawa Tengah
+        </p>
+        <p class="text-gray-600 dark:text-gray-300 mt-4">
+          <strong>Telepon:</strong> 085866224051
+        </p>
+      </div>
+    </div>
+  </section>
+</Layout>

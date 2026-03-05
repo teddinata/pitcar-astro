@@ -1,0 +1,82 @@
+---
+import Layout from '~/layouts/PageLayout.astro';
+
+const metadata = {
+  title: 'Layanan Kami',
+  description:
+    'Layanan bengkel mobil Pitcar Purwokerto: service mesin, oli, scanning & ECU, rem & kaki-kaki, AC, transmisi, body repair, detailing, mobil Eropa, dan emergency 24 jam.',
+  canonical: 'https://pitcar.co.id/layanan',
+  robots: { index: true, follow: true },
+  openGraph: {
+    type: 'website',
+  },
+};
+
+const services = [
+  {
+    title: 'MESIN',
+    desc: 'Tune Up Mobil Bensin, Tune Up Mobil Diesel, Purging, Turun Mesin (Overhaul), Servis Radiator.',
+  },
+  {
+    title: 'OLI',
+    desc: 'Kami menyediakan berbagai jenis oli sesuai kebutuhan Anda dengan harga terbaik: Shell, Mobil 1, Fastron, Castrol, TMO, Honda Genuine, dll.',
+  },
+  {
+    title: 'SCANNING & ECU',
+    desc: 'Pendeteksian masalah elektrikal menggunakan scanner, perbaikan ECU, servis elektrikal, perbaikan dan penggantian accu, perbaikan dan penggantian dinamo.',
+  },
+  {
+    title: 'PERAWATAN BERKALA',
+    desc: 'Paket perawatan berkala kelipatan kilometer 10rb, 20rb, 40rb, 80rb, 120rb, 160rb dst.',
+  },
+  {
+    title: 'REM & KAKI-KAKI',
+    desc: 'Servis rem, bubut disc brake, penggantian kampas rem, rekondisi shockbreaker, servis dan penggantian part kaki-kaki.',
+  },
+  {
+    title: 'SERVICE AC',
+    desc: 'Perawatan AC, flushing, perbaikan kebocoran, pengisian freon, turun dashboard, perbaikan evaporator, kompressor, dll.',
+  },
+  {
+    title: 'TRANSMISI',
+    desc: 'Perbaikan ringan maupun berat (turun transmisi) baik transmisi manual maupun matic: AT, CVT, DCT, DSG, dsb.',
+  },
+  { title: 'BODY REPAIR', desc: 'Perbaikan body, cat full body, poles.' },
+  { title: 'DETAILING', desc: 'Pembersihan secara detail bagian interior, eksterior, dan mesin.' },
+  {
+    title: 'MOBIL EROPA & AMERIKA',
+    desc: 'BMW, Mercedes Benz (Mercy), Volkswagen (VW), Audi, MINI, Porsche, Renault, Peugeot, Ford, Chevrolet, Jeep, dll.',
+  },
+  {
+    title: 'EMERGENCY 24 JAM',
+    desc: 'Layanan 24 jam dan emergency bagi Anda yang membutuhkan bantuan darurat di jalan.',
+  },
+  {
+    title: 'INSPEKSI MOBIL BEKAS',
+    desc: 'Kami melayani jasa pengecekan mobil bekas, yang dilakukan oleh mekanik handal kami, kapanpun, dimanapun.',
+  },
+];
+---
+
+<Layout metadata={metadata}>
+  <section class="px-4 py-16 mx-auto max-w-5xl">
+    <div class="text-center mb-12">
+      <h1 class="text-4xl font-bold mb-4 dark:text-white">Layanan Kami</h1>
+      <h2 class="text-xl text-gray-600 dark:text-gray-300">Emergency & Layanan 24 Jam</h2>
+      <p class="mt-2 text-gray-500 dark:text-gray-400">
+        Kami menyediakan layanan 24 jam dan <em>emergency</em> bagi Anda yang membutuhkan bantuan darurat di jalan.
+      </p>
+    </div>
+
+    <div class="grid md:grid-cols-2 lg:grid-cols-3 gap-6">
+      {
+        services.map((svc) => (
+          <div class="p-6 rounded-lg border border-gray-200 dark:border-gray-700 bg-white dark:bg-slate-800 shadow-sm hover:shadow-md transition-shadow">
+            <h3 class="text-lg font-semibold mb-2 dark:text-white">{svc.title}</h3>
+            <p class="text-gray-600 dark:text-gray-300 text-sm">{svc.desc}</p>
+          </div>
+        ))
+      }
+    </div>
+  </section>
+</Layout>

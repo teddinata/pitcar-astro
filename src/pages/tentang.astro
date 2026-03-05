@@ -1,0 +1,123 @@
+---
+import Layout from '~/layouts/PageLayout.astro';
+
+import HeroText from '~/components/widgets/HeroText.astro';
+import Content from '~/components/widgets/Content.astro';
+import Features from '~/components/widgets/Features.astro';
+import Features2 from '~/components/widgets/Features2.astro';
+import Steps from '~/components/widgets/Steps.astro';
+
+import ownerPitcarImg from '~/assets/images/uploads/owner-pitcar.jpg';
+import sadamImg from '~/assets/images/uploads/Sadam-CO-e1673015745245.png';
+import ilmanImg from '~/assets/images/uploads/Ilman-CO-e1673015703806.png';
+
+const metadata = {
+  title: 'Tentang Kami',
+  description:
+    'Tentang Pitcar Service - Bengkel Mobil Purwokerto. One Stop Service untuk perawatan dan perbaikan mobil.',
+  canonical: 'https://pitcar.co.id/tentang',
+  robots: { index: true, follow: true },
+  openGraph: {
+    type: 'website',
+  },
+};
+---
+
+<Layout metadata={metadata}>
+  <!-- Hero Widget ******************* -->
+  <HeroText
+    title="Tentang Kami"
+    subtitle="Mengenal lebih dekat PITCAR Service dan nilai-nilai yang kami perjuangkan."
+  />
+
+  <!-- Content Widget **************** -->
+  <Content
+    title="One Stop Service"
+    isReversed
+    items={[
+      {
+        title: 'Layanan Komprehensif',
+        description:
+          'Kami menawarkan segala kebutuhan terkait perawatan dan perbaikan mobil mulai dari mesin, oli, scanning & ECU, rem & kaki-kaki, AC, transmisi, perbaikan bodi serta salon/detailing.',
+      },
+    ]}
+    image={{
+      src: ownerPitcarImg,
+      alt: 'Tim PITCAR',
+    }}
+  />
+
+  <!-- Features Widget *************** -->
+  <Features
+    id="visi-misi"
+    tagline="Tujuan Kami"
+    title="Visi & Misi"
+    subtitle="Komitmen kami untuk memberikan pelayanan terbaik bagi pelanggan, mitra, dan masyarakat luas."
+    columns={2}
+    items={[
+      {
+        title: 'Visi',
+        description:
+          'Menjadi perusahaan yang berkomitmen menghadirkan ekosistem perawatan mobil terbaik di Indonesia dengan mengedepankan kepuasan customer melalui pelayanan terbaik serta kemauan berkembang dan belajar bersama secara terus menerus untuk memberi dampak dan manfaat kepada keluarga PITCAR, mitra dan masyarakat.',
+        icon: 'tabler:eye',
+      },
+      {
+        title: 'Misi',
+        description:
+          '<ul class="list-disc ml-4 space-y-2 mt-2"><li>Memberikan layanan perawatan mobil yang "customer centric"</li><li>Memberikan layanan perawatan mobil kualitas terbaik dengan harga yang terjangkau</li><li>Memberikan kemudahan dalam perawatan mobil melalui layanan home service, emergency service, dan one stop service.</li><li>Mengembangkan dan memberdayakan talenta untuk menjadi mekanik yang memiliki good skill dan good attitude.</li></ul>',
+        icon: 'tabler:target',
+      },
+    ]}
+  />
+
+  <!-- Features2 Widget ************** -->
+  <Features2
+    title="Founder"
+    subtitle="Tim dibalik berdirinya PITCAR Service."
+    columns={2}
+    items={[
+      {
+        title: "Ilman Naafi'an",
+        description: `<img src="${ilmanImg.src}" alt="Ilman Naafi'an" class="w-32 h-32 object-cover object-top rounded-full shadow-lg mx-auto mb-4 border-4 border-white dark:border-slate-800" /><p class="text-center">Co-Founder<br/>Teknik Dirgantara ITB 2014</p>`,
+        icon: '',
+      },
+      {
+        title: 'Sadam Saputra Al-Kaff',
+        description: `<img src="${sadamImg.src}" alt="Sadam Saputra Al-Kaff" class="w-32 h-32 object-cover object-top rounded-full shadow-lg mx-auto mb-4 border-4 border-white dark:border-slate-800" /><p class="text-center">Co-Founder<br/>Teknik Pertambangan ITB 2014</p>`,
+        icon: '',
+      },
+    ]}
+  />
+
+  <!-- Steps Widget ****************** -->
+  <Steps
+    title="Perjalanan Kami"
+    subtitle="Sejarah singkat perkembangan PITCAR Service dari awal berdiri hingga saat ini."
+    items={[
+      {
+        title: 'Februari 2021 — <span class="font-medium">Berdiri</span>',
+        description:
+          'PITCAR didirikan di tengah merebaknya pandemi sebagai solusi perawatan mobil di rumah tanpa perlu mendatangi kerumunan di bengkel.',
+        icon: 'tabler:rocket',
+      },
+      {
+        title: 'Oktober 2021 — <span class="font-medium">Pembangunan Workshop</span>',
+        description:
+          'PITCAR merekrut mekanik tetap dan membangun workshop sebagai home base dan office di Jl. Pancurawis no. 14, Purwokerto Selatan sebagai respon positif terhadap meningkatnya order harian.',
+        icon: 'tabler:building-factory-2',
+      },
+      {
+        title: 'Juli 2022 — <span class="font-medium">5 Startup Nasional Terbaik</span>',
+        description:
+          'PITCAR terpilih sebagai salah satu dari 5 Startup Nasional terbaik dalam program Indigo Betalist Telkom yang diundang untuk melakukan pitching di Telkom Landmark Tower Jakarta.',
+        icon: 'tabler:award',
+      },
+      {
+        title: 'Agustus 2022 — <span class="font-medium">Penambahan Layanan</span>',
+        description:
+          'PITCAR memiliki lebih dari 350 basis customer di area Purwokerto dan sekitarnya dan melakukan pengembangan layanan baru berdasarkan kebutuhan customer diantaranya: layanan emergency 24 jam dan perawatan serta perbaikan mobil Eropa/Amerika.',
+        icon: 'tabler:tool',
+      },
+    ]}
+  />
+</Layout>

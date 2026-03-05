@@ -1,0 +1,242 @@
+---
+import Layout from '~/layouts/PageLayout.astro';
+
+import Hero2 from '~/components/widgets/Hero2.astro';
+import Features from '~/components/widgets/Features.astro';
+import Steps from '~/components/widgets/Steps.astro';
+import BlogLatestPosts from '~/components/widgets/BlogLatestPosts.astro';
+import CallToAction from '~/components/widgets/CallToAction.astro';
+import Content from '~/components/widgets/Content.astro';
+import Testimonials from '~/components/widgets/Testimonials.astro';
+import mekanikMobilImg from '~/assets/images/mekanik-mobil.png';
+import workshopImg1 from '~/assets/images/uploads/IMG_6348-scaled.jpg';
+import workshopImg2 from '~/assets/images/uploads/IMG_6342-scaled.jpg';
+import testimoniMbahgie from '~/assets/images/uploads/Mbahgie-Foto-Testimoni.jpeg';
+
+const metadata = {
+  title: 'Pitcar — Bengkel Mobil Purwokerto Terbaik & Terpercaya',
+  ignoreTitleTemplate: true,
+  description:
+    'Pitcar bengkel mobil Purwokerto menawarkan 9+ layanan dalam 1 panggilan: service mesin, oli, AC, rem, transmisi, body repair, detailing, mobil Eropa, dan emergency 24 jam.',
+  canonical: 'https://pitcar.co.id',
+  keywords:
+    'bengkel mobil purwokerto, pitcar, bengkel mobil terbaik purwokerto, bengkel mobil terpercaya purwokerto, bengkel mobil panggilan purwokerto, bengkel mobil 24 jam purwokerto, bengkel mobil Eropa purwokerto',
+};
+---
+
+<Layout metadata={metadata}>
+  <!-- Hero Section -->
+  <Hero2
+    actions={[
+      {
+        variant: 'primary',
+        text: 'Konsultasi Sekarang',
+        href: 'https://wa.me/6285866224051/?text=Halo%20Admin%2C%20Saya%20mau%20booking%20Free%20General%20Check%20Up...Type%20%26%20tahun%20Mobil%3AKilometer%3ACC%3AKendala%3A---Perihal%3A%20GENERAL%20CHECK%20UP%23gcu-web',
+        target: '_blank',
+        icon: 'tabler:brand-whatsapp',
+      },
+      { text: 'Lihat Layanan', href: '/layanan' },
+    ]}
+    image={{
+      src: mekanikMobilImg,
+      alt: 'Mekanik mobil Pitcar sedang melakukan servis',
+    }}
+  >
+    <Fragment slot="title">
+      Bengkel Mobil Purwokerto <span class="text-accent dark:text-white">Pitcar Service</span>
+    </Fragment>
+
+    <Fragment slot="subtitle">
+      <span class="font-semibold">Kami</span> merawat, memperbaiki, dan menyelesaikan masalah mobil Anda.
+      <span
+        class="block mt-4 px-4 py-3 bg-green-50 dark:bg-slate-800/80 rounded-xl text-primary dark:text-green-400 font-semibold border border-green-100 dark:border-slate-700 shadow-sm text-base md:text-lg"
+      >
+        9+ layanan dalam 1 panggilan — Home Service, Pick Up Service, dan Workshop.
+      </span>
+    </Fragment>
+  </Hero2>
+
+  <!-- Stats -->
+  <!-- <Stats
+    stats={[
+      { title: 'Happy Customer', amount: '+' },
+      { title: 'Units Handled', amount: '10000+' },
+    ]}
+  /> -->
+
+  <!-- Layanan / Services -->
+  <Features
+    id="layanan"
+    tagline="Layanan"
+    title="Bengkel Mobil Terbaik di Purwokerto"
+    subtitle="Layanan yang kami tawarkan"
+    items={[
+      {
+        title: 'Emergency 24 Jam',
+        description: 'Layanan 24 jam dan emergency bagi Anda yang membutuhkan bantuan darurat di jalan.',
+        icon: 'tabler:alarm',
+      },
+      {
+        title: 'Service Mesin',
+        description: 'Tune Up Mobil Bensin, Tune Up Mobil Diesel, Purging, Turun Mesin (Overhaul), Servis Radiator.',
+        icon: 'tabler:engine',
+      },
+      {
+        title: 'Ganti Oli',
+        description:
+          'Berbagai jenis oli sesuai kebutuhan Anda: Shell, Mobil 1, Fastron, Castrol, TMO, Honda Genuine, dll.',
+        icon: 'tabler:droplet',
+      },
+      {
+        title: 'Scanning & ECU',
+        description: 'Pendeteksian masalah elektrikal menggunakan scanner, perbaikan ECU, servis elektrikal.',
+        icon: 'tabler:cpu',
+      },
+      {
+        title: 'Rem & Kaki-Kaki',
+        description: 'Servis rem, bubut disc brake, penggantian kampas rem, rekondisi shockbreaker.',
+        icon: 'tabler:car',
+      },
+      {
+        title: 'Service AC',
+        description: 'Perawatan AC, flushing, perbaikan kebocoran, pengisian freon, turun dashboard.',
+        icon: 'tabler:temperature',
+      },
+      {
+        title: 'Transmisi',
+        description: 'Perbaikan ringan maupun berat baik transmisi manual maupun matic: AT, CVT, DCT, DSG.',
+        icon: 'tabler:settings',
+      },
+      {
+        title: 'Body Repair & Detailing',
+        description: 'Perbaikan body, cat full body, poles. Pembersihan detail interior, eksterior, dan mesin.',
+        icon: 'tabler:brush',
+      },
+      {
+        title: 'Mobil Eropa & Amerika',
+        description: 'BMW, Mercedes Benz, Volkswagen, Audi, MINI, Porsche, Renault, Peugeot, Ford, Chevrolet, Jeep.',
+        icon: 'tabler:world',
+      },
+    ]}
+  />
+
+  <!-- Workshop Showcase -->
+  <Content
+    isReversed
+    tagline="Workshop Kami"
+    title="Fasilitas Bengkel Modern & Lengkap"
+    subtitle="Kami terus berinvestasi pada peralatan modern untuk memastikan akurasi dan kualitas pengerjaan kendaraan Anda."
+    items={[
+      {
+        title: 'Area Kerja Luas',
+        description: 'Mampu menampung berbagai unit kendaraan secara bersamaan dengan penanganan profesional.',
+        icon: 'tabler:check',
+      },
+      {
+        title: 'Peralatan Modern',
+        description: 'Dilengkapi dengan scanner terbaru dan tools standar dealer.',
+        icon: 'tabler:check',
+      },
+    ]}
+    image={{
+      src: workshopImg2,
+      alt: 'Suasana workshop Pitcar Service',
+    }}
+  />
+
+  <!-- Alur Pemesanan -->
+  <Steps
+    title="Alur Pemesanan"
+    subtitle="Mudahnya pesan layanan di Bengkel Mobil Purwokerto Pitcar yang begitu praktis dimulai dari ponsel Anda."
+    items={[
+      {
+        title: 'Langkah 1: <span class="font-medium">Konsultasi & Booking</span>',
+        description: 'Anda menghubungi Admin untuk melakukan konsultasi / booking / emergency call.',
+        icon: 'tabler:message-circle',
+      },
+      {
+        title: 'Langkah 2: <span class="font-medium">Estimasi Harga & Penawaran</span>',
+        description:
+          'Admin memberi estimasi pengerjaan dari hasil konsultasi dan merekomendasikan layanan yang tepat berdasarkan masalah yang dialami.',
+        icon: 'tabler:calculator',
+      },
+      {
+        title: 'Langkah 3: <span class="font-medium">Datang atau Home/Pick Up Service</span>',
+        description:
+          'Mekanik berpengalaman dari Pitcar akan melakukan general check-up dan treatment pada kendaraan Anda.',
+        icon: 'tabler:tool',
+      },
+      {
+        title: 'Langkah 4: <span class="font-medium">Pekerjaan Selesai</span>',
+        description:
+          'Apabila Anda menggunakan layanan Pickup Service maka mobil akan diantarkan kembali setelah selesai.',
+        icon: 'tabler:circle-check',
+      },
+      {
+        title: 'Langkah 5: <span class="font-medium">Pembayaran</span>',
+        description: 'Admin mengirimkan nota. Customer bisa melakukan pembayaran secara cash maupun transfer.',
+        icon: 'tabler:credit-card',
+      },
+    ]}
+    image={{
+      src: workshopImg1,
+      alt: 'Mekanik Pitcar di workshop',
+    }}
+  />
+
+  <!-- Testimonials -->
+  <Testimonials
+    tagline="Testimoni"
+    title="Kata Mereka Tentang PITCAR"
+    testimonials={[
+      {
+        testimonial: `Cocok banget buat ibu-ibu yang ngga mau ribet kaya saya. Ga perlu lagi capek-capek dan lama nunggu di bengkel, tinggal kontak via WA dari rumah, mobil sudah terawat kembali. Dan yang ga kalah penting, edukasi dari tim pitcar sangat membantu saya mengetahui permasalahan-permasalahan di mobil saya.`,
+        name: 'Juliani Tri Astuti',
+        job: 'Pengusaha Kuliner',
+        image: {
+          src: workshopImg1,
+          alt: 'Juliani Tri Astuti',
+        },
+      },
+      {
+        testimonial: `Pelayanan PITCAR sangat bagus karena customer mendapat edukasi secara transparan terkait kerusakan dan estimasi biaya perbaikan mobil. Maju terus PITCAR!`,
+        name: 'Sugiarto',
+        job: 'Kontraktor',
+        image: {
+          src: testimoniMbahgie,
+          alt: 'Sugiarto',
+        },
+      },
+    ]}
+  />
+
+  <!-- Blog Latest Posts -->
+  <BlogLatestPosts
+    title="Artikel Terbaru"
+    information="Baca artikel terbaru kami seputar tips perawatan mobil, service, dan informasi otomotif lainnya."
+  />
+
+  <!-- CTA -->
+  <CallToAction
+    actions={[
+      {
+        variant: 'primary',
+        text: 'WhatsApp Admin',
+        href: 'https://wa.me/6285866224051/?text=Halo%20Admin%2C%20Saya%20mau%20booking%20Free%20General%20Check%20Up...Type%20%26%20tahun%20Mobil%3AKilometer%3ACC%3AKendala%3A---Perihal%3A%20GENERAL%20CHECK%20UP%23gcu-web',
+        target: '_blank',
+        icon: 'tabler:brand-whatsapp',
+      },
+    ]}
+  >
+    <Fragment slot="title">
+      Booking Slot Untuk Free General Check Up<br class="block sm:hidden" /><span class="sm:whitespace-nowrap">
+        di Pitcar!</span
+      >
+    </Fragment>
+
+    <Fragment slot="subtitle">
+      Lakukan pengecekan kondisi mobil kesayangan Anda segera dengan menghubungi kami sekarang.
+      <br class="hidden md:inline" />Jangan tunggu kondisi mobil memburuk. Gratis hanya untuk 5 mobil setiap harinya!
+    </Fragment>
+  </CallToAction>
+</Layout>
