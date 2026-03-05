@@ -1,30 +1,30 @@
 site:
-  name: "Pitcar"
-  site: "https://pitcar.co.id"
-  base: "/"
+  name: 'Pitcar'
+  site: 'https://pitcar.co.id'
+  base: '/'
   trailingSlash: false
 
-  googleSiteVerificationId: ""
+  googleSiteVerificationId: 'uF4msW3uZfEEPBu3_eOG4enrjnJVye_xVFmjIXcvvf0'
 
 # Default SEO metadata
 metadata:
   title:
-    default: "Pitcar"
-    template: "%s — Pitcar"
-  description: "Bengkel Mobil Purwokerto Terbaik & Terpercaya"
+    default: 'Pitcar Service'
+    template: '%s — Pitcar Service'
+  description: 'Bengkel Mobil Purwokerto Terbaik & Terpercaya'
   robots:
     index: true
     follow: true
   openGraph:
-    site_name: "Pitcar"
+    site_name: 'Pitcar'
     images:
       - url: '~/assets/images/default.png'
         width: 1200
         height: 628
     type: website
   twitter:
-    handle: "@pitcar_id"
-    site: "@pitcar_id"
+    handle: '@pitcar_id'
+    site: '@pitcar_id'
     cardType: summary_large_image
 
 i18n:
