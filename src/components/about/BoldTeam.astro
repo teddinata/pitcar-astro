@@ -1,0 +1,60 @@
+---
+import type { ImageMetadata } from 'astro';
+import Image from '~/components/common/Image.astro';
+
+export interface TeamMember {
+  name: string;
+  role: string;
+  image: ImageMetadata | string;
+}
+
+interface Props {
+  id?: string;
+  title?: string;
+  subtitle?: string;
+  members: TeamMember[];
+}
+
+const {
+  id,
+  title = "Tim Kami",
+  subtitle = "Orang-orang di balik layar",
+  members = []
+} = Astro.props;
+---
+<section class="bold-team relative py-20 md:py-28 bg-white dark:bg-[#0a0a0a] transition-colors duration-300" {...id ? { id } : {}}>
+  <!-- Top border accent -->
+  <div class="absolute top-0 left-0 right-0 h-[1px] bg-gradient-to-r from-transparent via-slate-200 dark:via-white/10 to-transparent transition-colors duration-300"></div>
+
+  <div class="relative z-10 max-w-7xl mx-auto px-5 sm:px-8">
+    <div class="text-center mb-16">
+      <h2 class="text-4xl md:text-5xl font-black italic tracking-tighter uppercase mb-4 text-slate-900 dark:text-white transition-colors duration-300">
+        {title}
+      </h2>
+      <p class="text-slate-600 dark:text-slate-400 max-w-2xl mx-auto text-lg transition-colors duration-300">{subtitle}</p>
+    </div>
+    
+    <div class="grid grid-cols-1 sm:grid-cols-2 gap-8 lg:gap-12 justify-center items-center max-w-4xl mx-auto">
+      {members.map(member => (
+        <div class="group relative bg-white dark:bg-[#111] rounded-2xl border border-slate-200 dark:border-white/5 hover:border-[#CC0000]/50 dark:hover:border-[#CC0000]/50 transition-all duration-500 overflow-hidden shadow-xl dark:shadow-2xl">
+           <!-- Responsive gradient glow effect behind image -->
+           <div class="absolute inset-0 bg-gradient-to-t from-white via-white/80 to-transparent dark:from-black dark:via-black/60 dark:to-transparent opacity-90 z-10 pointer-events-none transition-colors duration-300"></div>
+
+           <!-- Full bleed portrait image -->
+           <Image 
+             src={member.image} 
+             alt={member.name} 
+             class="w-full aspect-[3/4] object-cover object-top group-hover:scale-110 transition-transform duration-700 ease-in-out relative z-0" 
+           />
+           
+           <!-- Content overlay -->
+           <div class="absolute bottom-0 left-0 right-0 p-8 z-20 transform translate-y-4 group-hover:translate-y-0 transition-transform duration-500">
+             <div class="w-12 h-1 bg-[#CC0000] mb-4 group-hover:w-full transition-all duration-500 ease-out"></div>
+             <h3 class="text-3xl font-black italic tracking-tight text-slate-900 dark:text-white mb-1 group-hover:text-[#CC0000] dark:group-hover:text-[#CC0000] transition-colors duration-300 drop-shadow-sm dark:drop-shadow-lg">{member.name}</h3>
+             <p class="text-slate-600 dark:text-slate-300 text-sm font-medium tracking-wide uppercase leading-relaxed drop-shadow-sm dark:drop-shadow-md" set:html={member.role} />
+           </div>
+        </div>
+      ))}
+    </div>
+  </div>
+</section>

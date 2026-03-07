@@ -1,0 +1,126 @@
+---
+import { Icon } from 'astro-icon/components';
+
+export interface ServiceItem {
+  title: string;
+  description: string;
+  icon?: string;
+}
+
+interface Props {
+  id?: string;
+  title?: string;
+  subtitle?: string;
+  tagline?: string;
+  items?: ServiceItem[];
+}
+
+const {
+  id,
+  title = 'Bengkel Mobil Terbaik di Purwokerto',
+  subtitle = 'Layanan yang kami tawarkan',
+  tagline = 'Layanan',
+  items = [],
+} = Astro.props;
+---
+
+<section
+  class="bold-services relative py-20 md:py-28 not-prose"
+  {...id ? { id } : {}}
+>
+  <!-- Background -->
+  <div class="absolute inset-0 bg-white dark:bg-[#0e0e0e] transition-colors duration-300">
+    <!-- Hex pattern overlay -->
+    <div class="bold-services__pattern absolute inset-0 opacity-40"></div>
+  </div>
+
+  <!-- Orange top border accent -->
+  <div class="absolute top-0 left-0 right-0 h-[3px] bg-gradient-to-r from-transparent via-[#CC0000] to-transparent"></div>
+
+  <div class="relative z-10 max-w-7xl mx-auto px-5 sm:px-8">
+
+    <!-- Section header -->
+    <div class="mb-10 md:mb-14">
+      <div class="flex items-center gap-3 mb-3">
+        <div class="w-8 h-[3px] bg-[#CC0000]"></div>
+        <span class="text-[#CC0000] text-xs font-bold uppercase tracking-[0.3em]">{tagline}</span>
+      </div>
+      <div class="flex flex-col gap-3 lg:flex-row lg:items-end lg:justify-between">
+        <h2 class="text-3xl md:text-4xl lg:text-5xl font-black text-slate-900 dark:text-white uppercase tracking-tight leading-tight">
+          {title}
+        </h2>
+        <p class="text-slate-500 dark:text-white/50 text-sm max-w-xs leading-relaxed lg:text-right lg:flex-shrink-0">{subtitle}</p>
+      </div>
+    </div>
+
+    <!-- Services grid -->
+    <div class="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-4 md:gap-5">
+      {items.map((item, i) => (
+        <div class="bold-service-card group relative bg-white dark:bg-[#141414] border border-slate-200 dark:border-white/[0.06] rounded overflow-hidden shadow-sm dark:shadow-none transition-all duration-300 hover:border-[#CC0000]/40">
+          <!-- Number -->
+          <div class="absolute top-4 right-4 text-5xl font-black text-slate-100 dark:text-white/[0.04] leading-none select-none">
+            {String(i + 1).padStart(2, '0')}
+          </div>
+
+          <!-- Orange left accent -->
+          <div class="absolute left-0 top-0 bottom-0 w-[3px] bg-[#CC0000] opacity-0 group-hover:opacity-100 transition-opacity duration-300"></div>
+
+          <div class="p-6 md:p-7">
+            <!-- Icon -->
+            {item.icon && (
+              <div class="bold-service-card__icon mb-5">
+                <Icon name={item.icon} class="w-6 h-6 text-[#CC0000]" />
+              </div>
+            )}
+
+            <!-- Title -->
+            <h3 class="text-slate-900 dark:text-white font-bold text-lg mb-2 leading-tight group-hover:text-[#CC0000] transition-colors duration-300">
+              {item.title}
+            </h3>
+
+            <!-- Description -->
+            <p class="text-slate-500 dark:text-white/45 text-sm leading-relaxed">
+              {item.description}
+            </p>
+          </div>
+        </div>
+      ))}
+    </div>
+  </div>
+</section>
+
+<style>
+  .bold-services__pattern {
+    background-image: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' width='80' height='92' viewBox='0 0 80 92'%3E%3Cpath d='M40 4L76 24v44L40 88 4 68V24z' fill='none' stroke='rgba(0,0,0,0.03)' stroke-width='1'/%3E%3C/svg%3E");
+    background-size: 80px 92px;
+  }
+  :global(.dark) .bold-services__pattern {
+    background-image: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' width='80' height='92' viewBox='0 0 80 92'%3E%3Cpath d='M40 4L76 24v44L40 88 4 68V24z' fill='none' stroke='rgba(255,255,255,0.03)' stroke-width='1'/%3E%3C/svg%3E");
+  }
+
+  .bold-service-card {
+    cursor: default;
+  }
+
+  .bold-service-card:hover {
+    box-shadow: 0 8px 40px rgba(204, 0, 0, 0.12), inset 0 0 0 1px rgba(232,80,0,0.15);
+    transform: translateY(-2px);
+  }
+
+  .bold-service-card__icon {
+    width: 46px;
+    height: 46px;
+    background: rgba(204, 0, 0, 0.1);
+    border: 1px solid rgba(204, 0, 0, 0.2);
+    border-radius: 4px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    transition: all 0.3s ease;
+  }
+
+  .bold-service-card:hover .bold-service-card__icon {
+    background: rgba(204, 0, 0, 0.2);
+    border-color: rgba(204, 0, 0, 0.4);
+  }
+</style>

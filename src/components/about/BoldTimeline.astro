@@ -1,0 +1,123 @@
+---
+import { Icon } from 'astro-icon/components';
+
+export interface TimelineItem {
+  year: string;
+  title: string;
+  description: string;
+  icon?: string;
+}
+
+interface Props {
+  id?: string;
+  title?: string;
+  subtitle?: string;
+  items: TimelineItem[];
+}
+
+const {
+  id,
+  title = "PERJALANAN KAMI",
+  subtitle = "Jejak sejarah dan milestones emas PITCAR dari tahun ke tahun.",
+  items = []
+} = Astro.props;
+---
+
+<section class="bold-timeline relative py-20 md:py-32 bg-slate-50 dark:bg-[#050505] overflow-hidden transition-colors duration-300" {...id ? { id } : {}}>
+  <div class="max-w-7xl mx-auto px-5 sm:px-8 relative z-10 mb-16 md:mb-24">
+    <div class="text-center">
+      <h2 class="text-4xl md:text-5xl lg:text-7xl font-black italic tracking-tighter uppercase text-slate-900 dark:text-white mb-6 transition-colors duration-300">
+        {title}
+      </h2>
+      <p class="text-xl text-slate-600 dark:text-slate-400 max-w-3xl mx-auto font-medium transition-colors duration-300">{subtitle}</p>
+    </div>
+  </div>
+
+  <div class="relative w-full overflow-hidden pb-12 cursor-grab active:cursor-grabbing group" id="timeline-container">
+    <!-- Continuous glowing line -->
+    <div class="absolute top-32 left-0 right-0 h-1 bg-gradient-to-r from-transparent via-[#CC0000] to-transparent z-0 pointer-events-none"></div>
+
+    <!-- Scrollable Area -->
+    <div class="flex gap-6 md:gap-8 overflow-x-auto overflow-y-hidden snap-x snap-mandatory scroll-smooth hide-scrollbar px-6 md:px-16 pt-8 pb-16 w-full items-stretch" id="timeline-scroll">
+      {items.map((item) => (
+        <div class="w-[85vw] sm:w-[400px] md:w-[450px] flex-shrink-0 snap-center relative flex flex-col">
+          <!-- Year Marker -->
+          <div class="flex justify-center mb-10 relative z-20">
+            <div class="w-16 h-16 sm:w-20 sm:h-20 rounded-full bg-white dark:bg-[#111] border-4 border-[#CC0000] flex items-center justify-center shadow-[0_0_20px_rgba(204,0,0,0.3)] dark:shadow-[0_0_30px_rgba(204,0,0,0.5)] transition-transform duration-500 z-10 timeline-marker">
+              <span class="text-slate-900 dark:text-white font-black italic text-xl sm:text-2xl transition-colors duration-300">{item.year}</span>
+            </div>
+          </div>
+          
+          <!-- Content Card -->
+          <div class="bg-white dark:bg-[#111] border border-slate-200 dark:border-white/5 shadow-xl dark:shadow-none rounded-2xl p-8 hover:border-[#CC0000]/40 dark:hover:border-[#CC0000]/40 transition-colors duration-500 flex-1 relative z-20 flex flex-col timeline-card">
+            <div class="w-12 h-12 sm:w-16 sm:h-16 rounded-xl bg-slate-50 dark:bg-[#222] border border-slate-200 dark:border-white/10 flex items-center justify-center text-[#CC0000] mb-6 sm:mb-8 transition-colors duration-300">
+              <Icon name={item.icon} class="w-6 h-6 sm:w-8 sm:h-8" />
+            </div>
+            <h3 class="text-2xl sm:text-3xl font-bold text-slate-900 dark:text-white mb-4 leading-tight transition-colors duration-300 tracking-tight">{item.title}</h3>
+            <p class="text-slate-600 dark:text-slate-400 text-sm sm:text-base leading-relaxed transition-colors duration-300" set:html={item.description} />
+          </div>
+        </div>
+      ))}
+    </div>
+
+    <!-- Fade hints for scrollability -->
+    <div class="absolute top-0 bottom-0 left-0 w-16 md:w-48 bg-gradient-to-r from-slate-50 to-transparent dark:from-[#050505] pointer-events-none transition-colors duration-300 z-20"></div>
+    <div class="absolute top-0 bottom-0 right-0 w-16 md:w-48 bg-gradient-to-l from-slate-50 to-transparent dark:from-[#050505] pointer-events-none transition-colors duration-300 z-20"></div>
+    
+    <!-- Drag Instruction Hint -->
+    <div class="absolute bottom-4 left-1/2 transform -translate-x-1/2 flex items-center justify-center gap-2 mt-4 text-slate-500 dark:text-slate-400 text-sm font-medium tracking-widest uppercase opacity-0 group-hover:opacity-100 transition-opacity duration-300 pointer-events-none z-30">
+        <Icon name="tabler:arrow-left" class="w-4 h-4" />
+        <span>Geser untuk melihat history</span>
+        <Icon name="tabler:arrow-right" class="w-4 h-4" />
+    </div>
+  </div>
+</section>
+
+<style>
+  /* Hide scrollbar for Chrome, Safari and Opera */
+  .hide-scrollbar::-webkit-scrollbar {
+    display: none;
+  }
+  /* Hide scrollbar for IE, Edge and Firefox */
+  .hide-scrollbar {
+    -ms-overflow-style: none;  /* IE and Edge */
+    scrollbar-width: none;  /* Firefox */
+  }
+</style>
+
+<script is:inline>
+  // Advanced drag to scroll functionality
+  const container = document.getElementById('timeline-container');
+  const slider = document.getElementById('timeline-scroll');
+  let isDown = false;
+  let startX;
+  let scrollLeft;
+  let scrollLeft;
+
+  if(container && slider) {
+    container.addEventListener('mousedown', (e) => {
+      isDown = true;
+      slider.style.scrollSnapType = 'none'; // Disable snapping while dragging for smoothness
+      startX = e.pageX - slider.offsetLeft;
+      scrollLeft = slider.scrollLeft;
+    });
+    
+    container.addEventListener('mouseleave', () => {
+      isDown = false;
+      slider.style.scrollSnapType = 'x mandatory'; // Re-enable snapping
+    });
+    
+    container.addEventListener('mouseup', () => {
+      isDown = false;
+      slider.style.scrollSnapType = 'x mandatory'; // Re-enable snapping
+    });
+    
+    container.addEventListener('mousemove', (e) => {
+      if (!isDown) return;
+      e.preventDefault();
+      const x = e.pageX - slider.offsetLeft;
+      const walk = (x - startX) * 1.5; // Scroll speed multiplier
+      slider.scrollLeft = scrollLeft - walk;
+    });
+  }
+</script>

@@ -7,5 +7,9 @@ import { Image } from 'astro:assets';
 <span
   class="self-center ml-2 rtl:ml-0 rtl:mr-2 text-2xl md:text-xl font-bold text-gray-900 whitespace-nowrap dark:text-white flex items-center"
 >
-  <Image src={logoPitcar} alt={SITE?.name} class="h-10 w-auto" />
+  <!-- Black logo for light mode -->
+  <Image src={logoPitcar} alt={SITE?.name} class="h-10 w-auto block dark:hidden" />
+  
+  <!-- White logo (using CSS filter to invert black to white) for dark mode -->
+  <Image src={logoPitcar} alt={SITE?.name} class="h-10 w-auto hidden dark:block invert brightness-0 dark:invert-0 sepia-0 saturate-0" style="filter: brightness(0) invert(1);" />
 </span>

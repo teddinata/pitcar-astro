@@ -1,0 +1,111 @@
+---
+import Image from '~/components/common/Image.astro';
+import { Icon } from 'astro-icon/components';
+import type { ImageMetadata } from 'astro';
+
+interface Props {
+  id?: string;
+  title?: string;
+  subtitle?: string;
+  tagline?: string;
+  items?: { title: string; description: string; icon?: string }[];
+  image?: { src: ImageMetadata | string; alt: string };
+}
+
+const {
+  id,
+  title = 'Fasilitas Bengkel Modern & Lengkap',
+  subtitle = 'Kami terus berinvestasi pada peralatan modern untuk memastikan akurasi dan kualitas pengerjaan kendaraan Anda.',
+  tagline = 'Workshop Kami',
+  items = [],
+  image,
+} = Astro.props;
+---
+
+<section
+  class="bold-workshop relative py-20 md:py-28 overflow-hidden not-prose"
+  {...id ? { id } : {}}
+>
+  <!-- Background -->
+  <div class="absolute inset-0 bg-white dark:bg-[#080808] transition-colors duration-300"></div>
+
+  <!-- Subtle diagonal accent -->
+  <div class="absolute inset-0 pointer-events-none overflow-hidden">
+    <div class="absolute -right-20 top-1/2 -translate-y-1/2 w-[40%] h-[160%] bg-[#CC0000]/4 rotate-12 blur-3xl"></div>
+  </div>
+
+  <div class="relative z-10 max-w-7xl mx-auto px-5 sm:px-8">
+    <div class="grid lg:grid-cols-2 gap-12 lg:gap-16 items-center">
+
+      <!-- Image column -->
+      {image && (
+        <div class="relative">
+          <!-- Orange corner accent -->
+          <div class="absolute -top-3 -left-3 w-16 h-16 border-t-2 border-l-2 border-[#CC0000] z-20"></div>
+          <div class="absolute -bottom-3 -right-3 w-16 h-16 border-b-2 border-r-2 border-[#CC0000] z-20"></div>
+
+          <!-- Image wrap -->
+          <div class="relative overflow-hidden rounded">
+            <!-- Orange overlay strip -->
+            <div class="absolute bottom-0 left-0 right-0 h-1 bg-[#CC0000] z-10"></div>
+
+            <Image
+              class="w-full h-[400px] lg:h-[500px] object-cover"
+              widths={[400, 768]}
+              sizes="(max-width: 768px) 100vw, 50vw"
+              width={700}
+              height={500}
+              loading="lazy"
+              src={image.src}
+              alt={image.alt}
+            />
+
+            <!-- Dark overlay gradient -->
+            <div class="absolute inset-0 bg-gradient-to-t from-black/40 to-transparent"></div>
+          </div>
+        </div>
+      )}
+
+      <!-- Text content -->
+      <div>
+        <!-- Section label -->
+        <div class="flex items-center gap-3 mb-4">
+          <div class="w-8 h-[3px] bg-[#CC0000]"></div>
+          <span class="text-[#CC0000] text-xs font-bold uppercase tracking-[0.3em]">{tagline}</span>
+        </div>
+
+        <!-- Heading -->
+        <h2 class="text-3xl md:text-4xl lg:text-5xl font-black text-slate-900 dark:text-white uppercase tracking-tight leading-tight mb-5">
+          {title}
+        </h2>
+
+        <!-- Subtitle -->
+        <p class="text-slate-600 dark:text-white/55 text-base leading-relaxed mb-8">{subtitle}</p>
+
+        <!-- Feature items -->
+        <div class="flex flex-col gap-4">
+          {items.map((item) => (
+            <div class="flex items-start gap-4 group">
+              <!-- Check icon -->
+              <div class="flex-shrink-0 w-8 h-8 rounded bg-[#CC0000]/10 border border-[#CC0000]/30 flex items-center justify-center mt-0.5 transition-all group-hover:bg-[#CC0000]/20">
+                <Icon name={item.icon || 'tabler:check'} class="w-4 h-4 text-[#CC0000]" />
+              </div>
+              <div>
+                <h3 class="text-slate-900 dark:text-white font-bold text-base mb-1">{item.title}</h3>
+                <p class="text-slate-500 dark:text-white/45 text-sm leading-relaxed">{item.description}</p>
+              </div>
+            </div>
+          ))}
+        </div>
+
+        <!-- Separator line -->
+        <div class="mt-8 h-px bg-slate-200 dark:bg-white/8"></div>
+
+        <!-- Tagline quote -->
+        <p class="mt-5 text-xs text-slate-400 dark:text-white/30 italic uppercase tracking-wider">
+          Berpengalaman sejak 2019 — Melayani Purwokerto dan sekitarnya
+        </p>
+      </div>
+    </div>
+  </div>
+</section>

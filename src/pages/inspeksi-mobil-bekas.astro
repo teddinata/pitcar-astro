@@ -1,12 +1,12 @@
 ---
 import Layout from '~/layouts/PageLayout.astro';
-import Hero from '~/components/widgets/Hero.astro';
-import Features2 from '~/components/widgets/Features2.astro';
-import Steps from '~/components/widgets/Steps.astro';
-import CallToAction from '~/components/widgets/CallToAction.astro';
+import BoldHero from '~/components/home/BoldHero.astro';
+import BoldServices from '~/components/home/BoldServices.astro';
+import BoldProcess from '~/components/home/BoldProcess.astro';
+import BoldCTA from '~/components/home/BoldCTA.astro';
 
-import mobilBekasImg from '~/assets/images/inspeksi-mobil-bekas/mobil-bekas-honda-removebg-preview.png';
-import mekanikImg from '~/assets/images/inspeksi-mobil-bekas/mekanik-removebg-preview.png';
+import mobilBekasImg from '~/assets/images/inspeksi-mobil-bekas/hero_cutout.png';
+import mekanikImg from '~/assets/images/inspeksi-mobil-bekas/process_tablet.png';
 
 const metadata = {
   title: 'Inspeksi Mobil Bekas Purwokerto',
@@ -20,10 +20,9 @@ const metadata = {
 
 <Layout metadata={metadata}>
   <!-- Hero Widget ******************* -->
-  <Hero
-    tagline="Jasa Inspeksi Mobil Bekas Pitcar"
-    title="was-was mau beli mobil bekas karena gak yakin sama kondisinya?"
-    subtitle="Tenang saja! jasa full inspeksi mobil dari pitcar service akan membantu melakukan inspeksi sehingga Anda tidak perlu ragu terhadap kualitas mobil yang diinginkan."
+  <BoldHero
+    tagline="Inspeksi Mobil Bekas Pitcar"
+    subtitle="Tenang saja! Jasa full inspeksi mobil dari Pitcar Service akan membantu Anda mengecek semua aspek teknis sehingga Anda tidak perlu ragu terhadap kualitas mobil incaran Anda."
     actions={[
       {
         variant: 'primary',
@@ -34,86 +33,93 @@ const metadata = {
     ]}
     image={{
       src: mobilBekasImg,
-      alt: 'Inspeksi Mobil Bekas Purwokerto',
+      alt: 'Mekanik ahli menginspeksi mobil mewah premium di bengkel Pitcar',
     }}
-  />
+  >
+    <Fragment slot="title">
+      <h1 class="text-4xl md:text-5xl lg:text-7xl font-black italic tracking-tighter uppercase mb-4 text-slate-900 dark:text-white leading-[1.1]">
+        Was-was beli<br/>
+        <span class="text-transparent [-webkit-text-stroke:2px_rgba(204,0,0,1)]">mobil bekas?</span><br/>
+      </h1>
+    </Fragment>
+  </BoldHero>
 
-  <!-- Features2 Widget ************** -->
-  <Features2
+  <!-- Services Widget (Kategori Pengecekan) ************** -->
+  <BoldServices
     title="meliputi 6 kategori pengecekan"
-    subtitle="Kami melakukan pengecekan menyeluruh untuk memastikan kondisi mobil bekas yang akan Anda beli."
-    columns={3}
+    subtitle="Kami melakukan pengecekan menyeluruh dengan alat *scanner* canggih untuk memastikan kondisi mobil incaran Anda prima."
+    tagline="Inspeksi"
     items={[
       {
-        title: 'Scanning',
-        description: 'Untuk mengetahui ada permasalahan mobil atau kelistrikan.',
+        title: 'Scanning OBD',
+        description: 'Untuk mengetahui apakah tercatat kerusakan pada sistem komputerisasi, sensor kelistrikan modern, dan histori engine.',
         icon: 'tabler:device-desktop-analytics',
       },
       {
-        title: 'Cek Body',
-        description: 'Untuk mengetahui ada bekas repair atau laka.',
+        title: 'Cek Visual & Body',
+        description: 'Mendeteksi insiden sasis, bekas repair, tanda-tanda laka, dan mengukur ketebalan cat bodi.',
         icon: 'tabler:car-crash',
       },
       {
-        title: 'Cek Mesin',
-        description: 'Pengecekan pada mesin bagian dalam.',
+        title: 'Diagnostic Mesin',
+        description: 'Pengecekan suara kasar pada mesin bagian dalam, kebocoran oli, dan kualitas kompresi ring piston.',
         icon: 'tabler:engine',
       },
       {
         title: 'Cek Interior',
-        description: 'Untuk mengetahui bekas terendam banjir atau tidak.',
+        description: 'Mendiagnosa ciri khas bau apak atau noda karat pada sela karpet untuk mengetahui bekas terendam banjir.',
         icon: 'tabler:steering-wheel',
       },
       {
-        title: 'Cek Keabsahan',
-        description: 'Pengecekan terhadap surat-surat (BPKB & STNK).',
+        title: 'Cek Keabsahan Surat',
+        description: 'Pengecekan terhadap kesesuaian nomor rangka & mesin pada dokumen legal (BPKB & STNK).',
         icon: 'tabler:file-certificate',
       },
       {
-        title: 'Cek Understeel',
-        description: 'Pengecekan terhadap bagian understeel atau kaki-kaki.',
+        title: 'Cek Understeel Kaki-kaki',
+        description: 'Uji coba ketahanan understeel, suspensi, tie-rod, dan rak kemudi yang sangat rentan aus.',
         icon: 'tabler:settings',
       },
     ]}
   />
 
-  <!-- Steps Widget ****************** -->
-  <Steps
-    title="tahapan inspeksi"
-    subtitle="Proses inspeksi mobil bekas yang mudah dan transparan."
+  <!-- Process / Steps Widget ****************** -->
+  <BoldProcess
+    title="TAHAPAN INSPEKSI"
+    subtitle="Proses mudah, cepat, transparan dan berstandar bengkel langsung di depan mata Anda."
     items={[
       {
-        title: 'Langkah 1: <span class="font-medium">Menghubungi Admin Pitcar</span>',
-        description: 'Customer menghubungi admin untuk konsultasi dan pemesanan inspeksi.',
+        title: 'Booking Tim Inspeksi Pitcar',
+        description: 'Customer menghubungi admin melalui WhatsApp untuk konfirmasi biaya, lokasi mobil bekas, dan menjadwalkan inspeksi lapangan.',
         icon: 'tabler:messages',
       },
       {
-        title: 'Langkah 2: <span class="font-medium">Tim Inspeksi Menuju Lokasi</span>',
-        description: 'Tim akan mendatangi lokasi berdasarkan waktu yang telah ditentukan untuk melakukan inspeksi.',
+        title: 'Inspektor Terjun Ke Lokasi',
+        description: 'Mekanik ahli dan tim inspeksi khusus akan mendatangi lokasi mobil incaran Anda membawa alat scanner dan toolset lengkap sesuai jam reservasi.',
         icon: 'tabler:map-pin',
       },
       {
-        title: 'Langkah 3: <span class="font-medium">Hasil Inspeksi & Rekomendasi</span>',
-        description: 'Hasil inspeksi dan rekomendasi akan diserahkan kepada customer.',
+        title: 'Rekomendasi & Hasil Cek',
+        description: 'Customer menerima hasil *report* yang sangat komprehensif tanpa disembunyikan. Mekanik akan memberi rekomendasi, sehingga nilai tawar harga Anda akan jauh lebih optimal.',
         icon: 'tabler:checklist',
       },
     ]}
     image={{
       src: mekanikImg,
-      alt: 'Tahapan Inspeksi Pitcar',
+      alt: 'Mekanik Pitcar memegang tablet diagnostik canggih',
     }}
   />
 
   <!-- CallToAction Widget *********** -->
-  <CallToAction
+  <BoldCTA
     id="booking"
-    title="Konsultasi Segera & Dapatkan promo menarik lainnya.."
-    subtitle="Hilangkan rasa ragu Anda ketika ingin membeli mobil dengan menggunakan paket full inspeksi dari pitcar. Isi Nama dan No WhatsApp kamu untuk langsung terhubung dengan admin sekarang.."
+    title="KONSULTASI GRATIS SEBELUM BELI"
+    subtitle="Punya mobil bekas incaran tapi takut beli kucing dalam karung? Jangan ambil resiko! Bawa tim Pitcar Service untuk inspeksi menyeluruh sekarang."
     actions={[
       {
         variant: 'primary',
         text: 'Chat via WhatsApp',
-        href: 'https://wa.me/6285866224051/?text=Permisi%20admin%2C%20mau%20tanya%20untuk%20jasa%20inspeksi%20mobil%20bekas%20masih%20bisa%3F',
+        href: 'https://wa.me/6285866224051/?text=Permisi%20admin%2C%20mau%20tanya%20untuk%20jasa%20inspeksi%20mobil%20bekas%20di%20Purwokerto%20dan%20sekitarnya%20apa%20masih%20bisa%3F',
         icon: 'tabler:brand-whatsapp',
       },
     ]}
