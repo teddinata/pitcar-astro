@@ -3,32 +3,32 @@ import { getPermalink, getBlogPermalink, getAsset } from './utils/permalinks';
 export const headerData = {
   links: [
     {
-      text: 'Home',
+      text: 'Beranda',
       href: getPermalink('/'),
     },
     {
-      text: 'Layanan Kami',
+      text: 'Layanan Servis',
       links: [
         {
-          text: 'General Service',
+          text: 'Perawatan Berkala & Umum',
           href: getPermalink('/layanan'),
         },
         {
-          text: 'Inspeksi Mobil Bekas',
+          text: 'Inspeksi & Diagnostik',
           href: getPermalink('/inspeksi-mobil-bekas'),
         },
       ],
     },
     {
-      text: 'Tentang Kami',
+      text: 'Profil Pitcar',
       href: getPermalink('/tentang'),
     },
     {
-      text: 'Blog',
+      text: 'Jurnal Otomotif',
       href: getBlogPermalink(),
     },
     {
-      text: 'Hubungi Kami',
+      text: 'Pusat Bantuan',
       href: getPermalink('/hubungi-kami'),
     },
     {
@@ -36,34 +36,34 @@ export const headerData = {
       href: getPermalink('/kemitraan'),
     },
   ],
-  actions: [{ text: 'WhatsApp Kami', href: 'https://wa.me/6281227636171', target: '_blank' }],
+  actions: [{ text: 'Booking Servis', href: 'https://wa.me/6285866224051?text=Halo%20Pitcar%2C%20saya%20ingin%20melakukan%20reservasi%2Fbooking%20untuk%20servis%20mobil%20saya.', target: '_blank' }],
 };
 
 export const footerData = {
   links: [
     {
-      title: 'Layanan',
+      title: 'Layanan & Solusi Kendaraan',
       links: [
-        { text: 'Service Mesin', href: getPermalink('/layanan') },
-        { text: 'Ganti Oli', href: getPermalink('/layanan') },
-        { text: 'Service AC', href: getPermalink('/layanan') },
-        { text: 'Body Repair', href: getPermalink('/layanan') },
-        { text: 'Emergency 24 Jam', href: getPermalink('/layanan') },
-        { text: 'Inspeksi Mobil Bekas', href: getPermalink('/inspeksi-mobil-bekas') },
+        { text: 'Engine Maintenance', href: getPermalink('/layanan') },
+        { text: 'Penggantian Pelumas', href: getPermalink('/layanan') },
+        { text: 'Sistem Pendingin AC', href: getPermalink('/layanan') },
+        { text: 'Perbaikan Kaki-Kaki & Understeel', href: getPermalink('/layanan') },
+        { text: 'Layanan Darurat (Home Service)', href: getPermalink('/layanan') },
+        { text: 'Inspeksi & Diagnostik', href: getPermalink('/inspeksi-mobil-bekas') },
       ],
     },
     {
-      title: 'Perusahaan',
+      title: 'Ekosistem Pitcar',
       links: [
-        { text: 'Tentang Kami', href: getPermalink('/tentang') },
-        { text: 'Blog', href: getBlogPermalink() },
-        { text: 'Hubungi Kami', href: getPermalink('/hubungi-kami') },
+        { text: 'Profil Perusahaan', href: getPermalink('/tentang') },
+        { text: 'Jurnal Otomotif', href: getBlogPermalink() },
+        { text: 'Kemitraan & Franchise', href: getPermalink('/kemitraan') },
+        { text: 'Karir & Talenta', href: '#' },
+        { text: 'Pusat Bantuan & Kontak', href: getPermalink('/hubungi-kami') },
       ],
     },
   ],
-  secondaryLinks: [
-    { text: 'Hubungi Kami', href: getPermalink('/hubungi-kami') },
-  ],
+  secondaryLinks: [{ text: 'Hubungi Kami', href: getPermalink('/hubungi-kami') }],
   socialLinks: [
     { ariaLabel: 'Instagram', icon: 'tabler:brand-instagram', href: 'https://www.instagram.com/pitcar_id/' },
     { ariaLabel: 'Facebook', icon: 'tabler:brand-facebook', href: '#' },

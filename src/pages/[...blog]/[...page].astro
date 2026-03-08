@@ -3,8 +3,8 @@ import type { InferGetStaticPropsType, GetStaticPaths } from 'astro';
 
 import Layout from '~/layouts/PageLayout.astro';
 import BlogList from '~/components/blog/List.astro';
-import Headline from '~/components/blog/Headline.astro';
 import Pagination from '~/components/blog/Pagination.astro';
+import { Icon } from 'astro-icon/components';
 // import PostTags from "~/components/blog/Tags.astro";
 
 import { blogListRobots, getStaticPathsBlogList } from '~/utils/blog';
@@ -36,12 +36,33 @@ const metadata = {
 ---
 
 <Layout metadata={metadata}>
-  <section class="px-6 sm:px-6 py-12 sm:py-16 lg:py-20 mx-auto max-w-4xl">
-    <Headline
-      subtitle="A statically generated blog example with news, tutorials, resources and other interesting content related to AstroWind"
-    >
-      The Blog
-    </Headline>
+  <!-- Breadcrumb Header -->
+  <section class="relative bg-white dark:bg-[#0e0e0e] pt-32 pb-12 border-b border-black/5 dark:border-white/5 overflow-hidden not-prose">
+    <div class="absolute inset-0 bg-gradient-to-b from-[#CC0000]/5 to-transparent dark:from-[#CC0000]/2 pointer-events-none"></div>
+    <div class="relative z-10 max-w-7xl mx-auto px-5 sm:px-8 flex flex-col items-center text-center">
+      
+      <!-- Breadcrumbs -->
+      <div class="inline-flex items-center gap-2 px-4 py-1.5 rounded-full bg-slate-100 dark:bg-white/5 border border-slate-200 dark:border-white/10 mb-6">
+        <a href="/" class="text-slate-500 hover:text-[#CC0000] dark:text-slate-400 dark:hover:text-white transition-colors flex items-center">
+          <Icon name="tabler:home" class="w-4 h-4" />
+        </a>
+        <span class="text-slate-400 dark:text-slate-600 text-sm">/</span>
+        <span class="text-[#CC0000] text-sm font-semibold tracking-wide uppercase">Jurnal Otomotif</span>
+      </div>
+      
+      <!-- Title -->
+      <h1 class="text-4xl md:text-5xl lg:text-6xl font-black text-slate-900 dark:text-white uppercase tracking-tight mb-6">
+        Jurnal <span class="text-transparent bg-clip-text bg-gradient-to-r from-[#CC0000] to-[#ff3333] italic">Otomotif</span>
+      </h1>
+      
+      <!-- Description -->
+      <p class="text-slate-600 dark:text-white/60 text-lg md:text-xl max-w-2xl font-light">
+        Kumpulan artikel, tips perawatan, dan berita terbaru seputar dunia otomotif dari tim mekanik ahli Pitcar.
+      </p>
+    </div>
+  </section>
+
+  <section class="px-6 sm:px-6 py-12 sm:py-16 lg:py-20 mx-auto max-w-5xl bg-slate-50 dark:bg-[#080808]">
     <BlogList posts={page.data} />
     <Pagination prevUrl={page.url.prev} nextUrl={page.url.next} />
     <!--

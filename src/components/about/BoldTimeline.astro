@@ -26,6 +26,10 @@ const {
 <section class="bold-timeline relative py-20 md:py-32 bg-slate-50 dark:bg-[#050505] overflow-hidden transition-colors duration-300" {...id ? { id } : {}}>
   <div class="max-w-7xl mx-auto px-5 sm:px-8 relative z-10 mb-16 md:mb-24">
     <div class="text-center">
+      <div class="inline-flex items-center gap-3 px-4 py-2 rounded-full bg-slate-100 dark:bg-white/5 border border-slate-200 dark:border-white/10 text-slate-700 dark:text-slate-300 text-sm font-bold uppercase tracking-widest mb-6 transition-colors duration-300">
+        <Icon name="tabler:road" class="w-5 h-5 text-[#CC0000]" />
+        <span>Roadmap Visual</span>
+      </div>
       <h2 class="text-4xl md:text-5xl lg:text-7xl font-black italic tracking-tighter uppercase text-slate-900 dark:text-white mb-6 transition-colors duration-300">
         {title}
       </h2>
@@ -34,41 +38,76 @@ const {
   </div>
 
   <div class="relative w-full overflow-hidden pb-12 cursor-grab active:cursor-grabbing group" id="timeline-container">
-    <!-- Continuous glowing line -->
-    <div class="absolute top-32 left-0 right-0 h-1 bg-gradient-to-r from-transparent via-[#CC0000] to-transparent z-0 pointer-events-none"></div>
+    
+    <!-- Automotive Road Track (Background) -->
+    <div class="absolute top-[5rem] sm:top-[6rem] left-0 right-0 h-24 sm:h-32 bg-[#1a1a1a] dark:bg-[#0a0a0a] z-0 pointer-events-none border-y-4 border-slate-300 dark:border-white/10 shadow-[inset_0_4px_20px_rgba(0,0,0,0.5)]">
+       <!-- Red safety lines (Road Shoulders) -->
+       <div class="absolute top-0 left-0 right-0 h-1 bg-[#CC0000]"></div>
+       <div class="absolute bottom-0 left-0 right-0 h-1 bg-[#CC0000]"></div>
+       
+       <!-- Dashed Center Line -->
+       <div class="absolute top-1/2 left-0 right-0 h-2 -translate-y-1/2 road-dashes opacity-70"></div>
+       
+       <!-- Interactive Moving Car Tracker -->
+       <div id="timeline-car" class="absolute top-1/2 left-[10vw] sm:left-[15vw] lg:left-[25vw] -translate-y-[60%] w-16 sm:w-24 h-8 sm:h-12 text-[#CC0000] transition-transform duration-75 ease-out z-10 drop-shadow-[0_0_10px_rgba(204,0,0,0.8)] will-change-transform">
+          <Icon name="tabler:car-suv" class="w-full h-full transform scale-x-[-1]" />
+          <!-- Animated motion trail/exhaust -->
+          <div class="absolute right-[80%] top-1/2 -translate-y-1/2 w-16 sm:w-32 h-1 bg-gradient-to-l from-[#CC0000] to-transparent opacity-80 animate-pulse"></div>
+       </div>
+    </div>
+
 
     <!-- Scrollable Area -->
     <div class="flex gap-6 md:gap-8 overflow-x-auto overflow-y-hidden snap-x snap-mandatory scroll-smooth hide-scrollbar px-6 md:px-16 pt-8 pb-16 w-full items-stretch" id="timeline-scroll">
       {items.map((item) => (
-        <div class="w-[85vw] sm:w-[400px] md:w-[450px] flex-shrink-0 snap-center relative flex flex-col">
-          <!-- Year Marker -->
+        <div class="w-[85vw] sm:w-[400px] md:w-[450px] flex-shrink-0 snap-center relative flex flex-col timeline-item group">
+          
+          <!-- Year Marker (Sports Tire Design) -->
           <div class="flex justify-center mb-10 relative z-20">
-            <div class="w-16 h-16 sm:w-20 sm:h-20 rounded-full bg-white dark:bg-[#111] border-4 border-[#CC0000] flex items-center justify-center shadow-[0_0_20px_rgba(204,0,0,0.3)] dark:shadow-[0_0_30px_rgba(204,0,0,0.5)] transition-transform duration-500 z-10 timeline-marker">
-              <span class="text-slate-900 dark:text-white font-black italic text-xl sm:text-2xl transition-colors duration-300">{item.year}</span>
+            <!-- Outer Tire Rubber -->
+            <div class="w-24 h-24 sm:w-28 sm:h-28 rounded-full bg-[#111] dark:bg-black border-4 border-slate-800 flex items-center justify-center shadow-2xl z-10 timeline-tire relative overflow-hidden will-change-transform">
+              <!-- Tire Treads Pattern -->
+              <div class="absolute inset-x-0 inset-y-1 border-[16px] border-dashed border-[#222] rounded-full opacity-60"></div>
+              
+              <!-- Alloy Wheel Rim -->
+              <div class="w-14 h-14 sm:w-16 sm:h-16 rounded-full bg-gradient-to-br from-slate-200 to-slate-400 dark:from-slate-700 dark:to-slate-900 flex items-center justify-center border-2 border-slate-300 dark:border-slate-600 relative z-10 shadow-inner group-hover:shadow-[0_0_20px_rgba(204,0,0,0.6)] transition-shadow duration-300">
+                 
+                 <!-- Brake Caliper Accent -->
+                 <div class="absolute top-1 right-1/4 w-3 h-1.5 sm:w-4 sm:h-2 bg-[#CC0000] rounded-sm transform rotate-45"></div>
+                 
+                 <!-- Year Text Display -->
+                 <div class="bg-white/95 dark:bg-[#050505]/90 rounded-full w-[85%] h-[85%] flex items-center justify-center backdrop-blur-sm border-2 border-[#CC0000]">
+                   <span class="text-slate-900 dark:text-white font-black italic text-sm sm:text-base leading-none transition-colors duration-300">{item.year}</span>
+                 </div>
+              </div>
             </div>
           </div>
           
-          <!-- Content Card -->
-          <div class="bg-white dark:bg-[#111] border border-slate-200 dark:border-white/5 shadow-xl dark:shadow-none rounded-2xl p-8 hover:border-[#CC0000]/40 dark:hover:border-[#CC0000]/40 transition-colors duration-500 flex-1 relative z-20 flex flex-col timeline-card">
-            <div class="w-12 h-12 sm:w-16 sm:h-16 rounded-xl bg-slate-50 dark:bg-[#222] border border-slate-200 dark:border-white/10 flex items-center justify-center text-[#CC0000] mb-6 sm:mb-8 transition-colors duration-300">
-              <Icon name={item.icon} class="w-6 h-6 sm:w-8 sm:h-8" />
+          <!-- Content Card (Engine Block/Panel style) -->
+          <!-- Card animates (revs) slightly up on hover -->
+          <div class="bg-white dark:bg-[#111] border border-slate-200 dark:border-white/5 shadow-xl dark:shadow-none rounded-2xl p-8 hover:border-[#CC0000] dark:hover:border-[#CC0000] hover:shadow-[0_10px_30px_rgba(204,0,0,0.15)] dark:hover:shadow-[inset_0_0_20px_rgba(204,0,0,0.1)] transition-all duration-300 ease-out transform group-hover:-translate-y-2 flex-1 relative z-20 flex flex-col timeline-card overflow-hidden">
+            <!-- Diagonal accent line inside card -->
+            <div class="absolute top-0 right-0 w-32 h-32 bg-gradient-to-bl from-slate-100 dark:from-white/5 to-transparent -translate-y-16 translate-x-16 transform rotate-45 pointer-events-none group-hover:from-[#CC0000]/10 transition-colors duration-300"></div>
+
+            <div class="w-12 h-12 sm:w-16 sm:h-16 rounded-xl bg-slate-50 dark:bg-[#222] border border-slate-200 dark:border-white/10 flex items-center justify-center text-[#CC0000] mb-6 sm:mb-8 transition-colors duration-300 relative z-10">
+              <Icon name={item.icon} class="w-6 h-6 sm:w-8 sm:h-8 group-hover:scale-110 transition-transform duration-300" />
             </div>
-            <h3 class="text-2xl sm:text-3xl font-bold text-slate-900 dark:text-white mb-4 leading-tight transition-colors duration-300 tracking-tight">{item.title}</h3>
-            <p class="text-slate-600 dark:text-slate-400 text-sm sm:text-base leading-relaxed transition-colors duration-300" set:html={item.description} />
+            <h3 class="text-2xl sm:text-3xl font-bold text-slate-900 dark:text-white mb-4 leading-tight transition-colors duration-300 tracking-tight relative z-10">{item.title}</h3>
+            <p class="text-slate-600 dark:text-slate-400 text-sm sm:text-base leading-relaxed transition-colors duration-300 relative z-10" set:html={item.description} />
           </div>
         </div>
       ))}
     </div>
 
     <!-- Fade hints for scrollability -->
-    <div class="absolute top-0 bottom-0 left-0 w-16 md:w-48 bg-gradient-to-r from-slate-50 to-transparent dark:from-[#050505] pointer-events-none transition-colors duration-300 z-20"></div>
-    <div class="absolute top-0 bottom-0 right-0 w-16 md:w-48 bg-gradient-to-l from-slate-50 to-transparent dark:from-[#050505] pointer-events-none transition-colors duration-300 z-20"></div>
+    <div class="absolute top-[5rem] bottom-0 left-0 w-16 md:w-32 bg-gradient-to-r from-slate-50 to-transparent dark:from-[#050505] pointer-events-none transition-colors duration-300 z-20"></div>
+    <div class="absolute top-[5rem] bottom-0 right-0 w-16 md:w-32 bg-gradient-to-l from-slate-50 to-transparent dark:from-[#050505] pointer-events-none transition-colors duration-300 z-20"></div>
     
-    <!-- Drag Instruction Hint -->
-    <div class="absolute bottom-4 left-1/2 transform -translate-x-1/2 flex items-center justify-center gap-2 mt-4 text-slate-500 dark:text-slate-400 text-sm font-medium tracking-widest uppercase opacity-0 group-hover:opacity-100 transition-opacity duration-300 pointer-events-none z-30">
-        <Icon name="tabler:arrow-left" class="w-4 h-4" />
-        <span>Geser untuk melihat history</span>
-        <Icon name="tabler:arrow-right" class="w-4 h-4" />
+    <!-- Drag Instruction Hint (Dashboard style) -->
+    <div class="absolute bottom-4 left-1/2 transform -translate-x-1/2 flex items-center justify-center gap-3 mt-4 px-6 py-2 rounded-full bg-slate-200/50 dark:bg-white/5 backdrop-blur font-mono text-[#CC0000] dark:text-[#CC0000] text-xs sm:text-sm font-bold tracking-widest uppercase opacity-80 group-hover:opacity-100 transition-opacity duration-300 z-30 shadow-inner">
+        <Icon name="tabler:player-track-prev-filled" class="w-4 h-4" />
+        <span>Gass Scroll History</span>
+        <Icon name="tabler:player-track-next-filled" class="w-4 h-4" />
     </div>
   </div>
 </section>
@@ -83,18 +122,54 @@ const {
     -ms-overflow-style: none;  /* IE and Edge */
     scrollbar-width: none;  /* Firefox */
   }
+  
+  /* Dashed road gradient */
+  .road-dashes {
+    background-image: repeating-linear-gradient(to right, #fff 0, #fff 40px, transparent 40px, transparent 80px);
+  }
 </style>
 
 <script is:inline>
-  // Advanced drag to scroll functionality
+  // Advanced drag to scroll & Interactive Automotive Tracking
   const container = document.getElementById('timeline-container');
   const slider = document.getElementById('timeline-scroll');
+  const car = document.getElementById('timeline-car');
+  const tires = document.querySelectorAll('.timeline-tire');
+  
   let isDown = false;
   let startX;
   let scrollLeft;
-  let scrollLeft;
 
-  if(container && slider) {
+  if (container && slider) {
+    // 1. Interactive Tracker Logic
+    const updateAutomotiveInteractions = () => {
+      // Calculate scroll percentage (0 to 1)
+      const maxScroll = slider.scrollWidth - slider.clientWidth;
+      // Handle division by zero if not scrollable 
+      const scrollPercentage = maxScroll > 0 ? slider.scrollLeft / maxScroll : 0; 
+      
+      if (car) {
+        // Map the percentage to a translation window.
+        // We want the car to move across the viewport as the user scrolls.
+        // Car starts at its CSS defined left offset, and moves rightward.
+        const maxTranslateX = container.clientWidth * 0.6; // Travel 60% of the screen width
+        car.style.transform = `translate(${scrollPercentage * maxTranslateX}px, -60%)`;
+      }
+
+      // Rotate tires realistically based on raw pixel scroll
+      tires.forEach(tire => {
+        // 1 degree rotation per 3 pixels scrolled
+        tire.style.transform = `rotate(${slider.scrollLeft * 0.33}deg)`;
+      });
+    };
+
+    // Attach scroll listener to trigger interactions
+    slider.addEventListener('scroll', updateAutomotiveInteractions, { passive: true });
+    // Run once on load to set initial state
+    updateAutomotiveInteractions();
+
+
+    // 2. Drag-to-scroll Logic
     container.addEventListener('mousedown', (e) => {
       isDown = true;
       slider.style.scrollSnapType = 'none'; // Disable snapping while dragging for smoothness
