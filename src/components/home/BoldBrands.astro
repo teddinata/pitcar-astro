@@ -1,0 +1,65 @@
+---
+import { Image } from 'astro:assets';
+import autoAccDark from '~/assets/images/LOGO PITCAR AUTOACC HITAM.png';
+import autoAccLight from '~/assets/images/LOGO PITCAR AUTOACC PUTIH.png';
+import autoPartDark from '~/assets/images/LOGO PITCAR AUTOPART HITAM.png';
+import autoPartLight from '~/assets/images/LOGO PITCAR AUTOPART PUTIH.png';
+import otokitsLogo from '~/assets/images/LOGO OTOKITSXPITCAR 2.png';
+---
+
+<section class="py-8 md:py-12 bg-white dark:bg-slate-900 border-t border-slate-100 dark:border-slate-800 transition-colors duration-300">
+  <div class="max-w-7xl mx-auto px-5 sm:px-8">
+    
+    <div class="text-center mb-6">
+      <h3 class="text-xs md:text-sm font-bold tracking-[0.2em] text-slate-400 dark:text-slate-500 uppercase">
+        Bagian Dari Keluarga
+      </h3>
+    </div>
+
+    <div class="flex flex-col md:flex-row flex-wrap items-center justify-center gap-10 md:gap-16 opacity-70 hover:opacity-100 transition-opacity duration-300">
+      
+      <!-- OTOKITS CILACAP -->
+      <div class="flex items-center justify-center grayscale hover:grayscale-0 transition-all duration-300">
+        <Image 
+          src={otokitsLogo} 
+          alt="Otokits Cilacap Powered By Pitcar" 
+          class="h-10 md:h-12 w-auto object-contain dark:invert dark:brightness-0 dark:sepia-0 dark:saturate-0" 
+          style="filter: auto;"
+        />
+      </div>
+
+      <!-- AUTO ACCESSORIES -->
+      <div class="flex items-center justify-center grayscale hover:grayscale-0 transition-all duration-300">
+        <!-- Light Mode (Black Logo) -->
+        <Image 
+          src={autoAccDark} 
+          alt="Pitcar Auto Accessories" 
+          class="h-10 md:h-12 w-auto block dark:hidden object-contain" 
+        />
+        <!-- Dark Mode (White Logo) -->
+        <Image 
+          src={autoAccLight} 
+          alt="Pitcar Auto Accessories" 
+          class="h-10 md:h-12 w-auto hidden dark:block object-contain" 
+        />
+      </div>
+
+      <!-- AUTO PART -->
+      <div class="flex items-center justify-center grayscale hover:grayscale-0 transition-all duration-300">
+        <!-- Light Mode (Black Logo) -->
+        <Image 
+          src={autoPartDark} 
+          alt="Pitcar Autopart" 
+          class="h-10 md:h-12 w-auto block dark:hidden object-contain" 
+        />
+        <!-- Dark Mode (White Logo) -->
+        <Image 
+          src={autoPartLight} 
+          alt="Pitcar Autopart" 
+          class="h-10 md:h-12 w-auto hidden dark:block object-contain" 
+        />
+      </div>
+
+    </div>
+  </div>
+</section>

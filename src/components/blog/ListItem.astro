@@ -2,7 +2,6 @@
 import type { ImageMetadata } from 'astro';
 import { Icon } from 'astro-icon/components';
 import Image from '~/components/common/Image.astro';
-import PostTags from '~/components/blog/Tags.astro';
 
 import { APP_BLOG } from 'astrowind:config';
 import type { Post } from '~/types';
@@ -22,17 +21,19 @@ const link = APP_BLOG?.post?.isEnabled ? getPermalink(post.permalink, 'post') : 
 ---
 
 <article
-  class={`max-w-md mx-auto md:max-w-none grid gap-6 md:gap-8 intersect-once intersect-quarter motion-safe:md:opacity-0 motion-safe:md:intersect:animate-fade ${image ? 'md:grid-cols-2' : ''}`}
+  class={`group relative bg-white dark:bg-[#141414] border border-slate-200 dark:border-white/10 rounded-xl overflow-hidden transition-all duration-300 hover:shadow-xl hover:shadow-[#CC0000]/10 hover:-translate-y-1 md:max-w-none flex flex-col md:flex-row gap-0 intersect-once intersect-quarter motion-safe:md:opacity-0 motion-safe:md:intersect:animate-fade`}
 >
+  <!-- Red hover border accent -->
+  <div class="absolute bottom-0 left-0 right-0 h-1 bg-[#CC0000] transform scale-x-0 origin-left transition-transform duration-300 group-hover:scale-x-100 z-20"></div>
   {
     image &&
       (link ? (
-        <a class="relative block group" href={link ?? 'javascript:void(0)'}>
-          <div class="relative h-0 pb-[56.25%] md:pb-[75%] md:h-72 lg:pb-[56.25%] overflow-hidden bg-gray-400 dark:bg-slate-700 rounded shadow-lg">
+        <a class="relative block shrink-0 md:w-[40%] overflow-hidden" href={link ?? 'javascript:void(0)'}>
+          <div class="relative h-64 md:h-full overflow-hidden bg-slate-200 dark:bg-slate-800">
             {image && (
               <Image
                 src={image}
-                class="absolute inset-0 object-cover w-full h-full mb-6 rounded shadow-lg bg-gray-400 dark:bg-slate-700"
+                class="absolute inset-0 object-cover w-full h-full transition-transform duration-700 group-hover:scale-105"
                 widths={[400, 900]}
                 width={900}
                 sizes="(max-width: 900px) 400px, 900px"
@@ -45,11 +46,11 @@ const link = APP_BLOG?.post?.isEnabled ? getPermalink(post.permalink, 'post') : 
           </div>
         </a>
       ) : (
-        <div class="relative h-0 pb-[56.25%] md:pb-[75%] md:h-72 lg:pb-[56.25%] overflow-hidden bg-gray-400 dark:bg-slate-700 rounded shadow-lg">
+        <div class="relative h-64 md:h-full shrink-0 md:w-[40%] overflow-hidden bg-slate-200 dark:bg-slate-800">
           {image && (
             <Image
               src={image}
-              class="absolute inset-0 object-cover w-full h-full mb-6 rounded shadow-lg bg-gray-400 dark:bg-slate-700"
+              class="absolute inset-0 object-cover w-full h-full"
               widths={[400, 900]}
               width={900}
               sizes="(max-width: 900px) 400px, 900px"
@@ -62,39 +63,28 @@ const link = APP_BLOG?.post?.isEnabled ? getPermalink(post.permalink, 'post') : 
         </div>
       ))
   }
-  <div class="mt-2">
+  <div class="p-6 md:p-8 flex flex-col justify-center flex-grow">
     <header>
-      <div class="mb-1">
-        <span class="text-sm">
-          <Icon name="tabler:clock" class="w-3.5 h-3.5 inline-block -mt-0.5 dark:text-gray-400" />
-          <time datetime={String(post.publishDate)} class="inline-block">{getFormattedDate(post.publishDate)}</time>
-          {
-            post.author && (
-              <>
-                {' '}
-                · <Icon name="tabler:user" class="w-3.5 h-3.5 inline-block -mt-0.5 dark:text-gray-400" />
-                <span>{post.author.replaceAll('-', ' ')}</span>
-              </>
-            )
-          }
+      <div class="mb-4">
+        <span class="text-xs font-semibold tracking-wider uppercase text-[#CC0000]">
           {
             post.category && (
               <>
-                {' '}
-                ·{' '}
-                <a class="hover:underline" href={getPermalink(post.category.slug, 'category')}>
+                <a class="hover:underline transition-colors" href={getPermalink(post.category.slug, 'category')}>
                   {post.category.title}
                 </a>
+                <span class="text-slate-400 dark:text-slate-600 mx-2">•</span>
               </>
             )
           }
+          <time datetime={String(post.publishDate)} class="inline-block text-slate-500 dark:text-slate-400">{getFormattedDate(post.publishDate)}</time>
         </span>
       </div>
-      <h2 class="text-xl sm:text-2xl font-bold leading-tight mb-2 font-heading dark:text-slate-300">
+      <h2 class="text-2xl md:text-3xl font-bold leading-tight mb-4 font-heading text-slate-900 dark:text-white transition-colors">
         {
           link ? (
             <a
-              class="inline-block hover:text-primary dark:hover:text-blue-700 transition ease-in duration-200"
+              class="inline-block hover:text-[#CC0000] focus:text-[#CC0000] transition ease-in duration-200 line-clamp-2 md:line-clamp-3"
               href={link}
             >
               {post.title}
@@ -106,15 +96,22 @@ const link = APP_BLOG?.post?.isEnabled ? getPermalink(post.permalink, 'post') : 
       </h2>
     </header>
 
-    {post.excerpt && <p class="flex-grow text-muted dark:text-slate-400 text-lg">{post.excerpt}</p>}
-    {
-      post.tags && Array.isArray(post.tags) ? (
-        <footer class="mt-5">
-          <PostTags tags={post.tags} />
-        </footer>
-      ) : (
-        <Fragment />
-      )
-    }
+    {post.excerpt && <p class="text-slate-600 dark:text-white/60 text-base leading-relaxed line-clamp-3 mb-6">{post.excerpt}</p>}
+    
+    <div class="mt-auto pt-6 border-t border-slate-100 dark:border-white/5 flex items-center justify-between">
+      {
+        post.author && (
+          <div class="flex items-center gap-2">
+            <Icon name="tabler:user-circle" class="w-5 h-5 text-slate-400" />
+            <span class="text-sm font-medium text-slate-700 dark:text-slate-300">{post.author.replaceAll('-', ' ')}</span>
+          </div>
+        )
+      }
+      {link && (
+        <a href={link} class="text-[#CC0000] text-sm font-bold tracking-widest uppercase hover:underline flex items-center gap-1 group-hover:gap-2 transition-all">
+          Baca <Icon name="tabler:arrow-right" class="w-4 h-4" />
+        </a>
+      )}
+    </div>
   </div>
 </article>

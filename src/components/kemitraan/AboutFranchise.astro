@@ -18,30 +18,31 @@ import { Image } from 'astro:assets';
 import FranchisePitcarImage from '~/assets/images/kemitraan/franchise-pitcar-image.webp';
 ---
 
-<section id="about" class="py-16 bg-gray-50 dark:bg-slate-800">
+<section id="about" class="py-20 bg-white dark:bg-[#080808]">
   <div class="container mx-auto px-4 max-w-6xl">
     <div class="flex flex-col md:flex-row items-center gap-12">
-      <div class="md:w-1/2">
-        <Image src={FranchisePitcarImage} alt="Bengkel PITCAR" class="rounded-xl shadow-lg w-full" />
+      <div class="md:w-1/2 group relative">
+        <div class="absolute inset-0 bg-[#CC0000]/20 rounded-xl blur-2xl group-hover:bg-[#CC0000]/30 transition-all duration-500"></div>
+        <Image src={FranchisePitcarImage} alt="Bengkel PITCAR" class="relative rounded-xl shadow-2xl shadow-[#CC0000]/10 w-full border border-slate-200 dark:border-white/5" />
       </div>
       <div class="md:w-1/2">
-        <h2 class="text-3xl md:text-4xl font-bold text-gray-800 dark:text-white mb-6">
-          Apa Itu Franchise <span class="text-primary">PITCAR Service</span>?
+        <h2 class="text-4xl font-black text-slate-900 dark:text-white mb-6 uppercase tracking-tight">
+          Apa Itu Franchise <span class="text-transparent bg-clip-text bg-gradient-to-r from-[#CC0000] to-[#ff4444] italic">PITCAR</span>?
         </h2>
-        <p class="text-gray-600 dark:text-gray-300 mb-6">
+        <p class="text-slate-600 dark:text-white/60 text-lg leading-relaxed mb-8">
           Franchise PITCAR Service adalah model bisnis dengan sistem yang sudah terbukti sukses di Purwokerto. Anda
-          mendapatkan hak untuk menggunakan merek, sistem operasi, and dukungan penuh dari kami.
+          mendapatkan hak untuk menggunakan merek, operasi auto-pilot, dan dukungan teknis penuh dari spesialis kami.
         </p>
-        <div class="space-y-4">
+        <div class="space-y-6">
           {
             benefits.map((benefit) => (
-              <div class="flex items-start">
-                <div class="bg-primary p-2 rounded-full mr-4 shrink-0">
-                  <i class="fas fa-check text-white" />
+              <div class="flex items-start bg-slate-50 dark:bg-[#141414] p-5 rounded-xl border border-slate-200 dark:border-white/5 hover:border-[#CC0000]/30 transition-colors">
+                <div class="bg-[#CC0000]/10 p-3 rounded-lg mr-5 shrink-0 border border-[#CC0000]/20">
+                  <i class="fas fa-check text-[#CC0000] text-lg" />
                 </div>
                 <div>
-                  <h4 class="font-semibold text-gray-800 dark:text-white">{benefit.title}</h4>
-                  <p class="text-gray-600 dark:text-gray-300">{benefit.description}</p>
+                  <h4 class="font-bold text-slate-900 dark:text-white text-lg tracking-wide uppercase mb-1">{benefit.title}</h4>
+                  <p class="text-slate-600 dark:text-white/60">{benefit.description}</p>
                 </div>
               </div>
             ))

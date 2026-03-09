@@ -59,44 +59,50 @@ const packages = [
 ];
 ---
 
-<section id="packages" class="py-16 bg-gray-50 dark:bg-slate-900 transition-colors duration-300">
+<section id="packages" class="py-20 bg-white dark:bg-[#080808] border-t border-slate-200 dark:border-white/5">
   <div class="container mx-auto px-4 max-w-6xl">
-    <div class="text-center mb-12">
-      <h2 class="text-3xl md:text-4xl font-bold text-gray-800 dark:text-white mb-4">
-        Paket Franchise <span class="text-primary">PITCAR Service</span>
+    <div class="text-center mb-16">
+      <h2 class="text-3xl md:text-5xl font-black text-slate-900 dark:text-white mb-4 uppercase tracking-tight">
+        Paket Franchise <span class="text-transparent bg-clip-text bg-gradient-to-r from-[#CC0000] to-[#ff4444] italic">PITCAR</span>
       </h2>
-      <p class="text-gray-600 dark:text-gray-300 max-w-3xl mx-auto">
-        Pilih paket yang sesuai dengan kebutuhan dan kemampuan investasi Anda
+      <p class="text-slate-600 dark:text-white/60 text-lg max-w-3xl mx-auto font-light">
+        Pilih skala investasi yang paling sesuai dengan visi bisnis Anda di industri otomotif.
       </p>
     </div>
-    <div class="grid grid-cols-1 md:grid-cols-3 gap-8 max-w-5xl mx-auto">
+    <div class="grid grid-cols-1 md:grid-cols-3 gap-8 max-w-6xl mx-auto relative">
+      <div class="absolute top-1/2 left-1/2 -translate-x-1/2 -translate-y-1/2 w-4/5 h-2/3 bg-[#CC0000]/5 blur-[120px] pointer-events-none rounded-full"></div>
       {
         packages.map((pkg) => (
           <div
-            class={`package-card bg-white dark:bg-slate-800 rounded-xl shadow-lg overflow-hidden flex flex-col justify-start relative transition-colors duration-300 ${
-              pkg.isPopular ? 'popular' : ''
+            class={`bg-slate-50 dark:bg-[#141414] rounded-2xl overflow-hidden flex flex-col justify-start relative transition-all duration-300 border hover:-translate-y-2 z-10 ${
+              pkg.isPopular ? 'border-[#CC0000] shadow-2xl shadow-[#CC0000]/20 scale-105 md:scale-110 z-20' : 'border-slate-200 dark:border-white/5 hover:border-[#CC0000]/30 hover:shadow-xl hover:shadow-[#CC0000]/10'
             }`}
           >
             {pkg.isPopular && (
-              <span class="absolute z-10 top-0 right-0 bg-primary text-white text-xs font-bold px-3 py-1 rounded-bl-lg">
-                POPULAR
+              <span class="absolute z-20 top-0 right-0 bg-gradient-to-r from-[#CC0000] to-[#ff4444] text-white text-xs font-bold px-4 py-2 rounded-bl-xl tracking-widest uppercase shadow-lg">
+                Paling Diminati
               </span>
             )}
-            <Image src={pkg.image} alt={`${pkg.title} Package`} class="w-full h-48 object-cover mb-6" />
-            <div class="p-6 flex flex-col">
-              <h3 class="text-2xl font-bold text-gray-800 dark:text-white mb-2">{pkg.title}</h3>
-              <div class="text-4xl font-bold text-primary dark:text-red-500 mb-4">{pkg.price}</div>
-              <ul class="space-y-2 text-gray-600 dark:text-gray-300">
+            <div class="relative overflow-hidden group">
+              <div class="absolute inset-0 bg-gradient-to-t from-slate-50 dark:from-[#141414] via-transparent to-transparent z-10"></div>
+              <Image src={pkg.image} alt={`${pkg.title} Package`} class="w-full h-56 object-cover transform group-hover:scale-110 transition-transform duration-700" />
+            </div>
+            <div class="p-8 flex flex-col flex-grow relative z-20 -mt-6">
+              <h3 class="text-3xl font-black text-slate-900 dark:text-white mb-1 uppercase tracking-tight">{pkg.title}</h3>
+              <div class="text-4xl font-black text-[#CC0000] mb-8 drop-shadow-md">{pkg.price}</div>
+              <ul class="space-y-4 text-slate-700 dark:text-white/70 mb-10 flex-grow">
                 {pkg.features.map((feature) => (
                   <li class="flex items-start">
-                    <i class="fas fa-check text-primary dark:text-red-500 mt-1 mr-2" />
-                    {feature}
+                    <i class="fas fa-check text-[#CC0000] mt-1 mr-4 drop-shadow-[0_0_8px_rgba(204,0,0,0.4)]" />
+                    <span class="leading-relaxed">{feature}</span>
                   </li>
                 ))}
               </ul>
               <a
                 href="#contact"
-                class="mt-12 block w-full bg-primary hover:bg-primary/80 text-white text-center font-bold py-3 rounded-lg transition duration-300"
+                class={`mt-auto block w-full text-center font-bold py-4 rounded-xl uppercase tracking-widest transition duration-300 border-2 ${
+                  pkg.isPopular ? 'bg-[#CC0000] border-[#CC0000] hover:bg-[#a30000] text-white shadow-lg shadow-[#CC0000]/30' : 'bg-transparent border-slate-300 dark:border-white/20 hover:border-[#CC0000] hover:bg-[#CC0000] text-slate-700 dark:text-white hover:text-white'
+                }`}
               >
                 Pilih Paket
               </a>

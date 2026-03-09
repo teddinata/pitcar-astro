@@ -1,0 +1,379 @@
+---
+import Button from '~/components/ui/Button.astro';
+import Image from '~/components/common/Image.astro';
+import type { Hero as Props } from '~/types';
+
+const {
+  title = await Astro.slots.render('title'),
+  subtitle = await Astro.slots.render('subtitle'),
+  actions = await Astro.slots.render('actions'),
+  image = await Astro.slots.render('image'),
+  id,
+} = Astro.props;
+---
+
+<section
+  class="bold-hero relative not-prose"
+  style="min-height: 100svh;"
+  {...id ? { id } : {}}
+>
+  <!-- Background layers -->
+  <div class="absolute inset-0 bg-slate-50 dark:bg-[#080808] transition-colors duration-300 -z-10"></div>
+
+  <!-- Diagonal orange stripe (desktop only visual) -->
+  <div class="absolute inset-0 overflow-hidden pointer-events-none hidden md:block -z-10">
+    <div class="bold-hero__stripe"></div>
+    <div class="bold-hero__grid"></div>
+  </div>
+
+  <!-- Grid overlay mobile -->
+  <div class="absolute inset-0 overflow-hidden pointer-events-none md:hidden -z-10">
+    <div class="bold-hero__grid"></div>
+  </div>
+
+  <!-- Glow orb -->
+  <div class="absolute top-1/2 left-1/4 -translate-y-1/2 w-[400px] h-[400px] md:w-[600px] md:h-[600px] rounded-full bg-[#CC0000]/8 blur-[100px] pointer-events-none -z-10"></div>
+
+  <!-- Content wrapper -->
+  <div class="relative z-10 w-full max-w-7xl mx-auto px-5 sm:px-8" style="padding-top: calc(76px + 1.5rem); padding-bottom: 2rem;">
+
+    <div class="flex flex-col lg:grid lg:grid-cols-2 lg:gap-4 lg:items-center" style="min-height: calc(100svh - 76px - 3.5rem);">
+
+      <!-- ===== TEXT CONTENT — always first on mobile ===== -->
+      <div class="flex flex-col justify-center order-1">
+        <!-- Badge -->
+        <div class="inline-flex items-center gap-2 mb-4 md:mb-6 self-start">
+          <span class="flex h-2 w-2 rounded-full bg-[#CC0000] animate-pulse"></span>
+          <span class="text-[#CC0000] text-[10px] md:text-xs font-bold uppercase tracking-[0.25em] md:tracking-[0.3em] typing-rotator" data-words='["#1 BENGKEL MOBIL PURWOKERTO", "#1 BENGKEL MOBIL CILACAP", "#1 BENGKEL MOBIL ACCESSORIES", "#1 AUTO PART TOKO SPAREPART PURWOKERTO"]'>
+            #1 BENGKEL MOBIL PURWOKERTO<span class="typing-cursor">|</span>
+          </span>
+          <span class="sr-only">, #1 BENGKEL MOBIL CILACAP, #1 BENGKEL MOBIL ACCESSORIES, #1 AUTO PART TOKO SPAREPART PURWOKERTO</span>
+        </div>
+
+        <!-- Headline -->
+        <div class="bold-hero__headline mb-4 md:mb-6 text-slate-900 dark:text-white">
+          {title && <Fragment set:html={title} />}
+        </div>
+
+        <!-- Subtitle -->
+        {subtitle && (
+          <div class="bold-hero__subtitle mb-6 md:mb-8">
+            <Fragment set:html={subtitle} />
+          </div>
+        )}
+
+        <!-- Actions -->
+        {actions && (
+          <div class="flex flex-col sm:flex-row flex-wrap gap-3 mb-6 md:mb-10">
+            {Array.isArray(actions) ? (
+              actions.map((action) => (
+                <Button {...(action || {})} />
+              ))
+            ) : (
+              <Fragment set:html={actions} />
+            )}
+          </div>
+        )}
+
+        <!-- Stat badges -->
+        <div class="flex items-center gap-4 flex-wrap">
+          <div class="bold-hero__stat">
+            <span class="bold-hero__stat-number text-slate-900 dark:text-white">18.953+</span>
+            <span class="bold-hero__stat-label text-slate-500 dark:text-white/45">Mobil Ditangani</span>
+          </div>
+          <div class="bold-hero__stat-divider bg-slate-200 dark:bg-white/10"></div>
+          <div class="bold-hero__stat">
+            <span class="bold-hero__stat-number text-slate-900 dark:text-white">9+</span>
+            <span class="bold-hero__stat-label text-slate-500 dark:text-white/45">Jenis Layanan</span>
+          </div>
+          <div class="bold-hero__stat-divider bg-slate-200 dark:bg-white/10"></div>
+          <div class="bold-hero__stat">
+            <span class="bold-hero__stat-number text-slate-900 dark:text-white">24 Jam</span>
+            <span class="bold-hero__stat-label text-slate-500 dark:text-white/45">Emergency</span>
+          </div>
+        </div>
+      </div>
+
+      <!-- ===== IMAGE — second on mobile, right column on desktop ===== -->
+      <div class="order-2 relative flex items-end justify-center lg:justify-end mt-8 lg:mt-0 lg:h-full min-h-[400px]">
+        <!-- Image glow -->
+        <div class="absolute bottom-0 left-1/2 -translate-x-1/2 w-4/5 h-1/3 bg-[#CC0000]/15 blur-3xl rounded-full"></div>
+
+        <!-- Orange badge -->
+        <div class="absolute top-4 right-2 sm:right-0 lg:top-16 lg:right-4 bg-[#CC0000] text-white text-[10px] md:text-xs font-bold px-2.5 py-1.5 rounded-sm uppercase tracking-wider z-20 shadow-lg shadow-[#CC0000]/30">
+          Pitcar Service
+        </div>
+
+        {image && (
+          <div class="relative z-10 w-full h-full flex items-end">
+            {typeof image === 'string' ? (
+              <Fragment set:html={image} />
+            ) : (
+              <Image
+                class="bold-hero__image"
+                widths={[400, 768, 1024]}
+                sizes="(max-width: 767px) 100vw, (max-width: 1023px) 60vw, 50vw"
+                loading="eager"
+                {...image}
+              />
+            )}
+          </div>
+        )}
+      </div>
+
+    </div>
+
+    <!-- Scroll indicator — hidden on mobile -->
+    <div class="hidden lg:flex absolute bottom-6 left-1/2 -translate-x-1/2 flex-col items-center gap-1 opacity-60">
+      <span class="text-slate-400 dark:text-white/50 text-[10px] uppercase tracking-widest">Scroll</span>
+      <div class="w-px h-8 bg-gradient-to-b from-[#CC0000] to-transparent"></div>
+    </div>
+  </div>
+</section>
+
+<style>
+  .bold-hero__stripe {
+    position: absolute;
+    top: -10%;
+    right: -5%;
+    width: 55%;
+    height: 120%;
+    background: linear-gradient(
+      135deg,
+      transparent 0%,
+      transparent 40%,
+      rgba(204, 0, 0, 0.06) 40%,
+      rgba(204, 0, 0, 0.06) 60%,
+      transparent 60%
+    );
+    transform: skewX(-15deg);
+  }
+
+  .bold-hero__grid {
+    position: absolute;
+    inset: 0;
+    background-image:
+      linear-gradient(rgba(255,255,255,0.025) 1px, transparent 1px),
+      linear-gradient(90deg, rgba(255,255,255,0.025) 1px, transparent 1px);
+    background-size: 60px 60px;
+    mask-image: radial-gradient(ellipse 80% 80% at 60% 40%, black 0%, transparent 80%);
+  }
+
+  /* Headline scales fluidly */
+  .bold-hero__headline :global(h1) {
+    font-size: clamp(2.4rem, 8vw, 5.5rem);
+    font-weight: 900;
+    text-transform: uppercase;
+    letter-spacing: -0.02em;
+    line-height: 1.0;
+    margin: 0;
+  }
+
+  .bold-hero__headline :global(.text-accent) {
+    color: #CC0000;
+  }
+
+  /* Typing animation styles */
+  :global(.typing-cursor) {
+    font-weight: 300;
+    opacity: 1;
+    animation: blink 0.8s step-end infinite;
+    color: inherit;
+  }
+  
+  @keyframes blink {
+    0%, 100% { opacity: 1; }
+    50% { opacity: 0; }
+  }
+  
+  .bold-hero__subtitle {
+    font-size: clamp(0.85rem, 2.5vw, 1.05rem);
+    color: #475569;
+    max-width: 480px;
+    line-height: 1.6;
+  }
+  :global(.dark) .bold-hero__subtitle {
+    color: rgba(255,255,255,0.6);
+  }
+
+  .bold-hero__subtitle :global(.highlight) {
+    display: inline-block;
+    margin-top: 0.75rem;
+    padding: 0.5rem 0.875rem;
+    background: rgba(204, 0, 0, 0.12);
+    border: 1px solid rgba(204, 0, 0, 0.3);
+    border-radius: 4px;
+    color: #CC0000;
+    font-weight: 600;
+    font-size: clamp(0.8rem, 2.5vw, 0.95rem);
+  }
+
+  .bold-hero__image {
+    width: 100%;
+    max-height: 80svh;
+    object-fit: contain;
+    object-position: bottom center;
+    filter: drop-shadow(0 20px 60px rgba(0,0,0,0.8));
+    transform-origin: bottom center;
+  }
+
+  .bold-hero__stat {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+  }
+
+  .bold-hero__stat-number {
+    font-size: clamp(1.1rem, 3.5vw, 1.5rem);
+    font-weight: 800;
+    line-height: 1;
+  }
+
+  .bold-hero__stat-label {
+    font-size: clamp(0.6rem, 1.5vw, 0.7rem);
+    text-transform: uppercase;
+    letter-spacing: 0.08em;
+    margin-top: 2px;
+  }
+
+  .bold-hero__stat-divider {
+    width: 1px;
+    height: 2rem;
+    align-self: center;
+  }
+
+  /* Button overrides */
+  .bold-hero :global(.btn-primary) {
+    background-color: #CC0000 !important;
+    border-color: #CC0000 !important;
+    color: white !important;
+    font-weight: 700;
+    letter-spacing: 0.02em;
+    padding: 0.75rem 1.5rem;
+    border-radius: 4px;
+    transition: all 0.2s ease;
+    box-shadow: 0 4px 20px rgba(204, 0, 0, 0.35);
+    width: 100%;
+  }
+
+  @media (min-width: 640px) {
+    .bold-hero :global(.btn-primary) {
+      width: auto;
+      padding: 0.875rem 2rem;
+    }
+  }
+
+  .bold-hero :global(.btn-primary:hover) {
+    background-color: #E61a1a !important;
+    border-color: #E61a1a !important;
+    box-shadow: 0 8px 30px rgba(204, 0, 0, 0.5);
+    transform: translateY(-1px);
+  }
+
+  .bold-hero :global(.btn-secondary),
+  .bold-hero :global(.btn) {
+    background-color: transparent !important;
+    border-color: #cbd5e1 !important;
+    color: #334155 !important;
+    border-radius: 4px;
+    padding: 0.75rem 1.5rem;
+    transition: all 0.2s ease;
+    width: 100%;
+  }
+
+  :global(.dark) .bold-hero :global(.btn-secondary),
+  :global(.dark) .bold-hero :global(.btn) {
+    border-color: rgba(255,255,255,0.3) !important;
+    color: rgba(255,255,255,0.85) !important;
+  }
+
+  @media (min-width: 640px) {
+    .bold-hero :global(.btn-secondary),
+    .bold-hero :global(.btn) {
+      width: auto;
+      padding: 0.875rem 2rem;
+    }
+  }
+
+  .bold-hero :global(.btn-secondary:hover),
+  .bold-hero :global(.btn:hover) {
+    background-color: #f1f5f9 !important;
+    border-color: #94a3b8 !important;
+    color: #0f172a !important;
+  }
+
+  :global(.dark) .bold-hero :global(.btn:hover) {
+    background-color: rgba(255,255,255,0.08) !important;
+    border-color: rgba(255,255,255,0.6) !important;
+    color: #ffffff !important;
+  }
+</style>
+
+<script>
+  function initTypingSync() {
+    const rotators = Array.from(document.querySelectorAll('.typing-rotator')) as HTMLElement[];
+    if (!rotators.length) return;
+    
+    // Prevent double initialization
+    if (rotators[0].dataset.typingInit) return;
+    rotators[0].dataset.typingInit = "true";
+
+    const rotatorsData = rotators.map(el => {
+      return {
+        el,
+        words: JSON.parse(el.getAttribute('data-words') || '[]')
+      };
+    });
+
+    let wordIndex = 0;
+    let maxCharIndex = rotatorsData[0].words[0].length;
+    let isDeleting = false;
+    
+    function typeSync() {
+      const currentLengths = rotatorsData.map(r => r.words[wordIndex] ? r.words[wordIndex].length : 0);
+      const maxLength = Math.max(...currentLengths);
+
+      rotatorsData.forEach(r => {
+        const currentWord = r.words[wordIndex] || "";
+        const visibleLength = Math.min(maxCharIndex, currentWord.length);
+        const textToShow = currentWord.substring(0, visibleLength);
+        
+        r.el.textContent = textToShow;
+        // add cursor
+        const cursor = document.createElement('span');
+        cursor.className = 'typing-cursor';
+        cursor.textContent = '|';
+        r.el.appendChild(cursor);
+      });
+
+      let typeSpeed = isDeleting ? 25 : 60;
+
+      if (!isDeleting && maxCharIndex === maxLength) {
+        typeSpeed = 2500; // Pause when fully typed
+        isDeleting = true;
+      } else if (isDeleting && maxCharIndex === 0) {
+        isDeleting = false;
+        wordIndex = (wordIndex + 1) % rotatorsData[0].words.length;
+        typeSpeed = 600; // Pause before typing new word
+      }
+
+      if (isDeleting) {
+        maxCharIndex--;
+      } else {
+        maxCharIndex++;
+      }
+
+      setTimeout(typeSync, typeSpeed);
+    }
+    
+    typeSync();
+  }
+
+  // Run on load and on Astro view transitions
+  document.addEventListener('astro:page-load', initTypingSync);
+  if (document.readyState === 'loading') {
+    document.addEventListener('DOMContentLoaded', initTypingSync);
+  } else {
+    initTypingSync();
+  }
+</script>

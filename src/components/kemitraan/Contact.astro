@@ -1,28 +1,11 @@
 ---
-
+import BoldCTA from '~/components/home/BoldCTA.astro';
 ---
 
-<section id="contact" class="py-16 bg-white dark:bg-slate-800 transition-colors duration-300">
-  <div class="container mx-auto px-4 max-w-6xl">
-    <div class="flex flex-col md:flex-row gap-12">
-      <div class="md:w-1/2">
-        <h2 class="text-3xl md:text-4xl font-bold text-gray-800 dark:text-white mb-6">
-          Hubungi <span class="text-primary">Kami</span>
-        </h2>
-        <p class="text-gray-600 dark:text-gray-300 mb-8">
-          Klik tombol berikut untuk mendapatkan informasi lebih lanjut tentang franchise PITCAR Service. Tim kami akan
-          segera menghubungi Anda.
-        </p>
-      </div>
-      <div class="w-full md:w-1/2 flex items-center justify-start md:justify-end">
-        <a
-          href="whatsapp://send?phone=6285647609172&text=halo%20Mincar%2C%20mohon%20info%20detail%20franchise%20Pitcar%20dong"
-          class="rounded-md md:right-10 bg-green-700 hover:bg-green-800 text-white font-bold py-3 px-8 text-lg transition duration-300 animate-bounce"
-        >
-          <i class="fa-brands fa-whatsapp"></i>
-          <span class="ml-2">Chat Admin Sekarang</span>
-        </a>
-      </div>
-    </div>
-  </div>
-</section>
+<div id="contact" class="bg-white dark:bg-[#080808]">
+  <BoldCTA 
+    title="Siap Mengambil Keputusan Bisnis Terbaik?" 
+    subtitle="Jadilah salah satu pemilik cabang Pitcar berikutnya. Amankan slot kemitraan di kota Anda hari ini!"
+    actions={[{ text: 'Hubungi Tim Kemitraan', href: 'whatsapp://send?phone=6285647609172&text=halo%20Mincar%2C%20mohon%20info%20detail%20franchise%20Pitcar%20dong', variant: 'primary', icon: 'tabler:brand-whatsapp' }]}
+  />
+</div>

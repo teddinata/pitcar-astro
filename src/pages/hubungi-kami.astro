@@ -1,8 +1,10 @@
 ---
 import Layout from '~/layouts/PageLayout.astro';
+import { Icon } from 'astro-icon/components';
+import BoldCTA from '~/components/home/BoldCTA.astro';
 
 const metadata = {
-  title: 'Hubungi Kami',
+  title: 'Pusat Bantuan & Kontak',
   description: 'Hubungi Pitcar Service - Bengkel Mobil Purwokerto. Konsultasi gratis dan booking layanan.',
   canonical: 'https://pitcar.co.id/hubungi-kami',
   robots: { index: true, follow: true },
@@ -13,41 +15,101 @@ const metadata = {
 ---
 
 <Layout metadata={metadata}>
-  <section class="px-4 py-16 mx-auto max-w-4xl">
-    <div class="text-center mb-12">
-      <h1 class="text-4xl font-bold mb-4 dark:text-white">Hubungi Kami</h1>
-      <p class="text-lg text-gray-600 dark:text-gray-300">
-        Konsultasi gratis terkait perawatan dan perbaikan mobil Anda.
+  <!-- Breadcrumb Header -->
+  <section class="relative bg-white dark:bg-[#0e0e0e] pt-32 pb-12 border-b border-black/5 dark:border-white/5 overflow-hidden not-prose">
+    <div class="absolute inset-0 bg-gradient-to-b from-[#CC0000]/5 to-transparent dark:from-[#CC0000]/2 pointer-events-none"></div>
+    <div class="relative z-10 max-w-7xl mx-auto px-5 sm:px-8 flex flex-col items-center text-center">
+      
+      <!-- Breadcrumbs -->
+      <div class="inline-flex items-center gap-2 px-4 py-1.5 rounded-full bg-slate-100 dark:bg-white/5 border border-slate-200 dark:border-white/10 mb-6">
+        <a href="/" class="text-slate-500 hover:text-[#CC0000] dark:text-slate-400 dark:hover:text-white transition-colors flex items-center">
+          <Icon name="tabler:home" class="w-4 h-4" />
+        </a>
+        <span class="text-slate-400 dark:text-slate-600 text-sm">/</span>
+        <span class="text-[#CC0000] text-sm font-semibold tracking-wide uppercase">Pusat Bantuan</span>
+      </div>
+      
+      <!-- Title -->
+      <h1 class="text-4xl md:text-5xl lg:text-6xl font-black text-slate-900 dark:text-white uppercase tracking-tight mb-6">
+        Pusat <span class="text-transparent bg-clip-text bg-gradient-to-r from-[#CC0000] to-[#ff3333] italic">Bantuan</span>
+      </h1>
+      
+      <!-- Description -->
+      <p class="text-slate-600 dark:text-white/60 text-lg md:text-xl max-w-2xl font-light">
+        Konsultasi gratis terkait keluhan kendaraan, perawatan rutin, dan perbaikan mobil Anda langsung dengan tim ahli kami.
       </p>
     </div>
+  </section>
 
-    <div class="grid md:grid-cols-2 gap-8">
-      <div class="p-6 rounded-lg border border-gray-200 dark:border-gray-700 bg-white dark:bg-slate-800">
-        <h2 class="text-xl font-semibold mb-4 dark:text-white">WhatsApp</h2>
-        <p class="text-gray-600 dark:text-gray-300 mb-4">
-          Hubungi admin kami langsung via WhatsApp untuk konsultasi dan booking layanan.
+  <!-- Contact Cards Section -->
+  <section class="px-5 sm:px-8 py-16 md:py-24 mx-auto max-w-5xl bg-slate-50 dark:bg-[#080808]">
+    <div class="grid md:grid-cols-2 gap-8 lg:gap-12">
+      
+      <!-- WhatsApp Card -->
+      <div class="group relative bg-white dark:bg-[#141414] border border-slate-200 dark:border-white/10 overflow-hidden rounded-2xl p-8 md:p-10 transition-all duration-300 hover:shadow-2xl hover:shadow-[#CC0000]/10 hover:-translate-y-1">
+        <!-- Red hover border accent -->
+        <div class="absolute top-0 left-0 w-1 h-full bg-[#CC0000] transform scale-y-0 origin-top transition-transform duration-300 group-hover:scale-y-100 z-20"></div>
+        
+        <div class="w-14 h-14 rounded-full bg-green-500/10 dark:bg-green-500/20 flex items-center justify-center mb-6 text-green-600 dark:text-green-500">
+          <Icon name="tabler:brand-whatsapp" class="w-8 h-8" />
+        </div>
+        
+        <h2 class="text-2xl font-bold mb-4 font-heading text-slate-900 dark:text-white uppercase tracking-wide">Konsultasi via WhatsApp</h2>
+        <p class="text-slate-600 dark:text-white/60 leading-relaxed mb-8">
+          Hubungi admin service advisor kami untuk konsultasi keluhan mobil, estimasi biaya, dan booking jadwal layanan secara instan.
         </p>
+        
         <a
-          href="https://wa.me/6285866224051/?text=Halo%20Admin%2C%20Saya%20mau%20konsultasi..."
+          href="https://wa.me/6285866224051?text=Halo%20Admin%20Pitcar%2C%20saya%20ingin%20konsultasi%20mengenai%20servis%20mobil%20saya."
           target="_blank"
           rel="noopener noreferrer"
-          class="inline-block px-6 py-3 bg-primary text-white rounded-lg font-semibold hover:bg-primary/90 transition-colors"
+          class="inline-flex items-center justify-center gap-2 px-8 py-4 w-full sm:w-auto bg-[#CC0000] text-white rounded-lg font-bold tracking-widest uppercase hover:bg-[#a30000] transition-colors group/btn shadow-lg shadow-[#CC0000]/20"
         >
-          Chat via WhatsApp
+          Chat Sekarang
+          <Icon name="tabler:arrow-right" class="w-5 h-5 group-hover/btn:translate-x-1 transition-transform" />
         </a>
       </div>
 
-      <div class="p-6 rounded-lg border border-gray-200 dark:border-gray-700 bg-white dark:bg-slate-800">
-        <h2 class="text-xl font-semibold mb-4 dark:text-white">Alamat Workshop</h2>
-        <p class="text-gray-600 dark:text-gray-300">
-          Jl. Pancurawis no. 14<br />
-          Purwokerto Selatan<br />
-          Banyumas, Jawa Tengah
+      <!-- Workshop Maps Card -->
+      <div class="group relative bg-white dark:bg-[#141414] border border-slate-200 dark:border-white/10 overflow-hidden rounded-2xl p-8 md:p-10 transition-all duration-300 hover:shadow-2xl hover:shadow-[#CC0000]/10 hover:-translate-y-1">
+        <!-- Red hover border accent -->
+        <div class="absolute top-0 left-0 w-1 h-full bg-[#CC0000] transform scale-y-0 origin-top transition-transform duration-300 group-hover:scale-y-100 z-20"></div>
+        
+        <div class="w-14 h-14 rounded-full bg-slate-100 dark:bg-white/10 flex items-center justify-center mb-6 text-slate-800 dark:text-white">
+          <Icon name="tabler:map-pin" class="w-8 h-8" />
+        </div>
+        
+        <h2 class="text-2xl font-bold mb-4 font-heading text-slate-900 dark:text-white uppercase tracking-wide">Kunjungi Workshop</h2>
+        <p class="text-slate-600 dark:text-white/60 leading-relaxed mb-6">
+          Bawa kendaraan Anda langsung ke bengkel kami untuk inspeksi menyeluruh menggunakan alat diagnostik berstandar dealer.
         </p>
-        <p class="text-gray-600 dark:text-gray-300 mt-4">
-          <strong>Telepon:</strong> 085866224051
-        </p>
+        
+        <div class="bg-slate-50 dark:bg-white/5 p-4 rounded-xl border border-slate-100 dark:border-white/5">
+          <div class="flex items-start gap-4 mb-3">
+             <Icon name="tabler:building-factory-2" class="w-6 h-6 text-[#CC0000] shrink-0 mt-0.5" />
+             <p class="text-slate-700 dark:text-slate-300 font-medium">
+               Jl. Pancurawis no. 14<br />
+               Purwokerto Selatan<br />
+               Banyumas, Jawa Tengah 53147
+             </p>
+          </div>
+          <div class="flex items-center gap-4 pt-3 border-t border-slate-200 dark:border-white/10">
+             <Icon name="tabler:phone" class="w-6 h-6 text-[#CC0000] shrink-0" />
+             <p class="text-slate-700 dark:text-slate-300 font-bold tracking-widest text-lg">
+               0858-6622-4051
+             </p>
+          </div>
+        </div>
       </div>
+
     </div>
   </section>
+
+  <!-- CTA Section -->
+  <BoldCTA 
+    title="Siap Mengembalikan Performa Mobil Anda?" 
+    subtitle="Amankan jadwal servis Anda hari ini. Kuota penerimaan kendaraan harian kami terbatas untuk memastikan kualitas."
+    actions={[{ text: 'Booking Jadwal Servis', href: 'https://wa.me/6285866224051?text=Halo%20Pitcar%2C%20saya%20ingin%20booking%20jadwal%20servis.', variant: 'primary', icon: 'tabler:calendar-time' }]}
+  />
+
 </Layout>

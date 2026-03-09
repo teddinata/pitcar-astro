@@ -4,6 +4,7 @@ import { Icon } from 'astro-icon/components';
 import Image from '~/components/common/Image.astro';
 import PostTags from '~/components/blog/Tags.astro';
 import SocialShare from '~/components/common/SocialShare.astro';
+import BoldCTA from '~/components/home/BoldCTA.astro';
 
 import { getPermalink } from '~/utils/permalinks';
 import { getFormattedDate } from '~/utils/utils';
@@ -18,86 +19,102 @@ export interface Props {
 const { post, url } = Astro.props;
 ---
 
-<section class="py-8 sm:py-16 lg:py-20 mx-auto">
-  <article>
-    <header
-      class={post.image
-        ? 'intersect-once intersect-quarter motion-safe:md:opacity-0 motion-safe:md:intersect:animate-fade'
-        : 'intersect-once intersect-quarter motion-safe:md:opacity-0 motion-safe:md:intersect:animate-fade'}
-    >
-      <div class="flex justify-between flex-col sm:flex-row max-w-3xl mx-auto mt-0 mb-2 px-4 sm:px-6 sm:items-center">
-        <p>
-          <Icon name="tabler:clock" class="w-4 h-4 inline-block -mt-0.5 dark:text-gray-400" />
-          <time datetime={String(post.publishDate)} class="inline-block">{getFormattedDate(post.publishDate)}</time>
-          {
-            post.author && (
-              <>
-                {' '}
-                · <Icon name="tabler:user" class="w-4 h-4 inline-block -mt-0.5 dark:text-gray-400" />
-                <span class="inline-block">{post.author}</span>
-              </>
-            )
-          }
+<section class="max-w-7xl mx-auto">
+  <article class="bg-white dark:bg-[#0e0e0e] min-h-screen pb-20">
+    
+    <!-- Breadcrumb Header -->
+    <header class="relative pt-32 pb-12 border-b border-black/5 dark:border-white/5 overflow-hidden not-prose bg-slate-50 dark:bg-[#141414]">
+      <div class="absolute inset-0 bg-gradient-to-b from-[#CC0000]/5 to-transparent dark:from-[#CC0000]/2 pointer-events-none"></div>
+      <div class="relative z-10 max-w-4xl mx-auto px-5 sm:px-8 flex flex-col">
+        
+        <div class="inline-flex items-center gap-2 px-4 py-1.5 rounded-full bg-white dark:bg-white/5 border border-slate-200 dark:border-white/10 mb-6 self-start shadow-sm">
+          <a href="/jurnal" class="text-slate-500 hover:text-[#CC0000] dark:text-slate-400 dark:hover:text-white transition-colors flex items-center">
+            <Icon name="tabler:notebook" class="w-4 h-4 mr-1.5" />
+            <span class="text-sm font-medium">Jurnal</span>
+          </a>
+          <span class="text-slate-400 dark:text-slate-600 text-sm">/</span>
           {
             post.category && (
               <>
-                {' '}
-                ·{' '}
-                <a class="hover:underline inline-block" href={getPermalink(post.category.slug, 'category')}>
+                <a class="text-slate-500 hover:text-[#CC0000] dark:text-slate-400 dark:hover:text-white transition-colors text-sm font-medium" href={getPermalink(post.category.slug, 'category')}>
                   {post.category.title}
                 </a>
+                <span class="text-slate-400 dark:text-slate-600 text-sm">/</span>
               </>
             )
           }
-          {
-            post.readingTime && (
-              <>
-                &nbsp;· <span>{post.readingTime}</span> min read
-              </>
-            )
-          }
-        </p>
+          <span class="text-[#CC0000] text-sm font-semibold tracking-wide uppercase line-clamp-1">{post.title}</span>
+        </div>
+
+        <h1 class="text-3xl md:text-5xl lg:text-5xl font-black text-slate-900 dark:text-white leading-tight md:leading-tight tracking-tight mb-6 font-heading">
+          {post.title}
+        </h1>
+
+        <div class="flex flex-wrap items-center gap-4 text-sm text-slate-500 dark:text-slate-400 font-medium">
+          <div class="flex items-center gap-1.5">
+            <Icon name="tabler:clock" class="w-4 h-4" />
+            <time datetime={String(post.publishDate)}>{getFormattedDate(post.publishDate)}</time>
+          </div>
+          
+          {post.author && (
+            <>
+              <span class="w-1 h-1 rounded-full bg-slate-300 dark:bg-slate-700"></span>
+              <div class="flex items-center gap-1.5">
+                <Icon name="tabler:user" class="w-4 h-4" />
+                <span>{post.author.replaceAll('-', ' ')}</span>
+              </div>
+            </>
+          )}
+
+          {post.readingTime && (
+            <>
+              <span class="w-1 h-1 rounded-full bg-slate-300 dark:bg-slate-700"></span>
+              <span>{post.readingTime} min read</span>
+            </>
+          )}
+        </div>
       </div>
+    </header>
 
-      <h1
-        class="px-4 sm:px-6 max-w-3xl mx-auto text-4xl md:text-5xl font-bold leading-tighter tracking-tighter font-heading"
-      >
-        {post.title}
-      </h1>
-      <p
-        class="max-w-3xl mx-auto mt-4 mb-8 px-4 sm:px-6 text-xl md:text-2xl text-muted dark:text-slate-400 text-justify"
-      >
-        {post.excerpt}
-      </p>
-
-      {
-        post.image ? (
+    <!-- Featured Image -->
+    {
+      post.image && (
+        <div class="max-w-5xl mx-auto px-5 sm:px-8 -mt-8 relative z-20">
           <Image
             src={post.image}
-            class="max-w-full lg:max-w-[900px] mx-auto mb-6 sm:rounded-md bg-gray-400 dark:bg-slate-700"
+            class="w-full h-auto rounded-xl lg:rounded-2xl shadow-2xl shadow-black/10 dark:shadow-[#CC0000]/5 border border-slate-100 dark:border-white/5 bg-slate-200 dark:bg-slate-800"
             widths={[400, 900]}
-            sizes="(max-width: 900px) 400px, 900px"
-            alt={post?.excerpt || ''}
+            sizes="(max-width: 900px) 100vw, 900px"
+            alt={post?.excerpt || post.title}
             width={900}
             height={506}
             loading="eager"
             decoding="async"
           />
-        ) : (
-          <div class="max-w-3xl mx-auto px-4 sm:px-6">
-            <div class="border-t dark:border-slate-700" />
-          </div>
-        )
-      }
-    </header>
+        </div>
+      )
+    }
+    <!-- Article Content -->
     <div
-      class="mx-auto px-6 sm:px-6 max-w-3xl prose prose-md lg:prose-xl dark:prose-invert dark:prose-headings:text-slate-300 prose-headings:font-heading prose-headings:leading-tighter prose-headings:tracking-tighter prose-headings:font-bold prose-a:text-primary dark:prose-a:text-blue-400 prose-img:rounded-md prose-img:shadow-lg mt-8 prose-headings:scroll-mt-[80px] prose-li:my-0"
+      class="mx-auto px-5 sm:px-8 max-w-3xl prose prose-lg lg:prose-xl dark:prose-invert prose-slate 
+      dark:prose-p:text-slate-300 dark:prose-headings:text-white prose-headings:font-heading prose-headings:font-bold 
+      prose-a:text-[#CC0000] dark:prose-a:text-[#ff3333] hover:prose-a:underline
+      prose-img:rounded-xl prose-img:shadow-lg mt-12 md:mt-16
+      prose-blockquote:border-l-[#CC0000] prose-blockquote:bg-slate-50 dark:prose-blockquote:bg-white/5 prose-blockquote:py-1 prose-blockquote:px-5 prose-blockquote:rounded-r-lg prose-blockquote:not-italic"
     >
       <slot />
     </div>
-    <div class="mx-auto px-6 sm:px-6 max-w-3xl mt-8 flex justify-between flex-col sm:flex-row">
-      <PostTags tags={post.tags} class="mr-5 rtl:mr-0 rtl:ml-5" />
-      <SocialShare url={url} text={post.title} class="mt-5 sm:mt-1 align-middle text-gray-500 dark:text-slate-600" />
+    <!-- Footer Tags & Share -->
+    <div class="mx-auto px-5 sm:px-8 max-w-3xl mt-12 md:mt-16 pt-8 border-t border-slate-200 dark:border-white/10 flex flex-col sm:flex-row justify-between items-center gap-6">
+      <PostTags tags={post.tags} class="mr-auto w-full sm:w-auto" />
+      <SocialShare url={url} text={post.title} class="w-full sm:w-auto mt-0 align-middle text-slate-500 dark:text-slate-400" />
     </div>
   </article>
+
+  <!-- CTA Section -->
+  <BoldCTA 
+    title="Kendaraan Anda Butuh Perhatian Khusus?" 
+    subtitle="Jangan tunggu sampai rusak parah. Lakukan pengecekan sekarang dengan mekanik ahli Pitcar."
+    actions={[{ text: 'Booking Servis Sekarang', href: 'https://wa.me/6285866224051?text=Halo%20Pitcar%2C%20saya%20ingin%20konsultasi%20dari%20artikel%20jurnal%20otomotif.', variant: 'primary', icon: 'tabler:calendar-time' }]}
+  />
 </section>

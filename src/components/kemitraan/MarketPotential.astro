@@ -18,22 +18,21 @@ const stats = [
 ];
 ---
 
-<section class="py-16 bg-white dark:bg-slate-900 transition-colors duration-300">
+<section class="py-20 bg-slate-50 dark:bg-[#080808] border-t border-slate-200 dark:border-white/5">
   <div class="container mx-auto px-4 max-w-6xl">
-    <div class="text-center mb-12">
-      <h2 class="text-3xl md:text-4xl font-bold text-gray-800 dark:text-white mb-4">Potensi Pasar yang Besar</h2>
-      <p class="text-gray-600 dark:text-gray-300 max-w-3xl mx-auto">
-        Jumlah kendaraan di Indonesia terus bertumbuh pesat setiap tahunnya, menciptakan peluang bisnis yang sangat
-        menjanjikan di industri perawatan mobil.
+    <div class="text-center mb-16">
+      <h2 class="text-3xl md:text-5xl font-black text-slate-900 dark:text-white mb-4 uppercase tracking-tight">Kapasitas Pasar Luas</h2>
+      <p class="text-slate-600 dark:text-white/60 text-lg max-w-3xl mx-auto font-light">
+        Jumlah kendaraan di Indonesia terus bertumbuh pesat setiap tahunnya, membuktikan bahwa industri perawatan mobil merupakan bisnis yang kebal krisis.
       </p>
     </div>
     <div class="grid grid-cols-1 md:grid-cols-3 gap-8">
       {
         stats.map((stat) => (
-          <div class="bg-gray-50 dark:bg-slate-800 p-8 rounded-xl text-center">
-            <div class="text-5xl font-bold text-primary dark:text-red-500 mb-4">{stat.number}</div>
-            <h3 class="text-xl font-semibold mb-2 dark:text-white">{stat.title}</h3>
-            <p class="text-gray-600 dark:text-gray-300">{stat.description}</p>
+          <div class="bg-white dark:bg-[#141414] p-10 rounded-2xl text-center border border-slate-200 dark:border-white/5 hover:border-[#CC0000]/30 hover:shadow-2xl hover:shadow-[#CC0000]/10 hover:-translate-y-1 transition-all duration-300">
+            <div class="text-6xl font-black text-[#CC0000] mb-4 tracking-tighter">{stat.number}</div>
+            <h3 class="text-xl font-bold mb-3 text-slate-900 dark:text-white uppercase tracking-wide">{stat.title}</h3>
+            <p class="text-slate-600 dark:text-white/60 text-sm leading-relaxed">{stat.description}</p>
           </div>
         ))
       }

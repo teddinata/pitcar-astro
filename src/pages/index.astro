@@ -1,14 +1,16 @@
 ---
 import Layout from '~/layouts/PageLayout.astro';
 
-import Hero2 from '~/components/widgets/Hero2.astro';
-import Features from '~/components/widgets/Features.astro';
-import Steps from '~/components/widgets/Steps.astro';
+import BoldHero from '~/components/home/BoldHero.astro';
+import BoldBrands from '~/components/home/BoldBrands.astro';
+import BoldServices from '~/components/home/BoldServices.astro';
+import BoldWorkshop from '~/components/home/BoldWorkshop.astro';
+import BoldProcess from '~/components/home/BoldProcess.astro';
+import BoldTestimonials from '~/components/home/BoldTestimonials.astro';
+import BoldCTA from '~/components/home/BoldCTA.astro';
 import BlogLatestPosts from '~/components/widgets/BlogLatestPosts.astro';
-import CallToAction from '~/components/widgets/CallToAction.astro';
-import Content from '~/components/widgets/Content.astro';
-import Testimonials from '~/components/widgets/Testimonials.astro';
-import mekanikMobilImg from '~/assets/images/mekanik-mobil.png';
+
+import heroMekanikImg from '~/assets/images/DIMAS MUALIM.png';
 import workshopImg1 from '~/assets/images/uploads/IMG_6348-scaled.jpg';
 import workshopImg2 from '~/assets/images/uploads/IMG_6342-scaled.jpg';
 import testimoniMbahgie from '~/assets/images/uploads/Mbahgie-Foto-Testimoni.jpeg';
@@ -25,8 +27,9 @@ const metadata = {
 ---
 
 <Layout metadata={metadata}>
+
   <!-- Hero Section -->
-  <Hero2
+  <BoldHero
     actions={[
       {
         variant: 'primary',
@@ -38,38 +41,34 @@ const metadata = {
       { text: 'Lihat Layanan', href: '/layanan' },
     ]}
     image={{
-      src: mekanikMobilImg,
-      alt: 'Mekanik mobil Pitcar sedang melakukan servis',
+      src: heroMekanikImg,
+      alt: 'Mekanik profesional Pitcar di workshop modern',
     }}
   >
     <Fragment slot="title">
-      Bengkel Mobil Purwokerto <span class="text-accent dark:text-white">Pitcar Service</span>
+      <h1>Bengkel Mobil<br />
+        <span class="text-accent typing-rotator" data-words='["Purwokerto", "Cilacap", "Accessories", "Auto Part"]'>
+          Purwokerto<span class="typing-cursor">|</span>
+        </span><span class="sr-only">, Cilacap, Accessories, Auto Part</span><br />
+        <span class="block text-transparent [-webkit-text-stroke:2px_rgba(15,23,42,0.8)] dark:[-webkit-text-stroke:2px_rgba(255,255,255,0.6)]">Pitcar Service</span>
+      </h1>
     </Fragment>
 
     <Fragment slot="subtitle">
-      <span class="font-semibold">Kami</span> merawat, memperbaiki, dan menyelesaikan masalah mobil Anda.
-      <span
-        class="block mt-4 px-4 py-3 bg-green-50 dark:bg-slate-800/80 rounded-xl text-primary dark:text-green-400 font-semibold border border-green-100 dark:border-slate-700 shadow-sm text-base md:text-lg"
-      >
-        9+ layanan dalam 1 panggilan — Home Service, Pick Up Service, dan Workshop.
-      </span>
+      <span>Kami merawat, memperbaiki, dan menyelesaikan masalah mobil Anda.</span>
+      <span class="highlight">9+ layanan dalam 1 panggilan — Home Service, Pick Up Service, dan Workshop.</span>
     </Fragment>
-  </Hero2>
+  </BoldHero>
 
-  <!-- Stats -->
-  <!-- <Stats
-    stats={[
-      { title: 'Happy Customer', amount: '+' },
-      { title: 'Units Handled', amount: '10000+' },
-    ]}
-  /> -->
+  <!-- AFFILIATES / BRANCHES SECTION -->
+  <BoldBrands />
 
-  <!-- Layanan / Services -->
-  <Features
-    id="layanan"
+  <!-- SERVICES SECTION -->
+  <BoldServices
+    id="services"
     tagline="Layanan"
     title="Bengkel Mobil Terbaik di Purwokerto"
-    subtitle="Layanan yang kami tawarkan"
+    subtitle="9+ layanan dalam satu tempat"
     items={[
       {
         title: 'Emergency 24 Jam',
@@ -121,8 +120,7 @@ const metadata = {
   />
 
   <!-- Workshop Showcase -->
-  <Content
-    isReversed
+  <BoldWorkshop
     tagline="Workshop Kami"
     title="Fasilitas Bengkel Modern & Lengkap"
     subtitle="Kami terus berinvestasi pada peralatan modern untuk memastikan akurasi dan kualitas pengerjaan kendaraan Anda."
@@ -144,8 +142,8 @@ const metadata = {
     }}
   />
 
-  <!-- Alur Pemesanan -->
-  <Steps
+  <!-- Process -->
+  <BoldProcess
     title="Alur Pemesanan"
     subtitle="Mudahnya pesan layanan di Bengkel Mobil Purwokerto Pitcar yang begitu praktis dimulai dari ponsel Anda."
     items={[
@@ -185,7 +183,7 @@ const metadata = {
   />
 
   <!-- Testimonials -->
-  <Testimonials
+  <BoldTestimonials
     tagline="Testimoni"
     title="Kata Mereka Tentang PITCAR"
     testimonials={[
@@ -212,12 +210,14 @@ const metadata = {
 
   <!-- Blog Latest Posts -->
   <BlogLatestPosts
-    title="Artikel Terbaru"
-    information="Baca artikel terbaru kami seputar tips perawatan mobil, service, dan informasi otomotif lainnya."
+    title="Info & Tips Perawatan Mobil"
+    information={`Baca artikel terbaru dari tim mekanik Pitcar Service Purwokerto tentang cara merawat mobil Anda agar tetap prima.`}
   />
 
   <!-- CTA -->
-  <CallToAction
+  <BoldCTA
+    title="Booking Slot Untuk Free General Check Up di Pitcar!"
+    subtitle="Lakukan pengecekan kondisi mobil kesayangan Anda segera dengan menghubungi kami sekarang. Jangan tunggu kondisi mobil memburuk. Gratis hanya untuk 5 mobil setiap harinya!"
     actions={[
       {
         variant: 'primary',
@@ -227,16 +227,6 @@ const metadata = {
         icon: 'tabler:brand-whatsapp',
       },
     ]}
-  >
-    <Fragment slot="title">
-      Booking Slot Untuk Free General Check Up<br class="block sm:hidden" /><span class="sm:whitespace-nowrap">
-        di Pitcar!</span
-      >
-    </Fragment>
+  />
 
-    <Fragment slot="subtitle">
-      Lakukan pengecekan kondisi mobil kesayangan Anda segera dengan menghubungi kami sekarang.
-      <br class="hidden md:inline" />Jangan tunggu kondisi mobil memburuk. Gratis hanya untuk 5 mobil setiap harinya!
-    </Fragment>
-  </CallToAction>
 </Layout>
