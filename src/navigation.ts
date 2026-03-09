@@ -42,30 +42,33 @@ export const headerData = {
 export const footerData = {
   links: [
     {
-      title: 'Layanan & Solusi Kendaraan',
+      title: 'Layanan Servis',
       links: [
-        { text: 'Engine Maintenance', href: getPermalink('/layanan') },
-        { text: 'Penggantian Pelumas', href: getPermalink('/layanan') },
-        { text: 'Sistem Pendingin AC', href: getPermalink('/layanan') },
-        { text: 'Perbaikan Kaki-Kaki & Understeel', href: getPermalink('/layanan') },
-        { text: 'Layanan Darurat (Home Service)', href: getPermalink('/layanan') },
-        { text: 'Inspeksi & Diagnostik', href: getPermalink('/inspeksi-mobil-bekas') },
+        { text: 'Perawatan Berkala & Umum', href: getPermalink('/layanan') },
+        { text: 'Inspeksi Mobil Bekas', href: getPermalink('/inspeksi-mobil-bekas') },
+        { text: 'Layanan Darurat (24 Jam)', href: getPermalink('/layanan') },
       ],
     },
     {
-      title: 'Ekosistem Pitcar',
+      title: 'Keluarga Pitcar',
       links: [
         { text: 'Profil Perusahaan', href: getPermalink('/tentang') },
-        { text: 'Jurnal Otomotif', href: getBlogPermalink() },
-        { text: 'Kemitraan & Franchise', href: getPermalink('/kemitraan') },
+        { text: 'Peluang Kemitraan', href: getPermalink('/kemitraan') },
         { text: 'Karir & Talenta', href: '#' },
-        { text: 'Pusat Bantuan & Kontak', href: getPermalink('/hubungi-kami') },
+      ],
+    },
+    {
+      title: 'Informasi',
+      links: [
+        { text: 'Jurnal Otomotif', href: getBlogPermalink() },
+        { text: 'Pusat Bantuan', href: getPermalink('/hubungi-kami') },
+        { text: 'Syarat & Ketentuan', href: '#' },
       ],
     },
   ],
   secondaryLinks: [{ text: 'Hubungi Kami', href: getPermalink('/hubungi-kami') }],
   socialLinks: [
-    { ariaLabel: 'Instagram', icon: 'tabler:brand-instagram', href: 'https://www.instagram.com/pitcar_id/' },
+    { ariaLabel: 'Instagram', icon: 'tabler:brand-instagram', href: 'https://www.instagram.com/pitcar.service/' },
     { ariaLabel: 'Facebook', icon: 'tabler:brand-facebook', href: '#' },
     { ariaLabel: 'RSS', icon: 'tabler:rss', href: getAsset('/rss.xml') },
   ],
