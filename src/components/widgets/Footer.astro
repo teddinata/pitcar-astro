@@ -1,7 +1,13 @@
 ---
 import { Icon } from 'astro-icon/components';
-import { SITE } from 'astrowind:config';
 import { getHomePermalink } from '~/utils/permalinks';
+import { Image } from 'astro:assets';
+import logoPitcar from '~/assets/images/logo-pitcar.png';
+import autoAccDark from '~/assets/images/LOGO PITCAR AUTOACC HITAM.png';
+import autoAccLight from '~/assets/images/LOGO PITCAR AUTOACC PUTIH.png';
+import autoPartDark from '~/assets/images/LOGO PITCAR AUTOPART HITAM.png';
+import autoPartLight from '~/assets/images/LOGO PITCAR AUTOPART PUTIH.png';
+import otokitsLogo from '~/assets/images/LOGO OTOKITSXPITCAR 2.png';
 
 interface Link {
   text?: string;
@@ -26,46 +32,62 @@ export interface Props {
 const { socialLinks = [], secondaryLinks = [], links = [], footNote = '', theme = 'light' } = Astro.props;
 ---
 
-<footer class:list={[{ dark: theme === 'dark' }, 'relative border-t border-gray-200 dark:border-slate-800 not-prose']}>
-  <div class="dark:bg-dark absolute inset-0 pointer-events-none" aria-hidden="true"></div>
-  <div
-    class="relative max-w-7xl mx-auto px-4 sm:px-6 dark:text-slate-300 intersect-once intersect-quarter intersect-no-queue motion-safe:md:opacity-0 motion-safe:md:intersect:animate-fade"
-  >
-    <div class="grid grid-cols-12 gap-4 gap-y-8 sm:gap-8 py-8 md:py-12">
-      <div class="col-span-12 lg:col-span-4">
-        <div class="mb-2">
-          <a class="inline-block font-bold text-xl" href={getHomePermalink()}>{SITE?.name}</a>
-        </div>
-        <div class="text-sm text-muted flex gap-1">
-          {
-            secondaryLinks.map(({ text, href }, index) => (
-              <>
-                {index !== 0 ? ' · ' : ''}
-                <a
-                  class="text-muted hover:text-gray-700 dark:text-gray-400 hover:underline transition duration-150 ease-in-out"
-                  href={href}
-                  set:html={text}
-                />
-              </>
-            ))
-          }
-        </div>
+<footer class:list={[{ dark: theme === 'dark' }, 'relative border-t border-slate-200 dark:border-white/5 bg-white dark:bg-[#080808] text-slate-900 dark:text-white transition-colors duration-300 not-prose']}>
+  <div class="absolute inset-0 pointer-events-none bg-gradient-to-b from-transparent to-slate-100 dark:to-[#CC0000]/5" aria-hidden="true"></div>
+  <div class="relative max-w-7xl mx-auto px-4 sm:px-6 z-10">
+    <div class="grid grid-cols-12 gap-8 py-12 md:py-16 text-left">
+      
+      <!-- Brand & Logos Column -->
+      <div class="col-span-12 lg:col-span-5 pr-0 xl:pr-8 mb-8 lg:mb-0">
+         <div class="mb-6 inline-block">
+           <a href={getHomePermalink()} class="inline-block">
+             <Image src={logoPitcar} alt="Pitcar Service" class="h-10 md:h-12 w-auto dark:invert brightness-0 dark:brightness-100" />
+           </a>
+         </div>
+         <p class="text-slate-600 dark:text-white/60 text-sm md:text-base leading-relaxed mb-8 max-w-md">
+           Hadirkan ekosistem perawatan mobil terbaik di Indonesia. Solusi terpercaya untuk kebutuhan perbaikan, perawatan, dan inspeksi kendaraan Anda.
+         </p>
+         
+         <div class="mb-6">
+           <h4 class="text-xs font-bold tracking-[0.2em] text-[#CC0000] uppercase mb-4">Ekosistem Pitcar</h4>
+           <div class="flex flex-wrap items-center gap-6">
+             <!-- Otokits -->
+             <Image src={otokitsLogo} alt="Otokits" class="h-7 md:h-8 w-auto opacity-60 hover:opacity-100 hover:scale-105 transition-all duration-300 dark:invert brightness-0 dark:brightness-100" style="filter: auto;" />
+             
+             <!-- Auto Accessories -->
+             <div class="relative group h-7 md:h-8 flex items-center hover:scale-105 transition-transform duration-300">
+                 <Image src={autoAccDark} alt="Auto Accessories" class="h-7 md:h-8 w-auto block dark:hidden opacity-60 group-hover:opacity-100 transition-opacity duration-300" />
+                 <Image src={autoAccLight} alt="Auto Accessories" class="h-7 md:h-8 w-auto hidden dark:block opacity-60 group-hover:opacity-100 transition-opacity duration-300" />
+             </div>
+             
+             <!-- Auto Part -->
+             <div class="relative group h-7 md:h-8 flex items-center hover:scale-105 transition-transform duration-300">
+                 <Image src={autoPartDark} alt="Auto Part" class="h-7 md:h-8 w-auto block dark:hidden opacity-60 group-hover:opacity-100 transition-opacity duration-300" />
+                 <Image src={autoPartLight} alt="Auto Part" class="h-7 md:h-8 w-auto hidden dark:block opacity-60 group-hover:opacity-100 transition-opacity duration-300" />
+             </div>
+           </div>
+         </div>
       </div>
+      
+      <!-- Links Columns -->
+      <div class="col-span-12 lg:col-span-7 grid grid-cols-2 md:grid-cols-3 gap-8 sm:gap-8">
       {
         links.map(({ title, links }) => (
-          <div class="col-span-6 md:col-span-3 lg:col-span-2">
-            <div class="dark:text-gray-300 font-medium mb-2">{title}</div>
+          <div>
+            <div class="text-slate-900 dark:text-white font-bold uppercase tracking-wider mb-6 flex items-center gap-2">
+              <span class="w-2 h-2 rounded-full bg-[#CC0000]"></span>
+              {title}
+            </div>
             {links && Array.isArray(links) && links.length > 0 && (
-              <ul class="text-sm">
+              <ul class="space-y-3 text-sm">
                 {links.map(({ text, href, ariaLabel }) => (
-                  <li class="mb-2">
+                  <li>
                     <a
-                      class="text-muted hover:text-gray-700 hover:underline dark:text-gray-400 transition duration-150 ease-in-out"
+                      class="text-slate-600 dark:text-white/60 hover:text-slate-900 dark:hover:text-white hover:pl-2 border-l-2 border-transparent hover:border-[#CC0000] transition-all duration-300 ease-in-out inline-block py-1"
                       href={href}
                       aria-label={ariaLabel}
-                    >
-                      <Fragment set:html={text} />
-                    </a>
+                      set:html={text}
+                    />
                   </li>
                 ))}
               </ul>
@@ -73,19 +95,39 @@ const { socialLinks = [], secondaryLinks = [], links = [], footNote = '', theme 
           </div>
         ))
       }
+      </div>
     </div>
-    <div class="md:flex md:items-center md:justify-between py-6 md:py-8">
+    
+    <!-- Footer Bottom -->
+    <div class="md:flex md:items-center md:justify-between py-6 md:py-8 border-t border-slate-200 dark:border-white/10 mt-4 md:mt-0">
+      <div class="text-sm text-slate-500 dark:text-white/50 mr-4 mb-4 md:mb-0 flex flex-wrap items-center gap-2">
+        <Fragment set:html={footNote} />
+        {
+          secondaryLinks.map(({ text, href }) => (
+            <>
+              <span class="text-slate-300 dark:text-white/20 hidden sm:inline">|</span>
+              <a
+                class="hover:text-slate-900 dark:hover:text-white hover:underline transition duration-150 ease-in-out"
+                href={href}
+                set:html={text}
+              />
+            </>
+          ))
+        }
+      </div>
+      
       {
         socialLinks?.length ? (
-          <ul class="flex mb-4 md:order-1 -ml-2 md:ml-4 md:mb-0 rtl:ml-0 rtl:-mr-2 rtl:md:ml-0 rtl:md:mr-4">
+          <ul class="flex md:order-1 -ml-2 md:ml-4">
             {socialLinks.map(({ ariaLabel, href, text, icon }) => (
               <li>
                 <a
-                  class="text-muted dark:text-gray-400 hover:bg-gray-100 dark:hover:bg-gray-700 focus:outline-none focus:ring-4 focus:ring-gray-200 dark:focus:ring-gray-700 rounded-lg text-sm p-2.5 inline-flex items-center"
+                  class="text-slate-400 dark:text-white/50 hover:text-[#CC0000] dark:hover:text-[#CC0000] hover:bg-slate-100 dark:hover:bg-[#CC0000]/10 focus:outline-none focus:ring-4 focus:ring-[#CC0000]/20 rounded-full text-sm p-3 inline-flex items-center transition-all duration-300 hover:-translate-y-1"
                   aria-label={ariaLabel}
                   href={href}
+                  target="_blank"
                 >
-                  {icon && <Icon name={icon} class="w-5 h-5" />}
+                  {icon && <Icon name={icon} class="w-5 h-6" />}
                   <Fragment set:html={text} />
                 </a>
               </li>
@@ -95,10 +137,6 @@ const { socialLinks = [], secondaryLinks = [], links = [], footNote = '', theme 
           ''
         )
       }
-
-      <div class="text-sm mr-4 dark:text-muted">
-        <Fragment set:html={footNote} />
-      </div>
     </div>
   </div>
 </footer>
