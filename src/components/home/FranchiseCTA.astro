@@ -1,0 +1,219 @@
+---
+// FranchiseCTA.astro
+// A high-impact franchise/kemitraan teaser section for the home page
+---
+
+<section class="franchise-cta relative py-20 md:py-28 overflow-hidden not-prose">
+  <!-- Background: light = slate-50, dark = near-black -->
+  <div class="absolute inset-0 bg-slate-50 dark:bg-[#0d0d0d] transition-colors duration-300"></div>
+
+  <!-- Diagonal stripe texture -->
+  <div class="absolute inset-0 pointer-events-none franchise-cta__stripes"></div>
+
+  <!-- Red glow blob (subtle in light, stronger in dark) -->
+  <div class="absolute -top-32 -left-32 w-[500px] h-[500px] bg-[#CC0000]/5 dark:bg-[#CC0000]/20 rounded-full blur-[120px] pointer-events-none transition-colors duration-300"></div>
+  <div class="absolute -bottom-32 -right-32 w-[400px] h-[400px] bg-[#CC0000]/5 dark:bg-[#CC0000]/15 rounded-full blur-[100px] pointer-events-none transition-colors duration-300"></div>
+
+  <!-- Top red line -->
+  <div class="absolute top-0 left-0 right-0 h-[3px] bg-gradient-to-r from-transparent via-[#CC0000] to-transparent"></div>
+  <!-- Bottom red line -->
+  <div class="absolute bottom-0 left-0 right-0 h-[3px] bg-gradient-to-r from-transparent via-[#CC0000]/30 to-transparent"></div>
+
+  <div class="relative z-10 max-w-6xl mx-auto px-5 sm:px-8">
+    <div class="flex flex-col lg:flex-row items-center gap-12 lg:gap-16">
+
+      <!-- LEFT: Stats column -->
+      <div class="flex-shrink-0 flex flex-col gap-5 w-full lg:w-auto lg:min-w-[260px]">
+
+        <div class="franchise-cta__stat">
+          <span class="franchise-cta__stat-num text-slate-900 dark:text-white">
+            450<span class="text-[#CC0000]">+</span>
+          </span>
+          <span class="franchise-cta__stat-label text-slate-500 dark:text-white/45">Unit Dilayani / Bulan</span>
+        </div>
+
+        <div class="w-full h-px bg-slate-200 dark:bg-white/10"></div>
+
+        <div class="franchise-cta__stat">
+          <span class="franchise-cta__stat-num text-slate-900 dark:text-white">
+            5<span class="text-[#CC0000]">+</span>
+          </span>
+          <span class="franchise-cta__stat-label text-slate-500 dark:text-white/45">Cabang Aktif</span>
+        </div>
+
+        <div class="w-full h-px bg-slate-200 dark:bg-white/10"></div>
+
+        <div class="franchise-cta__stat">
+          <span class="franchise-cta__stat-num text-slate-900 dark:text-white">
+            19<span class="text-sm font-bold text-[#CC0000]">jt+</span>
+          </span>
+          <span class="franchise-cta__stat-label text-slate-500 dark:text-white/45">Potensi Pasar Nasional</span>
+        </div>
+
+      </div>
+
+      <!-- Vertical divider (desktop) -->
+      <div class="hidden lg:block w-px self-stretch bg-slate-200 dark:bg-white/10 flex-shrink-0"></div>
+
+      <!-- RIGHT: Main copy + CTA -->
+      <div class="flex-1 text-center lg:text-left">
+
+        <!-- Badge -->
+        <div class="inline-flex items-center gap-2 bg-[#CC0000]/10 dark:bg-[#CC0000]/15 border border-[#CC0000]/25 dark:border-[#CC0000]/30 rounded-full px-4 py-1.5 mb-6">
+          <span class="w-2 h-2 rounded-full bg-[#CC0000] animate-pulse"></span>
+          <span class="text-[#CC0000] text-xs font-bold uppercase tracking-[0.25em]">Peluang Kemitraan Terbuka</span>
+        </div>
+
+        <!-- Hook headline -->
+        <h2 class="text-4xl md:text-5xl xl:text-6xl font-black text-slate-900 dark:text-white uppercase tracking-tight leading-[1.05] mb-5">
+          Pitcar Bukan<br />
+          <span class="text-[#CC0000]">Sekadar Bengkel.</span><br />
+          <span class="text-slate-600 dark:text-white/75">Ini Bisnis Anda.</span>
+        </h2>
+
+        <!-- Supporting copy -->
+        <p class="text-slate-600 dark:text-white/60 text-base md:text-lg leading-relaxed mb-8 max-w-xl mx-auto lg:mx-0">
+          Industri perawatan mobil adalah bisnis yang <strong class="text-slate-900 dark:text-white font-semibold">kebal krisis</strong>. Bergabunglah sebagai mitra Pitcar dan bangun bisnis bengkel profesional dengan sistem manajemen yang sudah terbukti.
+        </p>
+
+        <!-- Mini benefit pills -->
+        <div class="flex flex-wrap justify-center lg:justify-start gap-2 mb-8">
+          {[
+            '✓ Sistem & SOP Terstruktur',
+            '✓ Training Mekanik',
+            '✓ Dukungan Marketing',
+            '✓ Brand yang Sudah Dikenal',
+          ].map((item) => (
+            <span class="bg-slate-100 dark:bg-white/5 border border-slate-200 dark:border-white/10 text-slate-600 dark:text-white/70 text-xs font-medium rounded-full px-3 py-1.5">
+              {item}
+            </span>
+          ))}
+        </div>
+
+        <!-- CTA Buttons -->
+        <div class="flex flex-wrap justify-center lg:justify-start gap-4">
+          <a
+            href="/kemitraan"
+            class="franchise-cta__btn-primary"
+            id="franchise-cta-learn-more"
+          >
+            Pelajari Kemitraan
+            <svg xmlns="http://www.w3.org/2000/svg" width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round">
+              <path d="M5 12h14"/><path d="m12 5 7 7-7 7"/>
+            </svg>
+          </a>
+          <a
+            href="https://wa.me/6285866224051/?text=Halo%20Admin%2C%20Saya%20tertarik%20dengan%20program%20kemitraan%20Pitcar.%20Mohon%20informasinya."
+            target="_blank"
+            rel="noopener noreferrer"
+            class="franchise-cta__btn-secondary"
+            id="franchise-cta-whatsapp"
+          >
+            <svg xmlns="http://www.w3.org/2000/svg" width="18" height="18" viewBox="0 0 24 24" fill="currentColor">
+              <path d="M17.472 14.382c-.297-.149-1.758-.867-2.03-.967-.273-.099-.471-.148-.67.15-.197.297-.767.966-.94 1.164-.173.199-.347.223-.644.075-.297-.15-1.255-.463-2.39-1.475-.883-.788-1.48-1.761-1.653-2.059-.173-.297-.018-.458.13-.606.134-.133.298-.347.446-.52.149-.174.198-.298.298-.497.099-.198.05-.371-.025-.52-.075-.149-.669-1.612-.916-2.207-.242-.579-.487-.5-.669-.51-.173-.008-.371-.01-.57-.01-.198 0-.52.074-.792.372-.272.297-1.04 1.016-1.04 2.479 0 1.462 1.065 2.875 1.213 3.074.149.198 2.096 3.2 5.077 4.487.709.306 1.262.489 1.694.625.712.227 1.36.195 1.871.118.571-.085 1.758-.719 2.006-1.413.248-.694.248-1.289.173-1.413-.074-.124-.272-.198-.57-.347m-5.421 7.403h-.004a9.87 9.87 0 01-5.031-1.378l-.361-.214-3.741.982.998-3.648-.235-.374a9.86 9.86 0 01-1.51-5.26c.001-5.45 4.436-9.884 9.888-9.884 2.64 0 5.122 1.03 6.988 2.898a9.825 9.825 0 012.893 6.994c-.003 5.45-4.437 9.884-9.885 9.884m8.413-18.297A11.815 11.815 0 0012.05 0C5.495 0 .16 5.335.157 11.892c0 2.096.547 4.142 1.588 5.945L.057 24l6.305-1.654a11.882 11.882 0 005.683 1.448h.005c6.554 0 11.89-5.335 11.893-11.893a11.821 11.821 0 00-3.48-8.413z"/>
+            </svg>
+            Tanya via WhatsApp
+          </a>
+        </div>
+      </div>
+
+    </div>
+  </div>
+</section>
+
+<style>
+  /* Stripe texture: subtle in both modes */
+  .franchise-cta__stripes {
+    background: repeating-linear-gradient(
+      -55deg,
+      transparent,
+      transparent 40px,
+      rgba(204, 0, 0, 0.025) 40px,
+      rgba(204, 0, 0, 0.025) 42px
+    );
+  }
+
+  /* Stat block layout */
+  .franchise-cta__stat {
+    display: flex;
+    flex-direction: column;
+    gap: 0.25rem;
+  }
+
+  .franchise-cta__stat-num {
+    font-size: 2.75rem;
+    font-weight: 900;
+    line-height: 1;
+    letter-spacing: -0.03em;
+  }
+
+  .franchise-cta__stat-label {
+    font-size: 0.75rem;
+    font-weight: 600;
+    text-transform: uppercase;
+    letter-spacing: 0.12em;
+  }
+
+  /* Mobile: stats in a row */
+  @media (max-width: 1023px) {
+    .franchise-cta__stat { flex-direction: row; align-items: baseline; gap: 0.75rem; }
+    .franchise-cta__stat-num { font-size: 2rem; }
+  }
+
+  /* --- PRIMARY BUTTON --- */
+  .franchise-cta__btn-primary {
+    display: inline-flex;
+    align-items: center;
+    gap: 0.5rem;
+    background: #CC0000;
+    color: #fff;
+    font-weight: 700;
+    font-size: 0.9375rem;
+    padding: 0.875rem 2rem;
+    border-radius: 4px;
+    letter-spacing: 0.02em;
+    text-decoration: none;
+    box-shadow: 0 4px 24px rgba(204, 0, 0, 0.35);
+    transition: all 0.2s ease;
+  }
+  .franchise-cta__btn-primary:hover {
+    background: #E61a1a;
+    box-shadow: 0 8px 36px rgba(204, 0, 0, 0.55);
+    transform: translateY(-2px);
+  }
+
+  /* --- SECONDARY BUTTON (light mode) --- */
+  .franchise-cta__btn-secondary {
+    display: inline-flex;
+    align-items: center;
+    gap: 0.5rem;
+    background: transparent;
+    border: 1.5px solid #CC0000;
+    color: #CC0000;
+    font-weight: 600;
+    font-size: 0.9375rem;
+    padding: 0.875rem 2rem;
+    border-radius: 4px;
+    letter-spacing: 0.02em;
+    text-decoration: none;
+    transition: all 0.2s ease;
+  }
+  .franchise-cta__btn-secondary:hover {
+    background: #CC0000;
+    color: #fff;
+    transform: translateY(-2px);
+    box-shadow: 0 6px 24px rgba(204, 0, 0, 0.3);
+  }
+
+  /* --- SECONDARY BUTTON override in dark mode --- */
+  :global(.dark) .franchise-cta__btn-secondary {
+    border-color: rgba(255,255,255,0.22);
+    color: rgba(255,255,255,0.78);
+  }
+  :global(.dark) .franchise-cta__btn-secondary:hover {
+    border-color: rgba(255,255,255,0.45);
+    background: rgba(255,255,255,0.07);
+    color: #fff;
+    box-shadow: none;
+  }
+</style>
