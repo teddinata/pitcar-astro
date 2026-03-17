@@ -5,10 +5,19 @@ excerpt: ''
 category: jasa-service
 draft: false
 metadata:
-  canonical: 'https://pitcar.co.id/bengkel-pintu-mobil-purwokerto'
+  canonical: 'https://pitcar.co.id/bengkel-pintu-mobil-purwokerto/'
   robots:
     index: true
     follow: true
+  description: >-
+    Punya persoalan bersama kendaraan anda, kala berada di dalam perjalanan
+    didalam kota purwokerto. kini udah tidak tersedia kendala berarti kembali
+    sebab sekarang
+  keywords: >-
+    bengkel pintu mobil purwokerto, jasa bengkel pintu mobil purwokerto, bengkel
+    bengkel pintu mobil purwokerto, service bengkel pintu mobil purwokerto,
+    servis bengkel pintu mobil purwokerto, harga bengkel pintu mobil purwokerto,
+    biaya bengkel pintu mobil purwokerto
 ---
 
 ![image](https://placehold.co/1200x800/222222/FFFFFF/png?text=Pitcar+Service)

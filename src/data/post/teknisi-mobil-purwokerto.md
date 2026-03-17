@@ -5,10 +5,18 @@ excerpt: ''
 category: jasa-service
 draft: false
 metadata:
-  canonical: 'https://pitcar.co.id/teknisi-mobil-purwokerto'
+  canonical: 'https://pitcar.co.id/teknisi-mobil-purwokerto/'
   robots:
     index: true
     follow: true
+  description: >-
+    Pitcar: Teknisi Mobil Panggilan Terdekat Di Purwokerto Bengkel Panggilan
+    Purwokerto Langsung Datang ke Rumah Merawat mobil jadi salah satu perihal
+    yang lumayan
+  keywords: >-
+    teknisi mobil purwokerto, jasa teknisi mobil purwokerto, bengkel teknisi
+    mobil purwokerto, service teknisi mobil purwokerto, servis teknisi mobil
+    purwokerto, harga teknisi mobil purwokerto, biaya teknisi mobil purwokerto
 ---
 
 ![image](~/assets/images/uploads/IMG_6389-scaled.jpg)

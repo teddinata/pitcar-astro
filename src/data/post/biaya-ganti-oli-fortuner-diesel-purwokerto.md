@@ -5,10 +5,20 @@ excerpt: ''
 category: jasa-service
 draft: false
 metadata:
-  canonical: 'https://pitcar.co.id/biaya-ganti-oli-fortuner-diesel-purwokerto'
+  canonical: 'https://pitcar.co.id/biaya-ganti-oli-fortuner-diesel-purwokerto/'
   robots:
     index: true
     follow: true
+  description: >-
+    Biaya Ganti Oli Fortuner Diesel Di Purwokerto Cepat dan Profesional Mobil
+    menjadi salah satu kendaraan yang memiliki perawatan tidak mudah. Dengan
+    kata lain,
+  keywords: >-
+    biaya ganti oli fortuner purwokerto, jasa biaya ganti oli fortuner
+    purwokerto, bengkel biaya ganti oli fortuner purwokerto, service biaya ganti
+    oli fortuner purwokerto, servis biaya ganti oli fortuner purwokerto, harga
+    biaya ganti oli fortuner purwokerto, biaya biaya ganti oli fortuner
+    purwokerto
 ---
 
 ![image](~/assets/images/uploads/IMG_6348-scaled.jpg)

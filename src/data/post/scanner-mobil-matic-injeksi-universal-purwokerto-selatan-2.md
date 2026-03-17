@@ -6,10 +6,20 @@ category: jasa-service
 draft: false
 metadata:
   canonical: >-
-    https://pitcar.co.id/scanner-mobil-matic-injeksi-universal-purwokerto-selatan-2
+    https://pitcar.co.id/scanner-mobil-matic-injeksi-universal-purwokerto-selatan-2/
   robots:
     index: true
     follow: true
+  description: >-
+    Scanner Mobil Matic Injeksi Universal Terdekat Di Purwokerto Selatan Paling
+    Murah dan Terjangkau Perawatan mobil sesungguhnya tidak semudah yang Anda
+    lihat,
+  keywords: >-
+    scanner mobil matic injeksi selatan, jasa scanner mobil matic injeksi
+    selatan, bengkel scanner mobil matic injeksi selatan, service scanner mobil
+    matic injeksi selatan, servis scanner mobil matic injeksi selatan, harga
+    scanner mobil matic injeksi selatan, biaya scanner mobil matic injeksi
+    selatan
 ---
 
 ![image](~/assets/images/uploads/WhatsApp-Image-2021-03-28-at-10.12.08-AM.jpeg)

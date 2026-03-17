@@ -5,10 +5,18 @@ excerpt: ''
 category: jasa-service
 draft: false
 metadata:
-  canonical: 'https://pitcar.co.id/bengkel-denso-ac-mobil-purwokerto'
+  canonical: 'https://pitcar.co.id/bengkel-denso-ac-mobil-purwokerto/'
   robots:
     index: true
     follow: true
+  description: >-
+    Keunggulan Bengkel Denso Ac Mobil Di Purwokerto Terpercaya Jika Anda idamkan
+    menjaga mobil yang paling disayangi bersama dengan langkah mudah, maka mampu
+  keywords: >-
+    bengkel denso mobil purwokerto, jasa bengkel denso mobil purwokerto, bengkel
+    bengkel denso mobil purwokerto, service bengkel denso mobil purwokerto,
+    servis bengkel denso mobil purwokerto, harga bengkel denso mobil purwokerto,
+    biaya bengkel denso mobil purwokerto
 ---
 
 ![image](~/assets/images/uploads/IMG_6348-scaled.jpg)

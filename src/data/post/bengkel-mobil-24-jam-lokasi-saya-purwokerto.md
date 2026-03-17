@@ -5,10 +5,20 @@ excerpt: ''
 category: jasa-service
 draft: false
 metadata:
-  canonical: 'https://pitcar.co.id/bengkel-mobil-24-jam-lokasi-saya-purwokerto'
+  canonical: 'https://pitcar.co.id/bengkel-mobil-24-jam-lokasi-saya-purwokerto/'
   robots:
     index: true
     follow: true
+  description: >-
+    Punya persoalan bersama dengan kendaraan anda, selagi berada di dalam
+    perjalanan didalam kota purwokerto. kini sudah tidak ada kendala bermakna
+    lagi gara-gara
+  keywords: >-
+    bengkel mobil jam lokasi purwokerto, jasa bengkel mobil jam lokasi
+    purwokerto, bengkel bengkel mobil jam lokasi purwokerto, service bengkel
+    mobil jam lokasi purwokerto, servis bengkel mobil jam lokasi purwokerto,
+    harga bengkel mobil jam lokasi purwokerto, biaya bengkel mobil jam lokasi
+    purwokerto
 ---
 
 ![image](~/assets/images/uploads/IMG_6348-scaled.jpg)

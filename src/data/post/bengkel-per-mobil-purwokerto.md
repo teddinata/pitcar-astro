@@ -5,10 +5,19 @@ excerpt: ''
 category: jasa-service
 draft: false
 metadata:
-  canonical: 'https://pitcar.co.id/bengkel-per-mobil-purwokerto'
+  canonical: 'https://pitcar.co.id/bengkel-per-mobil-purwokerto/'
   robots:
     index: true
     follow: true
+  description: >-
+    Sudah tidak kesulitan untuk Mencari Informasi bengkel terhadap kendaraan
+    kita, jika kita mengalami permasalahan terhadap kendaraan. kita dapat banyak
+    temukan
+  keywords: >-
+    bengkel per mobil purwokerto, jasa bengkel per mobil purwokerto, bengkel
+    bengkel per mobil purwokerto, service bengkel per mobil purwokerto, servis
+    bengkel per mobil purwokerto, harga bengkel per mobil purwokerto, biaya
+    bengkel per mobil purwokerto
 ---
 
 ![image](~/assets/images/uploads/IMG_6340-scaled.jpg)

@@ -5,10 +5,19 @@ excerpt: ''
 category: jasa-service
 draft: false
 metadata:
-  canonical: 'https://pitcar.co.id/bengkel-onderstel-purwokerto'
+  canonical: 'https://pitcar.co.id/bengkel-onderstel-purwokerto/'
   robots:
     index: true
     follow: true
+  description: >-
+    Sudah tidak ada problem untuk mencari bengkel terhadap kendaraan kita,
+    kecuali kami mengalami permasalahan terhadap kendaraan. kami akan banyak
+    temukan jasa
+  keywords: >-
+    bengkel onderstel purwokerto, jasa bengkel onderstel purwokerto, bengkel
+    bengkel onderstel purwokerto, service bengkel onderstel purwokerto, servis
+    bengkel onderstel purwokerto, harga bengkel onderstel purwokerto, biaya
+    bengkel onderstel purwokerto
 ---
 
 ![image](~/assets/images/uploads/WhatsApp-Image-2021-03-28-at-10.12.08-AM.jpeg)

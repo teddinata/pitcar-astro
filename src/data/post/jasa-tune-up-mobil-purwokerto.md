@@ -5,10 +5,19 @@ excerpt: ''
 category: tune-up
 draft: false
 metadata:
-  canonical: 'https://pitcar.co.id/jasa-tune-up-mobil-purwokerto'
+  canonical: 'https://pitcar.co.id/jasa-tune-up-mobil-purwokerto/'
   robots:
     index: true
     follow: true
+  description: >-
+    Jasa tune up mobil di purwokerto adalah salah satu layanan yang ditawarkan
+    oleh bengkel mobil yang bertujuan untuk meningkatkan performa dan efisiensi
+    kendaraan
+  keywords: >-
+    jasa tune mobil purwokerto, jasa jasa tune mobil purwokerto, bengkel jasa
+    tune mobil purwokerto, service jasa tune mobil purwokerto, servis jasa tune
+    mobil purwokerto, harga jasa tune mobil purwokerto, biaya jasa tune mobil
+    purwokerto
 ---
 
 ![image](https://placehold.co/1200x800/222222/FFFFFF/png?text=Pitcar+Service)

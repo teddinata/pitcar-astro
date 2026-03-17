@@ -5,10 +5,18 @@ excerpt: ''
 category: jasa-service
 draft: false
 metadata:
-  canonical: 'https://pitcar.co.id/service-ac-purwokerto'
+  canonical: 'https://pitcar.co.id/service-ac-purwokerto/'
   robots:
     index: true
     follow: true
+  description: >-
+    Pitcar: Service Ac Panggilan Terdekat Di Purwokerto Bengkel Panggilan
+    Purwokerto Langsung Datang ke Rumah Merawat mobil menjadi keliru satu
+    perihal yang memadai
+  keywords: >-
+    service purwokerto, jasa service purwokerto, bengkel service purwokerto,
+    service service purwokerto, servis service purwokerto, harga service
+    purwokerto, biaya service purwokerto
 ---
 
 ![image](https://placehold.co/1200x800/222222/FFFFFF/png?text=Pitcar+Service)

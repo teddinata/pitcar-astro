@@ -5,10 +5,19 @@ excerpt: ''
 category: jasa-service
 draft: false
 metadata:
-  canonical: 'https://pitcar.co.id/scanner-mobil-matic-pakai-laptop-banyumas'
+  canonical: 'https://pitcar.co.id/scanner-mobil-matic-pakai-laptop-banyumas/'
   robots:
     index: true
     follow: true
+  description: >-
+    Scanner Mobil Matic Pakai Laptop Panggilan Di Banyumas Paling Murah dan
+    Terjangkau Perawatan mobil sebenarnya tidak semudah yang Anda lihat,
+    terlebih bagi Anda
+  keywords: >-
+    scanner mobil matic pakai banyumas, jasa scanner mobil matic pakai banyumas,
+    bengkel scanner mobil matic pakai banyumas, service scanner mobil matic
+    pakai banyumas, servis scanner mobil matic pakai banyumas, harga scanner
+    mobil matic pakai banyumas, biaya scanner mobil matic pakai banyumas
 ---
 
 ![image](~/assets/images/uploads/WhatsApp-Image-2021-03-28-at-10.12.08-AM.jpeg)

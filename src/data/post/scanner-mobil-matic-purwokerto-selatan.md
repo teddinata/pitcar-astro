@@ -5,10 +5,20 @@ excerpt: ''
 category: scanning-ecu
 draft: false
 metadata:
-  canonical: 'https://pitcar.co.id/scanner-mobil-matic-purwokerto-selatan'
+  canonical: 'https://pitcar.co.id/scanner-mobil-matic-purwokerto-selatan/'
   robots:
     index: true
     follow: true
+  description: >-
+    Scanner Mobil Matic Tercanggih Terdekat Purwokerto Selatan Paling Murah dan
+    Terjangkau Perawatan mobil sebenarnya tidak semudah yang Anda lihat,
+    terlebih bagi
+  keywords: >-
+    scanner mobil matic purwokerto selatan, jasa scanner mobil matic purwokerto
+    selatan, bengkel scanner mobil matic purwokerto selatan, service scanner
+    mobil matic purwokerto selatan, servis scanner mobil matic purwokerto
+    selatan, harga scanner mobil matic purwokerto selatan, biaya scanner mobil
+    matic purwokerto selatan
 ---
 
 ![image](https://placehold.co/1200x800/222222/FFFFFF/png?text=Pitcar+Service)

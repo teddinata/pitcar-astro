@@ -5,10 +5,18 @@ excerpt: ''
 category: jasa-service
 draft: false
 metadata:
-  canonical: 'https://pitcar.co.id/bengkel-purwokerto'
+  canonical: 'https://pitcar.co.id/bengkel-purwokerto/'
   robots:
     index: true
     follow: true
+  description: >-
+    Bengkel Resmi Panggilan Di Wilayah Purwokerto Terbaik Paling Lengkap Banyak
+    orang yang tidak miliki waktu untuk melindungi mobil kesayangan. Jika Anda
+    terhitung
+  keywords: >-
+    bengkel purwokerto, jasa bengkel purwokerto, bengkel bengkel purwokerto,
+    service bengkel purwokerto, servis bengkel purwokerto, harga bengkel
+    purwokerto, biaya bengkel purwokerto
 ---
 
 ![image](~/assets/images/uploads/IMG_6397-scaled.jpg)

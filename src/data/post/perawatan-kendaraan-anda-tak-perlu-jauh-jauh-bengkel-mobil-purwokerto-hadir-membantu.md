@@ -6,10 +6,20 @@ category: Uncategorized
 draft: false
 metadata:
   canonical: >-
-    https://pitcar.co.id/perawatan-kendaraan-anda-tak-perlu-jauh-jauh-bengkel-mobil-purwokerto-hadir-membantu
+    https://pitcar.co.id/perawatan-kendaraan-anda-tak-perlu-jauh-jauh-bengkel-mobil-purwokerto-hadir-membantu/
   robots:
     index: true
     follow: true
+  description: >-
+    <figure> <figcaption> bengkel one stop service purwokerto </figcaption>
+    </figure> Menjaga kondisi kendaraan adalah hal penting untuk memastikan
+    kenyamanan dan
+  keywords: >-
+    perawatan kendaraan anda tak membantu, jasa perawatan kendaraan anda tak
+    membantu, bengkel perawatan kendaraan anda tak membantu, service perawatan
+    kendaraan anda tak membantu, servis perawatan kendaraan anda tak membantu,
+    harga perawatan kendaraan anda tak membantu, biaya perawatan kendaraan anda
+    tak membantu
 ---
 
 <figure>

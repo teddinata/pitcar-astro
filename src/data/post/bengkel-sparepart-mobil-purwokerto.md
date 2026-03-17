@@ -5,10 +5,19 @@ excerpt: ''
 category: jasa-service
 draft: false
 metadata:
-  canonical: 'https://pitcar.co.id/bengkel-sparepart-mobil-purwokerto'
+  canonical: 'https://pitcar.co.id/bengkel-sparepart-mobil-purwokerto/'
   robots:
     index: true
     follow: true
+  description: >-
+    Punya kasus bersama dengan kendaraan anda, saat berada dalam perjalanan di
+    dalam kota purwokerto. kini udah tidak ada halangan artinya kembali karena
+    saat ini
+  keywords: >-
+    bengkel sparepart mobil purwokerto, jasa bengkel sparepart mobil purwokerto,
+    bengkel bengkel sparepart mobil purwokerto, service bengkel sparepart mobil
+    purwokerto, servis bengkel sparepart mobil purwokerto, harga bengkel
+    sparepart mobil purwokerto, biaya bengkel sparepart mobil purwokerto
 ---
 
 ![image](~/assets/images/uploads/IMG_6397-scaled.jpg)

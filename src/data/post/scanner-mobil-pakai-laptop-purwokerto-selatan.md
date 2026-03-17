@@ -5,10 +5,19 @@ excerpt: ''
 category: jasa-service
 draft: false
 metadata:
-  canonical: 'https://pitcar.co.id/scanner-mobil-pakai-laptop-purwokerto-selatan'
+  canonical: 'https://pitcar.co.id/scanner-mobil-pakai-laptop-purwokerto-selatan/'
   robots:
     index: true
     follow: true
+  description: >-
+    Scanner Mobil Pakai Laptop Terdekat Di Purwokerto Selatan Paling Murah dan
+    Terjangkau Perawatan mobil memang tidak semudah yang Anda lihat, lebih-lebih
+    bagi
+  keywords: >-
+    scanner mobil pakai laptop selatan, jasa scanner mobil pakai laptop selatan,
+    bengkel scanner mobil pakai laptop selatan, service scanner mobil pakai
+    laptop selatan, servis scanner mobil pakai laptop selatan, harga scanner
+    mobil pakai laptop selatan, biaya scanner mobil pakai laptop selatan
 ---
 
 ![image](~/assets/images/uploads/WhatsApp-Image-2021-03-28-at-10.12.08-AM.jpeg)

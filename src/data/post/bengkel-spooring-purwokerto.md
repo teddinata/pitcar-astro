@@ -5,10 +5,19 @@ excerpt: ''
 category: jasa-service
 draft: false
 metadata:
-  canonical: 'https://pitcar.co.id/bengkel-spooring-purwokerto'
+  canonical: 'https://pitcar.co.id/bengkel-spooring-purwokerto/'
   robots:
     index: true
     follow: true
+  description: >-
+    Bengkel Spooring Terdekat Di Purwokerto Terbaik Paling Lengkap Banyak orang
+    yang tidak punyai waktu untuk menjaga mobil kesayangan. Jika Anda juga orang
+    yang
+  keywords: >-
+    bengkel spooring purwokerto, jasa bengkel spooring purwokerto, bengkel
+    bengkel spooring purwokerto, service bengkel spooring purwokerto, servis
+    bengkel spooring purwokerto, harga bengkel spooring purwokerto, biaya
+    bengkel spooring purwokerto
 ---
 
 ![image](~/assets/images/uploads/WhatsApp-Image-2021-03-28-at-10.12.08-AM.jpeg)

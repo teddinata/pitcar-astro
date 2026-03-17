@@ -5,10 +5,19 @@ excerpt: ''
 category: jasa-service
 draft: false
 metadata:
-  canonical: 'https://pitcar.co.id/jasa-servis-mobil-purwokerto'
+  canonical: 'https://pitcar.co.id/jasa-servis-mobil-purwokerto/'
   robots:
     index: true
     follow: true
+  description: >-
+    Pitcar: Jasa Servis Mobil Panggilan Di Purwokerto Bengkel Panggilan
+    Purwokerto Langsung Datang ke Rumah Merawat mobil menjadi keliru satu hal
+    yang memadai
+  keywords: >-
+    jasa servis mobil purwokerto, jasa jasa servis mobil purwokerto, bengkel
+    jasa servis mobil purwokerto, service jasa servis mobil purwokerto, servis
+    jasa servis mobil purwokerto, harga jasa servis mobil purwokerto, biaya jasa
+    servis mobil purwokerto
 ---
 
 ![image](~/assets/images/uploads/IMG_6389-scaled.jpg)

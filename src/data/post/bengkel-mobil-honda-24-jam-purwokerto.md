@@ -5,10 +5,19 @@ excerpt: ''
 category: jasa-service
 draft: false
 metadata:
-  canonical: 'https://pitcar.co.id/bengkel-mobil-honda-24-jam-purwokerto'
+  canonical: 'https://pitcar.co.id/bengkel-mobil-honda-24-jam-purwokerto/'
   robots:
     index: true
     follow: true
+  description: >-
+    Pitcar: Bengkel Mobil Honda Terdekat 24 Jam Di Purwokerto Bengkel Panggilan
+    Purwokerto Langsung Datang ke Rumah Merawat mobil menjadi salah satu hal
+    yang
+  keywords: >-
+    bengkel mobil honda jam purwokerto, jasa bengkel mobil honda jam purwokerto,
+    bengkel bengkel mobil honda jam purwokerto, service bengkel mobil honda jam
+    purwokerto, servis bengkel mobil honda jam purwokerto, harga bengkel mobil
+    honda jam purwokerto, biaya bengkel mobil honda jam purwokerto
 ---
 
 ![image](~/assets/images/uploads/IMG_6397-scaled.jpg)

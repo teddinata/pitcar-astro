@@ -5,10 +5,19 @@ excerpt: ''
 category: jasa-service
 draft: false
 metadata:
-  canonical: 'https://pitcar.co.id/biaya-cat-ulang-mobil-full-body-purwokerto'
+  canonical: 'https://pitcar.co.id/biaya-cat-ulang-mobil-full-body-purwokerto/'
   robots:
     index: true
     follow: true
+  description: >-
+    Punya kasus dengan kendaraan anda, sementara berada dalam perjalanan didalam
+    kota purwokerto. kini sudah tidak ada halangan bermakna ulang gara-gara
+    sekarang
+  keywords: >-
+    biaya cat ulang mobil purwokerto, jasa biaya cat ulang mobil purwokerto,
+    bengkel biaya cat ulang mobil purwokerto, service biaya cat ulang mobil
+    purwokerto, servis biaya cat ulang mobil purwokerto, harga biaya cat ulang
+    mobil purwokerto, biaya biaya cat ulang mobil purwokerto
 ---
 
 ![image](https://placehold.co/1200x800/222222/FFFFFF/png?text=Pitcar+Service)

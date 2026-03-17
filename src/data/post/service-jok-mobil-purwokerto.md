@@ -5,10 +5,19 @@ excerpt: ''
 category: jasa-service
 draft: false
 metadata:
-  canonical: 'https://pitcar.co.id/service-jok-mobil-purwokerto'
+  canonical: 'https://pitcar.co.id/service-jok-mobil-purwokerto/'
   robots:
     index: true
     follow: true
+  description: >-
+    Keunggulan Service Jok Mobil Terdekat Di Purwokerto Terpercaya Jika Anda
+    idamkan melindungi mobil kesayangan bersama langkah mudah, maka bisa
+    memanfaatkan
+  keywords: >-
+    service jok mobil purwokerto, jasa service jok mobil purwokerto, bengkel
+    service jok mobil purwokerto, service service jok mobil purwokerto, servis
+    service jok mobil purwokerto, harga service jok mobil purwokerto, biaya
+    service jok mobil purwokerto
 ---
 
 ![image](~/assets/images/uploads/IMG_6342-scaled.jpg)

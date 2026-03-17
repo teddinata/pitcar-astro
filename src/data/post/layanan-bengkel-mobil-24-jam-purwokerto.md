@@ -5,10 +5,20 @@ excerpt: ''
 category: jasa-service
 draft: false
 metadata:
-  canonical: 'https://pitcar.co.id/layanan-bengkel-mobil-24-jam-purwokerto'
+  canonical: 'https://pitcar.co.id/layanan-bengkel-mobil-24-jam-purwokerto/'
   robots:
     index: true
     follow: true
+  description: >-
+    Pitcar: Layanan Bengkel Mobil 24 Jam Di Purwokerto Langsung Datang ke Rumah
+    Merawat mobil menjadi salah satu hal yang cukup sulit, khususnya bagi Anda
+    yang
+  keywords: >-
+    layanan bengkel mobil jam purwokerto, jasa layanan bengkel mobil jam
+    purwokerto, bengkel layanan bengkel mobil jam purwokerto, service layanan
+    bengkel mobil jam purwokerto, servis layanan bengkel mobil jam purwokerto,
+    harga layanan bengkel mobil jam purwokerto, biaya layanan bengkel mobil jam
+    purwokerto
 ---
 
 ![image](~/assets/images/uploads/IMG_6389-scaled.jpg)

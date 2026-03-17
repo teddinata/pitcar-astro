@@ -5,10 +5,18 @@ excerpt: ''
 category: tune-up
 draft: false
 metadata:
-  canonical: 'https://pitcar.co.id/biaya-tune-up-mobil-purwokerto'
+  canonical: 'https://pitcar.co.id/biaya-tune-up-mobil-purwokerto/'
   robots:
     index: true
     follow: true
+  description: >-
+    Keunggulan Biaya Tune Up Mobil Di Purwokerto Terpercaya Jika Anda dambakan
+    memelihara mobil kesayangan dengan cara mudah, maka Anda bisa memanfaatkan
+  keywords: >-
+    biaya tune mobil purwokerto, jasa biaya tune mobil purwokerto, bengkel biaya
+    tune mobil purwokerto, service biaya tune mobil purwokerto, servis biaya
+    tune mobil purwokerto, harga biaya tune mobil purwokerto, biaya biaya tune
+    mobil purwokerto
 ---
 
 ![image](~/assets/images/uploads/IMG_6342-scaled.jpg)

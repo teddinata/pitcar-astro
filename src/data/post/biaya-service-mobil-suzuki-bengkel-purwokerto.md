@@ -5,10 +5,20 @@ excerpt: ''
 category: jasa-service
 draft: false
 metadata:
-  canonical: 'https://pitcar.co.id/biaya-service-mobil-suzuki-bengkel-purwokerto'
+  canonical: 'https://pitcar.co.id/biaya-service-mobil-suzuki-bengkel-purwokerto/'
   robots:
     index: true
     follow: true
+  description: >-
+    Keunggulan Biaya Service Mobil Suzuki Di Bengkel Resmi Di Purwokerto
+    Terpercaya Jika Anda menghendaki memelihara mobil kesayangan bersama dengan
+    cara mudah,
+  keywords: >-
+    biaya service mobil suzuki purwokerto, jasa biaya service mobil suzuki
+    purwokerto, bengkel biaya service mobil suzuki purwokerto, service biaya
+    service mobil suzuki purwokerto, servis biaya service mobil suzuki
+    purwokerto, harga biaya service mobil suzuki purwokerto, biaya biaya service
+    mobil suzuki purwokerto
 ---
 
 ![image](~/assets/images/uploads/WhatsApp-Image-2021-03-28-at-10.12.08-AM.jpeg)

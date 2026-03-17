@@ -5,10 +5,19 @@ excerpt: ''
 category: jasa-service
 draft: false
 metadata:
-  canonical: 'https://pitcar.co.id/service-kendaraan-purwokerto'
+  canonical: 'https://pitcar.co.id/service-kendaraan-purwokerto/'
   robots:
     index: true
     follow: true
+  description: >-
+    Service Kendaraan Panggilan Terdekat Daerah Purwokerto Terbaik Paling
+    Lengkap Banyak orang yang tidak miliki selagi untuk memelihara mobil
+    kesayangan. Jika Anda
+  keywords: >-
+    service kendaraan purwokerto, jasa service kendaraan purwokerto, bengkel
+    service kendaraan purwokerto, service service kendaraan purwokerto, servis
+    service kendaraan purwokerto, harga service kendaraan purwokerto, biaya
+    service kendaraan purwokerto
 ---
 
 ![image](~/assets/images/uploads/IMG_6340-scaled.jpg)

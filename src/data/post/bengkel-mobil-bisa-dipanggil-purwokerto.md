@@ -5,10 +5,20 @@ excerpt: ''
 category: jasa-service
 draft: false
 metadata:
-  canonical: 'https://pitcar.co.id/bengkel-mobil-bisa-dipanggil-purwokerto'
+  canonical: 'https://pitcar.co.id/bengkel-mobil-bisa-dipanggil-purwokerto/'
   robots:
     index: true
     follow: true
+  description: >-
+    Pitcar: Bengkel Mobil Yang Bisa Dipanggil Di Purwokerto Bengkel Panggilan
+    Purwokerto Langsung Datang ke Rumah Merawat mobil menjadi salah satu hal
+    yang lumayan
+  keywords: >-
+    bengkel mobil bisa dipanggil purwokerto, jasa bengkel mobil bisa dipanggil
+    purwokerto, bengkel bengkel mobil bisa dipanggil purwokerto, service bengkel
+    mobil bisa dipanggil purwokerto, servis bengkel mobil bisa dipanggil
+    purwokerto, harga bengkel mobil bisa dipanggil purwokerto, biaya bengkel
+    mobil bisa dipanggil purwokerto
 ---
 
 ![image](~/assets/images/uploads/IMG_6348-scaled.jpg)

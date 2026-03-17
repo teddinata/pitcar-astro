@@ -5,10 +5,18 @@ excerpt: ''
 category: jasa-service
 draft: false
 metadata:
-  canonical: 'https://pitcar.co.id/bengkel-honda-purwokerto'
+  canonical: 'https://pitcar.co.id/bengkel-honda-purwokerto/'
   robots:
     index: true
     follow: true
+  description: >-
+    Pitcar: Bengkel Honda Panggilan Di Purwokerto Bengkel Panggilan Purwokerto
+    Langsung Datang ke Rumah Merawat mobil jadi salah satu hal yang lumayan
+    sulit,
+  keywords: >-
+    bengkel honda purwokerto, jasa bengkel honda purwokerto, bengkel bengkel
+    honda purwokerto, service bengkel honda purwokerto, servis bengkel honda
+    purwokerto, harga bengkel honda purwokerto, biaya bengkel honda purwokerto
 ---
 
 ![image](~/assets/images/uploads/IMG_6348-scaled.jpg)

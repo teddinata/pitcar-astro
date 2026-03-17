@@ -5,10 +5,18 @@ excerpt: ''
 category: jasa-service
 draft: false
 metadata:
-  canonical: 'https://pitcar.co.id/bengkel-24-jam-purwokerto-2'
+  canonical: 'https://pitcar.co.id/bengkel-24-jam-purwokerto-2/'
   robots:
     index: true
     follow: true
+  description: >-
+    Sudah tidak ada masalah untuk Mencari Informasi bengkel pada kendaraan kita,
+    terkecuali kita mengalami problem pada kendaraan. kita bakal banyak temukan
+    jasa
+  keywords: >-
+    bengkel jam purwokerto, jasa bengkel jam purwokerto, bengkel bengkel jam
+    purwokerto, service bengkel jam purwokerto, servis bengkel jam purwokerto,
+    harga bengkel jam purwokerto, biaya bengkel jam purwokerto
 ---
 
 ![image](https://placehold.co/1200x800/222222/FFFFFF/png?text=Pitcar+Service)

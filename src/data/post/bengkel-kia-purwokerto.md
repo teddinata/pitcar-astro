@@ -5,10 +5,18 @@ excerpt: ''
 category: jasa-service
 draft: false
 metadata:
-  canonical: 'https://pitcar.co.id/bengkel-kia-purwokerto'
+  canonical: 'https://pitcar.co.id/bengkel-kia-purwokerto/'
   robots:
     index: true
     follow: true
+  description: >-
+    Keunggulan Bengkel Kia Di Purwokerto Terpercaya Jika Anda ingin menjaga
+    mobil yang paling disayangi bersama dengan langkah mudah, maka sanggup
+    manfaatkan
+  keywords: >-
+    bengkel kia purwokerto, jasa bengkel kia purwokerto, bengkel bengkel kia
+    purwokerto, service bengkel kia purwokerto, servis bengkel kia purwokerto,
+    harga bengkel kia purwokerto, biaya bengkel kia purwokerto
 ---
 
 ![image](~/assets/images/uploads/WhatsApp-Image-2021-03-28-at-10.12.08-AM.jpeg)

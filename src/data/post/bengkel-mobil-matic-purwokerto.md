@@ -5,10 +5,19 @@ excerpt: ''
 category: jasa-service
 draft: false
 metadata:
-  canonical: 'https://pitcar.co.id/bengkel-mobil-matic-purwokerto'
+  canonical: 'https://pitcar.co.id/bengkel-mobil-matic-purwokerto/'
   robots:
     index: true
     follow: true
+  description: >-
+    Bengkel Mobil Matic Di Purwokerto Terbaik Paling Lengkap Banyak orang yang
+    tidak punya kala untuk memelihara mobil kesayangan. Jika Anda terhitung
+    orang yang
+  keywords: >-
+    bengkel mobil matic purwokerto, jasa bengkel mobil matic purwokerto, bengkel
+    bengkel mobil matic purwokerto, service bengkel mobil matic purwokerto,
+    servis bengkel mobil matic purwokerto, harga bengkel mobil matic purwokerto,
+    biaya bengkel mobil matic purwokerto
 ---
 
 ![image](~/assets/images/uploads/IMG_6342-scaled.jpg)

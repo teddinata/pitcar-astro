@@ -5,10 +5,20 @@ excerpt: ''
 category: jasa-service
 draft: false
 metadata:
-  canonical: 'https://pitcar.co.id/kuras-oli-transmisi-matic-purwokerto'
+  canonical: 'https://pitcar.co.id/kuras-oli-transmisi-matic-purwokerto/'
   robots:
     index: true
     follow: true
+  description: >-
+    Kuras Oli Transmisi Matic Di Purwokerto Cepat dan Profesional Mobil menjadi
+    salah satu kendaraan yang memiliki perawatan tidak mudah. Dengan kata lain,
+    jika
+  keywords: >-
+    kuras oli transmisi matic purwokerto, jasa kuras oli transmisi matic
+    purwokerto, bengkel kuras oli transmisi matic purwokerto, service kuras oli
+    transmisi matic purwokerto, servis kuras oli transmisi matic purwokerto,
+    harga kuras oli transmisi matic purwokerto, biaya kuras oli transmisi matic
+    purwokerto
 ---
 
 ![image](~/assets/images/uploads/IMG_6389-scaled.jpg)

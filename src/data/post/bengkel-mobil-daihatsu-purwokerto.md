@@ -5,10 +5,19 @@ excerpt: ''
 category: jasa-service
 draft: false
 metadata:
-  canonical: 'https://pitcar.co.id/bengkel-mobil-daihatsu-purwokerto'
+  canonical: 'https://pitcar.co.id/bengkel-mobil-daihatsu-purwokerto/'
   robots:
     index: true
     follow: true
+  description: >-
+    Punya kasus bersama dengan kendaraan anda, kala berada dalam perjalanan
+    didalam kota purwokerto. kini sudah tidak tersedia kendala artinya kembali
+    sebab
+  keywords: >-
+    bengkel mobil daihatsu purwokerto, jasa bengkel mobil daihatsu purwokerto,
+    bengkel bengkel mobil daihatsu purwokerto, service bengkel mobil daihatsu
+    purwokerto, servis bengkel mobil daihatsu purwokerto, harga bengkel mobil
+    daihatsu purwokerto, biaya bengkel mobil daihatsu purwokerto
 ---
 
 ![image](~/assets/images/uploads/IMG_6342-scaled.jpg)

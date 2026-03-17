@@ -5,10 +5,19 @@ excerpt: ''
 category: jasa-service
 draft: false
 metadata:
-  canonical: 'https://pitcar.co.id/cat-ulang-mobil-purwokerto'
+  canonical: 'https://pitcar.co.id/cat-ulang-mobil-purwokerto/'
   robots:
     index: true
     follow: true
+  description: >-
+    Sudah tidak kesulitan untuk mencari bengkel pada kendaraan kita, kecuali
+    kami mengalami problem terhadap kendaraan. kita akan banyak temukan jasa
+    bengkel Cat
+  keywords: >-
+    cat ulang mobil purwokerto, jasa cat ulang mobil purwokerto, bengkel cat
+    ulang mobil purwokerto, service cat ulang mobil purwokerto, servis cat ulang
+    mobil purwokerto, harga cat ulang mobil purwokerto, biaya cat ulang mobil
+    purwokerto
 ---
 
 ![image](~/assets/images/uploads/WhatsApp-Image-2021-03-28-at-10.12.08-AM.jpeg)

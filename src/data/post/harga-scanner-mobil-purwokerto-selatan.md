@@ -5,10 +5,20 @@ excerpt: ''
 category: jasa-service
 draft: false
 metadata:
-  canonical: 'https://pitcar.co.id/harga-scanner-mobil-purwokerto-selatan'
+  canonical: 'https://pitcar.co.id/harga-scanner-mobil-purwokerto-selatan/'
   robots:
     index: true
     follow: true
+  description: >-
+    Harga Scanner Mobil Tercanggih Panggilan Di Purwokerto Selatan Paling Murah
+    dan Terjangkau Perawatan mobil sebenarnya tidak semudah yang Anda lihat,
+    terutama
+  keywords: >-
+    harga scanner mobil purwokerto selatan, jasa harga scanner mobil purwokerto
+    selatan, bengkel harga scanner mobil purwokerto selatan, service harga
+    scanner mobil purwokerto selatan, servis harga scanner mobil purwokerto
+    selatan, harga harga scanner mobil purwokerto selatan, biaya harga scanner
+    mobil purwokerto selatan
 ---
 
 ![image](~/assets/images/uploads/WhatsApp-Image-2021-03-28-at-10.12.08-AM.jpeg)

@@ -5,10 +5,19 @@ excerpt: ''
 category: jasa-service
 draft: false
 metadata:
-  canonical: 'https://pitcar.co.id/harga-spooring-purwokerto'
+  canonical: 'https://pitcar.co.id/harga-spooring-purwokerto/'
   robots:
     index: true
     follow: true
+  description: >-
+    Sudah tidak ada masalah untuk mencari bengkel pada kendaraan kita, kecuali
+    kami mengalami masalah pada kendaraan. kami akan banyak temukan jasa bengkel
+    Harga
+  keywords: >-
+    harga spooring purwokerto, jasa harga spooring purwokerto, bengkel harga
+    spooring purwokerto, service harga spooring purwokerto, servis harga
+    spooring purwokerto, harga harga spooring purwokerto, biaya harga spooring
+    purwokerto
 ---
 
 ![image](~/assets/images/uploads/WhatsApp-Image-2021-03-28-at-10.12.08-AM.jpeg)

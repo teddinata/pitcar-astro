@@ -5,10 +5,19 @@ excerpt: ''
 category: jasa-service
 draft: false
 metadata:
-  canonical: 'https://pitcar.co.id/bengkel-body-repair-purwokerto'
+  canonical: 'https://pitcar.co.id/bengkel-body-repair-purwokerto/'
   robots:
     index: true
     follow: true
+  description: >-
+    Bengkel Body Repair Di Purwokerto Terbaik Paling Lengkap Banyak orang yang
+    tidak punya pas untuk menjaga mobil kesayangan. Jika Anda juga orang yang
+    sibuk dan
+  keywords: >-
+    bengkel body repair purwokerto, jasa bengkel body repair purwokerto, bengkel
+    bengkel body repair purwokerto, service bengkel body repair purwokerto,
+    servis bengkel body repair purwokerto, harga bengkel body repair purwokerto,
+    biaya bengkel body repair purwokerto
 ---
 
 ![image](~/assets/images/uploads/WhatsApp-Image-2021-03-28-at-10.12.08-AM.jpeg)

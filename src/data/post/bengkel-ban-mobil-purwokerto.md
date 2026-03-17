@@ -5,10 +5,19 @@ excerpt: ''
 category: jasa-service
 draft: false
 metadata:
-  canonical: 'https://pitcar.co.id/bengkel-ban-mobil-purwokerto'
+  canonical: 'https://pitcar.co.id/bengkel-ban-mobil-purwokerto/'
   robots:
     index: true
     follow: true
+  description: >-
+    Bengkel Ban Mobil Terdekat Di Purwokerto Terbaik Paling Lengkap Banyak orang
+    yang tidak memiliki waktu untuk merawat mobil kesayangan. Jika Anda
+    terhitung orang
+  keywords: >-
+    bengkel ban mobil purwokerto, jasa bengkel ban mobil purwokerto, bengkel
+    bengkel ban mobil purwokerto, service bengkel ban mobil purwokerto, servis
+    bengkel ban mobil purwokerto, harga bengkel ban mobil purwokerto, biaya
+    bengkel ban mobil purwokerto
 ---
 
 ![image](~/assets/images/uploads/IMG_6389-scaled.jpg)

@@ -5,10 +5,19 @@ excerpt: ''
 category: jasa-service
 draft: false
 metadata:
-  canonical: 'https://pitcar.co.id/perawatan-berkala-purwokerto'
+  canonical: 'https://pitcar.co.id/perawatan-berkala-purwokerto/'
   robots:
     index: true
     follow: true
+  description: >-
+    Keunggulan Perawatan Berkala Adalah Di Purwokerto Terpercaya Jika Anda
+    menghendaki memelihara mobil yang paling disayangi bersama dengan cara
+    mudah, maka bisa
+  keywords: >-
+    perawatan berkala purwokerto, jasa perawatan berkala purwokerto, bengkel
+    perawatan berkala purwokerto, service perawatan berkala purwokerto, servis
+    perawatan berkala purwokerto, harga perawatan berkala purwokerto, biaya
+    perawatan berkala purwokerto
 ---
 
 ![image](~/assets/images/uploads/IMG_6397-scaled.jpg)

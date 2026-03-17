@@ -5,10 +5,18 @@ excerpt: ''
 category: ac
 draft: false
 metadata:
-  canonical: 'https://pitcar.co.id/service-kompresor-ac-mobil-purwokerto'
+  canonical: 'https://pitcar.co.id/service-kompresor-ac-mobil-purwokerto/'
   robots:
     index: true
     follow: true
+  description: >-
+    Keunggulan Service Kompresor Ac Mobil Di Purwokerto Terpercaya Jika Anda
+    inginkan merawat mobil yang paling disayangi bersama cara mudah, maka dapat
+  keywords: >-
+    service kompresor mobil purwokerto, jasa service kompresor mobil purwokerto,
+    bengkel service kompresor mobil purwokerto, service service kompresor mobil
+    purwokerto, servis service kompresor mobil purwokerto, harga service
+    kompresor mobil purwokerto, biaya service kompresor mobil purwokerto
 ---
 
 ![image](~/assets/images/uploads/IMG_6348-scaled.jpg)

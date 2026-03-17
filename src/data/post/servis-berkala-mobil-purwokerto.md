@@ -5,10 +5,19 @@ excerpt: ''
 category: jasa-service
 draft: false
 metadata:
-  canonical: 'https://pitcar.co.id/servis-berkala-mobil-purwokerto'
+  canonical: 'https://pitcar.co.id/servis-berkala-mobil-purwokerto/'
   robots:
     index: true
     follow: true
+  description: >-
+    Keunggulan Servis Berkala Mobil Di Purwokerto Terpercaya Jika Anda
+    mengidamkan menjaga mobil kesayangan bersama cara mudah, maka sanggup
+    mengfungsikan Servis
+  keywords: >-
+    servis berkala mobil purwokerto, jasa servis berkala mobil purwokerto,
+    bengkel servis berkala mobil purwokerto, service servis berkala mobil
+    purwokerto, servis servis berkala mobil purwokerto, harga servis berkala
+    mobil purwokerto, biaya servis berkala mobil purwokerto
 ---
 
 ![image](~/assets/images/uploads/IMG_6397-scaled.jpg)

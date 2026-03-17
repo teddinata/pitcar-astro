@@ -5,10 +5,19 @@ excerpt: ''
 category: jasa-service
 draft: false
 metadata:
-  canonical: 'https://pitcar.co.id/scanner-mobil-bekas-banyumas'
+  canonical: 'https://pitcar.co.id/scanner-mobil-bekas-banyumas/'
   robots:
     index: true
     follow: true
+  description: >-
+    Scanner Mobil Bekas Panggilan Di Banyumas Paling Murah dan Terjangkau
+    Perawatan mobil sesungguhnya tidak semudah yang Anda lihat, khususnya bagi
+    Anda yang belum
+  keywords: >-
+    scanner mobil bekas banyumas, jasa scanner mobil bekas banyumas, bengkel
+    scanner mobil bekas banyumas, service scanner mobil bekas banyumas, servis
+    scanner mobil bekas banyumas, harga scanner mobil bekas banyumas, biaya
+    scanner mobil bekas banyumas
 ---
 
 ![image](https://placehold.co/1200x800/222222/FFFFFF/png?text=Pitcar+Service)

@@ -5,10 +5,19 @@ excerpt: ''
 category: jasa-service
 draft: false
 metadata:
-  canonical: 'https://pitcar.co.id/service-pintu-mobil-purwokerto'
+  canonical: 'https://pitcar.co.id/service-pintu-mobil-purwokerto/'
   robots:
     index: true
     follow: true
+  description: >-
+    Keunggulan Service Pintu Mobil Terdekat Di Purwokerto Terpercaya Jika Anda
+    idamkan melindungi mobil kesayangan bersama cara mudah, maka bisa pakai
+    Service Pintu
+  keywords: >-
+    service pintu mobil purwokerto, jasa service pintu mobil purwokerto, bengkel
+    service pintu mobil purwokerto, service service pintu mobil purwokerto,
+    servis service pintu mobil purwokerto, harga service pintu mobil purwokerto,
+    biaya service pintu mobil purwokerto
 ---
 
 ![image](~/assets/images/uploads/IMG_6397-scaled.jpg)

@@ -5,10 +5,20 @@ excerpt: ''
 category: jasa-service
 draft: false
 metadata:
-  canonical: 'https://pitcar.co.id/biaya-service-mobil-honda-bengkel-2020-purwokerto'
+  canonical: 'https://pitcar.co.id/biaya-service-mobil-honda-bengkel-2020-purwokerto/'
   robots:
     index: true
     follow: true
+  description: >-
+    Keunggulan Biaya Service Mobil Honda Di Bengkel Resmi 2020 Di Purwokerto
+    Terpercaya Jika Anda menginginkan memelihara mobil kesayangan dengan langkah
+    mudah,
+  keywords: >-
+    biaya service mobil honda purwokerto, jasa biaya service mobil honda
+    purwokerto, bengkel biaya service mobil honda purwokerto, service biaya
+    service mobil honda purwokerto, servis biaya service mobil honda purwokerto,
+    harga biaya service mobil honda purwokerto, biaya biaya service mobil honda
+    purwokerto
 ---
 
 ![image](https://placehold.co/1200x800/222222/FFFFFF/png?text=Pitcar+Service)

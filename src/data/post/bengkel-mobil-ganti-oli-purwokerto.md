@@ -5,10 +5,19 @@ excerpt: ''
 category: oli
 draft: false
 metadata:
-  canonical: 'https://pitcar.co.id/bengkel-mobil-ganti-oli-purwokerto'
+  canonical: 'https://pitcar.co.id/bengkel-mobil-ganti-oli-purwokerto/'
   robots:
     index: true
     follow: true
+  description: >-
+    Keunggulan Bengkel Mobil Ganti Oli Terdekat Di Purwokerto Terpercaya Jika
+    Anda ingin melindungi mobil kesayangan bersama dengan langkah mudah, maka
+    sanggup
+  keywords: >-
+    bengkel mobil ganti oli purwokerto, jasa bengkel mobil ganti oli purwokerto,
+    bengkel bengkel mobil ganti oli purwokerto, service bengkel mobil ganti oli
+    purwokerto, servis bengkel mobil ganti oli purwokerto, harga bengkel mobil
+    ganti oli purwokerto, biaya bengkel mobil ganti oli purwokerto
 ---
 
 ![image](~/assets/images/uploads/IMG_6342-scaled.jpg)

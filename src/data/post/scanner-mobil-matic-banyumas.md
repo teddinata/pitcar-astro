@@ -5,10 +5,19 @@ excerpt: ''
 category: jasa-service
 draft: false
 metadata:
-  canonical: 'https://pitcar.co.id/scanner-mobil-matic-banyumas'
+  canonical: 'https://pitcar.co.id/scanner-mobil-matic-banyumas/'
   robots:
     index: true
     follow: true
+  description: >-
+    Scanner Mobil Matic Tercanggih Terdekat Di Banyumas Paling Murah dan
+    Terjangkau Perawatan mobil sebenarnya tidak semudah yang Anda lihat,
+    terlebih bagi Anda
+  keywords: >-
+    scanner mobil matic banyumas, jasa scanner mobil matic banyumas, bengkel
+    scanner mobil matic banyumas, service scanner mobil matic banyumas, servis
+    scanner mobil matic banyumas, harga scanner mobil matic banyumas, biaya
+    scanner mobil matic banyumas
 ---
 
 ![image](https://placehold.co/1200x800/222222/FFFFFF/png?text=Pitcar+Service)

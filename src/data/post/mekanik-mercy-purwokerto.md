@@ -5,10 +5,18 @@ excerpt: ''
 category: jasa-service
 draft: false
 metadata:
-  canonical: 'https://pitcar.co.id/mekanik-mercy-purwokerto'
+  canonical: 'https://pitcar.co.id/mekanik-mercy-purwokerto/'
   robots:
     index: true
     follow: true
+  description: >-
+    Pitcar: Mekanik Mercy Panggilan Di Purwokerto Bengkel Panggilan Purwokerto
+    Langsung Datang ke Rumah Merawat mobil menjadi salah satu hal yang cukup
+    sulit,
+  keywords: >-
+    mekanik mercy purwokerto, jasa mekanik mercy purwokerto, bengkel mekanik
+    mercy purwokerto, service mekanik mercy purwokerto, servis mekanik mercy
+    purwokerto, harga mekanik mercy purwokerto, biaya mekanik mercy purwokerto
 ---
 
 ![image](~/assets/images/uploads/IMG_6340-scaled.jpg)

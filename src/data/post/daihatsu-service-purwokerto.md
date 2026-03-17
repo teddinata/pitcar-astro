@@ -5,10 +5,19 @@ excerpt: ''
 category: jasa-service
 draft: false
 metadata:
-  canonical: 'https://pitcar.co.id/daihatsu-service-purwokerto'
+  canonical: 'https://pitcar.co.id/daihatsu-service-purwokerto/'
   robots:
     index: true
     follow: true
+  description: >-
+    Pitcar: Daihatsu Service Panggilan Di Purwokerto Bengkel Panggilan
+    Purwokerto Langsung Datang ke Rumah Merawat mobil menjadi salah satu hal
+    yang memadai sulit,
+  keywords: >-
+    daihatsu service purwokerto, jasa daihatsu service purwokerto, bengkel
+    daihatsu service purwokerto, service daihatsu service purwokerto, servis
+    daihatsu service purwokerto, harga daihatsu service purwokerto, biaya
+    daihatsu service purwokerto
 ---
 
 ![image](~/assets/images/uploads/IMG_6340-scaled.jpg)

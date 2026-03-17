@@ -5,10 +5,19 @@ excerpt: ''
 category: jasa-service
 draft: false
 metadata:
-  canonical: 'https://pitcar.co.id/biaya-servis-ac-mobil-purwokerto'
+  canonical: 'https://pitcar.co.id/biaya-servis-ac-mobil-purwokerto/'
   robots:
     index: true
     follow: true
+  description: >-
+    Keunggulan Biaya Servis Ac Mobil Di Purwokerto Terpercaya Jika Anda inginkan
+    memelihara mobil kesayangan dengan langkah mudah, maka bisa gunakan Biaya
+    Servis Ac
+  keywords: >-
+    biaya servis mobil purwokerto, jasa biaya servis mobil purwokerto, bengkel
+    biaya servis mobil purwokerto, service biaya servis mobil purwokerto, servis
+    biaya servis mobil purwokerto, harga biaya servis mobil purwokerto, biaya
+    biaya servis mobil purwokerto
 ---
 
 ![image](~/assets/images/uploads/IMG_6340-scaled.jpg)

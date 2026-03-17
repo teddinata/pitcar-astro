@@ -5,10 +5,20 @@ excerpt: ''
 category: jasa-service
 draft: false
 metadata:
-  canonical: 'https://pitcar.co.id/bengkel-mobil-toyota-24-jam-purwokerto'
+  canonical: 'https://pitcar.co.id/bengkel-mobil-toyota-24-jam-purwokerto/'
   robots:
     index: true
     follow: true
+  description: >-
+    Pitcar: Bengkel Mobil Toyota 24 Jam Di Purwokerto Bengkel Panggilan
+    Purwokerto Langsung Datang ke Rumah Merawat mobil menjadi keliru satu hal
+    yang memadai
+  keywords: >-
+    bengkel mobil toyota jam purwokerto, jasa bengkel mobil toyota jam
+    purwokerto, bengkel bengkel mobil toyota jam purwokerto, service bengkel
+    mobil toyota jam purwokerto, servis bengkel mobil toyota jam purwokerto,
+    harga bengkel mobil toyota jam purwokerto, biaya bengkel mobil toyota jam
+    purwokerto
 ---
 
 ![image](~/assets/images/uploads/IMG_6389-scaled.jpg)

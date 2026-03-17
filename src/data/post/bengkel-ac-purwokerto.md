@@ -5,10 +5,18 @@ excerpt: ''
 category: jasa-service
 draft: false
 metadata:
-  canonical: 'https://pitcar.co.id/bengkel-ac-purwokerto'
+  canonical: 'https://pitcar.co.id/bengkel-ac-purwokerto/'
   robots:
     index: true
     follow: true
+  description: >-
+    Keunggulan Bengkel Ac Di Purwokerto Terpercaya Jika Anda idamkan memelihara
+    mobil yang paling disayangi dengan cara mudah, maka mampu pakai Bengkel Ac
+    Di
+  keywords: >-
+    bengkel purwokerto, jasa bengkel purwokerto, bengkel bengkel purwokerto,
+    service bengkel purwokerto, servis bengkel purwokerto, harga bengkel
+    purwokerto, biaya bengkel purwokerto
 ---
 
 ![image](https://placehold.co/1200x800/222222/FFFFFF/png?text=Pitcar+Service)

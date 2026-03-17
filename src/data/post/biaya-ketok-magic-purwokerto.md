@@ -7,10 +7,19 @@ tags:
   - biaya-ketok-magic
 draft: false
 metadata:
-  canonical: 'https://pitcar.co.id/biaya-ketok-magic-purwokerto'
+  canonical: 'https://pitcar.co.id/biaya-ketok-magic-purwokerto/'
   robots:
     index: true
     follow: true
+  description: >-
+    (https://pitcar.co.id/) - Ketok magic adalah sebuah istilah yang mengarah
+    kepada perbaikan bodi mobil yang memiliki kerusakan cukup parah. Ketok magic
+    ini juga,
+  keywords: >-
+    biaya ketok magic purwokerto, jasa biaya ketok magic purwokerto, bengkel
+    biaya ketok magic purwokerto, service biaya ketok magic purwokerto, servis
+    biaya ketok magic purwokerto, harga biaya ketok magic purwokerto, biaya
+    biaya ketok magic purwokerto
 ---
 
 **(https://pitcar.co.id/)** - Ketok magic adalah sebuah istilah yang mengarah kepada perbaikan bodi mobil yang memiliki kerusakan cukup parah. Ketok magic ini juga, merupakan cara alternatif bagi para pemilik mobil dalam memperbaiki mobilnya yang mengalami kerusakan seperti penyok akibat menabrak.

@@ -5,10 +5,19 @@ excerpt: ''
 category: jasa-service
 draft: false
 metadata:
-  canonical: 'https://pitcar.co.id/bengkel-power-steering-purwokerto'
+  canonical: 'https://pitcar.co.id/bengkel-power-steering-purwokerto/'
   robots:
     index: true
     follow: true
+  description: >-
+    Bengkel Power Steering Di Purwokerto Terbaik Paling Lengkap Banyak orang
+    yang tidak punyai pas untuk merawat mobil kesayangan. Jika Anda juga orang
+    yang repot
+  keywords: >-
+    bengkel power steering purwokerto, jasa bengkel power steering purwokerto,
+    bengkel bengkel power steering purwokerto, service bengkel power steering
+    purwokerto, servis bengkel power steering purwokerto, harga bengkel power
+    steering purwokerto, biaya bengkel power steering purwokerto
 ---
 
 ![image](https://placehold.co/1200x800/222222/FFFFFF/png?text=Pitcar+Service)

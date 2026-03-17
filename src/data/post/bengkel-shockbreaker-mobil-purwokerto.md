@@ -5,10 +5,20 @@ excerpt: ''
 category: jasa-service
 draft: false
 metadata:
-  canonical: 'https://pitcar.co.id/bengkel-shockbreaker-mobil-purwokerto'
+  canonical: 'https://pitcar.co.id/bengkel-shockbreaker-mobil-purwokerto/'
   robots:
     index: true
     follow: true
+  description: >-
+    Keunggulan Bengkel Shockbreaker Mobil Di Purwokerto Terpercaya Jika Anda
+    mendambakan merawat mobil yang paling disayangi bersama langkah mudah, maka
+    bisa
+  keywords: >-
+    bengkel shockbreaker mobil purwokerto, jasa bengkel shockbreaker mobil
+    purwokerto, bengkel bengkel shockbreaker mobil purwokerto, service bengkel
+    shockbreaker mobil purwokerto, servis bengkel shockbreaker mobil purwokerto,
+    harga bengkel shockbreaker mobil purwokerto, biaya bengkel shockbreaker
+    mobil purwokerto
 ---
 
 ![image](~/assets/images/uploads/WhatsApp-Image-2021-03-28-at-10.12.08-AM.jpeg)

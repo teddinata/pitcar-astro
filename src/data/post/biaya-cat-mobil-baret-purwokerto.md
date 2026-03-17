@@ -5,10 +5,19 @@ excerpt: ''
 category: jasa-service
 draft: false
 metadata:
-  canonical: 'https://pitcar.co.id/biaya-cat-mobil-baret-purwokerto'
+  canonical: 'https://pitcar.co.id/biaya-cat-mobil-baret-purwokerto/'
   robots:
     index: true
     follow: true
+  description: >-
+    Sudah tidak susah untuk mencari bengkel terhadap kendaraan kita, jika kita
+    mengalami problem pada kendaraan. kami akan banyak temukan jasa bengkel
+    Biaya Cat
+  keywords: >-
+    biaya cat mobil baret purwokerto, jasa biaya cat mobil baret purwokerto,
+    bengkel biaya cat mobil baret purwokerto, service biaya cat mobil baret
+    purwokerto, servis biaya cat mobil baret purwokerto, harga biaya cat mobil
+    baret purwokerto, biaya biaya cat mobil baret purwokerto
 ---
 
 ![image](~/assets/images/uploads/IMG_6389-scaled.jpg)

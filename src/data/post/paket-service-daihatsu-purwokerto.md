@@ -5,10 +5,19 @@ excerpt: ''
 category: jasa-service
 draft: false
 metadata:
-  canonical: 'https://pitcar.co.id/paket-service-daihatsu-purwokerto'
+  canonical: 'https://pitcar.co.id/paket-service-daihatsu-purwokerto/'
   robots:
     index: true
     follow: true
+  description: >-
+    Keunggulan Paket Service Daihatsu Di Purwokerto Terpercaya Jika Anda
+    menghendaki menjaga mobil yang paling disayangi bersama dengan cara mudah,
+    maka dapat pakai
+  keywords: >-
+    paket service daihatsu purwokerto, jasa paket service daihatsu purwokerto,
+    bengkel paket service daihatsu purwokerto, service paket service daihatsu
+    purwokerto, servis paket service daihatsu purwokerto, harga paket service
+    daihatsu purwokerto, biaya paket service daihatsu purwokerto
 ---
 
 ![image](~/assets/images/uploads/IMG_6342-scaled.jpg)

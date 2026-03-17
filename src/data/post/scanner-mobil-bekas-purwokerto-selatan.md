@@ -5,10 +5,20 @@ excerpt: ''
 category: jasa-service
 draft: false
 metadata:
-  canonical: 'https://pitcar.co.id/scanner-mobil-bekas-purwokerto-selatan'
+  canonical: 'https://pitcar.co.id/scanner-mobil-bekas-purwokerto-selatan/'
   robots:
     index: true
     follow: true
+  description: >-
+    Scanner Mobil Bekas Terdekat Purwokerto Selatan Paling Murah dan Terjangkau
+    Perawatan mobil sesungguhnya tidak semudah yang Anda lihat, khususnya bagi
+    Anda yang
+  keywords: >-
+    scanner mobil bekas purwokerto selatan, jasa scanner mobil bekas purwokerto
+    selatan, bengkel scanner mobil bekas purwokerto selatan, service scanner
+    mobil bekas purwokerto selatan, servis scanner mobil bekas purwokerto
+    selatan, harga scanner mobil bekas purwokerto selatan, biaya scanner mobil
+    bekas purwokerto selatan
 ---
 
 ![image](~/assets/images/uploads/IMG_6342-scaled.jpg)

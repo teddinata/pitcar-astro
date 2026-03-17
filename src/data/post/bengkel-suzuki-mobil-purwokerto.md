@@ -5,10 +5,19 @@ excerpt: ''
 category: jasa-service
 draft: false
 metadata:
-  canonical: 'https://pitcar.co.id/bengkel-suzuki-mobil-purwokerto'
+  canonical: 'https://pitcar.co.id/bengkel-suzuki-mobil-purwokerto/'
   robots:
     index: true
     follow: true
+  description: >-
+    Sudah tidak ada problem untuk mencari bengkel terhadap kendaraan kita, kalau
+    kami mengalami persoalan terhadap kendaraan. kami dapat banyak temukan jasa
+    bengkel
+  keywords: >-
+    bengkel suzuki mobil purwokerto, jasa bengkel suzuki mobil purwokerto,
+    bengkel bengkel suzuki mobil purwokerto, service bengkel suzuki mobil
+    purwokerto, servis bengkel suzuki mobil purwokerto, harga bengkel suzuki
+    mobil purwokerto, biaya bengkel suzuki mobil purwokerto
 ---
 
 ![image](~/assets/images/uploads/IMG_6397-scaled.jpg)

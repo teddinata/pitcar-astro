@@ -5,10 +5,18 @@ excerpt: ''
 category: jasa-service
 draft: false
 metadata:
-  canonical: 'https://pitcar.co.id/bengkel-bos-purwokerto'
+  canonical: 'https://pitcar.co.id/bengkel-bos-purwokerto/'
   robots:
     index: true
     follow: true
+  description: >-
+    Sudah tidak kesusahan untuk Mencari Informasi bengkel terhadap kendaraan
+    kita, jikalau kita mengalami persoalan terhadap kendaraan. kita dapat banyak
+    temukan
+  keywords: >-
+    bengkel bos purwokerto, jasa bengkel bos purwokerto, bengkel bengkel bos
+    purwokerto, service bengkel bos purwokerto, servis bengkel bos purwokerto,
+    harga bengkel bos purwokerto, biaya bengkel bos purwokerto
 ---
 
 ![image](~/assets/images/uploads/IMG_6348-scaled.jpg)

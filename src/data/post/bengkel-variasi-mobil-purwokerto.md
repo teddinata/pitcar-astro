@@ -5,10 +5,19 @@ excerpt: ''
 category: jasa-service
 draft: false
 metadata:
-  canonical: 'https://pitcar.co.id/bengkel-variasi-mobil-purwokerto'
+  canonical: 'https://pitcar.co.id/bengkel-variasi-mobil-purwokerto/'
   robots:
     index: true
     follow: true
+  description: >-
+    Punya persoalan bersama dengan kendaraan anda, sementara berada didalam
+    perjalanan di dalam kota purwokerto. kini udah tidak ada rintangan artinya
+    ulang
+  keywords: >-
+    bengkel variasi mobil purwokerto, jasa bengkel variasi mobil purwokerto,
+    bengkel bengkel variasi mobil purwokerto, service bengkel variasi mobil
+    purwokerto, servis bengkel variasi mobil purwokerto, harga bengkel variasi
+    mobil purwokerto, biaya bengkel variasi mobil purwokerto
 ---
 
 ![image](https://placehold.co/1200x800/222222/FFFFFF/png?text=Pitcar+Service)

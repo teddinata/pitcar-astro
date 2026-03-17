@@ -5,10 +5,19 @@ excerpt: ''
 category: jasa-service
 draft: false
 metadata:
-  canonical: 'https://pitcar.co.id/service-dinamo-mobil-purwokerto'
+  canonical: 'https://pitcar.co.id/service-dinamo-mobil-purwokerto/'
   robots:
     index: true
     follow: true
+  description: >-
+    Pitcar: Service Dinamo Mobil Panggilan Di Purwokerto Langsung Datang ke
+    Rumah Merawat mobil menjadi salah satu hal yang lumayan sulit, lebih-lebih
+    bagi Anda
+  keywords: >-
+    service dinamo mobil purwokerto, jasa service dinamo mobil purwokerto,
+    bengkel service dinamo mobil purwokerto, service service dinamo mobil
+    purwokerto, servis service dinamo mobil purwokerto, harga service dinamo
+    mobil purwokerto, biaya service dinamo mobil purwokerto
 ---
 
 ![image](https://placehold.co/1200x800/222222/FFFFFF/png?text=Pitcar+Service)

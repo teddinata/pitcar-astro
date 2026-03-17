@@ -5,10 +5,19 @@ excerpt: ''
 category: scanning-ecu
 draft: false
 metadata:
-  canonical: 'https://pitcar.co.id/servis-ecu-mobil-purwokerto'
+  canonical: 'https://pitcar.co.id/servis-ecu-mobil-purwokerto/'
   robots:
     index: true
     follow: true
+  description: >-
+    Keunggulan Servis Ecu Mobil Di Purwokerto Terpercaya Jika Anda idamkan
+    memelihara mobil kesayangan bersama dengan langkah mudah, maka sanggup
+    gunakan Servis Ecu
+  keywords: >-
+    servis ecu mobil purwokerto, jasa servis ecu mobil purwokerto, bengkel
+    servis ecu mobil purwokerto, service servis ecu mobil purwokerto, servis
+    servis ecu mobil purwokerto, harga servis ecu mobil purwokerto, biaya servis
+    ecu mobil purwokerto
 ---
 
 ![image](~/assets/images/uploads/IMG_6340-scaled.jpg)

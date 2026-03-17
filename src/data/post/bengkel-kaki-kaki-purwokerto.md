@@ -5,10 +5,19 @@ excerpt: ''
 category: jasa-service
 draft: false
 metadata:
-  canonical: 'https://pitcar.co.id/bengkel-kaki-kaki-purwokerto'
+  canonical: 'https://pitcar.co.id/bengkel-kaki-kaki-purwokerto/'
   robots:
     index: true
     follow: true
+  description: >-
+    Bengkel Kaki Kaki Di Purwokerto Terbaik Paling Lengkap Banyak orang yang
+    tidak miliki kala untuk menjaga mobil kesayangan. Jika Anda juga orang yang
+    repot dan
+  keywords: >-
+    bengkel kaki kaki purwokerto, jasa bengkel kaki kaki purwokerto, bengkel
+    bengkel kaki kaki purwokerto, service bengkel kaki kaki purwokerto, servis
+    bengkel kaki kaki purwokerto, harga bengkel kaki kaki purwokerto, biaya
+    bengkel kaki kaki purwokerto
 ---
 
 ![image](~/assets/images/uploads/IMG_6397-scaled.jpg)

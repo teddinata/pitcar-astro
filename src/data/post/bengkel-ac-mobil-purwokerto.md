@@ -5,10 +5,18 @@ excerpt: ''
 category: jasa-service
 draft: false
 metadata:
-  canonical: 'https://pitcar.co.id/bengkel-ac-mobil-purwokerto'
+  canonical: 'https://pitcar.co.id/bengkel-ac-mobil-purwokerto/'
   robots:
     index: true
     follow: true
+  description: >-
+    Keunggulan Bengkel Ac Mobil Di Purwokerto Terpercaya Jika Anda inginkan
+    memelihara mobil kesayangan bersama langkah mudah, maka bisa memakai Bengkel
+    Ac Mobil Di
+  keywords: >-
+    bengkel mobil purwokerto, jasa bengkel mobil purwokerto, bengkel bengkel
+    mobil purwokerto, service bengkel mobil purwokerto, servis bengkel mobil
+    purwokerto, harga bengkel mobil purwokerto, biaya bengkel mobil purwokerto
 ---
 
 ![image](~/assets/images/uploads/IMG_6397-scaled.jpg)

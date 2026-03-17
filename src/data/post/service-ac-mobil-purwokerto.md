@@ -5,10 +5,18 @@ excerpt: ''
 category: ac
 draft: false
 metadata:
-  canonical: 'https://pitcar.co.id/service-ac-mobil-purwokerto'
+  canonical: 'https://pitcar.co.id/service-ac-mobil-purwokerto/'
   robots:
     index: true
     follow: true
+  description: >-
+    Service AC mobil Purwokerto - Sistem pendingin udara dalam mobil menjadi
+    salah satu fitur penting yang sangat dibutuhkan, terutama pada saat musim
+    panas atau di
+  keywords: >-
+    service mobil purwokerto, jasa service mobil purwokerto, bengkel service
+    mobil purwokerto, service service mobil purwokerto, servis service mobil
+    purwokerto, harga service mobil purwokerto, biaya service mobil purwokerto
 ---
 
 ![image](~/assets/images/uploads/IMG_6397-scaled.jpg)

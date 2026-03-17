@@ -5,10 +5,18 @@ excerpt: ''
 category: jasa-service
 draft: false
 metadata:
-  canonical: 'https://pitcar.co.id/bengkel-suzuki-purwokerto'
+  canonical: 'https://pitcar.co.id/bengkel-suzuki-purwokerto/'
   robots:
     index: true
     follow: true
+  description: >-
+    Keunggulan Bengkel Resmi Suzuki Di Purwokerto Terpercaya Jika Anda dambakan
+    melindungi mobil kesayangan bersama cara mudah, maka dapat memakai Bengkel
+    Resmi
+  keywords: >-
+    bengkel suzuki purwokerto, jasa bengkel suzuki purwokerto, bengkel bengkel
+    suzuki purwokerto, service bengkel suzuki purwokerto, servis bengkel suzuki
+    purwokerto, harga bengkel suzuki purwokerto, biaya bengkel suzuki purwokerto
 ---
 
 ![image](https://placehold.co/1200x800/222222/FFFFFF/png?text=Pitcar+Service)

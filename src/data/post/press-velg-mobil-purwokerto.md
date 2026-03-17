@@ -5,10 +5,19 @@ excerpt: ''
 category: jasa-service
 draft: false
 metadata:
-  canonical: 'https://pitcar.co.id/press-velg-mobil-purwokerto'
+  canonical: 'https://pitcar.co.id/press-velg-mobil-purwokerto/'
   robots:
     index: true
     follow: true
+  description: >-
+    Press Velg Mobil Terdekat Di Purwokerto Terbaik Paling Lengkap Banyak orang
+    yang tidak mempunyai selagi untuk melindungi mobil kesayangan. Jika Anda
+    termasuk
+  keywords: >-
+    press velg mobil purwokerto, jasa press velg mobil purwokerto, bengkel press
+    velg mobil purwokerto, service press velg mobil purwokerto, servis press
+    velg mobil purwokerto, harga press velg mobil purwokerto, biaya press velg
+    mobil purwokerto
 ---
 
 ![image](~/assets/images/uploads/IMG_6397-scaled.jpg)

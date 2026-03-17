@@ -5,10 +5,18 @@ excerpt: ''
 category: jasa-service
 draft: false
 metadata:
-  canonical: 'https://pitcar.co.id/bengkel-dinamo-purwokerto'
+  canonical: 'https://pitcar.co.id/bengkel-dinamo-purwokerto/'
   robots:
     index: true
     follow: true
+  description: >-
+    Pitcar: Bengkel Dinamo Panggilan Terdekat Di Purwokerto Bengkel Panggilan
+    Purwokerto Langsung Datang ke Rumah Merawat mobil jadi salah satu hal yang
+    lumayan
+  keywords: >-
+    bengkel dinamo purwokerto, jasa bengkel dinamo purwokerto, bengkel bengkel
+    dinamo purwokerto, service bengkel dinamo purwokerto, servis bengkel dinamo
+    purwokerto, harga bengkel dinamo purwokerto, biaya bengkel dinamo purwokerto
 ---
 
 ![image](~/assets/images/uploads/IMG_6340-scaled.jpg)

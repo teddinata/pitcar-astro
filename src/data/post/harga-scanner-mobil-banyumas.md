@@ -5,10 +5,19 @@ excerpt: ''
 category: jasa-service
 draft: false
 metadata:
-  canonical: 'https://pitcar.co.id/harga-scanner-mobil-banyumas'
+  canonical: 'https://pitcar.co.id/harga-scanner-mobil-banyumas/'
   robots:
     index: true
     follow: true
+  description: >-
+    Harga Scanner Mobil Tercanggih Terdekat Di Banyumas Paling Murah dan
+    Terjangkau Perawatan mobil sesungguhnya tidak semudah yang Anda lihat,
+    lebih-lebih bagi
+  keywords: >-
+    harga scanner mobil banyumas, jasa harga scanner mobil banyumas, bengkel
+    harga scanner mobil banyumas, service harga scanner mobil banyumas, servis
+    harga scanner mobil banyumas, harga harga scanner mobil banyumas, biaya
+    harga scanner mobil banyumas
 ---
 
 ![image](~/assets/images/uploads/IMG_6342-scaled.jpg)

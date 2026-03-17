@@ -5,10 +5,19 @@ excerpt: ''
 category: jasa-service
 draft: false
 metadata:
-  canonical: 'https://pitcar.co.id/bengkel-lampu-mobil-purwokerto'
+  canonical: 'https://pitcar.co.id/bengkel-lampu-mobil-purwokerto/'
   robots:
     index: true
     follow: true
+  description: >-
+    Bengkel Lampu Mobil Terdekat Di Purwokerto Terbaik Paling Lengkap Banyak
+    orang yang tidak mempunyai selagi untuk merawat mobil kesayangan. Jika Anda
+    juga orang
+  keywords: >-
+    bengkel lampu mobil purwokerto, jasa bengkel lampu mobil purwokerto, bengkel
+    bengkel lampu mobil purwokerto, service bengkel lampu mobil purwokerto,
+    servis bengkel lampu mobil purwokerto, harga bengkel lampu mobil purwokerto,
+    biaya bengkel lampu mobil purwokerto
 ---
 
 ![image](~/assets/images/uploads/IMG_6348-scaled.jpg)

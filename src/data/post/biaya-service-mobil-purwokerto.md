@@ -5,10 +5,19 @@ excerpt: ''
 category: jasa-service
 draft: false
 metadata:
-  canonical: 'https://pitcar.co.id/biaya-service-mobil-purwokerto'
+  canonical: 'https://pitcar.co.id/biaya-service-mobil-purwokerto/'
   robots:
     index: true
     follow: true
+  description: >-
+    Keunggulan Biaya Service Mobil Di Purwokerto Terpercaya Jika Anda inginkan
+    memelihara mobil yang paling disayangi bersama cara mudah, maka sanggup
+    memakai Biaya
+  keywords: >-
+    biaya service mobil purwokerto, jasa biaya service mobil purwokerto, bengkel
+    biaya service mobil purwokerto, service biaya service mobil purwokerto,
+    servis biaya service mobil purwokerto, harga biaya service mobil purwokerto,
+    biaya biaya service mobil purwokerto
 ---
 
 ![image](~/assets/images/uploads/IMG_6389-scaled.jpg)

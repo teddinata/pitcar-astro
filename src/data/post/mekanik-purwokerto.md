@@ -5,10 +5,18 @@ excerpt: ''
 category: jasa-service
 draft: false
 metadata:
-  canonical: 'https://pitcar.co.id/mekanik-purwokerto'
+  canonical: 'https://pitcar.co.id/mekanik-purwokerto/'
   robots:
     index: true
     follow: true
+  description: >-
+    Pitcar: Mekanik Panggilan Terdekat Di Purwokerto Bengkel Panggilan
+    Purwokerto Langsung Datang ke Rumah Merawat mobil menjadi keliru satu hal
+    yang lumayan sulit,
+  keywords: >-
+    mekanik purwokerto, jasa mekanik purwokerto, bengkel mekanik purwokerto,
+    service mekanik purwokerto, servis mekanik purwokerto, harga mekanik
+    purwokerto, biaya mekanik purwokerto
 ---
 
 ![image](~/assets/images/uploads/IMG_6348-scaled.jpg)

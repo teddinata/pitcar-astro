@@ -5,10 +5,19 @@ excerpt: ''
 category: jasa-service
 draft: false
 metadata:
-  canonical: 'https://pitcar.co.id/service-aki-mobil-purwokerto'
+  canonical: 'https://pitcar.co.id/service-aki-mobil-purwokerto/'
   robots:
     index: true
     follow: true
+  description: >-
+    Pitcar: Service Aki Mobil Panggilan Terdekat Di Purwokerto Bengkel Panggilan
+    Purwokerto Langsung Datang ke Rumah Merawat mobil menjadi salah satu perihal
+    yang
+  keywords: >-
+    service aki mobil purwokerto, jasa service aki mobil purwokerto, bengkel
+    service aki mobil purwokerto, service service aki mobil purwokerto, servis
+    service aki mobil purwokerto, harga service aki mobil purwokerto, biaya
+    service aki mobil purwokerto
 ---
 
 ![image](~/assets/images/uploads/IMG_6397-scaled.jpg)

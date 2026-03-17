@@ -5,10 +5,20 @@ excerpt: ''
 category: jasa-service
 draft: false
 metadata:
-  canonical: 'https://pitcar.co.id/scanner-mobil-matic-injeksi-android-banyumas'
+  canonical: 'https://pitcar.co.id/scanner-mobil-matic-injeksi-android-banyumas/'
   robots:
     index: true
     follow: true
+  description: >-
+    Scanner Mobil Matic Injeksi Android Panggilan Di Banyumas Paling Murah dan
+    Terjangkau Perawatan mobil sesungguhnya tidak semudah yang Anda lihat,
+    terutama bagi
+  keywords: >-
+    scanner mobil matic injeksi banyumas, jasa scanner mobil matic injeksi
+    banyumas, bengkel scanner mobil matic injeksi banyumas, service scanner
+    mobil matic injeksi banyumas, servis scanner mobil matic injeksi banyumas,
+    harga scanner mobil matic injeksi banyumas, biaya scanner mobil matic
+    injeksi banyumas
 ---
 
 ![image](~/assets/images/uploads/IMG_6342-scaled.jpg)

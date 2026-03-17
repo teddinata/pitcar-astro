@@ -5,10 +5,18 @@ excerpt: ''
 category: jasa-service
 draft: false
 metadata:
-  canonical: 'https://pitcar.co.id/service-dinamo-purwokerto'
+  canonical: 'https://pitcar.co.id/service-dinamo-purwokerto/'
   robots:
     index: true
     follow: true
+  description: >-
+    Keunggulan Service Dinamo Terdekat Di Purwokerto Terpercaya Jika Anda
+    mengidamkan melindungi mobil kesayangan bersama dengan langkah mudah, maka
+    dapat
+  keywords: >-
+    service dinamo purwokerto, jasa service dinamo purwokerto, bengkel service
+    dinamo purwokerto, service service dinamo purwokerto, servis service dinamo
+    purwokerto, harga service dinamo purwokerto, biaya service dinamo purwokerto
 ---
 
 ![image](~/assets/images/uploads/IMG_6389-scaled.jpg)

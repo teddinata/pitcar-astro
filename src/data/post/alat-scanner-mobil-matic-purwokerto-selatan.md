@@ -5,10 +5,19 @@ excerpt: ''
 category: jasa-service
 draft: false
 metadata:
-  canonical: 'https://pitcar.co.id/alat-scanner-mobil-matic-purwokerto-selatan'
+  canonical: 'https://pitcar.co.id/alat-scanner-mobil-matic-purwokerto-selatan/'
   robots:
     index: true
     follow: true
+  description: >-
+    Alat Scanner Mobil Matic Yang Bagus Dan Murah Panggilan Purwokerto Selatan
+    Paling Murah dan Terjangkau Perawatan mobil sesungguhnya tidak semudah yang
+    Anda
+  keywords: >-
+    alat scanner mobil matic selatan, jasa alat scanner mobil matic selatan,
+    bengkel alat scanner mobil matic selatan, service alat scanner mobil matic
+    selatan, servis alat scanner mobil matic selatan, harga alat scanner mobil
+    matic selatan, biaya alat scanner mobil matic selatan
 ---
 
 ![image](~/assets/images/uploads/IMG_6340-scaled.jpg)

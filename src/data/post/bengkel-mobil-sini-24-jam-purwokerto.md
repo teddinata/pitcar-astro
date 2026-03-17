@@ -5,10 +5,19 @@ excerpt: ''
 category: jasa-service
 draft: false
 metadata:
-  canonical: 'https://pitcar.co.id/bengkel-mobil-sini-24-jam-purwokerto'
+  canonical: 'https://pitcar.co.id/bengkel-mobil-sini-24-jam-purwokerto/'
   robots:
     index: true
     follow: true
+  description: >-
+    Pitcar: Bengkel Mobil Terdekat Dari Sini 24 Jam Di Purwokerto Bengkel
+    Panggilan Purwokerto Langsung Datang ke Rumah Merawat mobil menjadi salah
+    satu hal yang
+  keywords: >-
+    bengkel mobil sini jam purwokerto, jasa bengkel mobil sini jam purwokerto,
+    bengkel bengkel mobil sini jam purwokerto, service bengkel mobil sini jam
+    purwokerto, servis bengkel mobil sini jam purwokerto, harga bengkel mobil
+    sini jam purwokerto, biaya bengkel mobil sini jam purwokerto
 ---
 
 ![image](~/assets/images/uploads/IMG_6340-scaled.jpg)

@@ -5,10 +5,19 @@ excerpt: ''
 category: ac
 draft: false
 metadata:
-  canonical: 'https://pitcar.co.id/harga-service-ac-mobil-purwokerto'
+  canonical: 'https://pitcar.co.id/harga-service-ac-mobil-purwokerto/'
   robots:
     index: true
     follow: true
+  description: >-
+    Keunggulan Harga Service Ac Mobil Di Purwokerto Terpercaya Jika Anda
+    menghendaki memelihara mobil kesayangan bersama langkah mudah, maka dapat
+    gunakan Harga
+  keywords: >-
+    harga service mobil purwokerto, jasa harga service mobil purwokerto, bengkel
+    harga service mobil purwokerto, service harga service mobil purwokerto,
+    servis harga service mobil purwokerto, harga harga service mobil purwokerto,
+    biaya harga service mobil purwokerto
 ---
 
 ![image](~/assets/images/uploads/IMG_6389-scaled.jpg)
