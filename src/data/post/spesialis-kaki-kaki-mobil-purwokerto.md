@@ -1,14 +1,27 @@
 ---
 publishDate: 2022-01-13T00:00:00.000Z
 title: Spesialis Kaki Kaki Mobil Di Purwokerto
-excerpt: ''
+excerpt: >-
+  Sudah tidak ada masalah untuk mencari bengkel pada kendaraan kita, jika kita
+  mengalami problem pada kendaraan. kami dapat banyak temukan jasa bengkel
+  Spesialis
 category: jasa-service
 draft: false
 metadata:
-  canonical: 'https://pitcar.co.id/spesialis-kaki-kaki-mobil-purwokerto'
+  canonical: 'https://pitcar.co.id/spesialis-kaki-kaki-mobil-purwokerto/'
   robots:
     index: true
     follow: true
+  description: >-
+    Sudah tidak ada masalah untuk mencari bengkel pada kendaraan kita, jika kita
+    mengalami problem pada kendaraan. kami dapat banyak temukan jasa bengkel
+    Spesialis
+  keywords: >-
+    spesialis kaki kaki mobil purwokerto, jasa spesialis kaki kaki mobil
+    purwokerto, bengkel spesialis kaki kaki mobil purwokerto, service spesialis
+    kaki kaki mobil purwokerto, servis spesialis kaki kaki mobil purwokerto,
+    harga spesialis kaki kaki mobil purwokerto, biaya spesialis kaki kaki mobil
+    purwokerto
 ---
 
 ![image](~/assets/images/uploads/IMG_6340-scaled.jpg)

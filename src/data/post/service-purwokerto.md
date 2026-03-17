@@ -1,14 +1,25 @@
 ---
 publishDate: 2022-06-02T00:00:00.000Z
 title: Service Panggilan Di Purwokerto
-excerpt: ''
+excerpt: >-
+  Pitcar: Service Panggilan Di Purwokerto Bengkel Panggilan Purwokerto Langsung
+  Datang ke Rumah Merawat mobil menjadi salah satu hal yang lumayan sulit,
+  khususnya
 category: jasa-service
 draft: false
 metadata:
-  canonical: 'https://pitcar.co.id/service-purwokerto'
+  canonical: 'https://pitcar.co.id/service-purwokerto/'
   robots:
     index: true
     follow: true
+  description: >-
+    Pitcar: Service Panggilan Di Purwokerto Bengkel Panggilan Purwokerto
+    Langsung Datang ke Rumah Merawat mobil menjadi salah satu hal yang lumayan
+    sulit, khususnya
+  keywords: >-
+    service purwokerto, jasa service purwokerto, bengkel service purwokerto,
+    service service purwokerto, servis service purwokerto, harga service
+    purwokerto, biaya service purwokerto
 ---
 
 ![image](~/assets/images/uploads/IMG_6340-scaled.jpg)

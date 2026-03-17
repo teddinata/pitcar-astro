@@ -1,14 +1,26 @@
 ---
 publishDate: 2023-03-01T00:00:00.000Z
 title: Servis Aki Mobil Purwokerto
-excerpt: ''
+excerpt: >-
+  Servis aki mobil Purwokerto merupakan salah satu hal yang penting untuk
+  menjaga kinerja dan daya tahan aki mobil. Aki mobil yang baik dan terawat
+  dapat
 category: accu
 draft: false
 metadata:
-  canonical: 'https://pitcar.co.id/servis-aki-mobil-purwokerto'
+  canonical: 'https://pitcar.co.id/servis-aki-mobil-purwokerto/'
   robots:
     index: true
     follow: true
+  description: >-
+    Servis aki mobil Purwokerto merupakan salah satu hal yang penting untuk
+    menjaga kinerja dan daya tahan aki mobil. Aki mobil yang baik dan terawat
+    dapat
+  keywords: >-
+    servis aki mobil purwokerto, jasa servis aki mobil purwokerto, bengkel
+    servis aki mobil purwokerto, service servis aki mobil purwokerto, servis
+    servis aki mobil purwokerto, harga servis aki mobil purwokerto, biaya servis
+    aki mobil purwokerto
 ---
 
 Servis aki mobil Purwokerto merupakan salah satu hal yang penting untuk menjaga kinerja dan daya tahan aki mobil. Aki mobil yang baik dan terawat dapat memastikan kendaraan Anda selalu siap untuk digunakan, serta menghindari masalah yang tidak diinginkan saat berkendara. Berikut ini adalah beberapa alasan mengapa servis aki mobil sangat penting.

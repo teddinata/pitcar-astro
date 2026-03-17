@@ -1,17 +1,29 @@
 ---
 publishDate: 2022-06-25T00:00:00.000Z
 title: Perawatan Mobil Honda di Purwokerto
-excerpt: ''
+excerpt: >-
+  Saat ini, siapa yang tidak tahu Brand Honda? Honda merupakan salah satu brand
+  otomotif kenamaan asal Jepang yang berdiri pada 30 September 1948. Pada
+  awalnya,
 category: jasa-service
 tags:
   - perawatan-mobil-honda
   - tune-up
 draft: false
 metadata:
-  canonical: 'https://pitcar.co.id/perawatan-mobil-honda-purwokerto'
+  canonical: 'https://pitcar.co.id/perawatan-mobil-honda-purwokerto/'
   robots:
     index: true
     follow: true
+  description: >-
+    Saat ini, siapa yang tidak tahu Brand Honda? Honda merupakan salah satu
+    brand otomotif kenamaan asal Jepang yang berdiri pada 30 September 1948.
+    Pada awalnya,
+  keywords: >-
+    perawatan mobil honda purwokerto, jasa perawatan mobil honda purwokerto,
+    bengkel perawatan mobil honda purwokerto, service perawatan mobil honda
+    purwokerto, servis perawatan mobil honda purwokerto, harga perawatan mobil
+    honda purwokerto, biaya perawatan mobil honda purwokerto
 ---
 
 Saat ini, siapa yang tidak tahu Brand Honda?

@@ -1,14 +1,26 @@
 ---
 publishDate: 2022-03-23T00:00:00.000Z
 title: Dokter Mobil Kalimalang Di Purwokerto
-excerpt: ''
+excerpt: >-
+  Sudah tidak ada problem untuk Mencari Informasi bengkel pada kendaraan kita,
+  jikalau kita mengalami permasalahan terhadap kendaraan. kita bakal banyak
+  temukan
 category: jasa-service
 draft: false
 metadata:
-  canonical: 'https://pitcar.co.id/dokter-mobil-kalimalang-purwokerto'
+  canonical: 'https://pitcar.co.id/dokter-mobil-kalimalang-purwokerto/'
   robots:
     index: true
     follow: true
+  description: >-
+    Sudah tidak ada problem untuk Mencari Informasi bengkel pada kendaraan kita,
+    jikalau kita mengalami permasalahan terhadap kendaraan. kita bakal banyak
+    temukan
+  keywords: >-
+    dokter mobil kalimalang purwokerto, jasa dokter mobil kalimalang purwokerto,
+    bengkel dokter mobil kalimalang purwokerto, service dokter mobil kalimalang
+    purwokerto, servis dokter mobil kalimalang purwokerto, harga dokter mobil
+    kalimalang purwokerto, biaya dokter mobil kalimalang purwokerto
 ---
 
 ![image](~/assets/images/uploads/IMG_6397-scaled.jpg)

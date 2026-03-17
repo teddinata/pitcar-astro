@@ -1,14 +1,25 @@
 ---
 publishDate: 2022-06-26T00:00:00.000Z
 title: Scanner Mobil Injeksi Panggilan Banyumas
-excerpt: ''
+excerpt: >-
+  Scanner Mobil Injeksi Panggilan Banyumas Paling Murah dan Terjangkau Perawatan
+  mobil sebenarnya tidak semudah yang Anda lihat, terlebih bagi Anda yang belum
 category: jasa-service
 draft: false
 metadata:
-  canonical: 'https://pitcar.co.id/scanner-mobil-injeksi-banyumas'
+  canonical: 'https://pitcar.co.id/scanner-mobil-injeksi-banyumas/'
   robots:
     index: true
     follow: true
+  description: >-
+    Scanner Mobil Injeksi Panggilan Banyumas Paling Murah dan Terjangkau
+    Perawatan mobil sebenarnya tidak semudah yang Anda lihat, terlebih bagi Anda
+    yang belum
+  keywords: >-
+    scanner mobil injeksi banyumas, jasa scanner mobil injeksi banyumas, bengkel
+    scanner mobil injeksi banyumas, service scanner mobil injeksi banyumas,
+    servis scanner mobil injeksi banyumas, harga scanner mobil injeksi banyumas,
+    biaya scanner mobil injeksi banyumas
 ---
 
 ![image](https://placehold.co/1200x800/222222/FFFFFF/png?text=Pitcar+Service)

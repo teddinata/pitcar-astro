@@ -1,14 +1,25 @@
 ---
 publishDate: 2022-03-03T00:00:00.000Z
 title: Bengkel Ford Terdekat Di Purwokerto
-excerpt: ''
+excerpt: >-
+  Bengkel Ford Terdekat Di Purwokerto Terbaik Paling Lengkap Banyak orang yang
+  tidak memiliki waktu untuk merawat mobil kesayangan. Jika Anda terhitung orang
+  yang
 category: jasa-service
 draft: false
 metadata:
-  canonical: 'https://pitcar.co.id/bengkel-ford-purwokerto'
+  canonical: 'https://pitcar.co.id/bengkel-ford-purwokerto/'
   robots:
     index: true
     follow: true
+  description: >-
+    Bengkel Ford Terdekat Di Purwokerto Terbaik Paling Lengkap Banyak orang yang
+    tidak memiliki waktu untuk merawat mobil kesayangan. Jika Anda terhitung
+    orang yang
+  keywords: >-
+    bengkel ford purwokerto, jasa bengkel ford purwokerto, bengkel bengkel ford
+    purwokerto, service bengkel ford purwokerto, servis bengkel ford purwokerto,
+    harga bengkel ford purwokerto, biaya bengkel ford purwokerto
 ---
 
 ![image](~/assets/images/uploads/IMG_6397-scaled.jpg)

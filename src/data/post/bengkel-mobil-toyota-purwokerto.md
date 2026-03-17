@@ -1,14 +1,26 @@
 ---
 publishDate: 2022-01-29T00:00:00.000Z
 title: Bengkel Mobil Toyota Terdekat Di Purwokerto
-excerpt: ''
+excerpt: >-
+  Punya kasus bersama dengan kendaraan anda, selagi berada di dalam perjalanan
+  dalam kota purwokerto. kini sudah tidak ada halangan artinya kembali
+  dikarenakan
 category: jasa-service
 draft: false
 metadata:
-  canonical: 'https://pitcar.co.id/bengkel-mobil-toyota-purwokerto'
+  canonical: 'https://pitcar.co.id/bengkel-mobil-toyota-purwokerto/'
   robots:
     index: true
     follow: true
+  description: >-
+    Punya kasus bersama dengan kendaraan anda, selagi berada di dalam perjalanan
+    dalam kota purwokerto. kini sudah tidak ada halangan artinya kembali
+    dikarenakan
+  keywords: >-
+    bengkel mobil toyota purwokerto, jasa bengkel mobil toyota purwokerto,
+    bengkel bengkel mobil toyota purwokerto, service bengkel mobil toyota
+    purwokerto, servis bengkel mobil toyota purwokerto, harga bengkel mobil
+    toyota purwokerto, biaya bengkel mobil toyota purwokerto
 ---
 
 ![image](~/assets/images/uploads/IMG_6389-scaled.jpg)

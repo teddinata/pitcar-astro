@@ -1,14 +1,25 @@
 ---
 publishDate: 2022-02-13T00:00:00.000Z
 title: Bengkel Cat Di Purwokerto
-excerpt: ''
+excerpt: >-
+  Punya persoalan dengan kendaraan anda, pas berada dalam perjalanan didalam
+  kota purwokerto. kini sudah tidak tersedia kendala berarti ulang dikarenakan
+  saat ini
 category: jasa-service
 draft: false
 metadata:
-  canonical: 'https://pitcar.co.id/bengkel-cat-purwokerto'
+  canonical: 'https://pitcar.co.id/bengkel-cat-purwokerto/'
   robots:
     index: true
     follow: true
+  description: >-
+    Punya persoalan dengan kendaraan anda, pas berada dalam perjalanan didalam
+    kota purwokerto. kini sudah tidak tersedia kendala berarti ulang dikarenakan
+    saat ini
+  keywords: >-
+    bengkel cat purwokerto, jasa bengkel cat purwokerto, bengkel bengkel cat
+    purwokerto, service bengkel cat purwokerto, servis bengkel cat purwokerto,
+    harga bengkel cat purwokerto, biaya bengkel cat purwokerto
 ---
 
 ![image](~/assets/images/uploads/IMG_6397-scaled.jpg)

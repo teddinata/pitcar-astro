@@ -1,14 +1,26 @@
 ---
 publishDate: 2022-03-26T00:00:00.000Z
 title: Bengkel Spesialis Kaki Kaki Mobil Di Purwokerto
-excerpt: ''
+excerpt: >-
+  Sudah tidak ada problem untuk mencari bengkel pada kendaraan kita, kalau kita
+  mengalami problem terhadap kendaraan. kami bakal banyak temukan jasa bengkel
 category: rem-kaki-kaki
 draft: false
 metadata:
-  canonical: 'https://pitcar.co.id/bengkel-spesialis-kaki-kaki-mobil-purwokerto'
+  canonical: 'https://pitcar.co.id/bengkel-spesialis-kaki-kaki-mobil-purwokerto/'
   robots:
     index: true
     follow: true
+  description: >-
+    Sudah tidak ada problem untuk mencari bengkel pada kendaraan kita, kalau
+    kita mengalami problem terhadap kendaraan. kami bakal banyak temukan jasa
+    bengkel
+  keywords: >-
+    bengkel spesialis kaki kaki purwokerto, jasa bengkel spesialis kaki kaki
+    purwokerto, bengkel bengkel spesialis kaki kaki purwokerto, service bengkel
+    spesialis kaki kaki purwokerto, servis bengkel spesialis kaki kaki
+    purwokerto, harga bengkel spesialis kaki kaki purwokerto, biaya bengkel
+    spesialis kaki kaki purwokerto
 ---
 
 ![image](~/assets/images/uploads/IMG_6397-scaled.jpg)

@@ -1,14 +1,25 @@
 ---
 publishDate: 2022-05-02T00:00:00.000Z
 title: Servis Mobil Terdekat Di Purwokerto
-excerpt: ''
+excerpt: >-
+  Servis Mobil Terdekat Di Purwokerto Terbaik Paling Lengkap Banyak orang yang
+  tidak punyai sementara untuk melindungi mobil kesayangan. Jika Anda terhitung
+  orang
 category: jasa-service
 draft: false
 metadata:
-  canonical: 'https://pitcar.co.id/servis-mobil-purwokerto-2'
+  canonical: 'https://pitcar.co.id/servis-mobil-purwokerto-2/'
   robots:
     index: true
     follow: true
+  description: >-
+    Servis Mobil Terdekat Di Purwokerto Terbaik Paling Lengkap Banyak orang yang
+    tidak punyai sementara untuk melindungi mobil kesayangan. Jika Anda
+    terhitung orang
+  keywords: >-
+    servis mobil purwokerto, jasa servis mobil purwokerto, bengkel servis mobil
+    purwokerto, service servis mobil purwokerto, servis servis mobil purwokerto,
+    harga servis mobil purwokerto, biaya servis mobil purwokerto
 ---
 
 ![image](~/assets/images/uploads/IMG_6397-scaled.jpg)

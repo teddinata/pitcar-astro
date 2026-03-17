@@ -1,14 +1,25 @@
 ---
 publishDate: 2022-05-18T00:00:00.000Z
 title: Tempat Service Mobil Panggilan Kota Purwokerto
-excerpt: ''
+excerpt: >-
+  Tempat Service Mobil Panggilan Kota Purwokerto Terbaik Paling Lengkap Banyak
+  orang yang tidak punyai pas untuk menjaga mobil kesayangan. Jika Anda termasuk
 category: jasa-service
 draft: false
 metadata:
-  canonical: 'https://pitcar.co.id/tempat-service-mobil-purwokerto'
+  canonical: 'https://pitcar.co.id/tempat-service-mobil-purwokerto/'
   robots:
     index: true
     follow: true
+  description: >-
+    Tempat Service Mobil Panggilan Kota Purwokerto Terbaik Paling Lengkap Banyak
+    orang yang tidak punyai pas untuk menjaga mobil kesayangan. Jika Anda
+    termasuk
+  keywords: >-
+    tempat service mobil purwokerto, jasa tempat service mobil purwokerto,
+    bengkel tempat service mobil purwokerto, service tempat service mobil
+    purwokerto, servis tempat service mobil purwokerto, harga tempat service
+    mobil purwokerto, biaya tempat service mobil purwokerto
 ---
 
 ![image](https://placehold.co/1200x800/222222/FFFFFF/png?text=Pitcar+Service)

@@ -1,14 +1,26 @@
 ---
 publishDate: 2022-05-17T00:00:00.000Z
 title: Bengkel Tune Up Mobil Terdekat Di Purwokerto
-excerpt: ''
+excerpt: >-
+  Punya masalah bersama dengan kendaraan anda, selagi berada didalam perjalanan
+  di dalam kota purwokerto. kini sudah tidak tersedia rintangan artinya ulang
+  sebab
 category: tune-up
 draft: false
 metadata:
-  canonical: 'https://pitcar.co.id/bengkel-tune-up-mobil-purwokerto'
+  canonical: 'https://pitcar.co.id/bengkel-tune-up-mobil-purwokerto/'
   robots:
     index: true
     follow: true
+  description: >-
+    Punya masalah bersama dengan kendaraan anda, selagi berada didalam
+    perjalanan di dalam kota purwokerto. kini sudah tidak tersedia rintangan
+    artinya ulang sebab
+  keywords: >-
+    bengkel tune mobil purwokerto, jasa bengkel tune mobil purwokerto, bengkel
+    bengkel tune mobil purwokerto, service bengkel tune mobil purwokerto, servis
+    bengkel tune mobil purwokerto, harga bengkel tune mobil purwokerto, biaya
+    bengkel tune mobil purwokerto
 ---
 
 ![image](~/assets/images/uploads/IMG_6397-scaled.jpg)

@@ -1,14 +1,27 @@
 ---
 publishDate: 2022-11-07T00:00:00.000Z
 title: Scanner Mobil Manual Bekas Terdekat Banyumas
-excerpt: ''
+excerpt: >-
+  Scanner Mobil Manual Bekas Terdekat Banyumas Paling Murah dan Terjangkau
+  Perawatan mobil memang tidak semudah yang Anda lihat, khususnya bagi Anda yang
+  belum
 category: jasa-service
 draft: false
 metadata:
-  canonical: 'https://pitcar.co.id/scanner-mobil-manual-bekas-banyumas'
+  canonical: 'https://pitcar.co.id/scanner-mobil-manual-bekas-banyumas/'
   robots:
     index: true
     follow: true
+  description: >-
+    Scanner Mobil Manual Bekas Terdekat Banyumas Paling Murah dan Terjangkau
+    Perawatan mobil memang tidak semudah yang Anda lihat, khususnya bagi Anda
+    yang belum
+  keywords: >-
+    scanner mobil manual bekas banyumas, jasa scanner mobil manual bekas
+    banyumas, bengkel scanner mobil manual bekas banyumas, service scanner mobil
+    manual bekas banyumas, servis scanner mobil manual bekas banyumas, harga
+    scanner mobil manual bekas banyumas, biaya scanner mobil manual bekas
+    banyumas
 ---
 
 ![image](~/assets/images/uploads/IMG_6397-scaled.jpg)

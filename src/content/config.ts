@@ -17,6 +17,7 @@ const metadataDefinition = () =>
         .optional(),
 
       description: z.string().optional(),
+      keywords: z.string().optional(),
 
       openGraph: z
         .object({

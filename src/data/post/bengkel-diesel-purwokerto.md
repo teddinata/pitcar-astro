@@ -1,14 +1,25 @@
 ---
 publishDate: 2022-02-10T00:00:00.000Z
 title: Bengkel Diesel Terdekat Di Purwokerto
-excerpt: ''
+excerpt: >-
+  Bengkel Diesel Terdekat Di Purwokerto Terbaik Paling Lengkap Banyak orang yang
+  tidak punya saat untuk menjaga mobil kesayangan. Jika Anda terhitung orang
+  yang
 category: jasa-service
 draft: false
 metadata:
-  canonical: 'https://pitcar.co.id/bengkel-diesel-purwokerto'
+  canonical: 'https://pitcar.co.id/bengkel-diesel-purwokerto/'
   robots:
     index: true
     follow: true
+  description: >-
+    Bengkel Diesel Terdekat Di Purwokerto Terbaik Paling Lengkap Banyak orang
+    yang tidak punya saat untuk menjaga mobil kesayangan. Jika Anda terhitung
+    orang yang
+  keywords: >-
+    bengkel diesel purwokerto, jasa bengkel diesel purwokerto, bengkel bengkel
+    diesel purwokerto, service bengkel diesel purwokerto, servis bengkel diesel
+    purwokerto, harga bengkel diesel purwokerto, biaya bengkel diesel purwokerto
 ---
 
 ![image](https://placehold.co/1200x800/222222/FFFFFF/png?text=Pitcar+Service)

@@ -1,17 +1,30 @@
 ---
 publishDate: 2023-02-14T00:00:00.000Z
 title: Bengkel Mobil Terdekat di Purwokerto
-excerpt: ''
+excerpt: >-
+  Menjaga kondisi kendaraan memerlukan perawatan dan perbaikan berkala, dan
+  menemukan bengkel mobil yang terdekat dan berkualitas di Purwokerto dapat
+  menjadi
 category: jasa-service
 tags:
   - layanan
 draft: false
 metadata:
   canonical: >-
-    https://pitcar.co.id/bengkel-mobil-purwokerto-solusi-perawatan-perbaikan-kendaraan-anda
+    https://pitcar.co.id/bengkel-mobil-purwokerto-solusi-perawatan-perbaikan-kendaraan-anda/
   robots:
     index: true
     follow: true
+  description: >-
+    Menjaga kondisi kendaraan memerlukan perawatan dan perbaikan berkala, dan
+    menemukan bengkel mobil yang terdekat dan berkualitas di Purwokerto dapat
+    menjadi
+  keywords: >-
+    bengkel mobil purwokerto solusi anda, jasa bengkel mobil purwokerto solusi
+    anda, bengkel bengkel mobil purwokerto solusi anda, service bengkel mobil
+    purwokerto solusi anda, servis bengkel mobil purwokerto solusi anda, harga
+    bengkel mobil purwokerto solusi anda, biaya bengkel mobil purwokerto solusi
+    anda
 ---
 
 ![image](https://placehold.co/1200x800/222222/FFFFFF/png?text=Pitcar+Service)

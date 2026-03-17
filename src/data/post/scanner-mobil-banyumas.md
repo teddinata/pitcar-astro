@@ -1,14 +1,25 @@
 ---
 publishDate: 2022-07-15T00:00:00.000Z
 title: Scanner Mobil Tercanggih Panggilan Banyumas
-excerpt: ''
+excerpt: >-
+  Scanner Mobil Tercanggih Panggilan Banyumas Paling Murah dan Terjangkau
+  Perawatan mobil sebenarnya tidak semudah yang Anda lihat, khususnya bagi Anda
+  yang belum
 category: jasa-service
 draft: false
 metadata:
-  canonical: 'https://pitcar.co.id/scanner-mobil-banyumas'
+  canonical: 'https://pitcar.co.id/scanner-mobil-banyumas/'
   robots:
     index: true
     follow: true
+  description: >-
+    Scanner Mobil Tercanggih Panggilan Banyumas Paling Murah dan Terjangkau
+    Perawatan mobil sebenarnya tidak semudah yang Anda lihat, khususnya bagi
+    Anda yang belum
+  keywords: >-
+    scanner mobil banyumas, jasa scanner mobil banyumas, bengkel scanner mobil
+    banyumas, service scanner mobil banyumas, servis scanner mobil banyumas,
+    harga scanner mobil banyumas, biaya scanner mobil banyumas
 ---
 
 ![image](https://placehold.co/1200x800/222222/FFFFFF/png?text=Pitcar+Service)

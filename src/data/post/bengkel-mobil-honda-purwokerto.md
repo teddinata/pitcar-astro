@@ -1,14 +1,26 @@
 ---
 publishDate: 2022-05-25T00:00:00.000Z
 title: Bengkel Resmi Mobil Honda Di Purwokerto
-excerpt: ''
+excerpt: >-
+  Keunggulan Bengkel Resmi Mobil Honda Di Purwokerto Terpercaya Jika Anda
+  mendambakan merawat mobil kesayangan bersama dengan cara mudah, maka dapat
+  manfaatkan
 category: jasa-service
 draft: false
 metadata:
-  canonical: 'https://pitcar.co.id/bengkel-mobil-honda-purwokerto'
+  canonical: 'https://pitcar.co.id/bengkel-mobil-honda-purwokerto/'
   robots:
     index: true
     follow: true
+  description: >-
+    Keunggulan Bengkel Resmi Mobil Honda Di Purwokerto Terpercaya Jika Anda
+    mendambakan merawat mobil kesayangan bersama dengan cara mudah, maka dapat
+    manfaatkan
+  keywords: >-
+    bengkel mobil honda purwokerto, jasa bengkel mobil honda purwokerto, bengkel
+    bengkel mobil honda purwokerto, service bengkel mobil honda purwokerto,
+    servis bengkel mobil honda purwokerto, harga bengkel mobil honda purwokerto,
+    biaya bengkel mobil honda purwokerto
 ---
 
 ![image](~/assets/images/uploads/IMG_6389-scaled.jpg)

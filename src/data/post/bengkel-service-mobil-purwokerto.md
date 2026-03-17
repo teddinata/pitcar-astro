@@ -1,14 +1,26 @@
 ---
 publishDate: 2022-04-17T00:00:00.000Z
 title: Bengkel Service Mobil Terdekat Di Purwokerto
-excerpt: ''
+excerpt: >-
+  Bengkel Service Mobil Terdekat Di Purwokerto Terbaik Paling Lengkap Banyak
+  orang yang tidak mempunyai sementara untuk menjaga mobil kesayangan. Jika Anda
+  juga
 category: jasa-service
 draft: false
 metadata:
-  canonical: 'https://pitcar.co.id/bengkel-service-mobil-purwokerto'
+  canonical: 'https://pitcar.co.id/bengkel-service-mobil-purwokerto/'
   robots:
     index: true
     follow: true
+  description: >-
+    Bengkel Service Mobil Terdekat Di Purwokerto Terbaik Paling Lengkap Banyak
+    orang yang tidak mempunyai sementara untuk menjaga mobil kesayangan. Jika
+    Anda juga
+  keywords: >-
+    bengkel service mobil purwokerto, jasa bengkel service mobil purwokerto,
+    bengkel bengkel service mobil purwokerto, service bengkel service mobil
+    purwokerto, servis bengkel service mobil purwokerto, harga bengkel service
+    mobil purwokerto, biaya bengkel service mobil purwokerto
 ---
 
 ![image](~/assets/images/uploads/IMG_6389-scaled.jpg)

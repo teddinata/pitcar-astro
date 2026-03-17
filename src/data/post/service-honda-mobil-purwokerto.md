@@ -1,14 +1,25 @@
 ---
 publishDate: 2022-10-18T00:00:00.000Z
 title: Service Honda Mobil Terdekat Di Purwokerto
-excerpt: ''
+excerpt: >-
+  Keunggulan Service Honda Mobil Terdekat Di Purwokerto Terpercaya Jika Anda
+  menginginkan melindungi mobil kesayangan bersama cara mudah, maka bisa gunakan
 category: jasa-service
 draft: false
 metadata:
-  canonical: 'https://pitcar.co.id/service-honda-mobil-purwokerto'
+  canonical: 'https://pitcar.co.id/service-honda-mobil-purwokerto/'
   robots:
     index: true
     follow: true
+  description: >-
+    Keunggulan Service Honda Mobil Terdekat Di Purwokerto Terpercaya Jika Anda
+    menginginkan melindungi mobil kesayangan bersama cara mudah, maka bisa
+    gunakan
+  keywords: >-
+    service honda mobil purwokerto, jasa service honda mobil purwokerto, bengkel
+    service honda mobil purwokerto, service service honda mobil purwokerto,
+    servis service honda mobil purwokerto, harga service honda mobil purwokerto,
+    biaya service honda mobil purwokerto
 ---
 
 ![image](~/assets/images/uploads/IMG_6348-scaled.jpg)

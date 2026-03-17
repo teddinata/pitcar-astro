@@ -1,14 +1,25 @@
 ---
 publishDate: 2022-01-16T00:00:00.000Z
 title: Toyota Service Terdekat Di Purwokerto
-excerpt: ''
+excerpt: >-
+  Keunggulan Toyota Service Terdekat Di Purwokerto Terpercaya Jika Anda idamkan
+  memelihara mobil kesayangan bersama dengan langkah mudah, maka dapat pakai
+  Toyota
 category: jasa-service
 draft: false
 metadata:
-  canonical: 'https://pitcar.co.id/toyota-service-purwokerto'
+  canonical: 'https://pitcar.co.id/toyota-service-purwokerto/'
   robots:
     index: true
     follow: true
+  description: >-
+    Keunggulan Toyota Service Terdekat Di Purwokerto Terpercaya Jika Anda
+    idamkan memelihara mobil kesayangan bersama dengan langkah mudah, maka dapat
+    pakai Toyota
+  keywords: >-
+    toyota service purwokerto, jasa toyota service purwokerto, bengkel toyota
+    service purwokerto, service toyota service purwokerto, servis toyota service
+    purwokerto, harga toyota service purwokerto, biaya toyota service purwokerto
 ---
 
 ![image](~/assets/images/uploads/IMG_6397-scaled.jpg)

@@ -1,14 +1,26 @@
 ---
 publishDate: 2022-10-09T00:00:00.000Z
 title: Jasa Bengkel Mobil Panggilan Terdekat Di Purwokerto
-excerpt: ''
+excerpt: >-
+  Pitcar: Jasa Bengkel Mobil Panggilan Terdekat Di Purwokerto Bengkel Panggilan
+  Purwokerto Langsung Datang ke Rumah Merawat mobil jadi keliru satu hal yang
+  cukup
 category: jasa-service
 draft: false
 metadata:
-  canonical: 'https://pitcar.co.id/jasa-bengkel-mobil-purwokerto'
+  canonical: 'https://pitcar.co.id/jasa-bengkel-mobil-purwokerto/'
   robots:
     index: true
     follow: true
+  description: >-
+    Pitcar: Jasa Bengkel Mobil Panggilan Terdekat Di Purwokerto Bengkel
+    Panggilan Purwokerto Langsung Datang ke Rumah Merawat mobil jadi keliru satu
+    hal yang cukup
+  keywords: >-
+    jasa bengkel mobil purwokerto, jasa jasa bengkel mobil purwokerto, bengkel
+    jasa bengkel mobil purwokerto, service jasa bengkel mobil purwokerto, servis
+    jasa bengkel mobil purwokerto, harga jasa bengkel mobil purwokerto, biaya
+    jasa bengkel mobil purwokerto
 ---
 
 ![image](~/assets/images/uploads/IMG_6342-scaled.jpg)

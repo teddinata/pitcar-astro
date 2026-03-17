@@ -1,16 +1,27 @@
 ---
 publishDate: 2022-05-13T00:00:00.000Z
 title: Mekanik Mobil Panggilan Di Daerah Purwokerto
-excerpt: ''
+excerpt: >-
+  Mekanik Mobil Panggilan Di Daerah Purwokerto Terbaik Paling Lengkap. Banyak
+  orang yang tidak sempat merawat mobil kesayangan. Jika Anda termasuk orang
+  yang
 category: jasa-service
 tags:
   - inspeksi-mobil
 draft: false
 metadata:
-  canonical: 'https://pitcar.co.id/mekanik-mobil-purwokerto'
+  canonical: 'https://pitcar.co.id/mekanik-mobil-purwokerto/'
   robots:
     index: true
     follow: true
+  description: >-
+    Mekanik Mobil Panggilan Di Daerah Purwokerto Terbaik Paling Lengkap. Banyak
+    orang yang tidak sempat merawat mobil kesayangan. Jika Anda termasuk orang
+    yang
+  keywords: >-
+    mekanik mobil purwokerto, jasa mekanik mobil purwokerto, bengkel mekanik
+    mobil purwokerto, service mekanik mobil purwokerto, servis mekanik mobil
+    purwokerto, harga mekanik mobil purwokerto, biaya mekanik mobil purwokerto
 ---
 
 ![image](https://placehold.co/1200x800/222222/FFFFFF/png?text=Pitcar+Service)

@@ -1,14 +1,24 @@
 ---
 publishDate: 2022-05-01T00:00:00.000Z
 title: Body Repair Mobil Terdekat Di Purwokerto
-excerpt: ''
+excerpt: >-
+  Punya kasus bersama dengan kendaraan anda, pas berada di dalam perjalanan di
+  dalam kota purwokerto. kini telah tidak tersedia rintangan artinya ulang
 category: jasa-service
 draft: false
 metadata:
-  canonical: 'https://pitcar.co.id/body-repair-mobil-purwokerto'
+  canonical: 'https://pitcar.co.id/body-repair-mobil-purwokerto/'
   robots:
     index: true
     follow: true
+  description: >-
+    Punya kasus bersama dengan kendaraan anda, pas berada di dalam perjalanan di
+    dalam kota purwokerto. kini telah tidak tersedia rintangan artinya ulang
+  keywords: >-
+    body repair mobil purwokerto, jasa body repair mobil purwokerto, bengkel
+    body repair mobil purwokerto, service body repair mobil purwokerto, servis
+    body repair mobil purwokerto, harga body repair mobil purwokerto, biaya body
+    repair mobil purwokerto
 ---
 
 ![image](~/assets/images/uploads/WhatsApp-Image-2021-03-28-at-10.12.08-AM.jpeg)

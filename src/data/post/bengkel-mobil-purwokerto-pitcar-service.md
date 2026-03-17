@@ -1,16 +1,29 @@
 ---
 publishDate: 2023-02-23T00:00:00.000Z
 title: Bengkel Mobil Panggilan Purwokerto Pitcar Service
-excerpt: ''
+excerpt: >-
+  Pitcar Service adalah salah satu bengkel mobil panggilan di Purwokerto yang
+  menyediakan layanan perawatan dan perbaikan mobil. Dengan tenaga kerja yang
+  ahli dan
 category: jasa-service
 tags:
   - layanan
 draft: false
 metadata:
-  canonical: 'https://pitcar.co.id/bengkel-mobil-purwokerto-pitcar-service'
+  canonical: 'https://pitcar.co.id/bengkel-mobil-purwokerto-pitcar-service/'
   robots:
     index: true
     follow: true
+  description: >-
+    Pitcar Service adalah salah satu bengkel mobil panggilan di Purwokerto yang
+    menyediakan layanan perawatan dan perbaikan mobil. Dengan tenaga kerja yang
+    ahli dan
+  keywords: >-
+    bengkel mobil purwokerto pitcar service, jasa bengkel mobil purwokerto
+    pitcar service, bengkel bengkel mobil purwokerto pitcar service, service
+    bengkel mobil purwokerto pitcar service, servis bengkel mobil purwokerto
+    pitcar service, harga bengkel mobil purwokerto pitcar service, biaya bengkel
+    mobil purwokerto pitcar service
 ---
 
 ![image](https://placehold.co/1200x800/222222/FFFFFF/png?text=Pitcar+Service)

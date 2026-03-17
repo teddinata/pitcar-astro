@@ -1,14 +1,25 @@
 ---
 publishDate: 2022-02-28T00:00:00.000Z
 title: Jasa Service Panggilan Di Kota Purwokerto
-excerpt: ''
+excerpt: >-
+  Sudah tidak ada problem untuk mencari bengkel pada kendaraan kita, terkecuali
+  kami mengalami permasalahan pada kendaraan. kami bakal banyak temukan jasa
+  bengkel
 category: jasa-service
 draft: false
 metadata:
-  canonical: 'https://pitcar.co.id/jasa-service-purwokerto'
+  canonical: 'https://pitcar.co.id/jasa-service-purwokerto/'
   robots:
     index: true
     follow: true
+  description: >-
+    Sudah tidak ada problem untuk mencari bengkel pada kendaraan kita,
+    terkecuali kami mengalami permasalahan pada kendaraan. kami bakal banyak
+    temukan jasa bengkel
+  keywords: >-
+    jasa service purwokerto, jasa jasa service purwokerto, bengkel jasa service
+    purwokerto, service jasa service purwokerto, servis jasa service purwokerto,
+    harga jasa service purwokerto, biaya jasa service purwokerto
 ---
 
 ![image](~/assets/images/uploads/IMG_6389-scaled.jpg)

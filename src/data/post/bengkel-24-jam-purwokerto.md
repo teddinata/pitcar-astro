@@ -1,14 +1,25 @@
 ---
 publishDate: 2022-10-23T00:00:00.000Z
 title: Bengkel Panggilan 24 Jam Terdekat Di Purwokerto
-excerpt: ''
+excerpt: >-
+  Pitcar: Bengkel Panggilan 24 Jam Terdekat Di Purwokerto Bengkel Panggilan
+  Purwokerto Langsung Datang ke Rumah Merawat mobil jadi keliru satu perihal
+  yang
 category: jasa-service
 draft: false
 metadata:
-  canonical: 'https://pitcar.co.id/bengkel-24-jam-purwokerto'
+  canonical: 'https://pitcar.co.id/bengkel-24-jam-purwokerto/'
   robots:
     index: true
     follow: true
+  description: >-
+    Pitcar: Bengkel Panggilan 24 Jam Terdekat Di Purwokerto Bengkel Panggilan
+    Purwokerto Langsung Datang ke Rumah Merawat mobil jadi keliru satu perihal
+    yang
+  keywords: >-
+    bengkel jam purwokerto, jasa bengkel jam purwokerto, bengkel bengkel jam
+    purwokerto, service bengkel jam purwokerto, servis bengkel jam purwokerto,
+    harga bengkel jam purwokerto, biaya bengkel jam purwokerto
 ---
 
 ![image](~/assets/images/uploads/IMG_6348-scaled.jpg)

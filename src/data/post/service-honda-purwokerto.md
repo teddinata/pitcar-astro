@@ -1,14 +1,25 @@
 ---
 publishDate: 2022-11-26T00:00:00.000Z
 title: Service Honda Panggilan Di Purwokerto
-excerpt: ''
+excerpt: >-
+  Pitcar: Service Honda Panggilan Di Purwokerto Bengkel Panggilan Purwokerto
+  Langsung Datang ke Rumah Merawat mobil jadi salah satu perihal yang lumayan
+  sulit,
 category: jasa-service
 draft: false
 metadata:
-  canonical: 'https://pitcar.co.id/service-honda-purwokerto'
+  canonical: 'https://pitcar.co.id/service-honda-purwokerto/'
   robots:
     index: true
     follow: true
+  description: >-
+    Pitcar: Service Honda Panggilan Di Purwokerto Bengkel Panggilan Purwokerto
+    Langsung Datang ke Rumah Merawat mobil jadi salah satu perihal yang lumayan
+    sulit,
+  keywords: >-
+    service honda purwokerto, jasa service honda purwokerto, bengkel service
+    honda purwokerto, service service honda purwokerto, servis service honda
+    purwokerto, harga service honda purwokerto, biaya service honda purwokerto
 ---
 
 ![image](~/assets/images/uploads/IMG_6389-scaled.jpg)

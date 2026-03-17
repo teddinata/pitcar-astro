@@ -1,14 +1,25 @@
 ---
 publishDate: 2022-03-12T00:00:00.000Z
 title: Bengkel Mercy Terdekat Di Purwokerto
-excerpt: ''
+excerpt: >-
+  Sudah tidak ada masalah untuk Mencari Informasi bengkel terhadap kendaraan
+  kita, kecuali kita mengalami masalah pada kendaraan. kita akan banyak temukan
+  jasa
 category: jasa-service
 draft: false
 metadata:
-  canonical: 'https://pitcar.co.id/bengkel-mercy-purwokerto'
+  canonical: 'https://pitcar.co.id/bengkel-mercy-purwokerto/'
   robots:
     index: true
     follow: true
+  description: >-
+    Sudah tidak ada masalah untuk Mencari Informasi bengkel terhadap kendaraan
+    kita, kecuali kita mengalami masalah pada kendaraan. kita akan banyak
+    temukan jasa
+  keywords: >-
+    bengkel mercy purwokerto, jasa bengkel mercy purwokerto, bengkel bengkel
+    mercy purwokerto, service bengkel mercy purwokerto, servis bengkel mercy
+    purwokerto, harga bengkel mercy purwokerto, biaya bengkel mercy purwokerto
 ---
 
 ![image](~/assets/images/uploads/WhatsApp-Image-2021-03-28-at-10.12.08-AM.jpeg)

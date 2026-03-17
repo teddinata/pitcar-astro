@@ -1,16 +1,28 @@
 ---
 publishDate: 2023-02-21T00:00:00.000Z
 title: Biaya Ketok Magic di Purwokerto
-excerpt: ''
+excerpt: >-
+  Ketok magic adalah salah satu metode perbaikan bodi mobil yang cukup populer
+  di Indonesia. Ketok magic biasanya dilakukan untuk memperbaiki kerusakan pada
+  bodi
 category: jasa-service
 tags:
   - layanan
 draft: false
 metadata:
-  canonical: 'https://pitcar.co.id/biaya-ketok-magic-purwokerto-2'
+  canonical: 'https://pitcar.co.id/biaya-ketok-magic-purwokerto-2/'
   robots:
     index: true
     follow: true
+  description: >-
+    Ketok magic adalah salah satu metode perbaikan bodi mobil yang cukup populer
+    di Indonesia. Ketok magic biasanya dilakukan untuk memperbaiki kerusakan
+    pada bodi
+  keywords: >-
+    biaya ketok magic purwokerto, jasa biaya ketok magic purwokerto, bengkel
+    biaya ketok magic purwokerto, service biaya ketok magic purwokerto, servis
+    biaya ketok magic purwokerto, harga biaya ketok magic purwokerto, biaya
+    biaya ketok magic purwokerto
 ---
 
 ![image](~/assets/images/uploads/IMG_6383-1024x683.jpg)

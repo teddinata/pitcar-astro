@@ -1,14 +1,26 @@
 ---
 publishDate: 2022-03-05T00:00:00.000Z
 title: Bengkel Mitsubishi Terdekat Di Purwokerto
-excerpt: ''
+excerpt: >-
+  Bengkel Mitsubishi Terdekat Di Purwokerto Terbaik Paling Lengkap Banyak orang
+  yang tidak mempunyai sementara untuk menjaga mobil kesayangan. Jika Anda
+  termasuk
 category: jasa-service
 draft: false
 metadata:
-  canonical: 'https://pitcar.co.id/bengkel-mitsubishi-purwokerto'
+  canonical: 'https://pitcar.co.id/bengkel-mitsubishi-purwokerto/'
   robots:
     index: true
     follow: true
+  description: >-
+    Bengkel Mitsubishi Terdekat Di Purwokerto Terbaik Paling Lengkap Banyak
+    orang yang tidak mempunyai sementara untuk menjaga mobil kesayangan. Jika
+    Anda termasuk
+  keywords: >-
+    bengkel mitsubishi purwokerto, jasa bengkel mitsubishi purwokerto, bengkel
+    bengkel mitsubishi purwokerto, service bengkel mitsubishi purwokerto, servis
+    bengkel mitsubishi purwokerto, harga bengkel mitsubishi purwokerto, biaya
+    bengkel mitsubishi purwokerto
 ---
 
 ![image](https://placehold.co/1200x800/222222/FFFFFF/png?text=Pitcar+Service)

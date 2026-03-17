@@ -1,14 +1,25 @@
 ---
 publishDate: 2022-05-05T00:00:00.000Z
 title: Servis Dinamo Terdekat Di Purwokerto
-excerpt: ''
+excerpt: >-
+  Keunggulan Servis Dinamo Terdekat Di Purwokerto Terpercaya Jika Anda idamkan
+  merawat mobil yang paling disayangi dengan langkah mudah, maka dapat pakai
+  Servis
 category: jasa-service
 draft: false
 metadata:
-  canonical: 'https://pitcar.co.id/servis-dinamo-purwokerto'
+  canonical: 'https://pitcar.co.id/servis-dinamo-purwokerto/'
   robots:
     index: true
     follow: true
+  description: >-
+    Keunggulan Servis Dinamo Terdekat Di Purwokerto Terpercaya Jika Anda idamkan
+    merawat mobil yang paling disayangi dengan langkah mudah, maka dapat pakai
+    Servis
+  keywords: >-
+    servis dinamo purwokerto, jasa servis dinamo purwokerto, bengkel servis
+    dinamo purwokerto, service servis dinamo purwokerto, servis servis dinamo
+    purwokerto, harga servis dinamo purwokerto, biaya servis dinamo purwokerto
 ---
 
 ![image](~/assets/images/uploads/IMG_6348-scaled.jpg)

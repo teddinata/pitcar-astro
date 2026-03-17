@@ -1,14 +1,24 @@
 ---
 publishDate: 2022-02-13T00:00:00.000Z
 title: Bengkel Bospom Terdekat Di Purwokerto
-excerpt: ''
+excerpt: >-
+  Bengkel Bospom Terdekat Di Purwokerto Terbaik Paling Lengkap Banyak orang yang
+  tidak miliki pas untuk melindungi mobil kesayangan. Jika Anda juga orang yang
 category: jasa-service
 draft: false
 metadata:
-  canonical: 'https://pitcar.co.id/bengkel-bospom-purwokerto'
+  canonical: 'https://pitcar.co.id/bengkel-bospom-purwokerto/'
   robots:
     index: true
     follow: true
+  description: >-
+    Bengkel Bospom Terdekat Di Purwokerto Terbaik Paling Lengkap Banyak orang
+    yang tidak miliki pas untuk melindungi mobil kesayangan. Jika Anda juga
+    orang yang
+  keywords: >-
+    bengkel bospom purwokerto, jasa bengkel bospom purwokerto, bengkel bengkel
+    bospom purwokerto, service bengkel bospom purwokerto, servis bengkel bospom
+    purwokerto, harga bengkel bospom purwokerto, biaya bengkel bospom purwokerto
 ---
 
 ![image](https://placehold.co/1200x800/222222/FFFFFF/png?text=Pitcar+Service)

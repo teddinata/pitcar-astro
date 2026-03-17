@@ -1,14 +1,27 @@
 ---
 publishDate: 2022-06-05T00:00:00.000Z
 title: Scanner Mobil Injeksi Universal Terdekat Purwokerto Selatan
-excerpt: ''
+excerpt: >-
+  Scanner Mobil Injeksi Universal Terdekat Purwokerto Selatan Paling Murah dan
+  Terjangkau Perawatan mobil sesungguhnya tidak semudah yang Anda lihat,
+  khususnya
 category: jasa-service
 draft: false
 metadata:
-  canonical: 'https://pitcar.co.id/scanner-mobil-injeksi-universal-purwokerto-selatan'
+  canonical: 'https://pitcar.co.id/scanner-mobil-injeksi-universal-purwokerto-selatan/'
   robots:
     index: true
     follow: true
+  description: >-
+    Scanner Mobil Injeksi Universal Terdekat Purwokerto Selatan Paling Murah dan
+    Terjangkau Perawatan mobil sesungguhnya tidak semudah yang Anda lihat,
+    khususnya
+  keywords: >-
+    scanner mobil injeksi universal selatan, jasa scanner mobil injeksi
+    universal selatan, bengkel scanner mobil injeksi universal selatan, service
+    scanner mobil injeksi universal selatan, servis scanner mobil injeksi
+    universal selatan, harga scanner mobil injeksi universal selatan, biaya
+    scanner mobil injeksi universal selatan
 ---
 
 ![image](~/assets/images/uploads/WhatsApp-Image-2021-03-28-at-10.12.08-AM.jpeg)
