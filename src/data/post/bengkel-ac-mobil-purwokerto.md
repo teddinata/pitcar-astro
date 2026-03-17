@@ -1,7 +1,10 @@
 ---
 publishDate: 2022-06-07T00:00:00.000Z
 title: Bengkel Ac Mobil Di Purwokerto
-excerpt: ''
+excerpt: >-
+  Keunggulan Bengkel Ac Mobil Di Purwokerto Terpercaya Jika Anda inginkan
+  memelihara mobil kesayangan bersama langkah mudah, maka bisa memakai Bengkel
+  Ac Mobil Di
 category: jasa-service
 draft: false
 metadata:

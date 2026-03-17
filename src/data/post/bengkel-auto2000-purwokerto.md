@@ -1,7 +1,10 @@
 ---
 publishDate: 2022-05-09T00:00:00.000Z
 title: Bengkel Auto2000 Terdekat Di Purwokerto
-excerpt: ''
+excerpt: >-
+  Bengkel Auto2000 Terdekat Di Purwokerto Terbaik Paling Lengkap Banyak orang
+  yang tidak punyai kala untuk merawat mobil kesayangan. Jika Anda terhitung
+  orang
 category: jasa-service
 draft: false
 metadata:

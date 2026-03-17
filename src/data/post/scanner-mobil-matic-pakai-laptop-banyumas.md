@@ -1,7 +1,10 @@
 ---
 publishDate: 2022-02-02T00:00:00.000Z
 title: Scanner Mobil Matic Pakai Laptop Panggilan Di Banyumas
-excerpt: ''
+excerpt: >-
+  Scanner Mobil Matic Pakai Laptop Panggilan Di Banyumas Paling Murah dan
+  Terjangkau Perawatan mobil sebenarnya tidak semudah yang Anda lihat, terlebih
+  bagi Anda
 category: jasa-service
 draft: false
 metadata:

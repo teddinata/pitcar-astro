@@ -1,7 +1,9 @@
 ---
 publishDate: 2022-05-19T00:00:00.000Z
 title: Scanner Mobil Matic Pakai Laptop Profesional Purwokerto Selatan
-excerpt: ''
+excerpt: >-
+  Scanner Mobil Matic Pakai Laptop Profesional Purwokerto Selatan Paling Murah
+  dan Terjangkau Perawatan mobil sesungguhnya tidak semudah yang Anda lihat,
 category: jasa-service
 draft: false
 metadata:

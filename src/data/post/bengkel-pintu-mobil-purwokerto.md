@@ -1,7 +1,10 @@
 ---
 publishDate: 2022-02-01T00:00:00.000Z
 title: Bengkel Pintu Mobil Terdekat Di Purwokerto
-excerpt: ''
+excerpt: >-
+  Punya persoalan bersama kendaraan anda, kala berada di dalam perjalanan
+  didalam kota purwokerto. kini udah tidak tersedia kendala berarti kembali
+  sebab sekarang
 category: jasa-service
 draft: false
 metadata:

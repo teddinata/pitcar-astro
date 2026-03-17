@@ -1,7 +1,10 @@
 ---
 publishDate: 2022-04-15T00:00:00.000Z
 title: Harga Cat Mobil Full Body Di Purwokerto
-excerpt: ''
+excerpt: >-
+  Sudah tidak ada masalah untuk mencari bengkel pada kendaraan kita, jikalau
+  kita mengalami masalah terhadap kendaraan. kita dapat banyak temukan jasa
+  bengkel
 category: jasa-service
 draft: false
 metadata:

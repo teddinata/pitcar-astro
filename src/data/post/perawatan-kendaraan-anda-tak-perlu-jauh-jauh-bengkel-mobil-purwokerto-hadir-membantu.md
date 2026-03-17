@@ -1,7 +1,10 @@
 ---
 publishDate: 2023-02-15T00:00:00.000Z
 title: 'Pitcar Service: Solusi Perawatan Kendaraan'
-excerpt: ''
+excerpt: >-
+  <figure> <figcaption> bengkel one stop service purwokerto </figcaption>
+  </figure> Menjaga kondisi kendaraan adalah hal penting untuk memastikan
+  kenyamanan dan
 category: Uncategorized
 draft: false
 metadata:

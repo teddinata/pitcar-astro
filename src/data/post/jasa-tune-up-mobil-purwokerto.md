@@ -1,7 +1,10 @@
 ---
 publishDate: 2023-02-27T00:00:00.000Z
 title: Jasa Tune Up Mobil di Purwokerto
-excerpt: ''
+excerpt: >-
+  Jasa tune up mobil di purwokerto adalah salah satu layanan yang ditawarkan
+  oleh bengkel mobil yang bertujuan untuk meningkatkan performa dan efisiensi
+  kendaraan
 category: tune-up
 draft: false
 metadata:

@@ -1,7 +1,10 @@
 ---
 publishDate: 2022-01-29T00:00:00.000Z
 title: Bengkel Mobil Toyota Terdekat Di Purwokerto
-excerpt: ''
+excerpt: >-
+  Punya kasus bersama dengan kendaraan anda, selagi berada di dalam perjalanan
+  dalam kota purwokerto. kini sudah tidak ada halangan artinya kembali
+  dikarenakan
 category: jasa-service
 draft: false
 metadata:

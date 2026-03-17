@@ -1,7 +1,9 @@
 ---
 publishDate: 2022-10-19T00:00:00.000Z
 title: Service Dinamo Mobil Panggilan Di Purwokerto
-excerpt: ''
+excerpt: >-
+  Pitcar: Service Dinamo Mobil Panggilan Di Purwokerto Langsung Datang ke Rumah
+  Merawat mobil menjadi salah satu hal yang lumayan sulit, lebih-lebih bagi Anda
 category: jasa-service
 draft: false
 metadata:

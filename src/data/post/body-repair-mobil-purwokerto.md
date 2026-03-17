@@ -1,7 +1,9 @@
 ---
 publishDate: 2022-05-01T00:00:00.000Z
 title: Body Repair Mobil Terdekat Di Purwokerto
-excerpt: ''
+excerpt: >-
+  Punya kasus bersama dengan kendaraan anda, pas berada di dalam perjalanan di
+  dalam kota purwokerto. kini telah tidak tersedia rintangan artinya ulang
 category: jasa-service
 draft: false
 metadata:

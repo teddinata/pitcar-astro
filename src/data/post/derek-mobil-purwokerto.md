@@ -1,7 +1,10 @@
 ---
 publishDate: 2023-02-28T00:00:00.000Z
 title: Derek Mobil Purwokerto
-excerpt: ''
+excerpt: >-
+  Layanan derek mobil Purwokerto menjadi salah satu solusi yang penting ketika
+  kendaraan Anda mengalami masalah di jalan. Terdapat berbagai jenis layanan
+  derek
 category: jasa-service
 tags:
   - layanan

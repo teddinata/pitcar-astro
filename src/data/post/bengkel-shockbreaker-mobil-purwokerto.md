@@ -1,7 +1,10 @@
 ---
 publishDate: 2022-07-30T00:00:00.000Z
 title: Bengkel Shockbreaker Mobil Di Purwokerto
-excerpt: ''
+excerpt: >-
+  Keunggulan Bengkel Shockbreaker Mobil Di Purwokerto Terpercaya Jika Anda
+  mendambakan merawat mobil yang paling disayangi bersama langkah mudah, maka
+  bisa
 category: jasa-service
 draft: false
 metadata:

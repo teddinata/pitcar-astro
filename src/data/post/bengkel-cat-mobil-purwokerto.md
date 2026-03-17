@@ -1,7 +1,9 @@
 ---
 publishDate: 2022-03-07T00:00:00.000Z
 title: Bengkel Cat Mobil Terdekat Di Purwokerto
-excerpt: ''
+excerpt: >-
+  Sudah tidak ada problem untuk Mencari Informasi bengkel terhadap kendaraan
+  kita, terkecuali kita mengalami permasalahan pada kendaraan. kita dapat banyak
 category: jasa-service
 draft: false
 metadata:

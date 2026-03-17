@@ -1,7 +1,10 @@
 ---
 publishDate: 2022-03-24T00:00:00.000Z
 title: Bengkel Resmi Suzuki Di Purwokerto
-excerpt: ''
+excerpt: >-
+  Keunggulan Bengkel Resmi Suzuki Di Purwokerto Terpercaya Jika Anda dambakan
+  melindungi mobil kesayangan bersama cara mudah, maka dapat memakai Bengkel
+  Resmi
 category: jasa-service
 draft: false
 metadata:

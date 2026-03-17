@@ -1,7 +1,10 @@
 ---
 publishDate: 2022-06-16T00:00:00.000Z
 title: Service Daihatsu Terdekat Di Purwokerto
-excerpt: ''
+excerpt: >-
+  Keunggulan Service Daihatsu Terdekat Di Purwokerto Terpercaya Jika Anda ingin
+  memelihara mobil yang paling disayangi bersama dengan cara mudah, maka dapat
+  pakai
 category: jasa-service
 draft: false
 metadata:

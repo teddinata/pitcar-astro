@@ -1,7 +1,10 @@
 ---
 publishDate: 2022-02-28T00:00:00.000Z
 title: Jasa Service Panggilan Di Kota Purwokerto
-excerpt: ''
+excerpt: >-
+  Sudah tidak ada problem untuk mencari bengkel pada kendaraan kita, terkecuali
+  kami mengalami permasalahan pada kendaraan. kami bakal banyak temukan jasa
+  bengkel
 category: jasa-service
 draft: false
 metadata:

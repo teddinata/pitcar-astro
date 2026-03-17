@@ -1,7 +1,10 @@
 ---
 publishDate: 2022-02-13T00:00:00.000Z
 title: Service Jok Mobil Terdekat Di Purwokerto
-excerpt: ''
+excerpt: >-
+  Keunggulan Service Jok Mobil Terdekat Di Purwokerto Terpercaya Jika Anda
+  idamkan melindungi mobil kesayangan bersama langkah mudah, maka bisa
+  memanfaatkan
 category: jasa-service
 draft: false
 metadata:

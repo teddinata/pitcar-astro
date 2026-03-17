@@ -1,7 +1,10 @@
 ---
 publishDate: 2022-01-21T00:00:00.000Z
 title: Bengkel Mobil 24 Jam Terdekat Dari Lokasi Saya Di Purwokerto
-excerpt: ''
+excerpt: >-
+  Punya persoalan bersama dengan kendaraan anda, selagi berada di dalam
+  perjalanan didalam kota purwokerto. kini sudah tidak ada kendala bermakna lagi
+  gara-gara
 category: jasa-service
 draft: false
 metadata:

@@ -1,7 +1,10 @@
 ---
 publishDate: 2022-05-08T00:00:00.000Z
 title: Mekanik Mobil Panggilan Di Kota Purwokerto
-excerpt: ''
+excerpt: >-
+  Sudah tidak ada masalah untuk mencari bengkel pada kendaraan kita, jika kita
+  mengalami problem terhadap kendaraan. kami akan banyak temukan jasa bengkel
+  Mekanik
 category: jasa-service
 draft: false
 metadata:

@@ -1,7 +1,10 @@
 ---
 publishDate: 2022-03-09T00:00:00.000Z
 title: Bengkel Kaki Kaki Mobil Terdekat Di Purwokerto
-excerpt: ''
+excerpt: >-
+  Sudah tidak susah untuk mencari bengkel terhadap kendaraan kita, jika kita
+  mengalami persoalan pada kendaraan. kita akan banyak temukan jasa bengkel
+  Bengkel
 category: rem-kaki-kaki
 draft: false
 metadata:

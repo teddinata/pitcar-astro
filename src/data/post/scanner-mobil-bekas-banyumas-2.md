@@ -1,7 +1,9 @@
 ---
 publishDate: 2022-05-02T00:00:00.000Z
 title: Scanner Mobil Bekas Terdekat Di Banyumas
-excerpt: ''
+excerpt: >-
+  Scanner Mobil Bekas Terdekat Di Banyumas Paling Murah dan Terjangkau Perawatan
+  mobil sebetulnya tidak semudah yang Anda lihat, terlebih bagi Anda yang belum
 category: jasa-service
 draft: false
 metadata:

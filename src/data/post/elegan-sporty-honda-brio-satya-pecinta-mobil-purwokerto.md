@@ -1,7 +1,9 @@
 ---
 publishDate: 2022-06-25T00:00:00.000Z
 title: 'Elegan dan Sporty, Honda Brio Satya Untuk Pecinta Mobil Purwokerto'
-excerpt: ''
+excerpt: >-
+  (https://pitcar.co.id/) - Pasti sudah tidak asing lagi dengan nama Honda Brio.
+  Salah satu varian mobil yang elegan ini, selalu menjadi primadona dan banyak
 category: jasa-service
 tags:
   - elegan-dan-sporty

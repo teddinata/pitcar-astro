@@ -1,7 +1,10 @@
 ---
 publishDate: 2022-08-28T00:00:00.000Z
 title: Scanner Mobil Matic Injeksi Profesional Banyumas
-excerpt: ''
+excerpt: >-
+  Scanner Mobil Matic Injeksi Profesional Banyumas Paling Murah dan Terjangkau
+  Perawatan mobil sebetulnya tidak semudah yang Anda lihat, lebih-lebih bagi
+  Anda
 category: jasa-service
 draft: false
 metadata:

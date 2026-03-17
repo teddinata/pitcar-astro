@@ -1,7 +1,10 @@
 ---
 publishDate: 2022-05-02T00:00:00.000Z
 title: Bengkel Power Steering Di Purwokerto
-excerpt: ''
+excerpt: >-
+  Bengkel Power Steering Di Purwokerto Terbaik Paling Lengkap Banyak orang yang
+  tidak punyai pas untuk merawat mobil kesayangan. Jika Anda juga orang yang
+  repot
 category: jasa-service
 draft: false
 metadata:

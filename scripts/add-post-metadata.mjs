@@ -55,7 +55,7 @@ const clampDescription = (value, maxLength = 160) => {
   return sliced.slice(0, maxLength).trim();
 };
 
-const buildDescription = (data, body) => {
+const buildExcerpt = (data, body) => {
   if (typeof data.excerpt === 'string' && data.excerpt.trim()) {
     return data.excerpt.trim();
   }
@@ -64,6 +64,8 @@ const buildDescription = (data, body) => {
   if (typeof data.title === 'string') return clampDescription(data.title.trim(), 160);
   return '';
 };
+
+const buildDescription = (data, body) => buildExcerpt(data, body);
 
 const normalizeWords = (value) =>
   String(value || '')
@@ -157,6 +159,14 @@ for (const file of files) {
     const withSlash = ensureTrailingSlash(metadata.canonical);
     if (withSlash !== metadata.canonical) {
       metadata.canonical = withSlash;
+      changed = true;
+    }
+  }
+
+  if (!data.excerpt || !String(data.excerpt).trim()) {
+    const excerpt = buildExcerpt(data, parsed.content);
+    if (excerpt) {
+      data.excerpt = excerpt;
       changed = true;
     }
   }

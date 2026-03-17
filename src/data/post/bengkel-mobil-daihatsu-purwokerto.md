@@ -1,7 +1,10 @@
 ---
 publishDate: 2022-05-28T00:00:00.000Z
 title: Bengkel Mobil Daihatsu Terdekat Di Purwokerto
-excerpt: ''
+excerpt: >-
+  Punya kasus bersama dengan kendaraan anda, kala berada dalam perjalanan
+  didalam kota purwokerto. kini sudah tidak tersedia kendala artinya kembali
+  sebab
 category: jasa-service
 draft: false
 metadata:

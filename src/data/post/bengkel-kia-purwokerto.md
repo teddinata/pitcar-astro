@@ -1,7 +1,9 @@
 ---
 publishDate: 2022-04-17T00:00:00.000Z
 title: Bengkel Kia Di Purwokerto
-excerpt: ''
+excerpt: >-
+  Keunggulan Bengkel Kia Di Purwokerto Terpercaya Jika Anda ingin menjaga mobil
+  yang paling disayangi bersama dengan langkah mudah, maka sanggup manfaatkan
 category: jasa-service
 draft: false
 metadata:

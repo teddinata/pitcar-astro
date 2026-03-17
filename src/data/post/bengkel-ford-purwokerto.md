@@ -1,7 +1,10 @@
 ---
 publishDate: 2022-03-03T00:00:00.000Z
 title: Bengkel Ford Terdekat Di Purwokerto
-excerpt: ''
+excerpt: >-
+  Bengkel Ford Terdekat Di Purwokerto Terbaik Paling Lengkap Banyak orang yang
+  tidak memiliki waktu untuk merawat mobil kesayangan. Jika Anda terhitung orang
+  yang
 category: jasa-service
 draft: false
 metadata:

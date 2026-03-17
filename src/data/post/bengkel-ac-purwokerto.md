@@ -1,7 +1,9 @@
 ---
 publishDate: 2022-10-05T00:00:00.000Z
 title: Bengkel Ac Di Purwokerto
-excerpt: ''
+excerpt: >-
+  Keunggulan Bengkel Ac Di Purwokerto Terpercaya Jika Anda idamkan memelihara
+  mobil yang paling disayangi dengan cara mudah, maka mampu pakai Bengkel Ac Di
 category: jasa-service
 draft: false
 metadata:

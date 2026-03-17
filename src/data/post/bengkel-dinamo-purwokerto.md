@@ -1,7 +1,10 @@
 ---
 publishDate: 2022-05-06T00:00:00.000Z
 title: Bengkel Dinamo Panggilan Terdekat Di Purwokerto
-excerpt: ''
+excerpt: >-
+  Pitcar: Bengkel Dinamo Panggilan Terdekat Di Purwokerto Bengkel Panggilan
+  Purwokerto Langsung Datang ke Rumah Merawat mobil jadi salah satu hal yang
+  lumayan
 category: jasa-service
 draft: false
 metadata:

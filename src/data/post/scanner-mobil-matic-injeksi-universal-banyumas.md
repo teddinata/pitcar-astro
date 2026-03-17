@@ -1,7 +1,10 @@
 ---
 publishDate: 2022-10-20T00:00:00.000Z
 title: Scanner Mobil Matic Injeksi Universal Panggilan Banyumas
-excerpt: ''
+excerpt: >-
+  Scanner Mobil Matic Injeksi Universal Panggilan Banyumas Paling Murah dan
+  Terjangkau Perawatan mobil memang tidak semudah yang Anda lihat, khususnya
+  bagi Anda
 category: jasa-service
 draft: false
 metadata:

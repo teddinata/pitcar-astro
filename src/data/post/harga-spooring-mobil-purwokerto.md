@@ -1,7 +1,10 @@
 ---
 publishDate: 2022-01-16T00:00:00.000Z
 title: Harga Spooring Mobil Di Purwokerto
-excerpt: ''
+excerpt: >-
+  Punya kasus bersama dengan kendaraan anda, selagi berada dalam perjalanan di
+  dalam kota purwokerto. kini udah tidak ada rintangan artinya ulang sebab saat
+  ini
 category: jasa-service
 draft: false
 metadata:

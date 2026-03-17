@@ -1,7 +1,10 @@
 ---
 publishDate: 2022-06-25T00:00:00.000Z
 title: Bengkel Mobil Panggilan Purwokerto
-excerpt: ''
+excerpt: >-
+  (https://pitcar.co.id/) - Di zaman modern yang serba mudah ini, perilaku
+  masyarakat cenderung mencari cara-cara instan untuk memenuhi kebutuhan
+  hidupnya, tak
 category: jasa-service
 tags:
   - pick-up-service

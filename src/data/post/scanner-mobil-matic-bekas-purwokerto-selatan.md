@@ -1,7 +1,10 @@
 ---
 publishDate: 2022-06-15T00:00:00.000Z
 title: Scanner Mobil Matic Bekas Terdekat Di Purwokerto Selatan
-excerpt: ''
+excerpt: >-
+  Scanner Mobil Matic Bekas Terdekat Di Purwokerto Selatan Paling Murah dan
+  Terjangkau Perawatan mobil sebenarnya tidak semudah yang Anda lihat,
+  lebih-lebih bagi
 category: jasa-service
 draft: false
 metadata:

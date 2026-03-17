@@ -1,7 +1,10 @@
 ---
 publishDate: 2022-02-13T00:00:00.000Z
 title: Bengkel Cat Di Purwokerto
-excerpt: ''
+excerpt: >-
+  Punya persoalan dengan kendaraan anda, pas berada dalam perjalanan didalam
+  kota purwokerto. kini sudah tidak tersedia kendala berarti ulang dikarenakan
+  saat ini
 category: jasa-service
 draft: false
 metadata:

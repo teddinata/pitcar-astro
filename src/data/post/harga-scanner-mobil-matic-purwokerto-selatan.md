@@ -1,7 +1,9 @@
 ---
 publishDate: 2022-02-02T00:00:00.000Z
 title: Harga Scanner Mobil Matic Tercanggih Panggilan Di Purwokerto Selatan
-excerpt: ''
+excerpt: >-
+  Harga Scanner Mobil Matic Tercanggih Panggilan Di Purwokerto Selatan Paling
+  Murah dan Terjangkau Perawatan mobil sebenarnya tidak semudah yang Anda lihat,
 category: jasa-service
 draft: false
 metadata:

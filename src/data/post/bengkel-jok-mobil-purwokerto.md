@@ -1,7 +1,10 @@
 ---
 publishDate: 2022-04-24T00:00:00.000Z
 title: Bengkel Jok Mobil Terdekat Di Purwokerto
-excerpt: ''
+excerpt: >-
+  Bengkel Jok Mobil Terdekat Di Purwokerto Terbaik Paling Lengkap Banyak orang
+  yang tidak mempunyai pas untuk memelihara mobil kesayangan. Jika Anda
+  terhitung
 category: jasa-service
 draft: false
 metadata:

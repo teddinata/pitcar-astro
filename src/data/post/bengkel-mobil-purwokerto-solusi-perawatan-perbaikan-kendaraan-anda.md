@@ -1,7 +1,10 @@
 ---
 publishDate: 2023-02-14T00:00:00.000Z
 title: Bengkel Mobil Terdekat di Purwokerto
-excerpt: ''
+excerpt: >-
+  Menjaga kondisi kendaraan memerlukan perawatan dan perbaikan berkala, dan
+  menemukan bengkel mobil yang terdekat dan berkualitas di Purwokerto dapat
+  menjadi
 category: jasa-service
 tags:
   - layanan

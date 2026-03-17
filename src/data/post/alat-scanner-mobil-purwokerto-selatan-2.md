@@ -1,7 +1,9 @@
 ---
 publishDate: 2022-04-22T00:00:00.000Z
 title: Alat Scanner Mobil Yang Bagus Dan Murah Panggilan Purwokerto Selatan
-excerpt: ''
+excerpt: >-
+  Alat Scanner Mobil Yang Bagus Dan Murah Panggilan Purwokerto Selatan Paling
+  Murah dan Terjangkau Perawatan mobil sebetulnya tidak semudah yang Anda lihat,
 category: jasa-service
 draft: false
 metadata:

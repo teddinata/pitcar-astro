@@ -1,7 +1,9 @@
 ---
 publishDate: 2022-01-10T00:00:00.000Z
 title: Bengkel Onderstel Terdekat Di Purwokerto
-excerpt: ''
+excerpt: >-
+  Sudah tidak ada problem untuk mencari bengkel terhadap kendaraan kita, kecuali
+  kami mengalami permasalahan terhadap kendaraan. kami akan banyak temukan jasa
 category: jasa-service
 draft: false
 metadata:

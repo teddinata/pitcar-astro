@@ -1,7 +1,10 @@
 ---
 publishDate: 2022-06-23T00:00:00.000Z
 title: Scanner Mobil Matic Tercanggih Terdekat Di Banyumas
-excerpt: ''
+excerpt: >-
+  Scanner Mobil Matic Tercanggih Terdekat Di Banyumas Paling Murah dan
+  Terjangkau Perawatan mobil sebenarnya tidak semudah yang Anda lihat, terlebih
+  bagi Anda
 category: jasa-service
 draft: false
 metadata:

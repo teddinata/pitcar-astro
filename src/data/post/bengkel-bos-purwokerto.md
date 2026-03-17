@@ -1,7 +1,9 @@
 ---
 publishDate: 2022-02-17T00:00:00.000Z
 title: Bengkel Bos Di Purwokerto
-excerpt: ''
+excerpt: >-
+  Sudah tidak kesusahan untuk Mencari Informasi bengkel terhadap kendaraan kita,
+  jikalau kita mengalami persoalan terhadap kendaraan. kita dapat banyak temukan
 category: jasa-service
 draft: false
 metadata:

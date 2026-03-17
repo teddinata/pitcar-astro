@@ -1,7 +1,10 @@
 ---
 publishDate: 2022-04-11T00:00:00.000Z
 title: Bengkel Body Repair Di Purwokerto
-excerpt: ''
+excerpt: >-
+  Bengkel Body Repair Di Purwokerto Terbaik Paling Lengkap Banyak orang yang
+  tidak punya pas untuk menjaga mobil kesayangan. Jika Anda juga orang yang
+  sibuk dan
 category: jasa-service
 draft: false
 metadata:

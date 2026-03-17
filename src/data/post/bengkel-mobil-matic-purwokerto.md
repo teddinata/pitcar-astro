@@ -1,7 +1,10 @@
 ---
 publishDate: 2022-02-13T00:00:00.000Z
 title: Bengkel Mobil Matic Di Purwokerto
-excerpt: ''
+excerpt: >-
+  Bengkel Mobil Matic Di Purwokerto Terbaik Paling Lengkap Banyak orang yang
+  tidak punya kala untuk memelihara mobil kesayangan. Jika Anda terhitung orang
+  yang
 category: jasa-service
 draft: false
 metadata:

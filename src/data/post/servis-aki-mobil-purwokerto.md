@@ -1,7 +1,10 @@
 ---
 publishDate: 2023-03-01T00:00:00.000Z
 title: Servis Aki Mobil Purwokerto
-excerpt: ''
+excerpt: >-
+  Servis aki mobil Purwokerto merupakan salah satu hal yang penting untuk
+  menjaga kinerja dan daya tahan aki mobil. Aki mobil yang baik dan terawat
+  dapat
 category: accu
 draft: false
 metadata:

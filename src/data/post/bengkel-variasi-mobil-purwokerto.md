@@ -1,7 +1,10 @@
 ---
 publishDate: 2022-01-23T00:00:00.000Z
 title: Bengkel Variasi Mobil Di Purwokerto
-excerpt: ''
+excerpt: >-
+  Punya persoalan bersama dengan kendaraan anda, sementara berada didalam
+  perjalanan di dalam kota purwokerto. kini udah tidak ada rintangan artinya
+  ulang
 category: jasa-service
 draft: false
 metadata:

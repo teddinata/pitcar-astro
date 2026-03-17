@@ -1,7 +1,10 @@
 ---
 publishDate: 2022-07-12T00:00:00.000Z
 title: Bengkel Resmi Chevrolet Di Purwokerto
-excerpt: ''
+excerpt: >-
+  Keunggulan Bengkel Resmi Chevrolet Di Purwokerto Terpercaya Jika Anda ingin
+  menjaga mobil yang paling disayangi bersama dengan cara mudah, maka bisa
+  memakai
 category: jasa-service
 draft: false
 metadata:

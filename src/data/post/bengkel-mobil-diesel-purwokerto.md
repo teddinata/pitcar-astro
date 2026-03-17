@@ -1,7 +1,9 @@
 ---
 publishDate: 2022-04-24T00:00:00.000Z
 title: Bengkel Mobil Diesel Terdekat Di Purwokerto
-excerpt: ''
+excerpt: >-
+  Punya persoalan bersama dengan kendaraan anda, pas berada dalam perjalanan
+  didalam kota purwokerto. kini udah tidak ada halangan artinya lagi dikarenakan
 category: jasa-service
 draft: false
 metadata:

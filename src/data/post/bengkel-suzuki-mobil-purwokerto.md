@@ -1,7 +1,10 @@
 ---
 publishDate: 2022-03-09T00:00:00.000Z
 title: Bengkel Suzuki Mobil Terdekat Di Purwokerto
-excerpt: ''
+excerpt: >-
+  Sudah tidak ada problem untuk mencari bengkel terhadap kendaraan kita, kalau
+  kami mengalami persoalan terhadap kendaraan. kami dapat banyak temukan jasa
+  bengkel
 category: jasa-service
 draft: false
 metadata:

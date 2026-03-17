@@ -1,7 +1,10 @@
 ---
 publishDate: 2022-04-18T00:00:00.000Z
 title: Bengkel Kaki Kaki Di Purwokerto
-excerpt: ''
+excerpt: >-
+  Bengkel Kaki Kaki Di Purwokerto Terbaik Paling Lengkap Banyak orang yang tidak
+  miliki kala untuk menjaga mobil kesayangan. Jika Anda juga orang yang repot
+  dan
 category: jasa-service
 draft: false
 metadata:

@@ -1,7 +1,10 @@
 ---
 publishDate: 2022-04-12T00:00:00.000Z
 title: Jasa Mekanik Mobil Panggilan Di Kota Purwokerto
-excerpt: ''
+excerpt: >-
+  Jasa Mekanik Mobil Panggilan Di Kota Purwokerto Terbaik Paling Lengkap Banyak
+  orang yang tidak punya pas untuk menjaga mobil kesayangan. Jika Anda juga
+  orang
 category: jasa-service
 draft: false
 metadata:

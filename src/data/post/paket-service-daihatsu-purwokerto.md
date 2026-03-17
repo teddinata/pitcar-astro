@@ -1,7 +1,10 @@
 ---
 publishDate: 2022-08-14T00:00:00.000Z
 title: Paket Service Daihatsu Di Purwokerto
-excerpt: ''
+excerpt: >-
+  Keunggulan Paket Service Daihatsu Di Purwokerto Terpercaya Jika Anda
+  menghendaki menjaga mobil yang paling disayangi bersama dengan cara mudah,
+  maka dapat pakai
 category: jasa-service
 draft: false
 metadata:

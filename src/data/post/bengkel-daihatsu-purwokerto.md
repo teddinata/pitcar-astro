@@ -1,7 +1,10 @@
 ---
 publishDate: 2022-08-09T00:00:00.000Z
 title: Bengkel Resmi Daihatsu Di Purwokerto
-excerpt: ''
+excerpt: >-
+  Keunggulan Bengkel Resmi Daihatsu Di Purwokerto Terpercaya Jika Anda
+  menginginkan menjaga mobil yang paling disayangi bersama dengan cara mudah,
+  maka dapat
 category: jasa-service
 draft: false
 metadata:

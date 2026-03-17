@@ -1,7 +1,10 @@
 ---
 publishDate: 2022-05-02T00:00:00.000Z
 title: Bengkel 24 Jam Di Purwokerto
-excerpt: ''
+excerpt: >-
+  Sudah tidak ada masalah untuk Mencari Informasi bengkel pada kendaraan kita,
+  terkecuali kita mengalami problem pada kendaraan. kita bakal banyak temukan
+  jasa
 category: jasa-service
 draft: false
 metadata:

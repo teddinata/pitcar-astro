@@ -1,7 +1,10 @@
 ---
 publishDate: 2022-02-07T00:00:00.000Z
 title: Kuras Oli Transmisi Matic Di Purwokerto
-excerpt: ''
+excerpt: >-
+  Kuras Oli Transmisi Matic Di Purwokerto Cepat dan Profesional Mobil menjadi
+  salah satu kendaraan yang memiliki perawatan tidak mudah. Dengan kata lain,
+  jika
 category: jasa-service
 draft: false
 metadata:

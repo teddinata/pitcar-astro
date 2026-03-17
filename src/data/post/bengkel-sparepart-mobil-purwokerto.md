@@ -1,7 +1,10 @@
 ---
 publishDate: 2022-01-24T00:00:00.000Z
 title: Bengkel Sparepart Mobil Terdekat Di Purwokerto
-excerpt: ''
+excerpt: >-
+  Punya kasus bersama dengan kendaraan anda, saat berada dalam perjalanan di
+  dalam kota purwokerto. kini udah tidak ada halangan artinya kembali karena
+  saat ini
 category: jasa-service
 draft: false
 metadata:

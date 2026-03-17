@@ -1,7 +1,10 @@
 ---
 publishDate: 2022-04-17T00:00:00.000Z
 title: Service Lampu Mobil Terdekat Di Purwokerto
-excerpt: ''
+excerpt: >-
+  Punya kasus bersama kendaraan anda, sementara berada dalam perjalanan dalam
+  kota purwokerto. kini udah tidak ada rintangan artinya lagi dikarenakan
+  sekarang
 category: jasa-service
 draft: false
 metadata:

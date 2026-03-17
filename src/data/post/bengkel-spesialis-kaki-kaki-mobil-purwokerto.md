@@ -1,7 +1,9 @@
 ---
 publishDate: 2022-03-26T00:00:00.000Z
 title: Bengkel Spesialis Kaki Kaki Mobil Di Purwokerto
-excerpt: ''
+excerpt: >-
+  Sudah tidak ada problem untuk mencari bengkel pada kendaraan kita, kalau kita
+  mengalami problem terhadap kendaraan. kami bakal banyak temukan jasa bengkel
 category: rem-kaki-kaki
 draft: false
 metadata:

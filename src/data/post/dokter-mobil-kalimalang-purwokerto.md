@@ -1,7 +1,10 @@
 ---
 publishDate: 2022-03-23T00:00:00.000Z
 title: Dokter Mobil Kalimalang Di Purwokerto
-excerpt: ''
+excerpt: >-
+  Sudah tidak ada problem untuk Mencari Informasi bengkel pada kendaraan kita,
+  jikalau kita mengalami permasalahan terhadap kendaraan. kita bakal banyak
+  temukan
 category: jasa-service
 draft: false
 metadata:

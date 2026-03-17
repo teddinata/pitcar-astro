@@ -1,7 +1,9 @@
 ---
 publishDate: 2022-02-13T00:00:00.000Z
 title: Bengkel Bospom Terdekat Di Purwokerto
-excerpt: ''
+excerpt: >-
+  Bengkel Bospom Terdekat Di Purwokerto Terbaik Paling Lengkap Banyak orang yang
+  tidak miliki pas untuk melindungi mobil kesayangan. Jika Anda juga orang yang
 category: jasa-service
 draft: false
 metadata:

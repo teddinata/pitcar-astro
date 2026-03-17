@@ -1,7 +1,10 @@
 ---
 publishDate: 2023-02-21T00:00:00.000Z
 title: Biaya Ketok Magic di Purwokerto
-excerpt: ''
+excerpt: >-
+  Ketok magic adalah salah satu metode perbaikan bodi mobil yang cukup populer
+  di Indonesia. Ketok magic biasanya dilakukan untuk memperbaiki kerusakan pada
+  bodi
 category: jasa-service
 tags:
   - layanan

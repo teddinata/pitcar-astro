@@ -1,7 +1,10 @@
 ---
 publishDate: 2022-06-05T00:00:00.000Z
 title: Scanner Mobil Injeksi Universal Terdekat Purwokerto Selatan
-excerpt: ''
+excerpt: >-
+  Scanner Mobil Injeksi Universal Terdekat Purwokerto Selatan Paling Murah dan
+  Terjangkau Perawatan mobil sesungguhnya tidak semudah yang Anda lihat,
+  khususnya
 category: jasa-service
 draft: false
 metadata:

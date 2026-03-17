@@ -1,7 +1,10 @@
 ---
 publishDate: 2022-04-14T00:00:00.000Z
 title: Biaya Cat Ulang Mobil Full Body Di Purwokerto
-excerpt: ''
+excerpt: >-
+  Punya kasus dengan kendaraan anda, sementara berada dalam perjalanan didalam
+  kota purwokerto. kini sudah tidak ada halangan bermakna ulang gara-gara
+  sekarang
 category: jasa-service
 draft: false
 metadata:

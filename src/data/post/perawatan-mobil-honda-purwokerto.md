@@ -1,7 +1,10 @@
 ---
 publishDate: 2022-06-25T00:00:00.000Z
 title: Perawatan Mobil Honda di Purwokerto
-excerpt: ''
+excerpt: >-
+  Saat ini, siapa yang tidak tahu Brand Honda? Honda merupakan salah satu brand
+  otomotif kenamaan asal Jepang yang berdiri pada 30 September 1948. Pada
+  awalnya,
 category: jasa-service
 tags:
   - perawatan-mobil-honda

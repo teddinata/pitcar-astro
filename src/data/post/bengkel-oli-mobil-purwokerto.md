@@ -1,7 +1,10 @@
 ---
 publishDate: 2022-04-03T00:00:00.000Z
 title: Bengkel Oli Mobil Terdekat Di Purwokerto
-excerpt: ''
+excerpt: >-
+  Punya kasus bersama kendaraan anda, kala berada didalam perjalanan dalam kota
+  purwokerto. kini sudah tidak ada halangan bermakna ulang sebab sekarang udah
+  ada
 category: jasa-service
 draft: false
 metadata:

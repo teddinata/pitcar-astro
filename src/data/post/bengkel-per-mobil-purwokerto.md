@@ -1,7 +1,9 @@
 ---
 publishDate: 2022-03-11T00:00:00.000Z
 title: Bengkel Per Mobil Terdekat Di Purwokerto
-excerpt: ''
+excerpt: >-
+  Sudah tidak kesulitan untuk Mencari Informasi bengkel terhadap kendaraan kita,
+  jika kita mengalami permasalahan terhadap kendaraan. kita dapat banyak temukan
 category: jasa-service
 draft: false
 metadata:

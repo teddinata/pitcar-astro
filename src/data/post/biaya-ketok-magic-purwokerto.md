@@ -1,7 +1,10 @@
 ---
 publishDate: 2022-06-25T00:00:00.000Z
 title: Biaya Ketok Magic di Purwokerto
-excerpt: ''
+excerpt: >-
+  (https://pitcar.co.id/) - Ketok magic adalah sebuah istilah yang mengarah
+  kepada perbaikan bodi mobil yang memiliki kerusakan cukup parah. Ketok magic
+  ini juga,
 category: jasa-service
 tags:
   - biaya-ketok-magic

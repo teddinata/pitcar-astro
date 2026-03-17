@@ -1,7 +1,10 @@
 ---
 publishDate: 2022-02-19T00:00:00.000Z
 title: Bengkel Lili Di Purwokerto
-excerpt: ''
+excerpt: >-
+  Bengkel Lili Di Purwokerto Terbaik Paling Lengkap Banyak orang yang tidak
+  punyai waktu untuk merawat mobil kesayangan. Jika Anda terhitung orang yang
+  sibuk dan
 category: jasa-service
 draft: false
 metadata:

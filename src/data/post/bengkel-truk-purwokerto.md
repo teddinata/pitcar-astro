@@ -1,7 +1,10 @@
 ---
 publishDate: 2022-01-13T00:00:00.000Z
 title: Bengkel Truk Terdekat Di Purwokerto
-excerpt: ''
+excerpt: >-
+  Sudah tidak kesulitan untuk mencari bengkel terhadap kendaraan kita, jika kita
+  mengalami problem pada kendaraan. kita dapat banyak temukan jasa bengkel
+  Bengkel
 category: jasa-service
 draft: false
 metadata:

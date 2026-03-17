@@ -1,7 +1,10 @@
 ---
 publishDate: 2022-04-28T00:00:00.000Z
 title: Bengkel Mobil Terdekat Dari Lokasi Saya Di Purwokerto
-excerpt: ''
+excerpt: >-
+  Sudah tidak ada problem untuk Mencari Informasi bengkel pada kendaraan kita,
+  kecuali kita mengalami persoalan terhadap kendaraan. kita bakal banyak temukan
+  jasa
 category: jasa-service
 draft: false
 metadata:

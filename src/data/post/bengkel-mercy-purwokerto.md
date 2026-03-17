@@ -1,7 +1,10 @@
 ---
 publishDate: 2022-03-12T00:00:00.000Z
 title: Bengkel Mercy Terdekat Di Purwokerto
-excerpt: ''
+excerpt: >-
+  Sudah tidak ada masalah untuk Mencari Informasi bengkel terhadap kendaraan
+  kita, kecuali kita mengalami masalah pada kendaraan. kita akan banyak temukan
+  jasa
 category: jasa-service
 draft: false
 metadata:

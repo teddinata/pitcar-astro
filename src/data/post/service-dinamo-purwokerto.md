@@ -1,7 +1,10 @@
 ---
 publishDate: 2022-06-18T00:00:00.000Z
 title: Service Dinamo Terdekat Di Purwokerto
-excerpt: ''
+excerpt: >-
+  Keunggulan Service Dinamo Terdekat Di Purwokerto Terpercaya Jika Anda
+  mengidamkan melindungi mobil kesayangan bersama dengan langkah mudah, maka
+  dapat
 category: jasa-service
 draft: false
 metadata:
