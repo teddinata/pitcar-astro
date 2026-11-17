@@ -1,0 +1,163 @@
+---
+import { Icon } from 'astro-icon/components';
+import { AREA, CABANG, WA_CABANG, WA_DARURAT, WA_UMUM, pesanGejala, waLink } from '~/data/diagnosa';
+---
+
+<section class="lv-hero" id="diagnosa" data-diagnosa aria-labelledby="diagnosa-judul">
+  <div class="lv-hero__top">
+    <div class="lv-hero__bg" aria-hidden="true"></div>
+    <div class="lv-hero__copy lv-on-red">
+      <h1 class="lv-decal" id="diagnosa-judul"><span>Mobil Anda</span> <span>kenapa?</span></h1>
+      <p class="lv-hero__lead">
+        Sentuh bagian yang bermasalah, baca kemungkinan penyebabnya, lalu kirim keluhannya ke admin Pitcar.
+      </p>
+      <div class="lv-net">
+        <p class="lv-net__label">Jaringan Pitcar</p>
+        <ul class="lv-net__cities">
+          {
+            CABANG.map((c) => (
+              <li class:list={{ 'is-new': c.baru }}>
+                {c.kota}
+                {c.catatan && <small>({c.catatan})</small>}
+                {c.baru && <span class="lv-net__new">Baru</span>}
+              </li>
+            ))
+          }
+        </ul>
+        <a class="lv-net__ask" href={WA_CABANG} target="_blank" rel="noopener noreferrer">Tanya alamat terdekat ke admin</a>
+      </div>
+    </div>
+
+    <div class="lv-stage" data-stage>
+      <svg class="lv-stage__poster" viewBox="-10 0 440 190" fill="none" stroke="currentColor" stroke-width="1.6" stroke-linejoin="round" aria-hidden="true">
+        <path d="M0 102 4 70 20 20 80 12 250 14 285 22 350 78 405 92 418 108 420 124 420 150 384.5 160A39.5 39.5 0 0 0 305.5 160L119.5 160A39.5 39.5 0 0 0 40.5 160L6 160 0 140Z" />
+        <path d="M30 80 30 30 78 22 250 24 280 30 338 80Z" />
+        <path d="M100 80V24M185 80V24M272 80V28M100 80V158M185 80V158M280 80V158" />
+        <circle cx="345" cy="149" r="31" />
+        <circle cx="80" cy="149" r="31" />
+        <circle cx="345" cy="149" r="12" />
+        <circle cx="80" cy="149" r="12" />
+      </svg>
+      <canvas
+        class="lv-stage__canvas"
+        tabindex="0"
+        aria-label="Model 3D mobil. Tekan tombol panah untuk memutarnya."></canvas>
+      <div class="lv-tags">
+        {
+          AREA.map((a) => (
+            <button type="button" class="lv-tag" data-tag={a.id} aria-pressed="false" tabindex="-1" aria-hidden="true" hidden>
+              {a.tag}
+            </button>
+          ))
+        }
+      </div>
+      <p class="lv-stage__note" data-note role="status">Memuat model 3D mobil</p>
+    </div>
+  </div>
+
+  <div class="lv-wrap">
+    <div class="lv-rail" role="group" aria-label="Bagian mobil yang bermasalah">
+      {
+        AREA.map((a) => (
+          <button type="button" class="lv-plate" data-area={a.id} aria-pressed="false" aria-controls={`panel-${a.id}`}>
+            <span class="lv-plate__name">{a.nama}</span>
+            <span class="lv-plate__sub">{a.ringkas}</span>
+            <span class="lv-plate__lock">Terkunci</span>
+          </button>
+        ))
+      }
+    </div>
+
+    <div class="lv-result">
+      <p class="lv-result__empty" data-empty>Belum ada bagian yang dipilih. Pilih satu bagian di atas untuk melihat gejalanya.</p>
+      {
+        AREA.map((a) => (
+          <div class="lv-panel" id={`panel-${a.id}`} data-panel={a.id} hidden>
+            <h2 class="lv-panel__head">
+              <span>{a.nama}: mana yang paling mirip dengan mobil Anda?</span>
+            </h2>
+            {a.gejala.map((g) => (
+              <details class="lv-gejala" name={`gejala-${a.id}`}>
+                <summary>
+                  <span>{g.judul}</span>
+                  <span class="lv-gejala__mark" aria-hidden="true" />
+                </summary>
+                <div class="lv-gejala__body">
+                  <div>
+                    <p class="lv-gejala__label">{g.labelPoin}</p>
+                    <ul class="lv-gejala__list">
+                      {g.poin.map((p, i) => (
+                        <li class="lv-line" style={`--i:${i}`}>
+                          <span>{p}</span>
+                        </li>
+                      ))}
+                    </ul>
+                  </div>
+                  <div class="lv-gejala__act">
+                    {g.darurat && (
+                      <p class="lv-gejala__alert lv-line" style={`--i:${g.poin.length}`}>
+                        Jangan paksa mobil berjalan. <a href={WA_DARURAT} target="_blank" rel="noopener noreferrer">Hubungi darurat 24 jam</a>.
+                      </p>
+                    )}
+                    <p class="lv-gejala__label lv-line" style={`--i:${g.poin.length + 1}`}>
+                      Ditangani di layanan {g.layanan.join(' dan ')}
+                    </p>
+                    <a
+                      class="lv-btn lv-line"
+                      style={`--i:${g.poin.length + 2}`}
+                      href={waLink(pesanGejala(a.nama, g.judul))}
+                      data-wa-gejala
+                      data-area={a.nama}
+                      data-judul={g.judul}
+                      target="_blank"
+                      rel="noopener noreferrer"
+                    >
+                      <Icon name="tabler:brand-whatsapp" aria-hidden="true" />
+                      Kirim keluhan ini ke admin
+                    </a>
+                    <p class="lv-gejala__note">Admin memastikan kerusakannya dan memberi estimasi sebelum pengerjaan.</p>
+                  </div>
+                </div>
+              </details>
+            ))}
+            <div class="lv-field">
+              <label for={`mobil-${a.id}`}>Mobil dan tahun (opsional, ikut terkirim ke admin)</label>
+              <input type="text" id={`mobil-${a.id}`} data-mobil autocomplete="off" placeholder="Contoh: Avanza 2018" />
+            </div>
+          </div>
+        ))
+      }
+    </div>
+
+    <div class="lv-hero__cta">
+      <a class="lv-btn" href={WA_UMUM} target="_blank" rel="noopener noreferrer">
+        <Icon name="tabler:brand-whatsapp" aria-hidden="true" />
+        Chat admin di WhatsApp
+      </a>
+      <a class="lv-btn lv-btn--ghost" href={WA_DARURAT} target="_blank" rel="noopener noreferrer">Darurat 24 jam</a>
+      <p>Home Service, Pick Up Service, atau datang ke workshop.</p>
+    </div>
+    <p class="lv-credit">
+      Model 3D: <a href="https://sketchfab.com/3d-models/2015-toyota-avanza-g-13-711adccbd846427b9dbca71e27fee50b" target="_blank" rel="noopener noreferrer">"2015 Toyota Avanza G 1.3"</a> oleh
+      <a href="https://sketchfab.com/Ray2007ben" target="_blank" rel="noopener noreferrer">Raysh</a>, lisensi
+      <a href="http://creativecommons.org/licenses/by/4.0/" target="_blank" rel="noopener noreferrer">CC BY 4.0</a>, disederhanakan dan diwarnai ulang.
+    </p>
+  </div>
+</section>
+
+
+<noscript>
+  <style>
+    .lv-panel[hidden] {
+      display: block;
+    }
+    .lv-result__empty,
+    .lv-stage__note {
+      display: none;
+    }
+  </style>
+</noscript>
+
+<script>
+  import '~/scripts/diagnosa/ui';
+</script>

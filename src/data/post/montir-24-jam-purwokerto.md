@@ -22,7 +22,7 @@ metadata:
     harga montir jam purwokerto, biaya montir jam purwokerto
 ---
 
-![image](https://placehold.co/1200x800/222222/FFFFFF/png?text=Pitcar+Service)
+![image](~/assets/images/uploads/IMG_6348-scaled.jpg)
 
 # Pitcar: Montir Panggilan 24 Jam Terdekat Di Purwokerto Bengkel Panggilan Purwokerto Langsung Datang ke Rumah
 

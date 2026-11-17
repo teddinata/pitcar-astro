@@ -24,7 +24,7 @@ metadata:
     purwokerto, harga mekanik mobil purwokerto, biaya mekanik mobil purwokerto
 ---
 
-![image](https://placehold.co/1200x800/222222/FFFFFF/png?text=Pitcar+Service)
+![image](~/assets/images/uploads/IMG_6397-scaled.jpg)
 
 Mekanik Mobil Panggilan Di Daerah Purwokerto Terbaik Paling Lengkap. Banyak orang yang tidak sempat merawat mobil kesayangan. Jika Anda termasuk orang yang sibuk dan tidak punya waktu, maka Anda bisa mencoba fasilitas berasal dari bengkel Mobil Purwokerto.
 
@@ -53,6 +53,12 @@ Bagi Anda yang butuh perawatan eksterior dan engine detailing mobil, maka bisa m
 Jika mobil yang Anda punyai tidak meraih perawatan dalam jangka selagi panjang, tentu ada banyak sekali hal-hal yang harus diperbaiki, bukan? Kini, Anda bisa pilih sarana complete detailing berasal dari bengkel mobil Purwokerto ini. Tentunya, mobil kesayangan Anda bakal mendapatkan perawatan yang lengkap, merasa dari interior, exterior hingga mesinnya secara detail.
 
 Semua Mekanik Mobil Panggilan Di Daerah Purwokerto di atas sanggup Anda pilih sesuai keperluan perawatan mobil sendiri. Menariknya, Anda tidak harus kuatir soal harga dikarenakan seluruh sarana yang tersedia punyai penawaran harga murah meriah, agar tidak membawa dampak dompet Anda jadi kering kerontang. Itulah informasi tentang sebagian sarana yang tersedia di bengkel mobil Purwokerto. Jika Anda tertarik untuk gunakan salah satu layanannya, maka dapat hubungi bengkel mobil Pitcar lewat kontak resminya yang udah ada disini.
+
+## Alur Layanan Panggilan Pitcar
+
+Cukup hubungi nomor WhatsApp Pitcar, lalu tim akan datang langsung ke rumah Anda. Di lokasi, supervisor akan menanyakan perawatan apa yang dibutuhkan mobil Anda, kemudian menyampaikan jumlah biaya yang perlu dibayarkan. Jika Anda sepakat, perbaikan langsung dikerjakan.
+
+Selain perawatan, tim juga memberikan edukasi seputar tips merawat mobil, sehingga Anda tahu letak kerusakan dan cara merawatnya dengan baik setelah servis.
 
 ### Dokumentasi Mekanik Mobil Panggilan Di Daerah Purwokerto
 

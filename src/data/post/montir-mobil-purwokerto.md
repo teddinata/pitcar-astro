@@ -41,6 +41,12 @@ Menariknya, bengkel mobil ini dapat datang segera ke rumah, sehingga Anda tingga
 
 Semua Montir Mobil Panggilan Di Kota Purwokerto di atas mampu Anda memilih cocok keperluan perawatan mobil sendiri. Menariknya, Anda tidak mesti kuatir soal harga karena semua layanan yang tersedia mempunyai penawaran harga murah meriah, agar tidak membawa dampak dompet Anda menjadi kering kerontang. Itulah Info perihal lebih dari satu layanan yang tersedia di bengkel mobil Purwokerto. Jika Anda tertarik untuk memanfaatkan salah satu layanannya, maka dapat hubungi bengkel mobil Pitcar lewat kontak resminya yang sudah tersedia disini.
 
+## Alur Layanan Panggilan Pitcar
+
+Cukup hubungi nomor WhatsApp Pitcar, lalu tim akan datang langsung ke rumah Anda. Di lokasi, supervisor akan menanyakan perawatan apa yang dibutuhkan mobil Anda, kemudian menyampaikan jumlah biaya yang perlu dibayarkan. Jika Anda sepakat, perbaikan langsung dikerjakan.
+
+Selain perawatan, tim juga memberikan edukasi seputar tips merawat mobil, sehingga Anda tahu letak kerusakan dan cara merawatnya dengan baik setelah servis.
+
 ### Dokumentasi Montir Mobil Panggilan Di Kota Purwokerto
 
 ![image](~/assets/images/uploads/IMG_6342-scaled.jpg) ![image](~/assets/images/uploads/IMG_6340-scaled.jpg) ![image](https://placehold.co/1200x800/222222/FFFFFF/png?text=Pitcar+Service) ![image](~/assets/images/uploads/IMG_6348-scaled.jpg) ![image](~/assets/images/uploads/IMG_6389-scaled.jpg) ![image](~/assets/images/uploads/IMG_6397-scaled.jpg) ![image](https://placehold.co/1200x800/222222/FFFFFF/png?text=Pitcar+Service) ![image](~/assets/images/uploads/WhatsApp-Image-2021-03-28-at-10.12.08-AM.jpeg)

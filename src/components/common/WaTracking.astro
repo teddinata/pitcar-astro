@@ -1,0 +1,46 @@
+---
+/**
+ * Sends a GA4 event (and an Umami event when Umami is loaded) for every WhatsApp or phone link click, so the property can
+ * report which page and which CTA produced each chat. The `#tag` at the end of
+ * each prefilled message (e.g. #darurat-web, #dock-tegal) becomes `cta`.
+ * The event goes through the dataLayer to the Google tag inside the GTM
+ * container (GA4 G-SK9KFVFXTH); no separate GTM trigger is needed, and adding
+ * one for the same event would double it. Mark `whatsapp_click` as a key
+ * event in GA4 to count it as a conversion. Page views after View Transitions
+ * navigation are picked up by GA4's enhanced measurement (history events).
+ */
+---
+
+<script is:inline>
+  (() => {
+    if (window.__lvTrack) return;
+    window.__lvTrack = true;
+    document.addEventListener(
+      'click',
+      (e) => {
+        const a = e.target instanceof Element && e.target.closest('a[href]');
+        if (!a) return;
+        const href = a.getAttribute('href') || '';
+        const wa = /^https:\/\/(wa\.me|api\.whatsapp\.com)\//.test(href);
+        const tel = href.startsWith('tel:');
+        if (!wa && !tel) return;
+        let cta = '';
+        if (wa) {
+          const text = new URL(href).searchParams.get('text') || '';
+          cta = (text.match(/#([\w-]+)\s*$/) || [])[1] || '';
+        }
+        const nama = wa ? 'whatsapp_click' : 'phone_click';
+        // Umami: links with data-umami-event (Button.astro) are already tracked by Umami itself.
+        if (window.umami && !a.hasAttribute('data-umami-event')) window.umami.track(nama, { cta });
+        if (typeof window.gtag !== 'function') return;
+        window.gtag('event', nama, {
+          cta: cta || (a.textContent || '').trim().slice(0, 60),
+          link_url: href.split('?')[0],
+          page_path: location.pathname,
+          send_to: 'G-SK9KFVFXTH',
+        });
+      },
+      { capture: true }
+    );
+  })();
+</script>

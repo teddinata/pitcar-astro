@@ -23,7 +23,7 @@ metadata:
     mobil purwokerto, biaya ganti oli mesin mobil purwokerto
 ---
 
-![image](https://placehold.co/1200x800/222222/FFFFFF/png?text=Pitcar+Service)
+![image](~/assets/images/uploads/IMG_6348-scaled.jpg)
 
 # Ganti Oli Mesin Mobil Di Purwokerto Cepat dan Profesional
 

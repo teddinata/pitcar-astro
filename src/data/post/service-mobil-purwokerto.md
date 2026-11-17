@@ -21,7 +21,7 @@ metadata:
     purwokerto, harga service mobil purwokerto, biaya service mobil purwokerto
 ---
 
-![image](https://placehold.co/1200x800/222222/FFFFFF/png?text=Pitcar+Service)
+![image](~/assets/images/uploads/IMG_6340-scaled.jpg)
 
 # Keunggulan Service Mobil Panggilan Terdekat Di Purwokerto Terpercaya
 
@@ -40,5 +40,19 @@ Selain itu, ada lebih dari satu kelebihan yang dimiliki oleh servis mobil Purwok
 **Memiliki Garansi Selama 3 Bulan** Kepuasan berasal dari pelanggan merupakan hal utama yang di idamkan oleh jasa servis mobil berasal dari Purwokerto ini. Sehingga, pihak jasa berani mengimbuhkan garansi terhadap pelayanan servis bersama dengan jaman aktif sepanjang 3 bulan. Jadi, jikalau ada kasus apapun, Anda dapat menghubungi tim ulang dan laksanakan perbaikan secara gratis.
 
 Itulah sebagian kelebihan yang dimiliki oleh jasa Service Mobil Panggilan Terdekat Di Purwokerto yang dapat Anda ketahui. Kini, Anda tidak mesti mengantri kembali untuk melakukan perawatan mobil. Sebab, jasa servis berasal dari Pitcar sanggup Anda hubungi untuk datang segera ke rumah. Apalagi, harganya pun lebih terjangkau dibandingkan harga servis mobil dari bengkel lain. Menarik sekali, bukan?
+
+## Alur Layanan Panggilan Pitcar
+
+Cukup hubungi nomor WhatsApp Pitcar, lalu tim akan datang langsung ke rumah Anda. Di lokasi, supervisor akan menanyakan perawatan apa yang dibutuhkan mobil Anda, kemudian menyampaikan jumlah biaya yang perlu dibayarkan. Jika Anda sepakat, perbaikan langsung dikerjakan.
+
+Selain perawatan, tim juga memberikan edukasi seputar tips merawat mobil, sehingga Anda tahu letak kerusakan dan cara merawatnya dengan baik setelah servis.
+
+## Layanan yang Tersedia
+
+- **Inspeksi dan tune up**: pemeriksaan dan perbaikan seluruh komponen mobil untuk mengembalikan performanya ke kondisi prima.
+- **Penggantian spare part**: untuk komponen yang sudah tidak layak pakai.
+- **Interior detailing**: car seat cleaning, carpet removal, general cleaning, ceiling cleaning, dan komponen interior lainnya.
+- **Exterior dan engine detailing**: hood cleaning, general cleaning, roof cleaning, compounding, dan lainnya.
+- **Complete detailing**: perawatan lengkap dari interior, eksterior, hingga mesin, cocok untuk mobil yang lama tidak dirawat.
 
 **PITCAR** Jl. Pancurawis No. 14, Purwokerto Selatan, Kab. Banyumas. 53147 call / wa : 6281227636171

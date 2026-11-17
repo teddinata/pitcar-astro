@@ -23,7 +23,7 @@ metadata:
     purwokerto
 ---
 
-![image](https://placehold.co/1200x800/222222/FFFFFF/png?text=Pitcar+Service)
+![image](~/assets/images/uploads/IMG_6397-scaled.jpg)
 
 Jasa tune up mobil di purwokerto adalah salah satu layanan yang ditawarkan oleh bengkel mobil yang bertujuan untuk meningkatkan performa dan efisiensi kendaraan Anda. Tune up biasanya dilakukan setiap 10.000 hingga 20.000 kilometer tergantung pada kondisi kendaraan.
 

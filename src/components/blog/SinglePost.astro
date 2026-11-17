@@ -1,12 +1,13 @@
 ---
-import { Icon } from 'astro-icon/components';
-
 import Image from '~/components/common/Image.astro';
 import PostTags from '~/components/blog/Tags.astro';
 import SocialShare from '~/components/common/SocialShare.astro';
-import BoldCTA from '~/components/home/BoldCTA.astro';
+import PageHead from '~/components/livery/PageHead.astro';
+import RelatedPosts from '~/components/blog/RelatedPosts.astro';
+import Closing from '~/components/livery/Closing.astro';
+import { waLink } from '~/data/diagnosa';
 
-import { getPermalink } from '~/utils/permalinks';
+import { getBlogPermalink, getPermalink } from '~/utils/permalinks';
 import { getFormattedDate } from '~/utils/utils';
 
 import type { Post } from '~/types';
@@ -17,72 +18,32 @@ export interface Props {
 }
 
 const { post, url } = Astro.props;
+
+const namaKategori = (t: string) => { const s = t.replaceAll('-', ' '); return s.charAt(0).toUpperCase() + s.slice(1); };
+
+const trail = [
+  { label: 'Jurnal otomotif', href: getBlogPermalink() },
+  ...(post.category ? [{ label: namaKategori(post.category.title), href: getPermalink(post.category.slug, 'category') }] : []),
+];
+
+const waArtikel = waLink(`Halo Pitcar, saya baca artikel "${post.title}" dan mau konsultasi.\nMobil & tahun:\nKeluhan:\n#artikel-web`);
 ---
 
-<section class="max-w-7xl mx-auto">
-  <article class="bg-white dark:bg-[#0e0e0e] min-h-screen pb-20">
-    
-    <!-- Breadcrumb Header -->
-    <header class="relative pt-32 pb-12 border-b border-black/5 dark:border-white/5 overflow-hidden not-prose bg-slate-50 dark:bg-[#141414]">
-      <div class="absolute inset-0 bg-gradient-to-b from-[#CC0000]/5 to-transparent dark:from-[#CC0000]/2 pointer-events-none"></div>
-      <div class="relative z-10 max-w-4xl mx-auto px-5 sm:px-8 flex flex-col">
-        
-        <div class="inline-flex items-center gap-2 px-4 py-1.5 rounded-full bg-white dark:bg-white/5 border border-slate-200 dark:border-white/10 mb-6 self-start shadow-sm">
-          <a href="/jurnal" class="text-slate-500 hover:text-[#CC0000] dark:text-slate-400 dark:hover:text-white transition-colors flex items-center">
-            <Icon name="tabler:notebook" class="w-4 h-4 mr-1.5" />
-            <span class="text-sm font-medium">Jurnal</span>
-          </a>
-          <span class="text-slate-400 dark:text-slate-600 text-sm">/</span>
-          {
-            post.category && (
-              <>
-                <a class="text-slate-500 hover:text-[#CC0000] dark:text-slate-400 dark:hover:text-white transition-colors text-sm font-medium" href={getPermalink(post.category.slug, 'category')}>
-                  {post.category.title}
-                </a>
-                <span class="text-slate-400 dark:text-slate-600 text-sm">/</span>
-              </>
-            )
-          }
-          <span class="text-[#CC0000] text-sm font-semibold tracking-wide uppercase line-clamp-1">{post.title}</span>
-        </div>
+<PageHead title={post.title} crumb={post.title} trail={trail}>
+  <p class="lv-post__meta">
+    <time datetime={new Date(post.publishDate).toISOString()}>{getFormattedDate(post.publishDate)}</time>
+    {post.readingTime && <span>{post.readingTime} menit baca</span>}
+    {post.author && <span>{post.author.replaceAll('-', ' ')}</span>}
+  </p>
+</PageHead>
 
-        <h1 class="text-3xl md:text-5xl lg:text-5xl font-black text-slate-900 dark:text-white leading-tight md:leading-tight tracking-tight mb-6 font-heading">
-          {post.title}
-        </h1>
-
-        <div class="flex flex-wrap items-center gap-4 text-sm text-slate-500 dark:text-slate-400 font-medium">
-          <div class="flex items-center gap-1.5">
-            <Icon name="tabler:clock" class="w-4 h-4" />
-            <time datetime={String(post.publishDate)}>{getFormattedDate(post.publishDate)}</time>
-          </div>
-          
-          {post.author && (
-            <>
-              <span class="w-1 h-1 rounded-full bg-slate-300 dark:bg-slate-700"></span>
-              <div class="flex items-center gap-1.5">
-                <Icon name="tabler:user" class="w-4 h-4" />
-                <span>{post.author.replaceAll('-', ' ')}</span>
-              </div>
-            </>
-          )}
-
-          {post.readingTime && (
-            <>
-              <span class="w-1 h-1 rounded-full bg-slate-300 dark:bg-slate-700"></span>
-              <span>{post.readingTime} min read</span>
-            </>
-          )}
-        </div>
-      </div>
-    </header>
-
-    <!-- Featured Image -->
+<article class="lv-sec lv-post">
+  <div class="lv-wrap">
     {
       post.image && (
-        <div class="max-w-5xl mx-auto px-5 sm:px-8 -mt-8 relative z-20">
+        <figure class="lv-post__cover">
           <Image
             src={post.image}
-            class="w-full h-auto rounded-xl lg:rounded-2xl shadow-2xl shadow-black/10 dark:shadow-[#CC0000]/5 border border-slate-100 dark:border-white/5 bg-slate-200 dark:bg-slate-800"
             widths={[400, 900]}
             sizes="(max-width: 900px) 100vw, 900px"
             alt={post?.excerpt || post.title}
@@ -91,30 +52,27 @@ const { post, url } = Astro.props;
             loading="eager"
             decoding="async"
           />
-        </div>
+        </figure>
       )
     }
-    <!-- Article Content -->
-    <div
-      class="mx-auto px-5 sm:px-8 max-w-3xl prose prose-lg lg:prose-xl dark:prose-invert prose-slate 
-      dark:prose-p:text-slate-300 dark:prose-headings:text-white prose-headings:font-heading prose-headings:font-bold 
-      prose-a:text-[#CC0000] dark:prose-a:text-[#ff3333] hover:prose-a:underline
-      prose-img:rounded-xl prose-img:shadow-lg mt-12 md:mt-16
-      prose-blockquote:border-l-[#CC0000] prose-blockquote:bg-slate-50 dark:prose-blockquote:bg-white/5 prose-blockquote:py-1 prose-blockquote:px-5 prose-blockquote:rounded-r-lg prose-blockquote:not-italic"
-    >
+
+    <div class="lv-prose prose prose-lg max-w-none">
       <slot />
     </div>
-    <!-- Footer Tags & Share -->
-    <div class="mx-auto px-5 sm:px-8 max-w-3xl mt-12 md:mt-16 pt-8 border-t border-slate-200 dark:border-white/10 flex flex-col sm:flex-row justify-between items-center gap-6">
-      <PostTags tags={post.tags} class="mr-auto w-full sm:w-auto" />
-      <SocialShare url={url} text={post.title} class="w-full sm:w-auto mt-0 align-middle text-slate-500 dark:text-slate-400" />
-    </div>
-  </article>
 
-  <!-- CTA Section -->
-  <BoldCTA 
-    title="Kendaraan Anda Butuh Perhatian Khusus?" 
-    subtitle="Jangan tunggu sampai rusak parah. Lakukan pengecekan sekarang dengan mekanik ahli Pitcar."
-    actions={[{ text: 'Booking Servis Sekarang', href: 'https://wa.me/6285866224051?text=Halo%20Pitcar%2C%20saya%20ingin%20konsultasi%20dari%20artikel%20jurnal%20otomotif.', variant: 'primary', icon: 'tabler:calendar-time' }]}
-  />
-</section>
+    <footer class="lv-post__foot">
+      {post.tags && post.tags.length > 0 && <PostTags tags={post.tags} title="Topik" />}
+      <SocialShare url={url} text={post.title} class="lv-share" />
+      <a class="lv-link" href={getBlogPermalink()}>Kembali ke Jurnal</a>
+    </footer>
+  </div>
+</article>
+
+<RelatedPosts post={post} />
+
+<Closing
+  title="Mobil Anda punya keluhan serupa?"
+  text="Ceritakan ke admin Pitcar. Anda dijelaskan kemungkinan kerusakan dan estimasi biayanya sebelum pengerjaan."
+  href={waArtikel}
+  label="Konsultasi lewat WhatsApp"
+/>

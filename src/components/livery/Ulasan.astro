@@ -1,0 +1,185 @@
+---
+import { Icon } from 'astro-icon/components';
+import { getUlasan } from '~/data/ulasan';
+import { mapsUrl, tulisUlasanUrl } from '~/data/jaringan';
+import { TESTIMONI } from '~/data/testimoni';
+
+export interface Props {
+  title?: string;
+  /** Reviews visible before "Lihat lebih banyak". */
+  awal?: number;
+  seam?: boolean;
+}
+
+const { title = 'Pelanggan yang puas dengan Pitcar', awal = 3, seam = true } = Astro.props;
+
+const listings = await getUlasan();
+const angka = (n: number) => n.toLocaleString('id-ID', { minimumFractionDigits: 1, maximumFractionDigits: 1 });
+
+interface Kartu {
+  teks: string;
+  penulis?: string;
+  profil?: string;
+  sumber: string;
+  bintang?: number;
+  kapan?: string;
+  url?: string;
+}
+
+// 4- and 5-star Google reviews, taken one per branch in turn so a single branch cannot fill the top row.
+const google: Kartu[] = [];
+const terpilih = listings.map((l) => l.ulasan.filter((r) => r.bintang >= 4));
+for (let i = 0; terpilih.some((list) => list[i]); i++) {
+  terpilih.forEach((list, j) => {
+    const r = list[i];
+    const l = listings[j];
+    if (r) google.push({ ...r, sumber: l.cabang.nama, url: l.url ?? mapsUrl(l.cabang) });
+  });
+}
+
+const kartu: Kartu[] = [...google, ...TESTIMONI.map((t) => ({ teks: t.teks, penulis: t.penulis, sumber: t.peran }))];
+const sisa = Math.max(kartu.length - awal, 0);
+
+const daftar = (xs: string[]) => xs.join(', ').replace(/, ([^,]*)$/, ' dan $1');
+const punyaUlasan = listings.filter((l) => l.ulasan.some((r) => r.bintang >= 4));
+const kota = punyaUlasan.filter((l) => l.cabang.jenis === 'bengkel').map((l) => l.cabang.kota);
+const toko = punyaUlasan.filter((l) => l.cabang.jenis === 'toko').map((l) => l.cabang.nama);
+const pengantar = google.length
+  ? `Ulasan bintang 4 dan 5 terbaru di Google Maps, ditulis pelanggan bengkel Pitcar di ${daftar(kota)}${toko.length ? `, serta ${daftar(toko)}` : ''}.`
+  : 'Cerita dari pelanggan Pitcar. Ulasan lengkap tiap cabang bisa Anda baca di Google Maps.';
+const adaRating = listings.some((l) => l.rating);
+const per = listings.find((l) => l.per)?.per;
+const tanggal = per ? new Date(per).toLocaleDateString('id-ID', { day: 'numeric', month: 'long', year: 'numeric' }) : '';
+---
+
+<section class:list={['lv-sec', { 'lv-sec--seam': seam }]} aria-labelledby="ulasan-judul" id="ulasan">
+  <div class="lv-wrap">
+    <h2 class="lv-h2" id="ulasan-judul">{title}</h2>
+    <p class="lv-lead">{pengantar}</p>
+
+    <ul class="lv-praise" id="ulasan-daftar" data-ulasan data-awal={awal}>
+      {
+        kartu.map((k) => (
+          <li class="lv-praise__item">
+            <figure>
+              {k.bintang && (
+                <p class="lv-praise__stars" role="img" aria-label={`${k.bintang} dari 5 bintang`}>
+                  {'★'.repeat(k.bintang)}
+                  {k.bintang < 5 && <span class="lv-praise__stars-off">{'★'.repeat(5 - k.bintang)}</span>}
+                </p>
+              )}
+              <blockquote class:list={['lv-praise__text', { 'is-long': k.teks.length > 280 }]}>{k.teks}</blockquote>
+              <figcaption>
+                <strong>
+                  {k.profil ? (
+                    <a href={k.profil} target="_blank" rel="noopener noreferrer nofollow">
+                      {k.penulis}
+                    </a>
+                  ) : (
+                    (k.penulis ?? k.sumber)
+                  )}
+                </strong>
+                <span>
+                  {[k.bintang ? (k.penulis ? `Ulasan Google untuk ${k.sumber}` : 'Ulasan Google') : k.sumber, k.kapan]
+                    .filter(Boolean)
+                    .join(', ')}
+                </span>
+                {k.url && (
+                  <a class="lv-praise__more" href={k.url} target="_blank" rel="noopener noreferrer">
+                    {k.teks.length > 280 ? 'Baca lengkap di Google Maps' : 'Lihat di Google Maps'}
+                    <span class="sr-only">, ulasan {k.penulis ?? k.sumber}</span>
+                  </a>
+                )}
+              </figcaption>
+            </figure>
+          </li>
+        ))
+      }
+    </ul>
+
+    {
+      sisa > 0 && (
+        <button type="button" class="lv-btn lv-btn--ghost lv-praise__btn" aria-controls="ulasan-daftar" data-ulasan-lagi hidden>
+          Lihat lebih banyak ulasan
+          <span data-ulasan-sisa>({sisa} lagi)</span>
+        </button>
+      )
+    }
+
+    <h3 class="lv-praise__sub">Rating tiap cabang di Google</h3>
+    <ul class="lv-reviews">
+      {
+        listings.map((l) => {
+          const baca = l.url ?? mapsUrl(l.cabang);
+          const tulis = tulisUlasanUrl({ ...l.cabang, placeId: l.cabang.placeId ?? l.placeId });
+          return (
+            <li class="lv-review">
+              <h4>{l.cabang.nama}</h4>
+              {l.rating && l.jumlah ? (
+                <p class="lv-review__score">
+                  <b>{angka(l.rating)}</b>
+                  <span class="lv-review__stars" style={`--isi: ${(l.rating / 5) * 100}%`} aria-hidden="true" />
+                  <span>{l.jumlah.toLocaleString('id-ID')} ulasan Google</span>
+                </p>
+              ) : (
+                <p class="lv-review__score lv-review__score--none">Ulasan di Google Maps</p>
+              )}
+              {l.alamat && <p class="lv-review__addr">{l.alamat}</p>}
+              <div class="lv-review__acts">
+                <a class="lv-link" href={baca} target="_blank" rel="noopener noreferrer">
+                  Baca ulasan<span class="sr-only"> {l.cabang.nama}</span>
+                </a>
+                {tulis && (
+                  <a class="lv-link" href={tulis} target="_blank" rel="noopener noreferrer">
+                    Tulis ulasan<span class="sr-only"> untuk {l.cabang.nama}</span>
+                  </a>
+                )}
+              </div>
+            </li>
+          );
+        })
+      }
+    </ul>
+
+    <p class="lv-review__src">
+      <Icon name="tabler:brand-google" aria-hidden="true" />
+      {
+        per
+          ? `Ulasan dan rating diambil dari Google Maps per ${tanggal}.`
+          : adaRating
+            ? 'Rating dan ulasan diambil dari Google Maps.'
+            : 'Ulasan tersimpan di Google Maps, bukan di situs ini.'
+      }
+    </p>
+  </div>
+</section>
+
+<script is:inline>
+  // Without JavaScript every review stays visible and the button stays hidden.
+  (() => {
+    const list = document.querySelector('[data-ulasan]:not([data-siap])');
+    const btn = document.querySelector('[data-ulasan-lagi]');
+    if (!list || !btn) return;
+    list.setAttribute('data-siap', '');
+    const items = [...list.children];
+    const langkah = 6;
+    let tampil = Number(list.dataset.awal) || 3;
+    const render = () => {
+      items.forEach((li, i) => (li.hidden = i >= tampil));
+      const sisa = items.length - tampil;
+      btn.hidden = sisa <= 0;
+      const label = btn.querySelector('[data-ulasan-sisa]');
+      if (label) label.textContent = `(${sisa} lagi)`;
+    };
+    btn.addEventListener('click', () => {
+      const pertamaBaru = items[tampil];
+      tampil += langkah;
+      render();
+      if (pertamaBaru) {
+        pertamaBaru.setAttribute('tabindex', '-1');
+        pertamaBaru.focus();
+      }
+    });
+    render();
+  })();
+</script>

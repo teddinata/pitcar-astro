@@ -43,4 +43,8 @@ Selain itu, tersedia sebagian keunggulan yang dimiliki oleh servis mobil Purwoke
 
 Itulah sebagian keunggulan yang dimiliki oleh jasa Bengkel Resmi Daihatsu Di Purwokerto yang bisa Anda ketahui. Kini, Anda tidak mesti mengantri kembali untuk melaksanakan perawatan mobil. Sebab, jasa servis berasal dari Pitcar dapat Anda hubungi untuk mampir segera ke rumah. Apalagi, harganya pun lebih terjangkau dibandingkan harga servis mobil berasal dari bengkel lain. Menarik sekali, bukan?
 
+## Mobil Bermasalah di Jalan?
+
+Jika mobil Anda mogok, kampas rem habis, AC bermasalah, atau ada kendala lain saat berkendara di Purwokerto, hubungi tim Pitcar lewat WhatsApp dan jelaskan kondisi kendaraan Anda. Tim akan mengirim teknisi ke lokasi kendaraan Anda.
+
 **PITCAR** Jl. Pancurawis No. 14, Purwokerto Selatan, Kab. Banyumas. 53147 call / wa : 6281227636171

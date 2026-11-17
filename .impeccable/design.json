@@ -1,0 +1,607 @@
+{
+  "schemaVersion": 2,
+  "generatedAt": "2026-11-14T09:20:41Z",
+  "title": "Design System: Pitcar Service",
+  "extensions": {
+    "colorMeta": {
+      "red": {
+        "role": "primary",
+        "displayName": "Livery Red",
+        "tonalRamp": [
+          "oklch(15% 0.2 29)",
+          "oklch(27% 0.2 29)",
+          "oklch(38% 0.2 29)",
+          "oklch(50% 0.2 29)",
+          "oklch(62% 0.2 29)",
+          "oklch(73% 0.2 29)",
+          "oklch(84% 0.2 29)",
+          "oklch(95% 0.2 29)"
+        ]
+      },
+      "red-deep": {
+        "role": "primary",
+        "displayName": "Slash Red",
+        "tonalRamp": [
+          "oklch(15% 0.2 29)",
+          "oklch(27% 0.2 29)",
+          "oklch(38% 0.2 29)",
+          "oklch(50% 0.2 29)",
+          "oklch(62% 0.2 29)",
+          "oklch(73% 0.2 29)",
+          "oklch(84% 0.2 29)",
+          "oklch(95% 0.2 29)"
+        ]
+      },
+      "red-ink": {
+        "role": "primary",
+        "displayName": "Red Ink (day)",
+        "tonalRamp": [
+          "oklch(15% 0.2 29)",
+          "oklch(27% 0.2 29)",
+          "oklch(38% 0.2 29)",
+          "oklch(50% 0.2 29)",
+          "oklch(62% 0.2 29)",
+          "oklch(73% 0.2 29)",
+          "oklch(84% 0.2 29)",
+          "oklch(95% 0.2 29)"
+        ]
+      },
+      "red-ink-dark": {
+        "role": "primary",
+        "displayName": "Red Ink (night)",
+        "tonalRamp": [
+          "oklch(15% 0.2 29)",
+          "oklch(27% 0.2 29)",
+          "oklch(38% 0.2 29)",
+          "oklch(50% 0.2 29)",
+          "oklch(62% 0.2 29)",
+          "oklch(73% 0.2 29)",
+          "oklch(84% 0.2 29)",
+          "oklch(95% 0.2 29)"
+        ]
+      },
+      "on-red": {
+        "role": "primary",
+        "displayName": "On Red",
+        "tonalRamp": [
+          "oklch(15% 0.003 270)",
+          "oklch(27% 0.003 270)",
+          "oklch(38% 0.003 270)",
+          "oklch(50% 0.003 270)",
+          "oklch(62% 0.003 270)",
+          "oklch(73% 0.003 270)",
+          "oklch(84% 0.003 270)",
+          "oklch(95% 0.003 270)"
+        ]
+      },
+      "on-red-2": {
+        "role": "primary",
+        "displayName": "On Red, supporting",
+        "tonalRamp": [
+          "oklch(15% 0.04 25)",
+          "oklch(27% 0.04 25)",
+          "oklch(38% 0.04 25)",
+          "oklch(50% 0.04 25)",
+          "oklch(62% 0.04 25)",
+          "oklch(73% 0.04 25)",
+          "oklch(84% 0.04 25)",
+          "oklch(95% 0.04 25)"
+        ]
+      },
+      "signal": {
+        "role": "secondary",
+        "displayName": "Signal Teal (day)",
+        "tonalRamp": [
+          "oklch(15% 0.11 177)",
+          "oklch(27% 0.11 177)",
+          "oklch(38% 0.11 177)",
+          "oklch(50% 0.11 177)",
+          "oklch(62% 0.11 177)",
+          "oklch(73% 0.11 177)",
+          "oklch(84% 0.11 177)",
+          "oklch(95% 0.11 177)"
+        ]
+      },
+      "signal-dark": {
+        "role": "secondary",
+        "displayName": "Signal Teal (night)",
+        "tonalRamp": [
+          "oklch(15% 0.11 177)",
+          "oklch(27% 0.11 177)",
+          "oklch(38% 0.11 177)",
+          "oklch(50% 0.11 177)",
+          "oklch(62% 0.11 177)",
+          "oklch(73% 0.11 177)",
+          "oklch(84% 0.11 177)",
+          "oklch(95% 0.11 177)"
+        ]
+      },
+      "signal-fill": {
+        "role": "secondary",
+        "displayName": "Signal Fill",
+        "tonalRamp": [
+          "oklch(15% 0.11 177)",
+          "oklch(27% 0.11 177)",
+          "oklch(38% 0.11 177)",
+          "oklch(50% 0.11 177)",
+          "oklch(62% 0.11 177)",
+          "oklch(73% 0.11 177)",
+          "oklch(84% 0.11 177)",
+          "oklch(95% 0.11 177)"
+        ]
+      },
+      "signal-wash": {
+        "role": "secondary",
+        "displayName": "Signal Wash (day)",
+        "tonalRamp": [
+          "oklch(15% 0.11 177)",
+          "oklch(27% 0.11 177)",
+          "oklch(38% 0.11 177)",
+          "oklch(50% 0.11 177)",
+          "oklch(62% 0.11 177)",
+          "oklch(73% 0.11 177)",
+          "oklch(84% 0.11 177)",
+          "oklch(95% 0.11 177)"
+        ]
+      },
+      "signal-wash-dark": {
+        "role": "secondary",
+        "displayName": "Signal Wash (night)",
+        "tonalRamp": [
+          "oklch(15% 0.11 177)",
+          "oklch(27% 0.11 177)",
+          "oklch(38% 0.11 177)",
+          "oklch(50% 0.11 177)",
+          "oklch(62% 0.11 177)",
+          "oklch(73% 0.11 177)",
+          "oklch(84% 0.11 177)",
+          "oklch(95% 0.11 177)"
+        ]
+      },
+      "on-signal": {
+        "role": "secondary",
+        "displayName": "On Signal",
+        "tonalRamp": [
+          "oklch(15% 0.11 177)",
+          "oklch(27% 0.11 177)",
+          "oklch(38% 0.11 177)",
+          "oklch(50% 0.11 177)",
+          "oklch(62% 0.11 177)",
+          "oklch(73% 0.11 177)",
+          "oklch(84% 0.11 177)",
+          "oklch(95% 0.11 177)"
+        ]
+      },
+      "ground": {
+        "role": "neutral",
+        "displayName": "Panel Ground (day)",
+        "tonalRamp": [
+          "oklch(15% 0.003 270)",
+          "oklch(27% 0.003 270)",
+          "oklch(38% 0.003 270)",
+          "oklch(50% 0.003 270)",
+          "oklch(62% 0.003 270)",
+          "oklch(73% 0.003 270)",
+          "oklch(84% 0.003 270)",
+          "oklch(95% 0.003 270)"
+        ]
+      },
+      "ground-dark": {
+        "role": "neutral",
+        "displayName": "Panel Ground (night, carbon)",
+        "tonalRamp": [
+          "oklch(15% 0.003 270)",
+          "oklch(27% 0.003 270)",
+          "oklch(38% 0.003 270)",
+          "oklch(50% 0.003 270)",
+          "oklch(62% 0.003 270)",
+          "oklch(73% 0.003 270)",
+          "oklch(84% 0.003 270)",
+          "oklch(95% 0.003 270)"
+        ]
+      },
+      "panel": {
+        "role": "neutral",
+        "displayName": "Raised Panel (day)",
+        "tonalRamp": [
+          "oklch(15% 0.003 270)",
+          "oklch(27% 0.003 270)",
+          "oklch(38% 0.003 270)",
+          "oklch(50% 0.003 270)",
+          "oklch(62% 0.003 270)",
+          "oklch(73% 0.003 270)",
+          "oklch(84% 0.003 270)",
+          "oklch(95% 0.003 270)"
+        ]
+      },
+      "panel-dark": {
+        "role": "neutral",
+        "displayName": "Raised Panel (night)",
+        "tonalRamp": [
+          "oklch(15% 0.003 270)",
+          "oklch(27% 0.003 270)",
+          "oklch(38% 0.003 270)",
+          "oklch(50% 0.003 270)",
+          "oklch(62% 0.003 270)",
+          "oklch(73% 0.003 270)",
+          "oklch(84% 0.003 270)",
+          "oklch(95% 0.003 270)"
+        ]
+      },
+      "ink": {
+        "role": "neutral",
+        "displayName": "Ink (day)",
+        "tonalRamp": [
+          "oklch(15% 0.003 270)",
+          "oklch(27% 0.003 270)",
+          "oklch(38% 0.003 270)",
+          "oklch(50% 0.003 270)",
+          "oklch(62% 0.003 270)",
+          "oklch(73% 0.003 270)",
+          "oklch(84% 0.003 270)",
+          "oklch(95% 0.003 270)"
+        ]
+      },
+      "ink-dark": {
+        "role": "neutral",
+        "displayName": "Ink (night)",
+        "tonalRamp": [
+          "oklch(15% 0.003 270)",
+          "oklch(27% 0.003 270)",
+          "oklch(38% 0.003 270)",
+          "oklch(50% 0.003 270)",
+          "oklch(62% 0.003 270)",
+          "oklch(73% 0.003 270)",
+          "oklch(84% 0.003 270)",
+          "oklch(95% 0.003 270)"
+        ]
+      },
+      "ink-2": {
+        "role": "neutral",
+        "displayName": "Ink 2 (day)",
+        "tonalRamp": [
+          "oklch(15% 0.008 260)",
+          "oklch(27% 0.008 260)",
+          "oklch(38% 0.008 260)",
+          "oklch(50% 0.008 260)",
+          "oklch(62% 0.008 260)",
+          "oklch(73% 0.008 260)",
+          "oklch(84% 0.008 260)",
+          "oklch(95% 0.008 260)"
+        ]
+      },
+      "ink-2-dark": {
+        "role": "neutral",
+        "displayName": "Ink 2 (night)",
+        "tonalRamp": [
+          "oklch(15% 0.008 260)",
+          "oklch(27% 0.008 260)",
+          "oklch(38% 0.008 260)",
+          "oklch(50% 0.008 260)",
+          "oklch(62% 0.008 260)",
+          "oklch(73% 0.008 260)",
+          "oklch(84% 0.008 260)",
+          "oklch(95% 0.008 260)"
+        ]
+      },
+      "seam": {
+        "role": "neutral",
+        "displayName": "Seam (day)",
+        "tonalRamp": [
+          "oklch(15% 0.003 270)",
+          "oklch(27% 0.003 270)",
+          "oklch(38% 0.003 270)",
+          "oklch(50% 0.003 270)",
+          "oklch(62% 0.003 270)",
+          "oklch(73% 0.003 270)",
+          "oklch(84% 0.003 270)",
+          "oklch(95% 0.003 270)"
+        ]
+      },
+      "seam-dark": {
+        "role": "neutral",
+        "displayName": "Seam (night)",
+        "tonalRamp": [
+          "oklch(15% 0.003 270)",
+          "oklch(27% 0.003 270)",
+          "oklch(38% 0.003 270)",
+          "oklch(50% 0.003 270)",
+          "oklch(62% 0.003 270)",
+          "oklch(73% 0.003 270)",
+          "oklch(84% 0.003 270)",
+          "oklch(95% 0.003 270)"
+        ]
+      },
+      "paint-day": {
+        "role": "neutral",
+        "displayName": "Body Paint (day, silver)",
+        "tonalRamp": [
+          "oklch(15% 0.008 260)",
+          "oklch(27% 0.008 260)",
+          "oklch(38% 0.008 260)",
+          "oklch(50% 0.008 260)",
+          "oklch(62% 0.008 260)",
+          "oklch(73% 0.008 260)",
+          "oklch(84% 0.008 260)",
+          "oklch(95% 0.008 260)"
+        ]
+      },
+      "paint-night": {
+        "role": "neutral",
+        "displayName": "Body Paint (night, graphite)",
+        "tonalRamp": [
+          "oklch(15% 0.008 260)",
+          "oklch(27% 0.008 260)",
+          "oklch(38% 0.008 260)",
+          "oklch(50% 0.008 260)",
+          "oklch(62% 0.008 260)",
+          "oklch(73% 0.008 260)",
+          "oklch(84% 0.008 260)",
+          "oklch(95% 0.008 260)"
+        ]
+      }
+    },
+    "typographyMeta": {
+      "display": {
+        "displayName": "Display",
+        "purpose": "Hero decal on the red field. Italic, uppercase. Capped at clamp(2.75rem, 4.6vw, 4rem) from 1024px."
+      },
+      "page-head": {
+        "displayName": "Page head",
+        "purpose": "Inner page h1 and closing band titles on red. Italic, uppercase."
+      },
+      "headline": {
+        "displayName": "Headline",
+        "purpose": "Section titles on the neutral ground. Upright, uppercase, balanced."
+      },
+      "title": {
+        "displayName": "Title",
+        "purpose": "Service names, catalogue rows, plate names, result panel heads. Uppercase."
+      },
+      "numeral": {
+        "displayName": "Numeral",
+        "purpose": "Odometer drums; step and year numerals at 1.75rem to 2rem. Tabular figures."
+      },
+      "body": {
+        "displayName": "Body",
+        "purpose": "Lead and running copy in Inter, max 62ch."
+      },
+      "label": {
+        "displayName": "Label",
+        "purpose": "Field labels, list labels, fine print. Sentence case, no tracking."
+      },
+      "tag": {
+        "displayName": "Tag",
+        "purpose": "Floating stage tags naming a part."
+      }
+    },
+    "shadows": [
+      {
+        "name": "float",
+        "value": "0 14px 30px -18px rgb(17 17 18 / 45%)",
+        "purpose": "Stage tags and the slider thumb in the light theme (--lv-shadow)."
+      },
+      {
+        "name": "float-dark",
+        "value": "0 14px 34px -16px rgb(0 0 0 / 80%)",
+        "purpose": "The same in the dark theme."
+      },
+      {
+        "name": "plate-on-red",
+        "value": "0 10px 22px -14px rgb(0 0 0 / 70%)",
+        "purpose": "The white network plate on the hero field."
+      },
+      {
+        "name": "lock-inset",
+        "value": "inset 0 0 0 1px var(--lv-signal)",
+        "purpose": "Thickens the border of a locked part plate. State mark, not elevation."
+      }
+    ],
+    "motion": [
+      {
+        "name": "ease",
+        "value": "cubic-bezier(0.16, 1, 0.3, 1)",
+        "purpose": "The single easing for every transition (--lv-ease)."
+      },
+      {
+        "name": "state",
+        "value": "0.18s",
+        "purpose": "Hover, press and lock colour changes on buttons, plates, tags, links."
+      },
+      {
+        "name": "stripe",
+        "value": "0.25s",
+        "purpose": "Button stripe slide and the plus-to-minus disclosure mark."
+      },
+      {
+        "name": "panel-rise",
+        "value": "0.4s, translateY(8px) to 0 with fade",
+        "purpose": "Result panel arriving after a part is locked."
+      },
+      {
+        "name": "line-reveal",
+        "value": "0.42s clip wipe from left, 80ms stagger per line",
+        "purpose": "Causes arriving line by line when a symptom opens."
+      },
+      {
+        "name": "stage-fade",
+        "value": "0.5s canvas in, 0.4s poster out",
+        "purpose": "Swap from the outline poster to the live 3D car."
+      },
+      {
+        "name": "stage-approach",
+        "value": "exponential ease, rate 7 (camera) and 4.5 (body fade, tint)",
+        "purpose": "Camera turn and x-ray fade in the 3D stage; skipped under reduced motion."
+      }
+    ],
+    "breakpoints": [
+      {
+        "name": "rail-3",
+        "value": "640px"
+      },
+      {
+        "name": "inline-cta",
+        "value": "768px"
+      },
+      {
+        "name": "split",
+        "value": "900px"
+      },
+      {
+        "name": "hero-wedge",
+        "value": "1024px"
+      }
+    ]
+  },
+  "components": [
+    {
+      "name": "Primary Button",
+      "kind": "button",
+      "refersTo": "button-primary",
+      "description": "Red plate with the red-deep livery stripe on its trailing edge. The main action on the neutral ground; always a prefilled WhatsApp link.",
+      "html": "<a class=\"ds-btn\" href=\"#\"><svg viewBox=\"0 0 24 24\" fill=\"none\" stroke=\"currentColor\" stroke-width=\"2\" stroke-linecap=\"round\" stroke-linejoin=\"round\" aria-hidden=\"true\"><path d=\"M3 21l1.65 -3.8a9 9 0 1 1 3.4 2.9l-5.05 .9\"/><path d=\"M9 10a.5 .5 0 0 0 1 0v-1a.5 .5 0 0 0 -1 0v1a5 5 0 0 0 5 5h1a.5 .5 0 0 0 0 -1h-1a.5 .5 0 0 0 0 1\"/></svg>Chat admin di WhatsApp</a>",
+      "css": ".ds-btn { position: relative; display: inline-flex; align-items: center; justify-content: center; gap: 0.6em; min-height: 52px; padding: 0.7em 2.6em 0.7em 1.4em; border: 2px solid var(--lv-red); border-radius: 3px; background: var(--lv-red); color: var(--lv-on-red); font-family: var(--lv-display); font-weight: 700; font-size: 1.0625rem; line-height: 1.15; text-decoration: none; overflow: hidden; cursor: pointer; transition: background-color 0.18s var(--lv-ease), border-color 0.18s var(--lv-ease), color 0.18s var(--lv-ease), transform 0.18s var(--lv-ease); } .ds-btn::after { content: ''; position: absolute; inset: -2px -2px -2px auto; width: 1.5em; background: var(--lv-red-deep); transform: skewX(-18deg) translateX(0.5em); transition: transform 0.25s var(--lv-ease); } .ds-btn:hover { background: var(--lv-red-deep); border-color: var(--lv-red-deep); } .ds-btn:hover::after { transform: skewX(-18deg) translateX(0.1em); } .ds-btn:active { transform: translateY(1px); } .ds-btn:focus-visible { outline: 3px solid var(--lv-signal); outline-offset: 3px; } .ds-btn svg { width: 1.3em; height: 1.3em; flex: none; }"
+    },
+    {
+      "name": "Ghost Button",
+      "kind": "button",
+      "refersTo": "button-ghost",
+      "description": "Ink outline, no stripe. The secondary action beside a primary on the neutral ground.",
+      "html": "<a class=\"ds-btn ds-btn--ghost\" href=\"#\">Darurat 24 jam</a>",
+      "css": ".ds-btn { position: relative; display: inline-flex; align-items: center; justify-content: center; gap: 0.6em; min-height: 52px; padding: 0.7em 2.6em 0.7em 1.4em; border: 2px solid var(--lv-red); border-radius: 3px; background: var(--lv-red); color: var(--lv-on-red); font-family: var(--lv-display); font-weight: 700; font-size: 1.0625rem; line-height: 1.15; text-decoration: none; overflow: hidden; cursor: pointer; transition: background-color 0.18s var(--lv-ease), border-color 0.18s var(--lv-ease), color 0.18s var(--lv-ease), transform 0.18s var(--lv-ease); } .ds-btn::after { content: ''; position: absolute; inset: -2px -2px -2px auto; width: 1.5em; background: var(--lv-red-deep); transform: skewX(-18deg) translateX(0.5em); transition: transform 0.25s var(--lv-ease); } .ds-btn:hover { background: var(--lv-red-deep); border-color: var(--lv-red-deep); } .ds-btn:hover::after { transform: skewX(-18deg) translateX(0.1em); } .ds-btn:active { transform: translateY(1px); } .ds-btn:focus-visible { outline: 3px solid var(--lv-signal); outline-offset: 3px; } .ds-btn svg { width: 1.3em; height: 1.3em; flex: none; } .ds-btn--ghost { background: transparent; border-color: var(--lv-ink); color: var(--lv-ink); padding-right: 1.4em; } .ds-btn--ghost::after { display: none; } .ds-btn--ghost:hover { background: var(--lv-ink); border-color: var(--lv-ink); color: var(--lv-ground); }"
+    },
+    {
+      "name": "Invert and Line Buttons (on red)",
+      "kind": "button",
+      "refersTo": "button-invert",
+      "description": "The primary (white plate) and secondary (white outline) actions inside a red field. Focus ring turns white on red.",
+      "html": "<div class=\"ds-red\"><a class=\"ds-btn ds-btn--invert\" href=\"#\">Booking check-up gratis</a> <a class=\"ds-btn ds-btn--line\" href=\"#\">Cek gejala mobil dulu</a></div>",
+      "css": ".ds-red { background: var(--lv-red); padding: 24px; } .ds-btn { position: relative; display: inline-flex; align-items: center; justify-content: center; gap: 0.6em; min-height: 52px; padding: 0.7em 2.6em 0.7em 1.4em; border: 2px solid var(--lv-red); border-radius: 3px; background: var(--lv-red); color: var(--lv-on-red); font-family: var(--lv-display); font-weight: 700; font-size: 1.0625rem; line-height: 1.15; text-decoration: none; overflow: hidden; cursor: pointer; transition: background-color 0.18s var(--lv-ease), border-color 0.18s var(--lv-ease), color 0.18s var(--lv-ease), transform 0.18s var(--lv-ease); } .ds-btn::after { content: ''; position: absolute; inset: -2px -2px -2px auto; width: 1.5em; background: var(--lv-red-deep); transform: skewX(-18deg) translateX(0.5em); transition: transform 0.25s var(--lv-ease); } .ds-btn:hover { background: var(--lv-red-deep); border-color: var(--lv-red-deep); } .ds-btn:hover::after { transform: skewX(-18deg) translateX(0.1em); } .ds-btn:active { transform: translateY(1px); } .ds-btn:focus-visible { outline: 3px solid var(--lv-signal); outline-offset: 3px; } .ds-btn svg { width: 1.3em; height: 1.3em; flex: none; } .ds-red .ds-btn:focus-visible { outline-color: var(--lv-on-red); } .ds-btn--invert { background: var(--lv-on-red); border-color: var(--lv-on-red); color: var(--lv-red-deep); } .ds-btn--invert::after { background: var(--lv-on-red-2); } .ds-btn--invert:hover { background: var(--lv-on-red-2); border-color: var(--lv-on-red-2); } .ds-btn--line { background: transparent; border-color: var(--lv-on-red); color: var(--lv-on-red); padding-right: 1.4em; } .ds-btn--line::after { display: none; } .ds-btn--line:hover { background: var(--lv-on-red); border-color: var(--lv-on-red); color: var(--lv-red-deep); }"
+    },
+    {
+      "name": "Part Plate",
+      "kind": "custom",
+      "refersTo": "plate",
+      "description": "Named part selector. The second plate shows the locked state: signal border, signal wash, and the word Terkunci.",
+      "html": "<div class=\"ds-rail\"><button type=\"button\" class=\"ds-plate\" aria-pressed=\"false\"><span class=\"ds-plate__name\">Mesin</span><span class=\"ds-plate__sub\">Susah hidup, panas, boros</span></button><button type=\"button\" class=\"ds-plate\" aria-pressed=\"true\"><span class=\"ds-plate__name\">Rem</span><span class=\"ds-plate__lock\">Terkunci</span></button></div>",
+      "css": ".ds-rail { display: grid; grid-template-columns: repeat(2, minmax(0, 1fr)); gap: 8px; max-width: 420px; } .ds-plate { display: grid; row-gap: 3px; align-content: center; min-height: 64px; padding: 10px 12px; border: 1px solid color-mix(in srgb, var(--lv-ink-2) 70%, transparent); border-radius: 3px; background: var(--lv-panel); color: var(--lv-ink); text-align: left; cursor: pointer; transition: background-color 0.18s var(--lv-ease), border-color 0.18s var(--lv-ease), transform 0.18s var(--lv-ease); } .ds-plate__name { font-family: var(--lv-display); font-weight: 700; font-size: 1.125rem; line-height: 1.15; text-transform: uppercase; } .ds-plate__sub { font-size: 0.8125rem; line-height: 1.3; color: var(--lv-ink-2); } .ds-plate__lock { font-size: 0.8125rem; font-weight: 700; color: var(--lv-signal); } .ds-plate:hover { border-color: var(--lv-ink); } .ds-plate:active { transform: translateY(1px); } .ds-plate:focus-visible { outline: 3px solid var(--lv-signal); outline-offset: 3px; } .ds-plate[aria-pressed='true'] { border-color: var(--lv-signal); box-shadow: inset 0 0 0 1px var(--lv-signal); background: var(--lv-signal-wash); }"
+    },
+    {
+      "name": "Stage Tag",
+      "kind": "chip",
+      "refersTo": "tag",
+      "description": "Label floating over the 3D car. Ink at rest, red on hover, signal fill when its part is locked.",
+      "html": "<button type=\"button\" class=\"ds-tag\" aria-pressed=\"false\">Mesin</button> <button type=\"button\" class=\"ds-tag\" aria-pressed=\"true\">Rem</button>",
+      "css": ".ds-tag { padding: 4px 8px; border: 0; border-radius: 2px; background: var(--lv-ink); color: var(--lv-ground); font-family: var(--lv-display); font-weight: 700; font-size: 0.8125rem; line-height: 1.2; white-space: nowrap; box-shadow: var(--lv-shadow); cursor: pointer; transition: background-color 0.18s var(--lv-ease), color 0.18s var(--lv-ease); } .ds-tag:hover { background: var(--lv-red); color: var(--lv-on-red); } .ds-tag:focus-visible { outline: 3px solid var(--lv-signal); outline-offset: 3px; } .ds-tag[aria-pressed='true'] { background: var(--lv-signal-fill); color: var(--lv-on-signal); }"
+    },
+    {
+      "name": "Text Field",
+      "kind": "input",
+      "refersTo": "field",
+      "description": "Optional car and year field; its value is added to the outgoing WhatsApp message.",
+      "html": "<div class=\"ds-field\"><label for=\"ds-mobil\">Mobil dan tahun (opsional, ikut terkirim ke admin)</label><input type=\"text\" id=\"ds-mobil\" placeholder=\"Contoh: Avanza 2018\"></div>",
+      "css": ".ds-field { display: grid; gap: 6px; max-width: 28rem; color: var(--lv-ink); } .ds-field label { font-size: 0.875rem; font-weight: 700; } .ds-field input { min-height: 48px; padding: 10px 12px; border: 1px solid var(--lv-ink-2); border-radius: 3px; background: var(--lv-panel); color: var(--lv-ink); font-size: 1rem; } .ds-field input::placeholder { color: var(--lv-ink-2); } .ds-field input:hover { border-color: var(--lv-ink); } .ds-field input:focus-visible { outline: 3px solid var(--lv-signal); outline-offset: 3px; }"
+    },
+    {
+      "name": "Page Head",
+      "kind": "nav",
+      "refersTo": "page-head",
+      "description": "Red field that opens every inner page: breadcrumb, italic h1, lead, with the red-deep slash on the trailing edge.",
+      "html": "<section class=\"ds-head\"><div class=\"ds-head__in\"><ol class=\"ds-crumb\"><li><a href=\"#\">Beranda</a></li><li>Layanan</li></ol><h1>Layanan servis dan perawatan</h1><p>Dari servis berkala sampai turun mesin, dikerjakan di workshop, di rumah Anda, atau lewat Pick Up Service.</p></div></section>",
+      "css": ".ds-head { position: relative; background: var(--lv-red); color: var(--lv-on-red); padding: clamp(36px, 7vw, 84px) clamp(16px, 4vw, 32px); overflow: clip; } .ds-head::before { content: ''; position: absolute; inset: 0 0 0 auto; width: 38%; background: var(--lv-red-deep); clip-path: polygon(38% 0, 100% 0, 100% 100%, 0 100%); } .ds-head__in { position: relative; } .ds-crumb { display: flex; flex-wrap: wrap; gap: 6px; margin: 0 0 14px; padding: 0; list-style: none; font-size: 0.9375rem; color: var(--lv-on-red-2); } .ds-crumb li { display: flex; align-items: center; gap: 6px; } .ds-crumb li + li::before { content: '/'; } .ds-crumb a { color: var(--lv-on-red); text-decoration: underline; text-underline-offset: 0.2em; } .ds-crumb a:focus-visible { outline: 3px solid var(--lv-on-red); outline-offset: 3px; } .ds-head h1 { margin: 0 0 0.3em; max-width: 16ch; font-family: var(--lv-display); font-weight: 700; font-style: italic; font-size: clamp(2.5rem, 8.5vw, 5.25rem); line-height: 0.94; letter-spacing: -0.02em; text-transform: uppercase; } .ds-head p { margin: 0; max-width: 52ch; font-size: clamp(1rem, 1.8vw, 1.1875rem); line-height: 1.55; color: var(--lv-on-red-2); }"
+    },
+    {
+      "name": "Due List",
+      "kind": "custom",
+      "refersTo": "due-chip",
+      "description": "Ruled rows on seams. A due item carries the red chip; items not due recede to ink-2.",
+      "html": "<ul class=\"ds-due\"><li class=\"is-due\"><span class=\"ds-due__name\">Ganti oli mesin</span><span class=\"ds-due__when\">Waktunya</span></li><li><span class=\"ds-due__name\">Ganti busi</span><span class=\"ds-due__when\">Berikutnya di 60.000 km</span></li></ul>",
+      "css": ".ds-due { margin: 0; padding: 0; list-style: none; max-width: 32rem; border-top: 1px solid var(--lv-seam); color: var(--lv-ink); } .ds-due li { display: grid; grid-template-columns: minmax(0, 1fr) auto; gap: 4px 16px; align-items: baseline; padding: 13px 0; border-bottom: 1px solid var(--lv-seam); line-height: 1.35; } .ds-due__name { font-weight: 600; } .ds-due__when { font-size: 0.9375rem; color: var(--lv-ink-2); text-align: right; } .ds-due li.is-due .ds-due__when { padding: 2px 8px; border-radius: 2px; background: var(--lv-red); color: var(--lv-on-red); font-family: var(--lv-display); font-weight: 700; } .ds-due li:not(.is-due) .ds-due__name { color: var(--lv-ink-2); }"
+    },
+    {
+      "name": "Network Plate",
+      "kind": "custom",
+      "refersTo": "network-plate",
+      "description": "White plate on the hero field listing the whole Pitcar network as one list; new branches are italic with a Baru chip.",
+      "html": "<div class=\"ds-red\"><div class=\"ds-net\"><p class=\"ds-net__label\">Jaringan Pitcar</p><ul class=\"ds-net__cities\"><li>Purwokerto</li><li>Cilacap <small>(Otokits)</small></li><li class=\"is-new\">Purbalingga <span class=\"ds-net__new\">Baru</span></li><li class=\"is-new\">Tegal <span class=\"ds-net__new\">Baru</span></li><li class=\"is-new\">Batam <span class=\"ds-net__new\">Baru</span></li><li>Auto Accessories</li><li>Autopart</li></ul><a class=\"ds-net__ask\" href=\"#\">Tanya alamat terdekat ke admin</a></div></div>",
+      "css": ".ds-red { background: var(--lv-red); padding: 24px; } .ds-net { max-width: 27rem; padding: 12px 14px; border-radius: 3px; background: var(--lv-on-red); color: #111112; box-shadow: 0 10px 22px -14px rgb(0 0 0 / 70%); } .ds-net__label { margin: 0 0 4px; font-family: var(--lv-display); font-weight: 700; font-size: 0.875rem; text-transform: uppercase; color: #4a4c52; } .ds-net__cities { display: flex; flex-wrap: wrap; gap: 2px 14px; margin: 0; padding: 0; list-style: none; font-family: var(--lv-display); font-weight: 700; font-size: clamp(1.125rem, 4.6vw, 1.3125rem); line-height: 1.25; text-transform: uppercase; } .ds-net__cities li { display: inline-flex; align-items: center; gap: 6px; } .ds-net__cities small { font-family: 'Inter Variable', sans-serif; font-size: 0.8125rem; font-weight: 600; text-transform: none; color: #4a4c52; } .ds-net__cities .is-new { font-style: italic; color: var(--lv-red-deep); } .ds-net__new { padding: 1px 6px; border-radius: 2px; background: var(--lv-red); color: var(--lv-on-red); font-size: 0.75rem; font-style: normal; } .ds-net__ask { display: inline-block; padding-block: 6px; font-size: 0.9375rem; font-weight: 700; color: var(--lv-red-deep); text-decoration: underline; text-underline-offset: 0.2em; } .ds-net__ask:hover { color: #111112; } .ds-net__ask:focus-visible { outline: 3px solid var(--lv-signal); outline-offset: 3px; }"
+    }
+  ],
+  "narrative": {
+    "northStar": "Livery Malam",
+    "overview": "The site is dressed like a liveried car. Matte panels form the ground (carbon at night, panel white by day), Pitcar red is laid on as whole diagonal fields the way vinyl wraps a door, headlines are cut-vinyl lettering in Chakra Petch, and sections are separated by hairline panel seams instead of boxes. The owner pinned the brief as \"cyberpunk, dark and light mode\"; the build answers it through material and light, not ornament: a carbon ground, a single teal signal, an x-ray car body, and a red underglow that only exists at night.\n\nDensity is workshop-plain. Lists are ruled rows, not card grids. Every complaint and every part is called by its name; the owner banned numeric part codes, so plates read \"Mesin\", \"AC\", \"Rem\", never an identifier. The page's job is fixed and the system serves it: each action ends in a WhatsApp message that is already filled in, and the phone layout keeps that action docked under the thumb.\n\nBoth themes are first-class and share one token set under the `--lv-` prefix. Light is not a washed-out copy of dark: by day the car is silver, the signal is a deep teal, and there is no glow; by night the car is graphite, the signal turns luminous, and the stage gains a red rim light and underglow.",
+    "keyCharacteristics": [
+      "Pitcar red as full diagonal fields with a deeper red slash, never as a small accent.",
+      "Chakra Petch uppercase for everything structural; Inter for everything read.",
+      "Hairline seams and 2px rules instead of cards and boxes.",
+      "One signal teal, reserved for the locked state and the focus ring.",
+      "Named part plates; no numeric codes.",
+      "Near-square corners (3px plates, 2px chips) and an 18 degree slant as the recurring cut.",
+      "Dark and light themes driven by the same tokens, including the 3D stage."
+    ],
+    "rules": [
+      {
+        "name": "The Full Field Rule",
+        "body": "Red arrives as a field that owns its region: the hero wedge, a page head, a closing band, the emergency strip. Each field carries a `red-deep` slash on its trailing edge. Red is not sprinkled as dots, borders, or icon tints; on the neutral ground it appears only as a button plate, a 2px rule, or `red-ink` text.",
+        "section": "colors"
+      },
+      {
+        "name": "The Locked Signal Rule",
+        "body": "Teal means \"this part is locked\" or \"this has keyboard focus\", and nothing else. It marks the pressed plate, the pressed tag, the lit system in the car, the rule above the result panel, and the dashes of that panel's cause list. It is never used for links, buttons, headings, or decoration. Inside a red field the focus ring switches to white.",
+        "section": "colors"
+      },
+      {
+        "name": "The Fixed Ink Rule",
+        "body": "Three surfaces do not flip with the theme and therefore use literal inks instead of theme tokens: the odometer drums (always a dark instrument, `#111112` with `#f3f3f3` digits), the white network plate inside the hero field, and the proof band (always dark, with stats in the night red ink). Anything else must use the `--lv-` tokens.",
+        "section": "colors"
+      },
+      {
+        "name": "The Cut Vinyl Rule",
+        "body": "Chakra Petch is always 600 or 700 and, for anything that names a section, part, service or step, uppercase. It never sets a paragraph.",
+        "section": "typography"
+      },
+      {
+        "name": "The Italic Rides Red Rule",
+        "body": "The italic cut appears only on lettering applied to a red field (hero decal, page heads, closing titles, the emergency strip) and on the names of new branches in the network list. Headlines on the neutral ground are upright.",
+        "section": "typography"
+      },
+      {
+        "name": "The Sentence Label Rule",
+        "body": "Small Inter labels are sentence case with no added tracking. Uppercase belongs to Chakra Petch.",
+        "section": "typography"
+      },
+      {
+        "name": "The Floating Only Rule",
+        "body": "A shadow is allowed only under an element that overlaps another surface it does not belong to. Sections, rows, plates in the rail, buttons and inputs carry none.",
+        "section": "elevation"
+      },
+      {
+        "name": "The Night Light Rule",
+        "body": "Glow exists only inside the 3D stage and only in the dark theme: a red rim light, a red underglow, and a stronger emissive on the locked part. By day the stage has no coloured light. Page elements never glow in either theme.",
+        "section": "elevation"
+      }
+    ],
+    "dos": [
+      "Do use red as a whole field with a `red-deep` slash on its trailing edge, and put white or `on-red-2` lettering on it.",
+      "Do keep signal teal for the locked state and the focus ring; switch the focus ring to white inside red.",
+      "Do name parts, symptoms and services in the owner's words (\"Mesin\", \"Rem\", \"AC\").",
+      "Do present the Pitcar network as one list: Purwokerto, Cilacap (Otokits), Purbalingga, Tegal, Batam, Auto Accessories, Autopart, with new entries tagged \"Baru\".",
+      "Do end every action in a WhatsApp link with the message already written, and keep WhatsApp and the emergency line reachable without scripts.",
+      "Do separate content with 1px seams and 2px rules, on 3px and 2px corners.",
+      "Do build every new surface for both themes from the `--lv-` tokens, and check the 3D stage in both.",
+      "Do set structural lettering in uppercase Chakra Petch 700 and running copy in Inter.",
+      "Do honour reduced motion: the stage and the line reveal already do."
+    ],
+    "donts": [
+      "Don't give parts or symptoms numeric identifier codes. Real quantities (kilometres, years, counts, step order) are fine and are set in tabular numerals.",
+      "Don't show service prices. Estimates come from the admin in chat.",
+      "Don't split the branch network into separate groups or separate blocks per brand.",
+      "Don't use red as a small accent: no red dots, red icon tints, or red hairlines scattered on the ground.",
+      "Don't use teal for links, buttons, headings or decoration.",
+      "Don't wrap content in cards, or add shadows to anything that is not floating over another surface.",
+      "Don't set italic Chakra Petch on the neutral ground, or uppercase Inter labels.",
+      "Don't make page elements glow; night lighting lives in the 3D stage only.",
+      "Don't reuse the legacy AstroWind widgets (`src/components/home`, `src/components/widgets` content blocks, blog list cards) as patterns; they still carry the old look and are outside this system."
+    ]
+  }
+}

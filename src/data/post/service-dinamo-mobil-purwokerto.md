@@ -22,7 +22,7 @@ metadata:
     mobil purwokerto, biaya service dinamo mobil purwokerto
 ---
 
-![image](https://placehold.co/1200x800/222222/FFFFFF/png?text=Pitcar+Service)
+![image](~/assets/images/uploads/IMG_6389-scaled.jpg)
 
 # Pitcar: Service Dinamo Mobil Panggilan Di Purwokerto Langsung Datang ke Rumah
 
@@ -37,6 +37,13 @@ Anda terhitung bakal berjumpa dengan supervisor yang bakal bertanya seputar pera
 Selain itu, bengkel panggilan Purwokerto ini termasuk bakal mengimbuhkan edukasi tentang tips dan trick memelihara mobil yang baik. Jadi, tak hanya perawatan mobil yang diberikan oleh pihak bengkel, melainkan edukasi yang amat bermanfaat. Sehingga, Anda sanggup mengerti letak rusaknya dan cara merawatnya bersama baik sehabis servis ke bengkel tersebut.
 
 Itulah informasi mengenai Service Dinamo Mobil Panggilan Di Purwokerto yang perlu Anda ketahui. Apabila Anda mendambakan konsultasi seputar layanan bengkel, harga atau pertanyaan lainnya, maka dapat hubungi nomer resmi Pitcar disini. Tentunya, seluruh pesan masuk tentu dapat dibalas dengan cepat, sehingga Anda tidak kudu menunggu sangat lama untuk mendapatkan balasan.
+
+## Keunggulan Layanan Pitcar
+
+- **Tim profesional**: tim berpengalaman di bidangnya, dan setiap pekerjaan diawasi oleh supervisor.
+- **Harga transparan**: harga disampaikan sebelum perbaikan mulai dikerjakan.
+- **Cukup tunggu di rumah**: tim servis yang datang ke lokasi Anda.
+- **Konsultasi sepuasnya**: pertanyaan seputar perawatan mobil bisa langsung ditanyakan ke tim.
 
 ### Dokumentasi Service Dinamo Mobil Panggilan Di Purwokerto
 

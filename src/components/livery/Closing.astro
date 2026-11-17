@@ -1,0 +1,27 @@
+---
+import { Icon } from 'astro-icon/components';
+
+export interface Props {
+  title: string;
+  text: string;
+  href: string;
+  label: string;
+  id?: string;
+}
+
+const { title, text, href, label, id } = Astro.props;
+---
+
+<section class="lv-close lv-on-red" {...id ? { id } : {}}>
+  <div class="lv-wrap">
+    <h2>{title}</h2>
+    <p>{text}</p>
+    <div class="lv-close__acts">
+      <a class="lv-btn lv-btn--invert" href={href} target="_blank" rel="noopener noreferrer">
+        <Icon name="tabler:brand-whatsapp" aria-hidden="true" />
+        {label}
+      </a>
+      <slot />
+    </div>
+  </div>
+</section>

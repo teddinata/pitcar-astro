@@ -28,7 +28,7 @@ metadata:
     cardType: summary_large_image
 
 i18n:
-  language: en
+  language: id
   textDirection: ltr
 
 apps:
@@ -66,7 +66,9 @@ apps:
 analytics:
   vendors:
     googleAnalytics:
-      id: null # or "G-XXXXXXXXXX"
+      # GA4 (G-SK9KFVFXTH) runs inside the GTM container loaded by
+      # src/components/common/Analytics.astro. Keep this null so GA4 is not loaded twice.
+      id: null
 
 ui:
   theme: 'system' # Values: "system" | "light" | "dark" | "light:only" | "dark:only"

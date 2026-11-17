@@ -1,0 +1,42 @@
+---
+import JsonLd from '~/components/seo/JsonLd.astro';
+
+export interface Props {
+  items: { t: string; j: string }[];
+  /** Groups the <details> so opening one closes the others. */
+  name: string;
+  /** Emit FAQPage structured data. Use on one page per question set. */
+  schema?: boolean;
+}
+
+const { items, name, schema = true } = Astro.props;
+---
+
+<div class="lv-faq">
+  {
+    items.map((f) => (
+      <details class="lv-gejala" name={name}>
+        <summary>
+          <span>{f.t}</span>
+          <span class="lv-gejala__mark" aria-hidden="true" />
+        </summary>
+        <p class="lv-faq__a">{f.j}</p>
+      </details>
+    ))
+  }
+</div>
+
+{
+  schema && (
+    <JsonLd
+      data={{
+        '@type': 'FAQPage',
+        mainEntity: items.map((f) => ({
+          '@type': 'Question',
+          name: f.t,
+          acceptedAnswer: { '@type': 'Answer', text: f.j },
+        })),
+      }}
+    />
+  )
+}

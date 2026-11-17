@@ -1,0 +1,405 @@
+/* Blog surfaces (list, post, category, tag) in the Livery Malam world. */
+
+/* ---------- Article head ---------- */
+
+/* Post titles are sentences, not section names: a size down from other page heads so a long title stays three lines or fewer. */
+.lv-head:has(.lv-post__meta) h1 {
+  max-width: 24ch;
+  font-size: clamp(2rem, 5.6vw, 3.75rem);
+  line-height: 0.98;
+  text-wrap: balance;
+  overflow-wrap: anywhere;
+}
+
+/* The post title is the h1 right below, so the last crumb would only repeat it. It stays in the BreadcrumbList data. */
+.lv-head:has(.lv-post__meta) .lv-crumb [aria-current='page'] {
+  display: none;
+}
+
+.lv-head .lv-post__meta {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 4px 14px;
+  margin-top: -8px;
+  font-size: 0.9375rem;
+  font-weight: 600;
+}
+
+.lv-post__meta span {
+  text-transform: capitalize;
+}
+
+.lv-post__meta > * + *::before {
+  content: '/';
+  margin-right: 14px;
+  opacity: 0.7;
+}
+
+/* ---------- Article body ---------- */
+
+.lv-post__cover,
+.lv-prose,
+.lv-post__foot {
+  max-width: 46rem;
+}
+
+.lv-post__cover {
+  margin: 0 0 clamp(28px, 5vw, 48px);
+}
+
+.lv-post__cover img {
+  display: block;
+  width: 100%;
+  height: auto;
+  border-radius: 3px;
+}
+
+.lv-prose {
+  --tw-prose-body: var(--lv-ink);
+  --tw-prose-headings: var(--lv-ink);
+  --tw-prose-lead: var(--lv-ink-2);
+  --tw-prose-links: var(--lv-red-ink);
+  --tw-prose-bold: var(--lv-ink);
+  --tw-prose-counters: var(--lv-red-ink);
+  --tw-prose-bullets: var(--lv-red-ink);
+  --tw-prose-hr: var(--lv-seam);
+  --tw-prose-quotes: var(--lv-ink);
+  --tw-prose-quote-borders: var(--lv-red);
+  --tw-prose-captions: var(--lv-ink-2);
+  --tw-prose-code: var(--lv-ink);
+  --tw-prose-pre-code: var(--lv-ink);
+  --tw-prose-pre-bg: var(--lv-panel);
+  --tw-prose-th-borders: var(--lv-ink);
+  --tw-prose-td-borders: var(--lv-seam);
+  color: var(--lv-ink);
+  overflow-wrap: anywhere;
+}
+
+.lv-prose :where(h1, h2, h3, h4) {
+  font-family: var(--lv-display);
+  font-weight: 700;
+  text-transform: uppercase;
+  text-wrap: balance;
+  letter-spacing: -0.005em;
+}
+
+/* Imported posts open with their own h1; it reads as the first section title under the page head. */
+.lv-prose :where(h1, h2) {
+  font-size: clamp(1.5rem, 3.4vw, 2.125rem);
+  line-height: 1.05;
+  margin-top: 1.6em;
+  margin-bottom: 0.6em;
+}
+
+.lv-prose > :where(h1, h2):first-child,
+.lv-prose > :first-child + :where(h1, h2) {
+  margin-top: 0;
+}
+
+.lv-prose h3 {
+  font-size: clamp(1.25rem, 2.6vw, 1.5rem);
+  line-height: 1.1;
+}
+
+.lv-prose h4 {
+  font-size: 1.125rem;
+}
+
+.lv-prose a {
+  font-weight: 600;
+  text-decoration-thickness: 2px;
+  text-underline-offset: 0.22em;
+}
+
+.lv-prose a:hover {
+  color: var(--lv-ink);
+}
+
+.lv-prose blockquote {
+  border-left-width: 2px;
+  padding-left: 1em;
+  font-style: normal;
+  font-weight: 500;
+}
+
+.lv-prose blockquote p::before,
+.lv-prose blockquote p::after {
+  content: none;
+}
+
+.lv-prose img {
+  border-radius: 3px;
+}
+
+/* The migrated posts carry a grey placehold.co banner as their first line; it says nothing, so it is not shown. */
+.lv-prose p:has(> img[src*='placehold.co']:only-child),
+.lv-prose img[src*='placehold.co'] {
+  display: none;
+}
+
+.lv-prose table {
+  display: block;
+  max-width: 100%;
+  overflow-x: auto;
+}
+
+/* ---------- Tags, share, back link ---------- */
+
+.lv-post__foot {
+  display: flex;
+  flex-direction: column;
+  gap: 22px;
+  margin-top: clamp(36px, 6vw, 56px);
+  padding-top: 18px;
+  border-top: 2px solid var(--lv-ink);
+}
+
+.lv-tagset__label,
+.lv-share__label {
+  margin: 0 0 8px;
+  font-size: 0.875rem;
+  font-weight: 700;
+  color: var(--lv-ink-2);
+}
+
+.lv-tagset ul,
+.lv-share__list {
+  display: flex;
+  flex-wrap: wrap;
+  margin: 0;
+  padding: 0;
+  list-style: none;
+}
+
+.lv-tagset ul {
+  gap: 16px 8px;
+}
+
+.lv-chip {
+  position: relative;
+  display: inline-block;
+  padding: 4px 8px;
+  border-radius: 2px;
+  background: var(--lv-ink);
+  color: var(--lv-ground);
+  font-family: var(--lv-display);
+  font-weight: 700;
+  font-size: 0.8125rem;
+  line-height: 1.2;
+  text-transform: uppercase;
+  text-decoration: none;
+  transition:
+    background-color 0.18s var(--lv-ease),
+    color 0.18s var(--lv-ease);
+}
+
+/* The chip stays decal-sized; its hit area is stretched to 44px tall. */
+a.lv-chip::after {
+  content: '';
+  position: absolute;
+  inset: -11px -2px;
+}
+
+a.lv-chip:hover {
+  background: var(--lv-red);
+  color: var(--lv-on-red);
+}
+
+.lv-share__list {
+  gap: 8px;
+}
+
+.lv-share__btn {
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  width: 44px;
+  height: 44px;
+  border: 1px solid var(--lv-seam);
+  border-radius: 3px;
+  background: transparent;
+  color: var(--lv-ink-2);
+  transition:
+    background-color 0.18s var(--lv-ease),
+    color 0.18s var(--lv-ease),
+    border-color 0.18s var(--lv-ease);
+}
+
+.lv-share__btn svg {
+  width: 22px;
+  height: 22px;
+}
+
+.lv-share__btn:hover {
+  background: var(--lv-ink);
+  border-color: var(--lv-ink);
+  color: var(--lv-ground);
+}
+
+.lv-post__foot .lv-link {
+  align-self: flex-start;
+}
+
+/* ---------- Journal list ---------- */
+
+.lv-entries {
+  display: grid;
+  gap: clamp(28px, 4vw, 40px) clamp(24px, 4vw, 56px);
+  margin: 0;
+  padding: 0;
+  list-style: none;
+}
+
+.lv-entry {
+  display: flex;
+  flex-direction: column;
+  gap: 14px;
+  height: 100%;
+  padding-top: 6px;
+  border-top: 2px solid var(--lv-ink);
+}
+
+.lv-entry__img {
+  order: -1;
+  margin-top: 8px;
+}
+
+.lv-entry__img img {
+  display: block;
+  width: 100%;
+  aspect-ratio: 16 / 9;
+  object-fit: cover;
+  border-radius: 3px;
+}
+
+.lv-entry__meta {
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  gap: 0 14px;
+  margin: 0;
+  font-size: 0.875rem;
+  font-weight: 700;
+  color: var(--lv-ink-2);
+}
+
+.lv-entry__cat {
+  display: inline-flex;
+  align-items: center;
+  min-height: 44px;
+  color: var(--lv-red-ink);
+  text-decoration: underline;
+  text-decoration-thickness: 2px;
+  text-underline-offset: 0.22em;
+}
+
+.lv-entry__cat:hover {
+  color: var(--lv-ink);
+}
+
+.lv-entry__meta time {
+  font-weight: 400;
+  padding-block: 12px;
+}
+
+.lv-entry__title {
+  margin: 0;
+  font-family: var(--lv-display);
+  font-weight: 700;
+  font-size: clamp(1.25rem, 2.6vw, 1.625rem);
+  line-height: 1.1;
+  text-transform: uppercase;
+  text-wrap: balance;
+  overflow-wrap: anywhere;
+}
+
+.lv-entry__title a {
+  display: block;
+  color: var(--lv-ink);
+  text-decoration: none;
+}
+
+.lv-entry__title a:hover {
+  color: var(--lv-red-ink);
+  text-decoration: underline;
+  text-decoration-thickness: 2px;
+  text-underline-offset: 0.18em;
+}
+
+.lv-entry__excerpt {
+  margin: 0;
+  max-width: 62ch;
+  font-size: 1rem;
+  line-height: 1.6;
+  color: var(--lv-ink-2);
+}
+
+@media (min-width: 900px) {
+  .lv-entries {
+    grid-template-columns: repeat(2, minmax(0, 1fr));
+  }
+}
+
+/* ---------- Pager ---------- */
+
+.lv-pager {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  gap: 12px;
+  margin-top: clamp(40px, 6vw, 64px);
+  padding-top: 20px;
+  border-top: 1px solid var(--lv-seam);
+}
+
+.lv-pager .lv-btn {
+  padding-inline: 1.1em;
+}
+
+/* ---------- Related posts ---------- */
+
+.lv-related__list {
+  display: grid;
+  gap: 0 clamp(24px, 4vw, 56px);
+  margin: clamp(24px, 4vw, 40px) 0 0;
+  padding: 0;
+  list-style: none;
+}
+
+.lv-related__list li {
+  padding: 12px 0 18px;
+  border-top: 2px solid var(--lv-ink);
+}
+
+.lv-related__cat {
+  display: block;
+  font-size: 0.875rem;
+  font-weight: 700;
+  color: var(--lv-ink-2);
+}
+
+.lv-related__list a {
+  display: block;
+  padding-block: 8px;
+  color: var(--lv-ink);
+  font-family: var(--lv-display);
+  font-weight: 700;
+  font-size: clamp(1.125rem, 2.2vw, 1.375rem);
+  line-height: 1.12;
+  text-transform: uppercase;
+  text-decoration: none;
+  overflow-wrap: anywhere;
+}
+
+.lv-related__list a:hover {
+  color: var(--lv-red-ink);
+  text-decoration: underline;
+  text-decoration-thickness: 2px;
+  text-underline-offset: 0.18em;
+}
+
+@media (min-width: 768px) {
+  .lv-related__list {
+    grid-template-columns: repeat(2, minmax(0, 1fr));
+  }
+}

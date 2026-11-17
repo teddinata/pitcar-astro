@@ -8,58 +8,35 @@ export interface Props {
 }
 
 const { text, url, class: className = 'inline-block' } = Astro.props;
+
+const targets = [
+  { id: 'whatsapp', label: 'Bagikan ke WhatsApp', icon: 'tabler:brand-whatsapp' },
+  { id: 'facebook', label: 'Bagikan ke Facebook', icon: 'tabler:brand-facebook' },
+  { id: 'twitter', label: 'Bagikan ke X', icon: 'tabler:brand-x' },
+  { id: 'linkedin', label: 'Bagikan ke LinkedIn', icon: 'tabler:brand-linkedin' },
+  { id: 'mail', label: 'Kirim lewat email', icon: 'tabler:mail' },
+];
 ---
 
 <div class={className}>
-  <span class="align-super font-bold text-slate-500 dark:text-slate-400">Share:</span>
-  <button
-    class="ml-2 rtl:ml-0 rtl:mr-2"
-    title="Twitter Share"
-    data-aw-social-share="twitter"
-    data-aw-url={url}
-    data-aw-text={text}
-    ><Icon
-      name="tabler:brand-x"
-      class="w-6 h-6 text-gray-400 dark:text-slate-500 hover:text-black dark:hover:text-slate-300"
-    />
-  </button>
-  <button class="ml-2 rtl:ml-0 rtl:mr-2" title="Facebook Share" data-aw-social-share="facebook" data-aw-url={url}
-    ><Icon
-      name="tabler:brand-facebook"
-      class="w-6 h-6 text-gray-400 dark:text-slate-500 hover:text-black dark:hover:text-slate-300"
-    />
-  </button>
-  <button
-    class="ml-2 rtl:ml-0 rtl:mr-2"
-    title="Linkedin Share"
-    data-aw-social-share="linkedin"
-    data-aw-url={url}
-    data-aw-text={text}
-    ><Icon
-      name="tabler:brand-linkedin"
-      class="w-6 h-6 text-gray-400 dark:text-slate-500 hover:text-black dark:hover:text-slate-300"
-    />
-  </button>
-  <button
-    class="ml-2 rtl:ml-0 rtl:mr-2"
-    title="Whatsapp Share"
-    data-aw-social-share="whatsapp"
-    data-aw-url={url}
-    data-aw-text={text}
-    ><Icon
-      name="tabler:brand-whatsapp"
-      class="w-6 h-6 text-gray-400 dark:text-slate-500 hover:text-black dark:hover:text-slate-300"
-    />
-  </button>
-  <button
-    class="ml-2 rtl:ml-0 rtl:mr-2"
-    title="Email Share"
-    data-aw-social-share="mail"
-    data-aw-url={url}
-    data-aw-text={text}
-    ><Icon
-      name="tabler:mail"
-      class="w-6 h-6 text-gray-400 dark:text-slate-500 hover:text-black dark:hover:text-slate-300"
-    />
-  </button>
+  <p class="lv-share__label">Bagikan</p>
+  <ul class="lv-share__list">
+    {
+      targets.map((t) => (
+        <li>
+          <button
+            type="button"
+            class="lv-share__btn"
+            title={t.label}
+            aria-label={t.label}
+            data-aw-social-share={t.id}
+            data-aw-url={url}
+            data-aw-text={text}
+          >
+            <Icon name={t.icon} aria-hidden="true" />
+          </button>
+        </li>
+      ))
+    }
+  </ul>
 </div>

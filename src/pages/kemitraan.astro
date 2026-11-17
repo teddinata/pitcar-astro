@@ -1,18 +1,14 @@
 ---
+import { Image } from 'astro:assets';
 import Layout from '~/layouts/PageLayout.astro';
-import Hero from '~/components/kemitraan/Hero.astro';
-import AboutFranchise from '~/components/kemitraan/AboutFranchise.astro';
-import MarketPotential from '~/components/kemitraan/MarketPotential.astro';
-import AboutCompany from '~/components/kemitraan/AboutCompany.astro';
-import WhyJoin from '~/components/kemitraan/WhyJoin.astro';
-import Comparison from '~/components/kemitraan/Comparison.astro';
-import Packages from '~/components/kemitraan/Packages.astro';
-import Gallery from '~/components/kemitraan/Gallery.astro';
-import FiveYearProjections from '~/components/kemitraan/FiveYearProjections.astro';
-import Process from '~/components/kemitraan/Process.astro';
-import FAQ from '~/components/kemitraan/FAQ.astro';
-import Contact from '~/components/kemitraan/Contact.astro';
-import FloatingButton from '~/components/kemitraan/FloatingButton.astro';
+import PageHead from '~/components/livery/PageHead.astro';
+import Closing from '~/components/livery/Closing.astro';
+import Faq from '~/components/livery/Faq.astro';
+import outletImg from '~/assets/images/kemitraan/franchise-pitcar-image.webp';
+import fasadImg from '~/assets/images/kemitraan/pitcar-fasad.webp';
+import tungguImg from '~/assets/images/kemitraan/pitcar-ruang-tunggu.webp';
+import stallImg from '~/assets/images/kemitraan/pitcar-stall.webp';
+import stall2Img from '~/assets/images/kemitraan/pitcar-stall-2.webp';
 
 const metadata = {
   title: 'Kemitraan Pitcar Service - Peluang Franchise Bengkel Mobil',
@@ -20,62 +16,195 @@ const metadata = {
     'Bergabunglah dengan franchise PITCAR Service. Raih peluang bisnis di industri otomotif yang terus berkembang dengan sistem franchise yang sudah terbukti.',
   canonical: 'https://pitcar.co.id/kemitraan',
 };
+
+const WA_NOMOR = '6285647609172';
+const wa = (teks: string) => `https://wa.me/${WA_NOMOR}?text=${encodeURIComponent(teks)}`;
+const WA_MITRA = wa('Halo Mincar, mohon info detail franchise Pitcar.\nKota saya:\n#kemitraan-web');
+
+const dapat = [
+  { nama: 'Merek', isi: 'Hak memakai merek Pitcar yang sudah dikenal di Purwokerto.' },
+  { nama: 'SOP', isi: 'Standar operasional yang sudah dijalankan di cabang Pitcar.' },
+  { nama: 'Tim operasional', isi: 'Staf dan mekanik disuplai dan dipandu secara teknis oleh pusat.' },
+  { nama: 'Sistem ERP', isi: 'Stok, riwayat servis, dan keuangan outlet tercatat di sistem yang sama dengan pusat.' },
+  { nama: 'Lead pelanggan', isi: 'Tim pusat menjalankan digital marketing dan membagikan lead pelanggan di kota Anda.' },
+  { nama: 'Suplai sparepart', isi: 'Sparepart disuplai dari pusat untuk menekan harga pokok.' },
+];
+
+const banding = {
+  franchise: ['Sistem siap pakai dengan SOP', 'Dukungan tim Pitcar', 'Promosi bersama dengan merek Pitcar', 'Risiko bisnis lebih rendah', 'Modal investasi lebih efisien'],
+  sendiri: ['Memulai dari nol', 'Belajar sistem operasional sendiri', 'Membangun merek sendiri', 'Risiko bisnis lebih tinggi', 'Modal investasi lebih besar'],
+};
+
+const paket = [
+  { nama: 'Basic', harga: 'Rp 600 juta', rinci: ['4 stall bengkel', 'Luas 200 m²', '8 tenaga kerja', 'Peralatan basic', 'Fasilitas basic', 'Layanan basic', 'Media promosi', 'Sistem POS kasir'] },
+  { nama: 'Advance', harga: 'Rp 1,1 miliar', rinci: ['8 stall bengkel', 'Luas 578 m²', '18 tenaga kerja', 'Peralatan lengkap', 'Fasilitas lengkap', 'Layanan lengkap', 'Media promosi', 'Sistem POS kasir'] },
+  { nama: 'Complete', harga: 'Rp 2,1 miliar', rinci: ['12 stall bengkel', 'Luas 935 m²', '25 tenaga kerja', 'Peralatan terlengkap', 'Fasilitas terlengkap', 'Layanan terlengkap', 'Media promosi', 'Sistem POS kasir'] },
+];
+
+const galeri = [
+  { src: fasadImg, alt: 'Fasad bengkel Pitcar Service', judul: 'Fasad bengkel' },
+  { src: tungguImg, alt: 'Ruang tunggu Pitcar Service', judul: 'Ruang tunggu' },
+  { src: stallImg, alt: 'Stall servis Pitcar Service', judul: 'Stall servis' },
+  { src: stall2Img, alt: 'Antrean pengerjaan servis di Pitcar Service', judul: 'Antrean pengerjaan' },
+];
+
+const alur = [
+  { nama: 'Pengajuan', isi: 'Anda mengisi pendaftaran awal lewat tim kemitraan.' },
+  { nama: 'Proposal', isi: 'Anda menerima dan mempelajari dokumen proposal kemitraan.' },
+  { nama: 'Pitching', isi: 'Sesi presentasi dan diskusi bisnis.' },
+  { nama: 'Verifikasi', isi: 'Survei dan analisis kelayakan lokasi.' },
+  { nama: 'Go-live', isi: 'Tanda tangan kontrak, renovasi, lalu pembukaan outlet.' },
+];
+
+const faq = [
+  { t: 'Apa itu franchise Pitcar Service?', j: 'Kerja sama bisnis bengkel mobil. Anda mendapat hak memakai merek, sistem operasional, dan dukungan dari Pitcar Service.' },
+  { t: 'Berapa modal yang diperlukan?', j: 'Tergantung paket yang dipilih, mulai dari Rp 600 juta sampai Rp 2,1 miliar.' },
+  { t: 'Berapa lama pengembalian modal?', j: 'Menurut analisis keuangan Pitcar, pengembalian modal diperkirakan sekitar 5 tahun.' },
+  { t: 'Dukungan apa saja yang diberikan?', j: 'Sistem operasional, pelatihan tim, promosi, dan dukungan teknis.' },
+  { t: 'Apa syarat menjadi mitra?', j: 'Lokasi yang strategis, modal investasi yang cukup, dan komitmen menjalankan bisnis.' },
+];
 ---
 
-<Layout metadata={metadata}>
-  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.7.2/css/all.min.css" />
-  <Hero />
-  <AboutFranchise />
-  <MarketPotential />
-  <AboutCompany />
-  <WhyJoin />
-  <Comparison />
-  <Packages />
-  <Gallery />
-  <FiveYearProjections />
-  <Process />
-  <FAQ />
-  <Contact />
-  <FloatingButton />
+<Layout metadata={metadata} dock={{ href: WA_MITRA, label: 'Tanya tim kemitraan' }}>
+  <PageHead
+    crumb="Kemitraan"
+    title="Punya bengkel tanpa mengurus operasional"
+    lead="Franchise Pitcar Service: Anda menyiapkan lokasi dan modal, tim Pitcar menjalankan bengkelnya dengan sistem yang dipakai di cabang kami."
+  >
+    <a class="lv-btn lv-btn--invert" href={WA_MITRA} target="_blank" rel="noopener noreferrer">Konsultasi dengan tim kemitraan</a>
+    <a class="lv-btn lv-btn--line" href="#paket">Lihat paket</a>
+  </PageHead>
 
-  <style is:global>
-    .hero {
-      background:
-        linear-gradient(rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.7)),
-        url('https://res.cloudinary.com/gustimaulan/image/upload/v1744427205/garasi-complete_1_smi0bh.jpg');
-      background-size: cover;
-      background-position: center;
-    }
-    .benefit-card:hover {
-      transform: translateY(-10px);
-      box-shadow:
-        0 20px 25px -5px rgba(0, 0, 0, 0.1),
-        0 10px 10px -5px rgba(0, 0, 0, 0.04);
-    }
-    .package-card {
-      transition: all 0.3s ease;
-    }
-    .package-card:hover {
-      transform: scale(1.05);
-    }
-    .package-card.popular {
-      border: 3px solid var(--aw-color-primary);
-    }
-    .timeline-step {
-      position: relative;
-    }
-    .gallery-item {
-      overflow: hidden;
-    }
-    .gallery-item img {
-      transition: transform 0.5s ease;
-    }
-    .gallery-item:hover img {
-      transform: scale(1.1);
-    }
-    .gallery-overlay {
-      background: linear-gradient(to top, rgba(0, 0, 0, 0.7), transparent);
-      transition: opacity 0.3s ease;
-    }
-  </style>
+  <section class="lv-proof" id="about">
+    <div class="lv-proof__photo">
+      <Image src={outletImg} alt="Gambaran rancangan outlet Pitcar" widths={[480, 768, 1200]} sizes="(max-width: 899px) 100vw, 52vw" />
+    </div>
+    <div class="lv-proof__body">
+      <h2 class="lv-proof__fact">
+        <b>19 juta+</b> mobil penumpang dan <b>6 juta+</b> mobil barang diproyeksikan ada di Indonesia pada 2025 (BPS).
+      </h2>
+      <ul class="lv-ways">
+        <li>
+          <strong>Pitcar hari ini</strong>
+          <span>Berdiri 2021 sebagai layanan home service, kini bengkel dengan sistem manajemen berbasis ERP.</span>
+        </li>
+        <li>
+          <strong>450+ unit per bulan</strong>
+          <span>Volume layanan Pitcar Service di Purwokerto saat ini.</span>
+        </li>
+        <li>
+          <strong>350+ pelanggan tetap</strong>
+          <span>Di Purwokerto dan sekitarnya.</span>
+        </li>
+      </ul>
+    </div>
+  </section>
+
+  <section class="lv-sec" id="why">
+    <div class="lv-wrap">
+      <h2 class="lv-h2">Yang Anda dapat sebagai mitra</h2>
+      <ul class="lv-services">
+        {
+          dapat.map((d) => (
+            <li>
+              <h3>{d.nama}</h3>
+              <p>{d.isi}</p>
+            </li>
+          ))
+        }
+      </ul>
+    </div>
+  </section>
+
+  <section class="lv-sec lv-sec--seam">
+    <div class="lv-wrap">
+      <h2 class="lv-h2">Franchise atau merintis sendiri</h2>
+      <div class="lv-split">
+        <div class="lv-block">
+          <h2>Franchise Pitcar</h2>
+          <ul class="lv-ticks lv-ticks--one">
+            {banding.franchise.map((b) => <li><span>{b}</span></li>)}
+          </ul>
+        </div>
+        <div class="lv-block">
+          <h2>Usaha sendiri</h2>
+          <ul class="lv-ticks lv-ticks--one">
+            {banding.sendiri.map((b) => <li><span>{b}</span></li>)}
+          </ul>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <section class="lv-sec lv-sec--seam" id="paket">
+    <div class="lv-wrap">
+      <h2 class="lv-h2">Paket franchise</h2>
+      <ul class="lv-cat">
+        {
+          paket.map((p) => (
+            <li>
+              <div>
+                <h3>{p.nama}</h3>
+                <p class="lv-price">{p.harga}</p>
+                <a class="lv-link" href={wa(`Halo Mincar, saya tertarik paket ${p.nama}. Mohon info detailnya.\nKota saya:\n#kemitraan-web`)} target="_blank" rel="noopener noreferrer">
+                  Tanya paket {p.nama}
+                </a>
+              </div>
+              <ul class="lv-ticks">
+                {p.rinci.map((r) => <li><span>{r}</span></li>)}
+              </ul>
+            </li>
+          ))
+        }
+      </ul>
+    </div>
+  </section>
+
+  <section class="lv-sec lv-sec--seam" id="gallery">
+    <div class="lv-wrap">
+      <h2 class="lv-h2">Outlet Pitcar</h2>
+      <div class="lv-gallery">
+        {
+          galeri.map((g) => (
+            <figure>
+              <Image src={g.src} alt={g.alt} widths={[400, 800]} sizes="(max-width: 767px) 100vw, 50vw" loading="lazy" />
+              <figcaption>{g.judul}</figcaption>
+            </figure>
+          ))
+        }
+      </div>
+    </div>
+  </section>
+
+  <section class="lv-sec lv-sec--seam" id="process">
+    <div class="lv-wrap">
+      <h2 class="lv-h2">Alur kerja sama</h2>
+      <ol class="lv-steps">
+        {
+          alur.map((a) => (
+            <li>
+              <strong>{a.nama}</strong>
+              <span>{a.isi}</span>
+            </li>
+          ))
+        }
+      </ol>
+    </div>
+  </section>
+
+  <section class="lv-sec lv-sec--seam">
+    <div class="lv-wrap">
+      <h2 class="lv-h2">Pertanyaan calon mitra</h2>
+      <Faq items={faq} name="faq-mitra" />
+      <p class="lv-odo__fine">Menurut data Pitcar, omzet cabang naik rata-rata 25 sampai 30% per tahun. Minta rincian perhitungannya di proposal.</p>
+    </div>
+  </section>
+
+  <Closing
+    id="contact"
+    title="Bicara dengan tim kemitraan"
+    text="Kirim kota dan rencana lokasi Anda. Tim kemitraan mengirim proposal dan menjadwalkan diskusi."
+    href={WA_MITRA}
+    label="Chat tim kemitraan"
+  />
 </Layout>

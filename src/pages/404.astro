@@ -1,23 +1,18 @@
 ---
-import Layout from '~/layouts/Layout.astro';
-import { getHomePermalink } from '~/utils/permalinks';
+import Layout from '~/layouts/PageLayout.astro';
+import { WA_UMUM } from '~/data/diagnosa';
 
-const title = `Error 404`;
+const title = 'Halaman tidak ditemukan';
 ---
 
 <Layout metadata={{ title }}>
-  <section class="flex items-center h-full p-16">
-    <div class="container flex flex-col items-center justify-center px-5 mx-auto my-8">
-      <div class="max-w-md text-center">
-        <h2 class="mb-8 font-bold text-9xl">
-          <span class="sr-only">Error</span>
-          <span class="text-primary">404</span>
-        </h2>
-        <p class="text-3xl font-semibold md:text-3xl">Sorry, we couldn't find this page.</p>
-        <p class="mt-4 mb-8 text-lg text-muted dark:text-slate-400">
-          But dont worry, you can find plenty of other things on our homepage.
-        </p>
-        <a rel="noopener noreferrer" href={getHomePermalink()} class="btn ml-4">Back to homepage</a>
+  <section class="lv-head lv-on-red lv-404">
+    <div class="lv-wrap">
+      <h1>Halaman ini tidak ada</h1>
+      <p>Alamatnya mungkin salah ketik atau halamannya sudah dipindah. Kembali ke beranda, atau langsung tanya admin.</p>
+      <div class="lv-head__acts">
+        <a class="lv-btn lv-btn--invert" href="/">Ke beranda</a>
+        <a class="lv-btn lv-btn--line" href={WA_UMUM} target="_blank" rel="noopener noreferrer">Chat admin di WhatsApp</a>
       </div>
     </div>
   </section>
