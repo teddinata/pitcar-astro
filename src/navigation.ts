@@ -36,7 +36,7 @@ export const headerData = {
       href: getPermalink('/kemitraan'),
     },
   ],
-  actions: [{ text: 'Booking Servis', href: 'https://wa.me/6285866224051?text=Halo%20Pitcar%2C%20saya%20ingin%20melakukan%20reservasi%2Fbooking%20untuk%20servis%20mobil%20saya.', target: '_blank' }],
+  actions: [{ variant: 'primary' as const, text: 'Booking Servis', href: 'https://wa.me/6285866224051?text=Halo%20Pitcar%2C%20saya%20ingin%20melakukan%20reservasi%2Fbooking%20untuk%20servis%20mobil%20saya.', target: '_blank', 'data-pilih-cabang': '' }],
 };
 
 export const footerData = {
@@ -44,9 +44,12 @@ export const footerData = {
     {
       title: 'Layanan Servis',
       links: [
-        { text: 'Perawatan Berkala & Umum', href: getPermalink('/layanan') },
-        { text: 'Inspeksi Mobil Bekas', href: getPermalink('/inspeksi-mobil-bekas') },
-        { text: 'Layanan Darurat (24 Jam)', href: getPermalink('/layanan') },
+        { text: 'Semua layanan', href: getPermalink('/layanan') },
+        { text: 'Service AC', href: getPermalink('/layanan/service-ac') },
+        { text: 'Transmisi matic', href: getPermalink('/layanan/transmisi-matic') },
+        { text: 'Rem dan kaki-kaki', href: getPermalink('/layanan/rem-kaki-kaki') },
+        { text: 'Inspeksi mobil bekas', href: getPermalink('/inspeksi-mobil-bekas') },
+        { text: 'Darurat 24 jam', href: getPermalink('/layanan/darurat-24-jam') },
       ],
     },
     {
@@ -54,7 +57,6 @@ export const footerData = {
       links: [
         { text: 'Profil Perusahaan', href: getPermalink('/tentang') },
         { text: 'Peluang Kemitraan', href: getPermalink('/kemitraan') },
-        { text: 'Karir & Talenta', href: '#' },
       ],
     },
     {
@@ -62,17 +64,15 @@ export const footerData = {
       links: [
         { text: 'Jurnal Otomotif', href: getBlogPermalink() },
         { text: 'Pusat Bantuan', href: getPermalink('/hubungi-kami') },
-        { text: 'Syarat & Ketentuan', href: '#' },
       ],
     },
   ],
   secondaryLinks: [{ text: 'Hubungi Kami', href: getPermalink('/hubungi-kami') }],
   socialLinks: [
     { ariaLabel: 'Instagram', icon: 'tabler:brand-instagram', href: 'https://www.instagram.com/pitcar.service/' },
-    { ariaLabel: 'Facebook', icon: 'tabler:brand-facebook', href: '#' },
     { ariaLabel: 'RSS', icon: 'tabler:rss', href: getAsset('/rss.xml') },
   ],
   footNote: `
-    © 2024 Pitcar Service · All rights reserved.
+    © 2026 Pitcar Service. Hak cipta dilindungi.
   `,
 };

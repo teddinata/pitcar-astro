@@ -2,9 +2,8 @@
 import { APP_BLOG } from 'astrowind:config';
 
 import { getRelatedPosts } from '~/utils/blog';
-import BlogHighlightedPosts from '../widgets/BlogHighlightedPosts.astro';
+import { getBlogPermalink, getPermalink } from '~/utils/permalinks';
 import type { Post } from '~/types';
-import { getBlogPermalink } from '~/utils/permalinks';
 
 export interface Props {
   post: Post;
@@ -12,20 +11,33 @@ export interface Props {
 
 const { post } = Astro.props;
 
-const relatedPosts = post.tags ? await getRelatedPosts(post, 4) : [];
+const namaKategori = (t: string) => { const s = t.replaceAll('-', ' '); return s.charAt(0).toUpperCase() + s.slice(1); };
+
+// Scored by shared category first, then shared tags, so posts without tags still get neighbours.
+const relatedPosts = APP_BLOG.isRelatedPostsEnabled ? await getRelatedPosts(post, APP_BLOG.relatedPostsCount ?? 4) : [];
 ---
 
 {
-  APP_BLOG.isRelatedPostsEnabled ? (
-    <BlogHighlightedPosts
-      classes={{
-        container:
-          'pt-0 lg:pt-0 md:pt-0 intersect-once intersect-quarter motion-safe:md:opacity-0 motion-safe:md:intersect:animate-fade',
-      }}
-      title="Related Posts"
-      linkText="View All Posts"
-      linkUrl={getBlogPermalink()}
-      postIds={relatedPosts.map((post) => post.id)}
-    />
-  ) : null
+  relatedPosts.length > 0 && (
+    <section class="lv-sec lv-sec--seam lv-related" aria-labelledby="terkait-judul">
+      <div class="lv-wrap">
+        <h2 class="lv-h2" id="terkait-judul">
+          Artikel terkait
+        </h2>
+        <ul class="lv-related__list">
+          {relatedPosts.map((p) => (
+            <li>
+              {p.category && <span class="lv-related__cat">{namaKategori(p.category.title)}</span>}
+              <a href={getPermalink(p.permalink, 'post')}>{p.title}</a>
+            </li>
+          ))}
+        </ul>
+        <p class="lv-sec__foot">
+          <a class="lv-link" href={getBlogPermalink()}>
+            Semua artikel
+          </a>
+        </p>
+      </div>
+    </section>
+  )
 }

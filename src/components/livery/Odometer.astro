@@ -1,0 +1,73 @@
+---
+import { Icon } from 'astro-icon/components';
+import { BERKALA, KM_MAX, KM_MIN, KM_STEP, km, paketUntuk, pesanServis, waLink } from '~/data/diagnosa';
+
+const awal = 40000;
+const digit = String(awal).padStart(6, '0').split('');
+---
+
+<section class="lv-sec lv-sec--seam" id="servis-berkala" data-odometer aria-labelledby="odo-judul">
+  <div class="lv-wrap lv-odo">
+    <div>
+      <h2 class="lv-h2" id="odo-judul">Sudah berapa kilometer?</h2>
+      <p class="lv-lead">Geser ke angka di odometer mobil Anda untuk melihat apa yang biasanya sudah waktunya dikerjakan.</p>
+
+      <div class="lv-odo__drums" aria-hidden="true">
+        {
+          digit.map((d, i) => (
+            <span data-drum class:list={{ 'is-zero': i === 0 }}>
+              {d}
+            </span>
+          ))
+        }
+      </div>
+      <p class="lv-odo__unit" aria-hidden="true">kilometer</p>
+
+      <div class="lv-range">
+        <label for="odo-range">Kilometer mobil Anda</label>
+        <input
+          type="range"
+          id="odo-range"
+          min={KM_MIN}
+          max={KM_MAX}
+          step={KM_STEP}
+          value={awal}
+          aria-valuetext={`${km(awal)} kilometer`}
+        />
+        <div class="lv-range__ends" aria-hidden="true">
+          <span>{km(KM_MIN)} km</span>
+          <span>{km(KM_MAX)} km</span>
+        </div>
+      </div>
+    </div>
+
+    <div>
+      <ul class="lv-due">
+        {
+          BERKALA.map((item) => {
+            const due = awal % item.tiap === 0;
+            return (
+              <li data-tiap={item.tiap} class:list={{ 'is-due': due }}>
+                <span class="lv-due__name">{item.nama}</span>
+                <span class="lv-due__when" data-when>
+                  {due ? 'Waktunya' : `Berikutnya di ${km(Math.ceil(awal / item.tiap) * item.tiap)} km`}
+                </span>
+              </li>
+            );
+          })
+        }
+      </ul>
+      <p class="lv-odo__pack">
+        Paket yang sesuai: <strong data-paket aria-live="polite">{paketUntuk(awal)}</strong>
+      </p>
+      <a class="lv-btn" href={waLink(pesanServis(awal))} data-wa-servis target="_blank" rel="noopener noreferrer">
+        <Icon name="tabler:brand-whatsapp" aria-hidden="true" />
+        <span data-wa-servis-text>Booking servis {km(awal)} km</span>
+      </a>
+      <p class="lv-odo__fine">
+        Ini patokan umum, bukan jadwal pabrikan. Interval pastinya mengikuti buku servis mobil Anda, dan admin akan mencocokkannya
+        saat Anda chat.
+      </p>
+    </div>
+  </div>
+</section>

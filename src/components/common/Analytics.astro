@@ -1,13 +1,18 @@
 ---
-import { GoogleAnalytics } from '@astrolib/analytics';
-import { ANALYTICS } from 'astrowind:config';
+/**
+ * Google Tag Manager container GTM-KKW8LGPJ. It already carries the GA4 tag for
+ * G-SK9KFVFXTH, so GA4 is not loaded a second time through gtag.js here (that
+ * would count every page view twice). Snippet as supplied by the owner.
+ * Override with the PUBLIC_GTM_ID build variable if the container changes.
+ */
+const GTM_ID = import.meta.env.PUBLIC_GTM_ID || 'GTM-KKW8LGPJ';
 ---
 
-{
-  ANALYTICS?.vendors?.googleAnalytics?.id ? (
-    <GoogleAnalytics
-      id={String(ANALYTICS.vendors.googleAnalytics.id)}
-      partytown={ANALYTICS?.vendors?.googleAnalytics?.partytown}
-    />
-  ) : null
-}
+<script is:inline async src={`https://www.googletagmanager.com/gtm.js?id=${GTM_ID}`}></script>
+<script is:inline>
+  window.dataLayer = window.dataLayer || [];
+  function gtag() {
+    dataLayer.push(arguments);
+  }
+  gtag('js', new Date());
+</script>

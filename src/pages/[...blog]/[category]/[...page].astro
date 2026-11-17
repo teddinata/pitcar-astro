@@ -4,7 +4,8 @@ import { blogCategoryRobots, getStaticPathsBlogCategory } from '~/utils/blog';
 
 import Layout from '~/layouts/PageLayout.astro';
 import BlogList from '~/components/blog/List.astro';
-import Headline from '~/components/blog/Headline.astro';
+import PageHead from '~/components/livery/PageHead.astro';
+import { getBlogPermalink } from '~/utils/permalinks';
 import Pagination from '~/components/blog/Pagination.astro';
 
 export const prerender = true;
@@ -17,10 +18,13 @@ type Props = InferGetStaticPropsType<typeof getStaticPaths> & { category: Record
 
 const { page, category } = Astro.props as Props;
 
+const namaKategori = (t: string) => { const s = t.replaceAll('-', ' '); return s.charAt(0).toUpperCase() + s.slice(1); };
+const judul = namaKategori(category.title);
+
 const currentPage = page.currentPage ?? 1;
 
 const metadata = {
-  title: `Category '${category.title}' ${currentPage > 1 ? ` — Page ${currentPage}` : ''}`,
+  title: `Kategori: ${judul}${currentPage > 1 ? `, halaman ${currentPage}` : ''}`,
   robots: {
     index: blogCategoryRobots?.index,
     follow: blogCategoryRobots?.follow,
@@ -29,9 +33,17 @@ const metadata = {
 ---
 
 <Layout metadata={metadata}>
-  <section class="px-4 md:px-6 py-12 sm:py-16 lg:py-20 mx-auto max-w-4xl">
-    <Headline>{category.title}</Headline>
-    <BlogList posts={page.data} />
-    <Pagination prevUrl={page.url.prev} nextUrl={page.url.next} />
+  <PageHead
+    title={judul}
+    lead="Artikel perawatan mobil dari tim mekanik Pitcar dalam kategori ini."
+    crumb={`Kategori: ${judul}`}
+    trail={[{ label: 'Jurnal otomotif', href: getBlogPermalink() }]}
+  />
+
+  <section class="lv-sec lv-journal">
+    <div class="lv-wrap">
+      <BlogList posts={page.data} />
+      <Pagination prevUrl={page.url.prev} nextUrl={page.url.next} />
+    </div>
   </section>
 </Layout>

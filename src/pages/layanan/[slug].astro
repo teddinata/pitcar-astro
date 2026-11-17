@@ -1,0 +1,179 @@
+---
+import type { GetStaticPaths } from 'astro';
+import { Icon } from 'astro-icon/components';
+import Layout from '~/layouts/PageLayout.astro';
+import PageHead from '~/components/livery/PageHead.astro';
+import Closing from '~/components/livery/Closing.astro';
+import JsonLd from '~/components/seo/JsonLd.astro';
+import { AREA, WA_DARURAT, waLink } from '~/data/diagnosa';
+import { LAYANAN, type Layanan } from '~/data/layanan';
+import { layananSchema } from '~/data/bisnis';
+import { fetchPosts } from '~/utils/blog';
+import { getPermalink } from '~/utils/permalinks';
+
+export const getStaticPaths = (() => LAYANAN.map((l) => ({ params: { slug: l.slug }, props: { l } }))) satisfies GetStaticPaths;
+
+const { l } = Astro.props as { l: Layanan };
+const url = `https://pitcar.co.id/layanan/${l.slug}`;
+
+const metadata = {
+  title: l.seo,
+  description: l.deskripsi,
+  canonical: url,
+  robots: { index: true, follow: true },
+  openGraph: { type: 'website' },
+};
+
+const waLayanan = waLink([l.pesan, 'Mobil & tahun:', 'Kilometer:', 'Keluhan:', 'Lokasi:', `#layanan-${l.slug}`].join('\n'));
+
+const gejala = AREA.flatMap((a) => a.gejala.filter((g) => g.layanan.some((n) => l.diagnosa.includes(n))).map((g) => ({ ...g, area: a.nama })));
+
+// Related articles: posts whose slug carries one of the service's keywords, Purwokerto first.
+const posts = (await fetchPosts())
+  .map((p) => ({ p, skor: l.kunci.filter((k) => p.slug.includes(k)).length + (p.slug.includes('purwokerto') ? 0.5 : 0) }))
+  .filter((x) => x.skor >= 1)
+  .sort((a, b) => b.skor - a.skor || +b.p.publishDate - +a.p.publishDate)
+  .slice(0, 6)
+  .map((x) => x.p);
+
+const cara = [
+  { nama: 'Home Service', isi: 'Mekanik datang ke rumah atau kantor Anda.' },
+  { nama: 'Pick Up Service', isi: 'Mobil dijemput, dikerjakan di workshop, lalu diantar kembali.' },
+  { nama: 'Workshop', isi: 'Anda datang langsung ke bengkel Pitcar.' },
+];
+
+const lain = LAYANAN.filter((x) => x.slug !== l.slug);
+---
+
+<Layout metadata={metadata}>
+  <JsonLd data={layananSchema(l.seo, l.deskripsi, url)} />
+
+  <PageHead crumb={l.nama} trail={[{ label: 'Layanan', href: '/layanan' }]} title={l.judul} lead={l.ringkas}>
+    {
+      l.darurat ? (
+        <>
+          <a class="lv-btn lv-btn--invert" href={WA_DARURAT} target="_blank" rel="noopener noreferrer">
+            <Icon name="tabler:brand-whatsapp" aria-hidden="true" />
+            Kirim lokasi darurat
+          </a>
+          <a class="lv-btn lv-btn--line" href={waLayanan} target="_blank" rel="noopener noreferrer">
+            Jadwalkan home service
+          </a>
+        </>
+      ) : (
+        <>
+          <a class="lv-btn lv-btn--invert" href={waLayanan} target="_blank" rel="noopener noreferrer">
+            <Icon name="tabler:brand-whatsapp" aria-hidden="true" />
+            Konsultasi lewat WhatsApp
+          </a>
+          <a class="lv-btn lv-btn--line" href={WA_DARURAT} target="_blank" rel="noopener noreferrer">
+            Darurat 24 jam
+          </a>
+        </>
+      )
+    }
+  </PageHead>
+
+  <section class="lv-sec" aria-labelledby="kerja-judul">
+    <div class="lv-wrap lv-split">
+      <div class="lv-block">
+        <h2 id="kerja-judul">Yang dikerjakan</h2>
+        <p>Admin menjelaskan kerusakan dan estimasi biayanya lewat chat sebelum pengerjaan dimulai.</p>
+      </div>
+      <ul class="lv-ticks lv-ticks--one">
+        {
+          l.rinci.map((r) => (
+            <li>
+              <span>{r}</span>
+            </li>
+          ))
+        }
+      </ul>
+    </div>
+  </section>
+
+  {
+    gejala.length > 0 && (
+      <section class="lv-sec lv-sec--seam" aria-labelledby="gejala-judul">
+        <div class="lv-wrap">
+          <h2 class="lv-h2" id="gejala-judul">
+            Keluhan yang sering kami tangani
+          </h2>
+          <p class="lv-lead">Kemungkinan penyebab ini untuk gambaran awal. Penyebab pastinya diketahui setelah mobil diperiksa mekanik.</p>
+          <ul class="lv-services">
+            {gejala.map((g) => (
+              <li>
+                <h3>{g.judul}</h3>
+                <p>
+                  {g.labelPoin}: {g.poin.map((x, i) => (i ? x.charAt(0).toLowerCase() + x.slice(1) : x)).join(', ')}.
+                </p>
+              </li>
+            ))}
+          </ul>
+          <p class="lv-sec__foot">
+            <a class="lv-link" href="/#diagnosa">
+              Cek gejala lain di model 3D
+            </a>
+          </p>
+        </div>
+      </section>
+    )
+  }
+
+  <section class="lv-sec lv-sec--seam" aria-labelledby="cara-judul">
+    <div class="lv-wrap">
+      <h2 class="lv-h2" id="cara-judul">Pilih cara pengerjaannya</h2>
+      <ul class="lv-services">
+        {
+          cara.map((c) => (
+            <li>
+              <h3>{c.nama}</h3>
+              <p>{c.isi}</p>
+            </li>
+          ))
+        }
+      </ul>
+    </div>
+  </section>
+
+  {
+    posts.length > 0 && (
+      <section class="lv-sec lv-sec--seam" aria-labelledby="artikel-judul">
+        <div class="lv-wrap">
+          <h2 class="lv-h2" id="artikel-judul">
+            Bacaan terkait
+          </h2>
+          <ul class="lv-reads">
+            {posts.map((p) => (
+              <li>
+                <a href={getPermalink(p.permalink, 'post')}>{p.title}</a>
+              </li>
+            ))}
+          </ul>
+        </div>
+      </section>
+    )
+  }
+
+  <section class="lv-sec lv-sec--seam" aria-labelledby="lain-judul">
+    <div class="lv-wrap">
+      <h2 class="lv-h2" id="lain-judul">Layanan lain</h2>
+      <ul class="lv-reads lv-reads--chips">
+        {
+          lain.map((x) => (
+            <li>
+              <a href={`/layanan/${x.slug}`}>{x.nama}</a>
+            </li>
+          ))
+        }
+      </ul>
+    </div>
+  </section>
+
+  <Closing
+    title={l.darurat ? 'Butuh mekanik sekarang?' : 'Ceritakan keluhan mobil Anda'}
+    text="Kirim tipe mobil, kilometer, dan keluhannya. Admin menjelaskan kemungkinan kerusakan dan memberi estimasi sebelum pengerjaan."
+    href={l.darurat ? WA_DARURAT : waLayanan}
+    label={l.darurat ? 'Kirim lokasi darurat' : 'Chat admin di WhatsApp'}
+  />
+</Layout>

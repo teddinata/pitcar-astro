@@ -48,3 +48,21 @@ export const lazyImagesRehypePlugin: RehypePlugin = () => {
     });
   };
 };
+
+/**
+ * The post page already renders the title as its only h1. Migrated posts often
+ * open with their own `# heading`, so when a post has any h1 every heading
+ * moves down one level (h1→h2, h2→h3, …), keeping the outline intact.
+ */
+export const demoteHeadingsRemarkPlugin: RemarkPlugin = () => {
+  return function (tree) {
+    let hasH1 = false;
+    visit(tree, 'heading', (node: { depth: number }) => {
+      if (node.depth === 1) hasH1 = true;
+    });
+    if (!hasH1) return;
+    visit(tree, 'heading', (node: { depth: number }) => {
+      node.depth = Math.min(node.depth + 1, 6);
+    });
+  };
+};

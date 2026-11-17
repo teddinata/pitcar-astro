@@ -30,3 +30,6 @@ pnpm-debug.log*
 pnpm-lock.yaml
 
 .astro
+# Impeccable review captures
+.impeccable/review/
+.impeccable/questions/

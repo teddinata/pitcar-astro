@@ -1,12 +1,10 @@
 ---
+import { Image } from 'astro:assets';
 import Layout from '~/layouts/PageLayout.astro';
-import BoldHero from '~/components/home/BoldHero.astro';
-import BoldServices from '~/components/home/BoldServices.astro';
-import BoldProcess from '~/components/home/BoldProcess.astro';
-import BoldCTA from '~/components/home/BoldCTA.astro';
-
-import mobilBekasImg from '~/assets/images/inspeksi-mobil-bekas/hero_cutout.png';
-import mekanikImg from '~/assets/images/inspeksi-mobil-bekas/process_tablet.png';
+import PageHead from '~/components/livery/PageHead.astro';
+import Closing from '~/components/livery/Closing.astro';
+import { waLink } from '~/data/diagnosa';
+import workshopImg from '~/assets/images/uploads/IMG_6348-scaled.jpg';
 
 const metadata = {
   title: 'Inspeksi Mobil Bekas Purwokerto',
@@ -16,112 +14,82 @@ const metadata = {
   canonical: 'https://pitcar.co.id/inspeksi-mobil-bekas',
   keywords: 'inspeksi mobil bekas, inspeksi mobil bekas purwokerto',
 };
+
+const WA_INSPEKSI = waLink(
+  'Permisi admin, mau tanya untuk jasa inspeksi mobil bekas di Purwokerto dan sekitarnya apa masih bisa?\nMobil yang mau dicek:\nLokasi mobil:\n#inspeksi-web'
+);
+
+const cek = [
+  { nama: 'Scanning OBD', isi: 'Membaca catatan kerusakan di komputer mobil, sensor kelistrikan, dan riwayat mesin.' },
+  { nama: 'Visual dan bodi', isi: 'Mencari bekas tabrakan dan perbaikan, kondisi sasis, serta mengukur ketebalan cat.' },
+  { nama: 'Mesin', isi: 'Mendengar suara kasar di dalam mesin, mencari kebocoran oli, dan mengecek kompresi.' },
+  { nama: 'Interior', isi: 'Mencari bau apak dan noda karat di sela karpet, tanda mobil pernah terendam banjir.' },
+  { nama: 'Keabsahan surat', isi: 'Mencocokkan nomor rangka dan nomor mesin dengan BPKB dan STNK.' },
+  { nama: 'Kaki-kaki', isi: 'Menguji understeel, suspensi, tie rod, dan rak kemudi yang rentan aus.' },
+];
+
+const tahap = [
+  { nama: 'Booking tim inspeksi', isi: 'Anda menghubungi admin lewat WhatsApp untuk konfirmasi biaya, lokasi mobil, dan jadwal.' },
+  { nama: 'Inspektor datang ke lokasi', isi: 'Mekanik mendatangi mobil incaran Anda membawa scanner dan peralatan sesuai jam yang disepakati.' },
+  { nama: 'Hasil dan rekomendasi', isi: 'Anda menerima laporan hasil cek apa adanya, berikut rekomendasi mekanik sebagai bahan menawar harga.' },
+];
 ---
 
 <Layout metadata={metadata}>
-  <!-- Hero Widget ******************* -->
-  <BoldHero
-    tagline="Inspeksi Mobil Bekas Pitcar"
-    subtitle="Tenang saja! Jasa full inspeksi mobil dari Pitcar Service akan membantu Anda mengecek semua aspek teknis sehingga Anda tidak perlu ragu terhadap kualitas mobil incaran Anda."
-    actions={[
-      {
-        variant: 'primary',
-        text: 'KONSULTASI SEKARANG',
-        href: '#booking',
-        icon: 'tabler:brand-whatsapp',
-      },
-    ]}
-    image={{
-      src: mobilBekasImg,
-      alt: 'Mekanik ahli menginspeksi mobil mewah premium di bengkel Pitcar',
-    }}
+  <PageHead
+    crumb="Inspeksi mobil bekas"
+    title="Was-was beli mobil bekas?"
+    lead="Tim Pitcar mengecek kondisi teknis mobil incaran Anda di lokasinya, sebelum Anda membayar."
   >
-    <Fragment slot="title">
-      <h1 class="text-4xl md:text-5xl lg:text-7xl font-black italic tracking-tighter uppercase mb-4 text-slate-900 dark:text-white leading-[1.1]">
-        Was-was beli<br/>
-        <span class="text-transparent [-webkit-text-stroke:2px_rgba(204,0,0,1)]">mobil bekas?</span><br/>
-      </h1>
-    </Fragment>
-  </BoldHero>
+    <a class="lv-btn lv-btn--invert" href={WA_INSPEKSI} target="_blank" rel="noopener noreferrer">Tanya jadwal inspeksi</a>
+  </PageHead>
 
-  <!-- Services Widget (Kategori Pengecekan) ************** -->
-  <BoldServices
-    title="meliputi 6 kategori pengecekan"
-    subtitle="Kami melakukan pengecekan menyeluruh dengan alat *scanner* canggih untuk memastikan kondisi mobil incaran Anda prima."
-    tagline="Inspeksi"
-    items={[
-      {
-        title: 'Scanning OBD',
-        description: 'Untuk mengetahui apakah tercatat kerusakan pada sistem komputerisasi, sensor kelistrikan modern, dan histori engine.',
-        icon: 'tabler:device-desktop-analytics',
-      },
-      {
-        title: 'Cek Visual & Body',
-        description: 'Mendeteksi insiden sasis, bekas repair, tanda-tanda laka, dan mengukur ketebalan cat bodi.',
-        icon: 'tabler:car-crash',
-      },
-      {
-        title: 'Diagnostic Mesin',
-        description: 'Pengecekan suara kasar pada mesin bagian dalam, kebocoran oli, dan kualitas kompresi ring piston.',
-        icon: 'tabler:engine',
-      },
-      {
-        title: 'Cek Interior',
-        description: 'Mendiagnosa ciri khas bau apak atau noda karat pada sela karpet untuk mengetahui bekas terendam banjir.',
-        icon: 'tabler:steering-wheel',
-      },
-      {
-        title: 'Cek Keabsahan Surat',
-        description: 'Pengecekan terhadap kesesuaian nomor rangka & mesin pada dokumen legal (BPKB & STNK).',
-        icon: 'tabler:file-certificate',
-      },
-      {
-        title: 'Cek Understeel Kaki-kaki',
-        description: 'Uji coba ketahanan understeel, suspensi, tie-rod, dan rak kemudi yang sangat rentan aus.',
-        icon: 'tabler:settings',
-      },
-    ]}
-  />
+  <section class="lv-sec">
+    <div class="lv-wrap">
+      <h2 class="lv-h2">6 hal yang dicek</h2>
+      <ul class="lv-services">
+        {
+          cek.map((c) => (
+            <li>
+              <h3>{c.nama}</h3>
+              <p>{c.isi}</p>
+            </li>
+          ))
+        }
+      </ul>
+    </div>
+  </section>
 
-  <!-- Process / Steps Widget ****************** -->
-  <BoldProcess
-    title="TAHAPAN INSPEKSI"
-    subtitle="Proses mudah, cepat, transparan dan berstandar bengkel langsung di depan mata Anda."
-    items={[
-      {
-        title: 'Booking Tim Inspeksi Pitcar',
-        description: 'Customer menghubungi admin melalui WhatsApp untuk konfirmasi biaya, lokasi mobil bekas, dan menjadwalkan inspeksi lapangan.',
-        icon: 'tabler:messages',
-      },
-      {
-        title: 'Inspektor Terjun Ke Lokasi',
-        description: 'Mekanik ahli dan tim inspeksi khusus akan mendatangi lokasi mobil incaran Anda membawa alat scanner dan toolset lengkap sesuai jam reservasi.',
-        icon: 'tabler:map-pin',
-      },
-      {
-        title: 'Rekomendasi & Hasil Cek',
-        description: 'Customer menerima hasil *report* yang sangat komprehensif tanpa disembunyikan. Mekanik akan memberi rekomendasi, sehingga nilai tawar harga Anda akan jauh lebih optimal.',
-        icon: 'tabler:checklist',
-      },
-    ]}
-    image={{
-      src: mekanikImg,
-      alt: 'Mekanik Pitcar memegang tablet diagnostik canggih',
-    }}
-  />
+  <section class="lv-proof">
+    <div class="lv-proof__photo">
+      <Image
+        src={workshopImg}
+        alt="Mekanik Pitcar memeriksa mobil di workshop"
+        widths={[480, 768, 1200]}
+        sizes="(max-width: 899px) 100vw, 52vw"
+        loading="lazy"
+      />
+    </div>
+    <div class="lv-proof__body">
+      <h2 class="lv-proof__fact">Tahapan inspeksi</h2>
+      <ol class="lv-ways">
+        {
+          tahap.map((t) => (
+            <li>
+              <strong>{t.nama}</strong>
+              <span>{t.isi}</span>
+            </li>
+          ))
+        }
+      </ol>
+    </div>
+  </section>
 
-  <!-- CallToAction Widget *********** -->
-  <BoldCTA
+  <Closing
     id="booking"
-    title="KONSULTASI GRATIS SEBELUM BELI"
-    subtitle="Punya mobil bekas incaran tapi takut beli kucing dalam karung? Jangan ambil resiko! Bawa tim Pitcar Service untuk inspeksi menyeluruh sekarang."
-    actions={[
-      {
-        variant: 'primary',
-        text: 'Chat via WhatsApp',
-        href: 'https://wa.me/6285866224051/?text=Permisi%20admin%2C%20mau%20tanya%20untuk%20jasa%20inspeksi%20mobil%20bekas%20di%20Purwokerto%20dan%20sekitarnya%20apa%20masih%20bisa%3F',
-        icon: 'tabler:brand-whatsapp',
-      },
-    ]}
+    title="Konsultasi sebelum membeli"
+    text="Punya mobil bekas incaran? Kirim tipe dan lokasinya ke admin. Biaya inspeksi dikonfirmasi lewat chat."
+    href={WA_INSPEKSI}
+    label="Chat admin soal inspeksi"
   />
 </Layout>

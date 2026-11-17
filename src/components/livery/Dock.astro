@@ -1,0 +1,81 @@
+---
+import { Icon } from 'astro-icon/components';
+import { BENGKEL, waCabang, waPusat } from '~/data/jaringan';
+import { WA_DARURAT } from '~/data/diagnosa';
+
+export interface Props {
+  /** Replaces the branch picker with one direct chat, e.g. the partnership desk. */
+  utama?: { href: string; label: string };
+}
+
+const { utama } = Astro.props;
+
+const WA_PUSAT_UMUM = waPusat('Halo Pitcar, saya mau konsultasi soal mobil saya.\nMobil & tahun:\nKilometer:\nKeluhan:\nKota:\n#dock-web');
+---
+
+<div class="lv-dock">
+  {
+    utama ? (
+      <a class="lv-btn" href={utama.href} target="_blank" rel="noopener noreferrer">
+        <Icon name="tabler:brand-whatsapp" aria-hidden="true" />
+        {utama.label}
+      </a>
+    ) : (
+      <a class="lv-btn" href={WA_PUSAT_UMUM} target="_blank" rel="noopener noreferrer" data-pilih-cabang>
+        <Icon name="tabler:brand-whatsapp" aria-hidden="true" />
+        Chat WhatsApp
+      </a>
+    )
+  }
+  <a class="lv-btn lv-btn--ghost" href={WA_DARURAT} target="_blank" rel="noopener noreferrer">Darurat</a>
+</div>
+
+{
+  !utama && (
+    <div class="lv-sheet" id="lv-cabang" popover aria-labelledby="lv-cabang-judul">
+      <div class="lv-sheet__head">
+        <h2 id="lv-cabang-judul">Chat cabang mana?</h2>
+        <button type="button" class="lv-sheet__close" popovertarget="lv-cabang" popovertargetaction="hide">
+          <Icon name="tabler:x" aria-hidden="true" />
+          <span class="sr-only">Tutup</span>
+        </button>
+      </div>
+      <ul class="lv-sheet__list">
+        {BENGKEL.map((c) => (
+          <li>
+            <a href={waCabang(c, 'dock')} target="_blank" rel="noopener noreferrer">
+              <span>
+                {c.kota}
+                {c.catatan && <small>{c.catatan}</small>}
+              </span>
+              <Icon name="tabler:brand-whatsapp" aria-hidden="true" />
+            </a>
+          </li>
+        ))}
+      </ul>
+      <a class="lv-sheet__any" href={WA_PUSAT_UMUM} target="_blank" rel="noopener noreferrer">
+        Belum tahu, tanya admin pusat
+      </a>
+    </div>
+  )
+}
+
+<script is:inline>
+  // The chat button is a plain wa.me link. Browsers with the Popover API get the
+  // branch picker first; everything else follows the link straight to the admin.
+  (() => {
+    if (window.__lvDock || !HTMLElement.prototype.hasOwnProperty('popover')) return;
+    window.__lvDock = true;
+    document.addEventListener('click', (e) => {
+      const btn = e.target instanceof Element && e.target.closest('[data-pilih-cabang]');
+      const sheet = document.getElementById('lv-cabang');
+      if (!btn || !sheet) return;
+      e.preventDefault();
+      sheet.showPopover();
+    });
+    document.addEventListener('click', (e) => {
+      const link = e.target instanceof Element && e.target.closest('#lv-cabang a');
+      if (link) document.getElementById('lv-cabang')?.hidePopover();
+    });
+  })();
+</script>
