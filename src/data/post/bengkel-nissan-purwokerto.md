@@ -1,14 +1,25 @@
 ---
 publishDate: 2022-02-20T00:00:00.000Z
 title: Bengkel Resmi Nissan Terdekat Di Purwokerto
-excerpt: ''
+excerpt: >-
+  Bengkel Resmi Nissan Terdekat Di Purwokerto Terbaik Paling Lengkap Banyak
+  orang yang tidak punya selagi untuk menjaga mobil kesayangan. Jika Anda
+  terhitung
 category: jasa-service
 draft: false
 metadata:
-  canonical: 'https://pitcar.co.id/bengkel-nissan-purwokerto'
+  canonical: 'https://pitcar.co.id/bengkel-nissan-purwokerto/'
   robots:
     index: true
     follow: true
+  description: >-
+    Bengkel Resmi Nissan Terdekat Di Purwokerto Terbaik Paling Lengkap Banyak
+    orang yang tidak punya selagi untuk menjaga mobil kesayangan. Jika Anda
+    terhitung
+  keywords: >-
+    bengkel nissan purwokerto, jasa bengkel nissan purwokerto, bengkel bengkel
+    nissan purwokerto, service bengkel nissan purwokerto, servis bengkel nissan
+    purwokerto, harga bengkel nissan purwokerto, biaya bengkel nissan purwokerto
 ---
 
 ![image](~/assets/images/uploads/IMG_6348-scaled.jpg)

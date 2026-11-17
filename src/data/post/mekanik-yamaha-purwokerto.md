@@ -1,14 +1,25 @@
 ---
 publishDate: 2022-03-04T00:00:00.000Z
 title: Mekanik Yamaha Panggilan Di Purwokerto
-excerpt: ''
+excerpt: >-
+  Pitcar: Mekanik Yamaha Panggilan Di Purwokerto Bengkel Panggilan Purwokerto
+  Langsung Datang ke Rumah Merawat mobil menjadi salah satu hal yang cukup
+  sulit,
 category: jasa-service
 draft: false
 metadata:
-  canonical: 'https://pitcar.co.id/mekanik-yamaha-purwokerto'
+  canonical: 'https://pitcar.co.id/mekanik-yamaha-purwokerto/'
   robots:
     index: true
     follow: true
+  description: >-
+    Pitcar: Mekanik Yamaha Panggilan Di Purwokerto Bengkel Panggilan Purwokerto
+    Langsung Datang ke Rumah Merawat mobil menjadi salah satu hal yang cukup
+    sulit,
+  keywords: >-
+    mekanik yamaha purwokerto, jasa mekanik yamaha purwokerto, bengkel mekanik
+    yamaha purwokerto, service mekanik yamaha purwokerto, servis mekanik yamaha
+    purwokerto, harga mekanik yamaha purwokerto, biaya mekanik yamaha purwokerto
 ---
 
 ![image](~/assets/images/uploads/IMG_6340-scaled.jpg)

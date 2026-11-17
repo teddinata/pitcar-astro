@@ -1,14 +1,26 @@
 ---
 publishDate: 2022-04-17T00:00:00.000Z
 title: Montir Panggilan Daihatsu Di Purwokerto
-excerpt: ''
+excerpt: >-
+  Pitcar: Montir Panggilan Daihatsu Di Purwokerto Bengkel Panggilan Purwokerto
+  Langsung Datang ke Rumah Merawat mobil menjadi salah satu hal yang cukup
+  sulit,
 category: jasa-service
 draft: false
 metadata:
-  canonical: 'https://pitcar.co.id/montir-daihatsu-purwokerto'
+  canonical: 'https://pitcar.co.id/montir-daihatsu-purwokerto/'
   robots:
     index: true
     follow: true
+  description: >-
+    Pitcar: Montir Panggilan Daihatsu Di Purwokerto Bengkel Panggilan Purwokerto
+    Langsung Datang ke Rumah Merawat mobil menjadi salah satu hal yang cukup
+    sulit,
+  keywords: >-
+    montir daihatsu purwokerto, jasa montir daihatsu purwokerto, bengkel montir
+    daihatsu purwokerto, service montir daihatsu purwokerto, servis montir
+    daihatsu purwokerto, harga montir daihatsu purwokerto, biaya montir daihatsu
+    purwokerto
 ---
 
 ![image](https://placehold.co/1200x800/222222/FFFFFF/png?text=Pitcar+Service)

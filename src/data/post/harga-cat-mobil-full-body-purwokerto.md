@@ -1,14 +1,26 @@
 ---
 publishDate: 2022-04-15T00:00:00.000Z
 title: Harga Cat Mobil Full Body Di Purwokerto
-excerpt: ''
+excerpt: >-
+  Sudah tidak ada masalah untuk mencari bengkel pada kendaraan kita, jikalau
+  kita mengalami masalah terhadap kendaraan. kita dapat banyak temukan jasa
+  bengkel
 category: jasa-service
 draft: false
 metadata:
-  canonical: 'https://pitcar.co.id/harga-cat-mobil-full-body-purwokerto'
+  canonical: 'https://pitcar.co.id/harga-cat-mobil-full-body-purwokerto/'
   robots:
     index: true
     follow: true
+  description: >-
+    Sudah tidak ada masalah untuk mencari bengkel pada kendaraan kita, jikalau
+    kita mengalami masalah terhadap kendaraan. kita dapat banyak temukan jasa
+    bengkel
+  keywords: >-
+    harga cat mobil full purwokerto, jasa harga cat mobil full purwokerto,
+    bengkel harga cat mobil full purwokerto, service harga cat mobil full
+    purwokerto, servis harga cat mobil full purwokerto, harga harga cat mobil
+    full purwokerto, biaya harga cat mobil full purwokerto
 ---
 
 ![image](https://placehold.co/1200x800/222222/FFFFFF/png?text=Pitcar+Service)

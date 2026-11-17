@@ -1,14 +1,26 @@
 ---
 publishDate: 2022-06-15T00:00:00.000Z
 title: Scanner Mobil Matic Bekas Terdekat Di Purwokerto Selatan
-excerpt: ''
+excerpt: >-
+  Scanner Mobil Matic Bekas Terdekat Di Purwokerto Selatan Paling Murah dan
+  Terjangkau Perawatan mobil sebenarnya tidak semudah yang Anda lihat,
+  lebih-lebih bagi
 category: jasa-service
 draft: false
 metadata:
-  canonical: 'https://pitcar.co.id/scanner-mobil-matic-bekas-purwokerto-selatan'
+  canonical: 'https://pitcar.co.id/scanner-mobil-matic-bekas-purwokerto-selatan/'
   robots:
     index: true
     follow: true
+  description: >-
+    Scanner Mobil Matic Bekas Terdekat Di Purwokerto Selatan Paling Murah dan
+    Terjangkau Perawatan mobil sebenarnya tidak semudah yang Anda lihat,
+    lebih-lebih bagi
+  keywords: >-
+    scanner mobil matic bekas selatan, jasa scanner mobil matic bekas selatan,
+    bengkel scanner mobil matic bekas selatan, service scanner mobil matic bekas
+    selatan, servis scanner mobil matic bekas selatan, harga scanner mobil matic
+    bekas selatan, biaya scanner mobil matic bekas selatan
 ---
 
 ![image](https://placehold.co/1200x800/222222/FFFFFF/png?text=Pitcar+Service)

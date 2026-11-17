@@ -1,14 +1,25 @@
 ---
 publishDate: 2022-02-19T00:00:00.000Z
 title: Bengkel Lili Di Purwokerto
-excerpt: ''
+excerpt: >-
+  Bengkel Lili Di Purwokerto Terbaik Paling Lengkap Banyak orang yang tidak
+  punyai waktu untuk merawat mobil kesayangan. Jika Anda terhitung orang yang
+  sibuk dan
 category: jasa-service
 draft: false
 metadata:
-  canonical: 'https://pitcar.co.id/bengkel-lili-purwokerto'
+  canonical: 'https://pitcar.co.id/bengkel-lili-purwokerto/'
   robots:
     index: true
     follow: true
+  description: >-
+    Bengkel Lili Di Purwokerto Terbaik Paling Lengkap Banyak orang yang tidak
+    punyai waktu untuk merawat mobil kesayangan. Jika Anda terhitung orang yang
+    sibuk dan
+  keywords: >-
+    bengkel lili purwokerto, jasa bengkel lili purwokerto, bengkel bengkel lili
+    purwokerto, service bengkel lili purwokerto, servis bengkel lili purwokerto,
+    harga bengkel lili purwokerto, biaya bengkel lili purwokerto
 ---
 
 ![image](~/assets/images/uploads/WhatsApp-Image-2021-03-28-at-10.12.08-AM.jpeg)

@@ -1,14 +1,27 @@
 ---
 publishDate: 2022-04-28T00:00:00.000Z
 title: Bengkel Mobil Terdekat Dari Lokasi Saya Di Purwokerto
-excerpt: ''
+excerpt: >-
+  Sudah tidak ada problem untuk Mencari Informasi bengkel pada kendaraan kita,
+  kecuali kita mengalami persoalan terhadap kendaraan. kita bakal banyak temukan
+  jasa
 category: jasa-service
 draft: false
 metadata:
-  canonical: 'https://pitcar.co.id/bengkel-mobil-lokasi-saya-purwokerto'
+  canonical: 'https://pitcar.co.id/bengkel-mobil-lokasi-saya-purwokerto/'
   robots:
     index: true
     follow: true
+  description: >-
+    Sudah tidak ada problem untuk Mencari Informasi bengkel pada kendaraan kita,
+    kecuali kita mengalami persoalan terhadap kendaraan. kita bakal banyak
+    temukan jasa
+  keywords: >-
+    bengkel mobil lokasi saya purwokerto, jasa bengkel mobil lokasi saya
+    purwokerto, bengkel bengkel mobil lokasi saya purwokerto, service bengkel
+    mobil lokasi saya purwokerto, servis bengkel mobil lokasi saya purwokerto,
+    harga bengkel mobil lokasi saya purwokerto, biaya bengkel mobil lokasi saya
+    purwokerto
 ---
 
 ![image](~/assets/images/uploads/IMG_6342-scaled.jpg)

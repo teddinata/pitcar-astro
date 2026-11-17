@@ -1,14 +1,26 @@
 ---
 publishDate: 2022-05-04T00:00:00.000Z
 title: Kuras Oli Mesin Mobil Di Purwokerto
-excerpt: ''
+excerpt: >-
+  Kuras Oli Mesin Mobil Di Purwokerto Cepat dan Profesional Mobil menjadi salah
+  satu kendaraan yang memiliki perawatan tidak mudah. Dengan kata lain, jika
+  Anda
 category: jasa-service
 draft: false
 metadata:
-  canonical: 'https://pitcar.co.id/kuras-oli-mesin-mobil-purwokerto'
+  canonical: 'https://pitcar.co.id/kuras-oli-mesin-mobil-purwokerto/'
   robots:
     index: true
     follow: true
+  description: >-
+    Kuras Oli Mesin Mobil Di Purwokerto Cepat dan Profesional Mobil menjadi
+    salah satu kendaraan yang memiliki perawatan tidak mudah. Dengan kata lain,
+    jika Anda
+  keywords: >-
+    kuras oli mesin mobil purwokerto, jasa kuras oli mesin mobil purwokerto,
+    bengkel kuras oli mesin mobil purwokerto, service kuras oli mesin mobil
+    purwokerto, servis kuras oli mesin mobil purwokerto, harga kuras oli mesin
+    mobil purwokerto, biaya kuras oli mesin mobil purwokerto
 ---
 
 ![image](~/assets/images/uploads/IMG_6397-scaled.jpg)

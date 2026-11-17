@@ -1,14 +1,26 @@
 ---
 publishDate: 2022-06-16T00:00:00.000Z
 title: Service Daihatsu Terdekat Di Purwokerto
-excerpt: ''
+excerpt: >-
+  Keunggulan Service Daihatsu Terdekat Di Purwokerto Terpercaya Jika Anda ingin
+  memelihara mobil yang paling disayangi bersama dengan cara mudah, maka dapat
+  pakai
 category: jasa-service
 draft: false
 metadata:
-  canonical: 'https://pitcar.co.id/service-daihatsu-purwokerto'
+  canonical: 'https://pitcar.co.id/service-daihatsu-purwokerto/'
   robots:
     index: true
     follow: true
+  description: >-
+    Keunggulan Service Daihatsu Terdekat Di Purwokerto Terpercaya Jika Anda
+    ingin memelihara mobil yang paling disayangi bersama dengan cara mudah, maka
+    dapat pakai
+  keywords: >-
+    service daihatsu purwokerto, jasa service daihatsu purwokerto, bengkel
+    service daihatsu purwokerto, service service daihatsu purwokerto, servis
+    service daihatsu purwokerto, harga service daihatsu purwokerto, biaya
+    service daihatsu purwokerto
 ---
 
 ![image](~/assets/images/uploads/WhatsApp-Image-2021-03-28-at-10.12.08-AM.jpeg)

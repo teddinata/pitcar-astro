@@ -1,14 +1,26 @@
 ---
 publishDate: 2022-04-24T00:00:00.000Z
 title: Bengkel Jok Mobil Terdekat Di Purwokerto
-excerpt: ''
+excerpt: >-
+  Bengkel Jok Mobil Terdekat Di Purwokerto Terbaik Paling Lengkap Banyak orang
+  yang tidak mempunyai pas untuk memelihara mobil kesayangan. Jika Anda
+  terhitung
 category: jasa-service
 draft: false
 metadata:
-  canonical: 'https://pitcar.co.id/bengkel-jok-mobil-purwokerto'
+  canonical: 'https://pitcar.co.id/bengkel-jok-mobil-purwokerto/'
   robots:
     index: true
     follow: true
+  description: >-
+    Bengkel Jok Mobil Terdekat Di Purwokerto Terbaik Paling Lengkap Banyak orang
+    yang tidak mempunyai pas untuk memelihara mobil kesayangan. Jika Anda
+    terhitung
+  keywords: >-
+    bengkel jok mobil purwokerto, jasa bengkel jok mobil purwokerto, bengkel
+    bengkel jok mobil purwokerto, service bengkel jok mobil purwokerto, servis
+    bengkel jok mobil purwokerto, harga bengkel jok mobil purwokerto, biaya
+    bengkel jok mobil purwokerto
 ---
 
 ![image](~/assets/images/uploads/IMG_6342-scaled.jpg)

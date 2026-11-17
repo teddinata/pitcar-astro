@@ -1,14 +1,26 @@
 ---
 publishDate: 2022-03-09T00:00:00.000Z
 title: Bengkel Kaki Kaki Mobil Terdekat Di Purwokerto
-excerpt: ''
+excerpt: >-
+  Sudah tidak susah untuk mencari bengkel terhadap kendaraan kita, jika kita
+  mengalami persoalan pada kendaraan. kita akan banyak temukan jasa bengkel
+  Bengkel
 category: rem-kaki-kaki
 draft: false
 metadata:
-  canonical: 'https://pitcar.co.id/bengkel-kaki-kaki-mobil-purwokerto'
+  canonical: 'https://pitcar.co.id/bengkel-kaki-kaki-mobil-purwokerto/'
   robots:
     index: true
     follow: true
+  description: >-
+    Sudah tidak susah untuk mencari bengkel terhadap kendaraan kita, jika kita
+    mengalami persoalan pada kendaraan. kita akan banyak temukan jasa bengkel
+    Bengkel
+  keywords: >-
+    bengkel kaki kaki mobil purwokerto, jasa bengkel kaki kaki mobil purwokerto,
+    bengkel bengkel kaki kaki mobil purwokerto, service bengkel kaki kaki mobil
+    purwokerto, servis bengkel kaki kaki mobil purwokerto, harga bengkel kaki
+    kaki mobil purwokerto, biaya bengkel kaki kaki mobil purwokerto
 ---
 
 ![image](~/assets/images/uploads/IMG_6389-scaled.jpg)

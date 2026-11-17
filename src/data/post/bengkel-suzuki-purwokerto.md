@@ -1,14 +1,25 @@
 ---
 publishDate: 2022-03-24T00:00:00.000Z
 title: Bengkel Resmi Suzuki Di Purwokerto
-excerpt: ''
+excerpt: >-
+  Keunggulan Bengkel Resmi Suzuki Di Purwokerto Terpercaya Jika Anda dambakan
+  melindungi mobil kesayangan bersama cara mudah, maka dapat memakai Bengkel
+  Resmi
 category: jasa-service
 draft: false
 metadata:
-  canonical: 'https://pitcar.co.id/bengkel-suzuki-purwokerto'
+  canonical: 'https://pitcar.co.id/bengkel-suzuki-purwokerto/'
   robots:
     index: true
     follow: true
+  description: >-
+    Keunggulan Bengkel Resmi Suzuki Di Purwokerto Terpercaya Jika Anda dambakan
+    melindungi mobil kesayangan bersama cara mudah, maka dapat memakai Bengkel
+    Resmi
+  keywords: >-
+    bengkel suzuki purwokerto, jasa bengkel suzuki purwokerto, bengkel bengkel
+    suzuki purwokerto, service bengkel suzuki purwokerto, servis bengkel suzuki
+    purwokerto, harga bengkel suzuki purwokerto, biaya bengkel suzuki purwokerto
 ---
 
 ![image](~/assets/images/uploads/IMG_6348-scaled.jpg)

@@ -1,14 +1,26 @@
 ---
 publishDate: 2022-05-09T00:00:00.000Z
 title: Bengkel Auto2000 Terdekat Di Purwokerto
-excerpt: ''
+excerpt: >-
+  Bengkel Auto2000 Terdekat Di Purwokerto Terbaik Paling Lengkap Banyak orang
+  yang tidak punyai kala untuk merawat mobil kesayangan. Jika Anda terhitung
+  orang
 category: jasa-service
 draft: false
 metadata:
-  canonical: 'https://pitcar.co.id/bengkel-auto2000-purwokerto'
+  canonical: 'https://pitcar.co.id/bengkel-auto2000-purwokerto/'
   robots:
     index: true
     follow: true
+  description: >-
+    Bengkel Auto2000 Terdekat Di Purwokerto Terbaik Paling Lengkap Banyak orang
+    yang tidak punyai kala untuk merawat mobil kesayangan. Jika Anda terhitung
+    orang
+  keywords: >-
+    bengkel auto2000 purwokerto, jasa bengkel auto2000 purwokerto, bengkel
+    bengkel auto2000 purwokerto, service bengkel auto2000 purwokerto, servis
+    bengkel auto2000 purwokerto, harga bengkel auto2000 purwokerto, biaya
+    bengkel auto2000 purwokerto
 ---
 
 ![image](https://placehold.co/1200x800/222222/FFFFFF/png?text=Pitcar+Service)

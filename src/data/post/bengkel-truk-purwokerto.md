@@ -1,14 +1,25 @@
 ---
 publishDate: 2022-01-13T00:00:00.000Z
 title: Bengkel Truk Terdekat Di Purwokerto
-excerpt: ''
+excerpt: >-
+  Sudah tidak kesulitan untuk mencari bengkel terhadap kendaraan kita, jika kita
+  mengalami problem pada kendaraan. kita dapat banyak temukan jasa bengkel
+  Bengkel
 category: jasa-service
 draft: false
 metadata:
-  canonical: 'https://pitcar.co.id/bengkel-truk-purwokerto'
+  canonical: 'https://pitcar.co.id/bengkel-truk-purwokerto/'
   robots:
     index: true
     follow: true
+  description: >-
+    Sudah tidak kesulitan untuk mencari bengkel terhadap kendaraan kita, jika
+    kita mengalami problem pada kendaraan. kita dapat banyak temukan jasa
+    bengkel Bengkel
+  keywords: >-
+    bengkel truk purwokerto, jasa bengkel truk purwokerto, bengkel bengkel truk
+    purwokerto, service bengkel truk purwokerto, servis bengkel truk purwokerto,
+    harga bengkel truk purwokerto, biaya bengkel truk purwokerto
 ---
 
 ![image](~/assets/images/uploads/IMG_6397-scaled.jpg)

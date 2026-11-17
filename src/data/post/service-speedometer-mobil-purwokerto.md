@@ -1,14 +1,25 @@
 ---
 publishDate: 2022-10-12T00:00:00.000Z
 title: Service Speedometer Mobil Terdekat Di Purwokerto
-excerpt: ''
+excerpt: >-
+  Keunggulan Service Speedometer Mobil Terdekat Di Purwokerto Terpercaya Jika
+  Anda menginginkan memelihara mobil kesayangan dengan cara mudah, maka mampu
 category: jasa-service
 draft: false
 metadata:
-  canonical: 'https://pitcar.co.id/service-speedometer-mobil-purwokerto'
+  canonical: 'https://pitcar.co.id/service-speedometer-mobil-purwokerto/'
   robots:
     index: true
     follow: true
+  description: >-
+    Keunggulan Service Speedometer Mobil Terdekat Di Purwokerto Terpercaya Jika
+    Anda menginginkan memelihara mobil kesayangan dengan cara mudah, maka mampu
+  keywords: >-
+    service speedometer mobil purwokerto, jasa service speedometer mobil
+    purwokerto, bengkel service speedometer mobil purwokerto, service service
+    speedometer mobil purwokerto, servis service speedometer mobil purwokerto,
+    harga service speedometer mobil purwokerto, biaya service speedometer mobil
+    purwokerto
 ---
 
 ![image](https://placehold.co/1200x800/222222/FFFFFF/png?text=Pitcar+Service)

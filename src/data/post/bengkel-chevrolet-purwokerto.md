@@ -1,14 +1,26 @@
 ---
 publishDate: 2022-07-12T00:00:00.000Z
 title: Bengkel Resmi Chevrolet Di Purwokerto
-excerpt: ''
+excerpt: >-
+  Keunggulan Bengkel Resmi Chevrolet Di Purwokerto Terpercaya Jika Anda ingin
+  menjaga mobil yang paling disayangi bersama dengan cara mudah, maka bisa
+  memakai
 category: jasa-service
 draft: false
 metadata:
-  canonical: 'https://pitcar.co.id/bengkel-chevrolet-purwokerto'
+  canonical: 'https://pitcar.co.id/bengkel-chevrolet-purwokerto/'
   robots:
     index: true
     follow: true
+  description: >-
+    Keunggulan Bengkel Resmi Chevrolet Di Purwokerto Terpercaya Jika Anda ingin
+    menjaga mobil yang paling disayangi bersama dengan cara mudah, maka bisa
+    memakai
+  keywords: >-
+    bengkel chevrolet purwokerto, jasa bengkel chevrolet purwokerto, bengkel
+    bengkel chevrolet purwokerto, service bengkel chevrolet purwokerto, servis
+    bengkel chevrolet purwokerto, harga bengkel chevrolet purwokerto, biaya
+    bengkel chevrolet purwokerto
 ---
 
 ![image](~/assets/images/uploads/IMG_6342-scaled.jpg)

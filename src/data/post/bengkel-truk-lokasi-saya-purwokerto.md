@@ -1,14 +1,27 @@
 ---
 publishDate: 2022-10-27T00:00:00.000Z
 title: Bengkel Truk Panggilan Terdekat Dari Lokasi Saya Di Purwokerto
-excerpt: ''
+excerpt: >-
+  Pitcar: Bengkel Truk Panggilan Terdekat Dari Lokasi Saya Di Purwokerto
+  Langsung Datang ke Rumah Merawat mobil menjadi keliru satu hal yang cukup
+  sulit, terutama
 category: jasa-service
 draft: false
 metadata:
-  canonical: 'https://pitcar.co.id/bengkel-truk-lokasi-saya-purwokerto'
+  canonical: 'https://pitcar.co.id/bengkel-truk-lokasi-saya-purwokerto/'
   robots:
     index: true
     follow: true
+  description: >-
+    Pitcar: Bengkel Truk Panggilan Terdekat Dari Lokasi Saya Di Purwokerto
+    Langsung Datang ke Rumah Merawat mobil menjadi keliru satu hal yang cukup
+    sulit, terutama
+  keywords: >-
+    bengkel truk lokasi saya purwokerto, jasa bengkel truk lokasi saya
+    purwokerto, bengkel bengkel truk lokasi saya purwokerto, service bengkel
+    truk lokasi saya purwokerto, servis bengkel truk lokasi saya purwokerto,
+    harga bengkel truk lokasi saya purwokerto, biaya bengkel truk lokasi saya
+    purwokerto
 ---
 
 ![image](https://placehold.co/1200x800/222222/FFFFFF/png?text=Pitcar+Service)

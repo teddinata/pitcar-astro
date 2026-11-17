@@ -1,14 +1,26 @@
 ---
 publishDate: 2022-06-01T00:00:00.000Z
 title: Service Suzuki Mobil Di Purwokerto
-excerpt: ''
+excerpt: >-
+  Keunggulan Service Suzuki Mobil Di Purwokerto Terpercaya Jika Anda ingin
+  memelihara mobil kesayangan bersama langkah mudah, maka bisa memanfaatkan
+  Service
 category: jasa-service
 draft: false
 metadata:
-  canonical: 'https://pitcar.co.id/service-suzuki-mobil-purwokerto'
+  canonical: 'https://pitcar.co.id/service-suzuki-mobil-purwokerto/'
   robots:
     index: true
     follow: true
+  description: >-
+    Keunggulan Service Suzuki Mobil Di Purwokerto Terpercaya Jika Anda ingin
+    memelihara mobil kesayangan bersama langkah mudah, maka bisa memanfaatkan
+    Service
+  keywords: >-
+    service suzuki mobil purwokerto, jasa service suzuki mobil purwokerto,
+    bengkel service suzuki mobil purwokerto, service service suzuki mobil
+    purwokerto, servis service suzuki mobil purwokerto, harga service suzuki
+    mobil purwokerto, biaya service suzuki mobil purwokerto
 ---
 
 ![image](~/assets/images/uploads/IMG_6397-scaled.jpg)

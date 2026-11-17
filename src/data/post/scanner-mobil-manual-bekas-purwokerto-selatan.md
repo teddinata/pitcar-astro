@@ -1,14 +1,26 @@
 ---
 publishDate: 2022-04-08T00:00:00.000Z
 title: Scanner Mobil Manual Bekas Terdekat Purwokerto Selatan
-excerpt: ''
+excerpt: >-
+  Scanner Mobil Manual Bekas Terdekat Purwokerto Selatan Paling Murah dan
+  Terjangkau Perawatan mobil sesungguhnya tidak semudah yang Anda lihat,
+  terlebih bagi
 category: jasa-service
 draft: false
 metadata:
-  canonical: 'https://pitcar.co.id/scanner-mobil-manual-bekas-purwokerto-selatan'
+  canonical: 'https://pitcar.co.id/scanner-mobil-manual-bekas-purwokerto-selatan/'
   robots:
     index: true
     follow: true
+  description: >-
+    Scanner Mobil Manual Bekas Terdekat Purwokerto Selatan Paling Murah dan
+    Terjangkau Perawatan mobil sesungguhnya tidak semudah yang Anda lihat,
+    terlebih bagi
+  keywords: >-
+    scanner mobil manual bekas selatan, jasa scanner mobil manual bekas selatan,
+    bengkel scanner mobil manual bekas selatan, service scanner mobil manual
+    bekas selatan, servis scanner mobil manual bekas selatan, harga scanner
+    mobil manual bekas selatan, biaya scanner mobil manual bekas selatan
 ---
 
 ![image](https://placehold.co/1200x800/222222/FFFFFF/png?text=Pitcar+Service)

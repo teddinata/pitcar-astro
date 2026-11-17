@@ -1,16 +1,27 @@
 ---
 publishDate: 2023-02-28T00:00:00.000Z
 title: Derek Mobil Purwokerto
-excerpt: ''
+excerpt: >-
+  Layanan derek mobil Purwokerto menjadi salah satu solusi yang penting ketika
+  kendaraan Anda mengalami masalah di jalan. Terdapat berbagai jenis layanan
+  derek
 category: jasa-service
 tags:
   - layanan
 draft: false
 metadata:
-  canonical: 'https://pitcar.co.id/derek-mobil-purwokerto'
+  canonical: 'https://pitcar.co.id/derek-mobil-purwokerto/'
   robots:
     index: true
     follow: true
+  description: >-
+    Layanan derek mobil Purwokerto menjadi salah satu solusi yang penting ketika
+    kendaraan Anda mengalami masalah di jalan. Terdapat berbagai jenis layanan
+    derek
+  keywords: >-
+    derek mobil purwokerto, jasa derek mobil purwokerto, bengkel derek mobil
+    purwokerto, service derek mobil purwokerto, servis derek mobil purwokerto,
+    harga derek mobil purwokerto, biaya derek mobil purwokerto
 ---
 
 ![image](https://placehold.co/1200x800/222222/FFFFFF/png?text=Pitcar+Service)

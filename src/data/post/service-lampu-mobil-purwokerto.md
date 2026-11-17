@@ -1,14 +1,26 @@
 ---
 publishDate: 2022-04-17T00:00:00.000Z
 title: Service Lampu Mobil Terdekat Di Purwokerto
-excerpt: ''
+excerpt: >-
+  Punya kasus bersama kendaraan anda, sementara berada dalam perjalanan dalam
+  kota purwokerto. kini udah tidak ada rintangan artinya lagi dikarenakan
+  sekarang
 category: jasa-service
 draft: false
 metadata:
-  canonical: 'https://pitcar.co.id/service-lampu-mobil-purwokerto'
+  canonical: 'https://pitcar.co.id/service-lampu-mobil-purwokerto/'
   robots:
     index: true
     follow: true
+  description: >-
+    Punya kasus bersama kendaraan anda, sementara berada dalam perjalanan dalam
+    kota purwokerto. kini udah tidak ada rintangan artinya lagi dikarenakan
+    sekarang
+  keywords: >-
+    service lampu mobil purwokerto, jasa service lampu mobil purwokerto, bengkel
+    service lampu mobil purwokerto, service service lampu mobil purwokerto,
+    servis service lampu mobil purwokerto, harga service lampu mobil purwokerto,
+    biaya service lampu mobil purwokerto
 ---
 
 ![image](https://placehold.co/1200x800/222222/FFFFFF/png?text=Pitcar+Service)

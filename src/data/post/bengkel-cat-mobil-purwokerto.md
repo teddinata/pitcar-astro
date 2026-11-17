@@ -1,14 +1,25 @@
 ---
 publishDate: 2022-03-07T00:00:00.000Z
 title: Bengkel Cat Mobil Terdekat Di Purwokerto
-excerpt: ''
+excerpt: >-
+  Sudah tidak ada problem untuk Mencari Informasi bengkel terhadap kendaraan
+  kita, terkecuali kita mengalami permasalahan pada kendaraan. kita dapat banyak
 category: jasa-service
 draft: false
 metadata:
-  canonical: 'https://pitcar.co.id/bengkel-cat-mobil-purwokerto'
+  canonical: 'https://pitcar.co.id/bengkel-cat-mobil-purwokerto/'
   robots:
     index: true
     follow: true
+  description: >-
+    Sudah tidak ada problem untuk Mencari Informasi bengkel terhadap kendaraan
+    kita, terkecuali kita mengalami permasalahan pada kendaraan. kita dapat
+    banyak
+  keywords: >-
+    bengkel cat mobil purwokerto, jasa bengkel cat mobil purwokerto, bengkel
+    bengkel cat mobil purwokerto, service bengkel cat mobil purwokerto, servis
+    bengkel cat mobil purwokerto, harga bengkel cat mobil purwokerto, biaya
+    bengkel cat mobil purwokerto
 ---
 
 ![image](~/assets/images/uploads/IMG_6397-scaled.jpg)

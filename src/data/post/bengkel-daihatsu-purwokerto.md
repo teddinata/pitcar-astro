@@ -1,14 +1,26 @@
 ---
 publishDate: 2022-08-09T00:00:00.000Z
 title: Bengkel Resmi Daihatsu Di Purwokerto
-excerpt: ''
+excerpt: >-
+  Keunggulan Bengkel Resmi Daihatsu Di Purwokerto Terpercaya Jika Anda
+  menginginkan menjaga mobil yang paling disayangi bersama dengan cara mudah,
+  maka dapat
 category: jasa-service
 draft: false
 metadata:
-  canonical: 'https://pitcar.co.id/bengkel-daihatsu-purwokerto'
+  canonical: 'https://pitcar.co.id/bengkel-daihatsu-purwokerto/'
   robots:
     index: true
     follow: true
+  description: >-
+    Keunggulan Bengkel Resmi Daihatsu Di Purwokerto Terpercaya Jika Anda
+    menginginkan menjaga mobil yang paling disayangi bersama dengan cara mudah,
+    maka dapat
+  keywords: >-
+    bengkel daihatsu purwokerto, jasa bengkel daihatsu purwokerto, bengkel
+    bengkel daihatsu purwokerto, service bengkel daihatsu purwokerto, servis
+    bengkel daihatsu purwokerto, harga bengkel daihatsu purwokerto, biaya
+    bengkel daihatsu purwokerto
 ---
 
 ![image](~/assets/images/uploads/IMG_6342-scaled.jpg)
