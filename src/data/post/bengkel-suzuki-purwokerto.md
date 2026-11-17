@@ -11,7 +11,7 @@ metadata:
     follow: true
 ---
 
-![image](https://placehold.co/1200x800/222222/FFFFFF/png?text=Pitcar+Service)
+![image](~/assets/images/uploads/IMG_6348-scaled.jpg)
 
 # Keunggulan Bengkel Resmi Suzuki Di Purwokerto Terpercaya
 
@@ -30,5 +30,9 @@ Selain itu, ada sebagian kelebihan yang dimiliki oleh servis mobil Purwokerto in
 **Memiliki Garansi Selama 3 Bulan** Kepuasan berasal dari pelanggan merupakan perihal utama yang diinginkan oleh jasa servis mobil dari Purwokerto ini. Sehingga, pihak jasa berani menambahkan garansi pada pelayanan servis bersama dengan jaman aktif sepanjang 3 bulan. Jadi, jika tersedia masalah apapun, Anda sanggup menghubungi tim kembali dan lakukan perbaikan secara gratis.
 
 Itulah lebih dari satu keunggulan yang dimiliki oleh jasa Bengkel Resmi Suzuki Di Purwokerto yang dapat Anda ketahui. Kini, Anda tidak kudu mengantri ulang untuk melakukan perawatan mobil. Sebab, jasa servis dari Pitcar sanggup Anda hubungi untuk berkunjung langsung ke rumah. Apalagi, harganya pun lebih terjangkau dibandingkan harga servis mobil dari bengkel lain. Menarik sekali, bukan?
+
+## Mobil Bermasalah di Jalan?
+
+Jika mobil Anda mogok, kampas rem habis, AC bermasalah, atau ada kendala lain saat berkendara di Purwokerto, hubungi tim Pitcar lewat WhatsApp dan jelaskan kondisi kendaraan Anda. Tim akan mengirim teknisi ke lokasi kendaraan Anda.
 
 **PITCAR** Jl. Pancurawis No. 14, Purwokerto Selatan, Kab. Banyumas. 53147 call / wa : 6281227636171

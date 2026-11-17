@@ -11,7 +11,7 @@ metadata:
     follow: true
 ---
 
-![image](https://placehold.co/1200x800/222222/FFFFFF/png?text=Pitcar+Service)
+![image](~/assets/images/uploads/IMG_6348-scaled.jpg)
 
 # Scanner Mobil Bekas Panggilan Di Banyumas Paling Murah dan Terjangkau
 

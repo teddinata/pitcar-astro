@@ -31,4 +31,10 @@ Selain itu, ada lebih dari satu kelebihan yang dimiliki oleh servis mobil Purwok
 
 Itulah lebih dari satu kelebihan yang dimiliki oleh jasa Service Daihatsu Terdekat Di Purwokerto yang bisa Anda ketahui. Kini, Anda tidak perlu mengantri lagi untuk jalankan perawatan mobil. Sebab, jasa servis berasal dari Pitcar mampu Anda hubungi untuk datang segera ke rumah. Apalagi, harganya pun lebih terjangkau dibandingkan harga servis mobil dari bengkel lain. Menarik sekali, bukan?
 
+## Alur Layanan Panggilan Pitcar
+
+Cukup hubungi nomor WhatsApp Pitcar, lalu tim akan datang langsung ke rumah Anda. Di lokasi, supervisor akan menanyakan perawatan apa yang dibutuhkan mobil Anda, kemudian menyampaikan jumlah biaya yang perlu dibayarkan. Jika Anda sepakat, perbaikan langsung dikerjakan.
+
+Selain perawatan, tim juga memberikan edukasi seputar tips merawat mobil, sehingga Anda tahu letak kerusakan dan cara merawatnya dengan baik setelah servis.
+
 **PITCAR** Jl. Pancurawis No. 14, Purwokerto Selatan, Kab. Banyumas. 53147 call / wa : 6281227636171

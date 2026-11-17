@@ -11,7 +11,7 @@ metadata:
     follow: true
 ---
 
-![image](https://placehold.co/1200x800/222222/FFFFFF/png?text=Pitcar+Service)
+![image](~/assets/images/uploads/IMG_6342-scaled.jpg)
 
 **Bengkel Diesel Terdekat Di Purwokerto** Terbaik Paling Lengkap Banyak orang yang tidak punya saat untuk menjaga mobil kesayangan. Jika Anda terhitung orang yang sibuk dan tidak punyai sementara untuk memelihara mobil, maka sanggup mencoba sarana dari bengkel Mobil Purwokerto.
 
@@ -30,6 +30,10 @@ Menariknya, bengkel mobil ini sanggup datang langsung ke rumah, supaya Anda ting
 **Complete Detailing** Jika mobil yang Anda punya tidak meraih perawatan dalam jangka selagi panjang, pasti tersedia banyak sekali hal-hal yang wajib diperbaiki, bukan? Kini, Anda mampu menentukan sarana complete detailing dari bengkel mobil Purwokerto ini. Tentunya, mobil kesayangan Anda akan meraih perawatan yang lengkap, merasa dari interior, exterior sampai mesinnya secara detail.
 
 Semua Bengkel Diesel Terdekat Di Purwokerto di atas dapat Anda pilih cocok keperluan perawatan mobil sendiri. Menariknya, Anda tidak kudu kuatir soal harga karena seluruh layanan yang tersedia memiliki penawaran harga tidak mahal meriah, sehingga tidak membuat dompet Anda menjadi kering kerontang. Itulah Info mengenai sebagian layanan yang tersedia di bengkel mobil Purwokerto. Jika Anda tertarik untuk menggunakan salah satu layanannya, maka sanggup hubungi bengkel mobil Pitcar melalui kontak resminya yang telah tersedia disini.
+
+## Mobil Bermasalah di Jalan?
+
+Jika mobil Anda mogok, kampas rem habis, AC bermasalah, atau ada kendala lain saat berkendara di Purwokerto, hubungi tim Pitcar lewat WhatsApp dan jelaskan kondisi kendaraan Anda. Tim akan mengirim teknisi ke lokasi kendaraan Anda.
 
 ### Dokumentasi Bengkel Diesel Terdekat Di Purwokerto
 

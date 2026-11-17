@@ -55,4 +55,10 @@ Tidak melulu karena kecelakaan, mobil juga bisa penyok karena terbentur berbagai
 
 Secara umum biaya ketok magic biasanya cukup relatif tergantung tingkat kerusakan yang dialami. Jika kerusakan cukup parah dan membutuhkan perbaikan secara menyeluruh, maka tidak ada tarif tetap dan patokan khusus dalam menentukan harga ketok magic mobil, tetapi biasanya bengkel ketok _magic_ dapat menetapkan harga yang sesuai dengan dan konsumennya.
 
+Biaya ketok magic bervariasi tergantung pada kerusakan dan jenis mobil yang akan diperbaiki. Semakin besar kerusakan, semakin mahal biaya yang harus dikeluarkan. Biaya juga tergantung pada bengkel yang dipilih: bengkel yang memiliki reputasi dan pengalaman baik umumnya mematok biaya lebih mahal, sebanding dengan kualitas hasil kerjanya. Sebaliknya, bengkel yang masih baru biasanya menawarkan biaya lebih murah, tetapi Anda perlu berhati-hati karena hasil kerjanya belum tentu memuaskan.
+
+### **Biaya Ketok Magic per Panel**
+
+Harga ketok magic per panel juga berbeda-beda tergantung jenis mobil, kerusakan pada panel, dan posisi panelnya. Panel depan biasanya lebih mahal dibandingkan panel belakang. Jangan ragu menanyakan biaya ketok magic ke bengkel sebelum Anda memutuskan untuk memperbaiki mobil.
+
 Bagi yang sedang mencari bengkel ketok magic atau perbaikan bodi mobil bisa langsung menghubungi Pitcar Service di nomer telepon 0858 6622 4051 atau bisa langsung datang aja ke wokshopnya yang berada di Jl. Pancurawis No. 14 Purwokerto Selatan, Purwokerto, Jawa Tengah.

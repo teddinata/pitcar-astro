@@ -21,7 +21,7 @@ Aki mobil yang tidak terawat atau terlalu lama digunakan dapat menimbulkan masal
 
 ### **Memperpanjang Umur Aki Mobil**
 
-(https://pitcar.co.id/service-aki-mobil-panggilan-terdekat-di-purwokerto/) yang rutin juga dapat membantu memperpanjang umur aki mobil. Dengan melakukan perawatan aki mobil, Anda dapat memastikan bahwa aki mobil dalam kondisi yang baik dan bekerja optimal. Hal ini akan memastikan bahwa aki mobil dapat bertahan lebih lama dan tidak cepat rusak atau mati.
+Servis aki mobil yang rutin juga dapat membantu memperpanjang umur aki mobil. Dengan melakukan perawatan aki mobil, Anda dapat memastikan bahwa aki mobil dalam kondisi yang baik dan bekerja optimal. Hal ini akan memastikan bahwa aki mobil dapat bertahan lebih lama dan tidak cepat rusak atau mati.
 
  
 
@@ -42,3 +42,9 @@ Jika aki mobil mati atau rusak, Anda mungkin perlu mengeluarkan biaya yang lebih
  
 
 Dalam melakukan servis aki mobil purwokerto, pastikan untuk memilih bengkel yang terpercaya dan ahli dalam menangani masalah aki mobil. Selain itu, pastikan untuk memilih aki mobil yang berkualitas dan sesuai dengan jenis dan merek kendaraan Anda. Dengan melakukan servis aki mobil secara teratur dan memastikan bahwa aki mobil dalam kondisi yang baik, Anda dapat memastikan bahwa kendaraan Anda selalu siap digunakan dan menghindari masalah yang tidak diinginkan saat berkendara.
+
+## Alur Layanan Panggilan Pitcar
+
+Cukup hubungi nomor WhatsApp Pitcar, lalu tim akan datang langsung ke rumah Anda. Di lokasi, supervisor akan menanyakan perawatan apa yang dibutuhkan mobil Anda, kemudian menyampaikan jumlah biaya yang perlu dibayarkan. Jika Anda sepakat, perbaikan langsung dikerjakan.
+
+Selain perawatan, tim juga memberikan edukasi seputar tips merawat mobil, sehingga Anda tahu letak kerusakan dan cara merawatnya dengan baik setelah servis.

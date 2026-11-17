@@ -17,4 +17,12 @@ Sudah tidak susah untuk mencari bengkel terhadap kendaraan kita, jika kita menga
 
 Jika mobil kita mogok rusak ada lainnya kita bakal bersama enteng bukan jasa service panggilan yang mampu kita laksanakan di manapun dan kapanpun. Cukup bersama dengan ponsel yang kita pakai dengan chat WhatsApp maka kita bakal mengakses dengan team PITCAR. bersama dengan team supportnya kita bakal banyak di bantu. Dengan menyatakan keadaan kendaraan kita maka team bakal menerjunkan teknisinya ke area kita. Dengan begitu kita dapat terlalu terbantu dan kasus kita akan cepat selesai. Untuk menghubungi Bengkel Kaki Kaki Mobil Terdekat Di Purwokerto silahkan klik benner chat di bawah ini 
 
+## Layanan yang Tersedia
+
+- **Inspeksi dan tune up**: pemeriksaan dan perbaikan seluruh komponen mobil untuk mengembalikan performanya ke kondisi prima.
+- **Penggantian spare part**: untuk komponen yang sudah tidak layak pakai.
+- **Interior detailing**: car seat cleaning, carpet removal, general cleaning, ceiling cleaning, dan komponen interior lainnya.
+- **Exterior dan engine detailing**: hood cleaning, general cleaning, roof cleaning, compounding, dan lainnya.
+- **Complete detailing**: perawatan lengkap dari interior, eksterior, hingga mesin, cocok untuk mobil yang lama tidak dirawat.
+
 **PITCAR** Jl. Pancurawis No. 14, Purwokerto Selatan, Kab. Banyumas. 53147

@@ -45,4 +45,17 @@ Sistem elektrikal juga merupakan salah satu komponen yang penting dalam sistem A
 
 Untuk melakukan service AC mobil, sebaiknya gunakan jasa ahli atau bengkel AC mobil yang terpercaya. Bengkel AC mobil yang terpercaya akan memberikan pelayanan terbaik dan melakukan service AC mobil dengan baik dan sesuai prosedur.
 
+## Keunggulan Layanan Pitcar
+
+- **Tim profesional**: tim berpengalaman di bidangnya, dan setiap pekerjaan diawasi oleh supervisor.
+- **Harga transparan**: harga disampaikan sebelum perbaikan mulai dikerjakan.
+- **Cukup tunggu di rumah**: tim servis yang datang ke lokasi Anda.
+- **Konsultasi sepuasnya**: pertanyaan seputar perawatan mobil bisa langsung ditanyakan ke tim.
+
+## Alur Layanan Panggilan Pitcar
+
+Cukup hubungi nomor WhatsApp Pitcar, lalu tim akan datang langsung ke rumah Anda. Di lokasi, supervisor akan menanyakan perawatan apa yang dibutuhkan mobil Anda, kemudian menyampaikan jumlah biaya yang perlu dibayarkan. Jika Anda sepakat, perbaikan langsung dikerjakan.
+
+Selain perawatan, tim juga memberikan edukasi seputar tips merawat mobil, sehingga Anda tahu letak kerusakan dan cara merawatnya dengan baik setelah servis.
+
 [![image](https://placehold.co/1200x800/222222/FFFFFF/png?text=Pitcar+Service)](https://wa.me/6285866224051?text=Halo%20admin%2C%20saya%20dari%20artikel%20website%2C%20mohon%20info...)

@@ -68,6 +68,18 @@ Dengan melakukan konsultasi tersebut, konsumen jadi lebih tahu kondisi seputar m
 
 Keberadaan PITCAR Service jelas sangat membantu para pengendara ataupun pemilik mobil yang ingin melakukan layanan perawatan dan perbaikan kendaraan, karena manfaatnya pada saat perawatan atau perbaikan mobil menjadi sangat praktis dan efisien.
 
+### **Jenis Perbaikan yang Ditangani**
+
+Selain perawatan rutin, PITCAR Service juga menangani berbagai perbaikan mobil, di antaranya:
+
+- **Servis rutin**: pengecekan mesin, pergantian oli, penggantian filter udara, dan pengecekan kelistrikan.
+- **Perbaikan mesin**: termasuk penggantian suku cadang seperti timing belt, alternator, dan kompresor AC.
+- **Perbaikan transmisi**: termasuk penggantian kopling dan perbaikan transmisi otomatis.
+- **Perbaikan kelistrikan**: sistem pengapian, sistem lampu, dan sistem audio.
+- **Perbaikan bodi**: pengecatan serta penghilangan goresan dan penyok pada bodi mobil.
+
+Kendaraan yang ditangani mencakup mobil pribadi, mobil keluarga, hingga mobil bisnis.
+
 Konsumen cukup menghubungi ke nomer WhatsApp 0858 6622 4051. PITCAR Service siap melayani konsumen setiap hari mulai pukul 08.00 sampai 17.00 WIB.
 
 Nah tunggu apalagi, kini saatnya kamu merasakan kemudahan yang ditawarkan PITCAR Service untuk area operasional Purwokerto dan Sekitarnya.
