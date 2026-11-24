@@ -1,0 +1,48 @@
+name: Deploy
+
+# Deploy ke /var/www/<nama repo> lewat SSH forced command /root/ci-deploy-web.sh.
+# Server: git pull --ff-only, npm ci, build ke dist.new lalu ditukar dengan dist.
+# Situs lama tetap tayang selama build; versi sebelumnya disimpan sebagai dist.prev.
+# Push ke main/master = deploy otomatis (matikan dengan variable repo AUTO_DEPLOY = false,
+# atau tulis [skip deploy] di pesan commit).
+# Tombol "Run workflow": deploy | rebuild | rollback.
+# Secrets: PROD_HOST, PROD_HOST_KEY (isi /etc/ssh/ssh_host_ed25519_key.pub), WEB_DEPLOY_KEY.
+on:
+  push:
+    branches: [main, master]
+  workflow_dispatch:
+    inputs:
+      action:
+        description: Aksi
+        type: choice
+        options: [deploy, rebuild, rollback]
+        default: deploy
+
+concurrency:
+  group: deploy-${{ github.repository }}
+  cancel-in-progress: false
+
+jobs:
+  deploy:
+    if: >-
+      github.event_name == 'workflow_dispatch' ||
+      (vars.AUTO_DEPLOY != 'false' && !contains(github.event.head_commit.message, '[skip deploy]'))
+    runs-on: ubuntu-latest
+    timeout-minutes: 30
+    steps:
+      - name: Deploy ke server
+        env:
+          KEY: ${{ secrets.WEB_DEPLOY_KEY }}
+          HOST: ${{ secrets.PROD_HOST }}
+          HOST_KEY: ${{ secrets.PROD_HOST_KEY }}
+          PROJECT: ${{ github.event.repository.name }}
+          ACTION: ${{ inputs.action || 'deploy' }}
+        run: |
+          install -m 700 -d ~/.ssh
+          printf '%s\n' "$KEY" > ~/.ssh/web_deploy && chmod 600 ~/.ssh/web_deploy
+          printf '%s %s\n' "$HOST" "$HOST_KEY" > ~/.ssh/known_hosts
+          ssh -i ~/.ssh/web_deploy -o StrictHostKeyChecking=yes -o BatchMode=yes \
+              -o ServerAliveInterval=30 "root@$HOST" "$PROJECT $ACTION"
+      - name: Hapus kunci
+        if: always()
+        run: rm -f ~/.ssh/web_deploy
